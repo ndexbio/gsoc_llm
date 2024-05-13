@@ -1,0 +1,1281 @@
+[
+    {
+        "entities_involved": [
+            "SIRT1",
+            "PARP1"
+        ],
+        "interaction_type": "competition",
+        "interaction_details": "Both SIRT1 and PARP1 share a common co-factor nicotinamide adenine dinucleotide (NAD+) and several common substrates."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "PARP1"
+        ],
+        "interaction_type": "regulation",
+        "interaction_details": "Post-transcriptional/translational feedback mechanisms create a regulatory network sensitive to environmental cues, such as genotoxic stress and metabolic states."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "PARP1"
+        ],
+        "interaction_type": "regulation",
+        "interaction_details": "NAD+ competition and post-transcriptional/translational feedback mechanisms create a regulatory network sensitive to environmental cues, such as genotoxic stress and metabolic states."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "PARP1"
+        ],
+        "interaction_type": "interaction",
+        "interaction_details": "Participate in common pathways providing cells with a mechanism for balancing cell survival and death."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "SIRT6",
+            "SIRT7"
+        ],
+        "interaction_type": "localization",
+        "interaction_details": "SIRT1, SIRT6, and SIRT7 localize to the nucleus, SIRT2 is mainly localized in the cytoplasm."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "PARP1"
+        ],
+        "interaction_type": "Post-translational modification",
+        "interaction_details": "Phosphorylation of SIRT1 by JNK at sites S27, S47, and T530 stimulates its deacetylation activity."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "PARP1"
+        ],
+        "interaction_type": "Post-translational modification",
+        "interaction_details": "mTOR phosphorylates SIRT1 at site S47, resulting in the inhibition of SIRT1."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "PARP1"
+        ],
+        "interaction_type": "Post-translational modification",
+        "interaction_details": "CK2 phosphorylates human SIRT1 at S659 and S661, stimulating its deacetylation activity."
+    },
+    {
+        "entities_involved": [
+            "Cyclin B/Cdk1",
+            "SIRT1"
+        ],
+        "interaction_type": "phosphorylation",
+        "interaction_details": "Cyclin B/Cdk1 phosphorylates SIRT1 at T530 and S540, leading to decreased activity of SIRT1 and disruption of the cell cycle progress."
+    },
+    {
+        "entities_involved": [
+            "JNK",
+            "SIRT1"
+        ],
+        "interaction_type": "phosphorylation",
+        "interaction_details": "JNK phosphorylates SIRT1 at T530, which may function as part of a combinatorial modification program."
+    },
+    {
+        "entities_involved": [
+            "DYRK1A",
+            "DYRK3",
+            "SIRT1"
+        ],
+        "interaction_type": "phosphorylation",
+        "interaction_details": "DYRK1A and DYRK3 phosphorylate SIRT1 at T522, stimulating the deacetylation of p53 by SIRT1. Phosphorylation at T522 increases the rate of product release by SIRT1."
+    },
+    {
+        "entities_involved": [
+            "AMPK",
+            "SIRT1"
+        ],
+        "interaction_type": "phosphorylation",
+        "interaction_details": "AMPK phosphorylates SIRT1 at T344, inhibiting its ability to deacetylate p53, a target of SIRT1."
+    },
+    {
+        "entities_involved": [
+            "Set7/9",
+            "SIRT1"
+        ],
+        "interaction_type": "methylation",
+        "interaction_details": "Set7/9 methylates SIRT1 at K233, K235, K236, and K238, inhibiting the SIRT1-mediated deacetylation of p53 in response to DNA damage."
+    },
+    {
+        "entities_involved": [
+            "SUMO1",
+            "SIRT1"
+        ],
+        "interaction_type": "sumoylation",
+        "interaction_details": "SUMO1 sumoylates SIRT1 at K734, increasing its activity in response to genotoxic stress."
+    },
+    {
+        "entities_involved": [
+            "SENP1",
+            "SIRT1"
+        ],
+        "interaction_type": "desumoylation",
+        "interaction_details": "SENP1 desumoylates SIRT1 at K734, decreasing its activity in response to genotoxic stress."
+    },
+    {
+        "entities_involved": [
+            "GAPDH",
+            "SIRT1"
+        ],
+        "interaction_type": "transnitrosylation",
+        "interaction_details": "GAPDH transnitrosylates SIRT1 at C387 and C390, inhibiting the activity of SIRT1 and leading to decreased PGC1\u03b1 transcriptional activity."
+    },
+    {
+        "entities_involved": [
+            "DNA-PK",
+            "PARP1"
+        ],
+        "interaction_type": "phosphorylation",
+        "interaction_details": "DNA-PK phosphorylates PARP1, although the specific effect is unknown."
+    },
+    {
+        "entities_involved": [
+            "AMPK",
+            "PARP1"
+        ],
+        "interaction_type": "phosphorylation",
+        "interaction_details": "AMPK phosphorylates PARP1, enhancing its activity."
+    },
+    {
+        "entities_involved": [
+            "ERK1/2",
+            "PARP1"
+        ],
+        "interaction_type": "phosphorylation",
+        "interaction_details": "ERK1/2 phosphorylates PARP1 in neuronal cells, stimulating the activity of PARP1 in response to DNA damage."
+    },
+    {
+        "entities_involved": [
+            "p300/CBP",
+            "PARP1"
+        ],
+        "interaction_type": "acetylation",
+        "interaction_details": "p300/CBP acetylates PARP1, which is involved in the activation of NF-\u03baB by PARP1."
+    },
+    {
+        "entities_involved": [
+            "SUMO1",
+            "SUMO3",
+            "PARP1"
+        ],
+        "interaction_type": "sumoylation",
+        "interaction_details": "SUMO1 and SUMO3 sumoylate PARP1 at K486, inhibiting the ability of p300 to acetylate PARP1 and the expression of genes targeted by PARP1."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "PARP1"
+        ],
+        "interaction_type": "deacetylation",
+        "interaction_details": "SIRT1 can deacetylate PARP1, as shown in SIRT1-deficient mouse cardiomyocytes in response to mechanical stress."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "PARP1"
+        ],
+        "interaction_type": "transcriptional regulation",
+        "interaction_details": "SIRT1 negatively regulates the PARP1 promoter, and the SIRT1 promoter is influenced by PARP2."
+    },
+    {
+        "entities_involved": [
+            "PARP1",
+            "SIRT1"
+        ],
+        "interaction_type": "NAD+ competition",
+        "interaction_details": "Activation of PARP1 causes a depletion in NAD+ levels, inhibiting SIRT1 activity."
+    },
+    {
+        "entities_involved": [
+            "NAM-NMN-NAD",
+            "nicotinamide phosphor-ibosyltransferase (NAMPT)"
+        ],
+        "interaction_type": "conversion",
+        "interaction_details": null
+    },
+    {
+        "entities_involved": [
+            "PARP1",
+            "NAD+"
+        ],
+        "interaction_type": "depletion",
+        "interaction_details": "PARP1 has a greater effect on NAD+ depletion than SIRT1 in response to the NAMPT inhibitor, FK866."
+    },
+    {
+        "entities_involved": [
+            "NAMPT",
+            "FK866"
+        ],
+        "interaction_type": "inhibition",
+        "interaction_details": "FK866 inhibits NAMPT and produces an effect similar to SIRT1 depletion."
+    },
+    {
+        "entities_involved": [
+            "NAD+",
+            "local supplies"
+        ],
+        "interaction_type": "importance for enzymatic activities",
+        "interaction_details": "Local supplies of NAD+ may be important for the enzymatic activities of PARP1 and SIRT1."
+    },
+    {
+        "entities_involved": [
+            "NMNAT1",
+            "(ADP-ribose) polymers"
+        ],
+        "interaction_type": "binding",
+        "interaction_details": "NMNAT1 can bind to (ADP-ribose) polymers in vitro, leading to the stimulation of PARP1 activity."
+    },
+    {
+        "entities_involved": [
+            "NMNAT1",
+            "protein kinase C (PKC)"
+        ],
+        "interaction_type": "phosphorylation",
+        "interaction_details": "NMNAT1 phosphorylation at S136 by PKC diminishes the stimulation of PARP1 activity."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "NMNAT1"
+        ],
+        "interaction_type": "binding",
+        "interaction_details": "SIRT1 binds to NMNAT1 to recruit NMNAT1 to specific promoters, stimulating SIRT1 activity."
+    },
+    {
+        "entities_involved": [
+            "PARP1",
+            "NAM"
+        ],
+        "interaction_type": "localization",
+        "interaction_details": "PARP1 activity leads to increased NAM concentrations at DNA damage sites, potentially leading to local inhibition of SIRT1 histone deacetylase activity."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "PARP1"
+        ],
+        "interaction_type": "common targets regulation",
+        "interaction_details": "SIRT1 and PARP1 regulate common targets in response to DNA damage."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "PARP1"
+        ],
+        "interaction_type": "response to DNA damage",
+        "interaction_details": "SIRT1 and PARP1 play several roles throughout the response to DNA damage from the initial response to final cell fate decisions."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "histones"
+        ],
+        "interaction_type": "modification",
+        "interaction_details": "SIRT1 modifies histones through deacetylation, triggering chromatin compaction and inhibition of transcription."
+    },
+    {
+        "entities_involved": [
+            "PARP1",
+            "histones"
+        ],
+        "interaction_type": "modification",
+        "interaction_details": "PARP1 modifies histones to possibly regulate transcription."
+    },
+    {
+        "entities_involved": [
+            "histone H1",
+            "ADP-ribosylation"
+        ],
+        "interaction_type": "promotion of transcription",
+        "interaction_details": "ADP-ribosylation of histone H1 promotes transcription by inhibiting the ability of histone H1 to bind to DNA."
+    },
+    {
+        "entities_involved": [
+            "acetylation",
+            "PAR"
+        ],
+        "interaction_type": "competitive interaction",
+        "interaction_details": "Acetylation of H4K16 inhibits the ADP-ribosylation of histone H4."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "PARP1",
+            "H4K16"
+        ],
+        "interaction_type": "contradiction",
+        "interaction_details": "SIRT1 deacetylation activity could potentially help drive the PARP1 ADP-ribosylation activity on H4K16."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "DNA damage repair"
+        ],
+        "interaction_type": "role",
+        "interaction_details": "SIRT1 plays a role in DNA damage repair via histone deacetylation."
+    },
+    {
+        "entities_involved": [
+            "TIP60",
+            "MOF",
+            "histone H4"
+        ],
+        "interaction_type": "degradation",
+        "interaction_details": "Deacetylation of TIP60 and MOF by SIRT1 promotes their ubiquitin-dependent degradation, affecting DNA double-strand break repair."
+    },
+    {
+        "entities_involved": [
+            "TIP60",
+            "H4K16"
+        ],
+        "interaction_type": "inhibition",
+        "interaction_details": "TIP60-dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, promoting non-homologous end joining."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "genotoxic stress"
+        ],
+        "interaction_type": "effect",
+        "interaction_details": "Genotoxic stress causes a random redistribution of SIRT1 across the genome with a correlated increase in levels of H1K26 acetylation."
+    },
+    {
+        "entities_involved": [
+            "PARP1",
+            "DNA breaks"
+        ],
+        "interaction_type": "binding",
+        "interaction_details": "PARP1 becomes activated by binding to DNA breaks. The ADP-ribosylation activity of PARP1 increases 10\u2013500 fold as a result of binding to DNA breaks."
+    },
+    {
+        "entities_involved": [
+            "PARP1",
+            "single strand DNA breaks"
+        ],
+        "interaction_type": "activation",
+        "interaction_details": "Once activated, PARP1 may help repair single strand DNA breaks, preventing their conversion to double-stranded breaks."
+    },
+    {
+        "entities_involved": [
+            "PARP1",
+            "base excision repair (BER) enzymes"
+        ],
+        "interaction_type": "association",
+        "interaction_details": "PARP1 is involved in DNA repair through its associations with base excision repair (BER) enzymes such as polymerase \u03b2, XRCC1, and DNA ligase III."
+    },
+    {
+        "entities_involved": [
+            "PARP1",
+            "ATM"
+        ],
+        "interaction_type": "binding",
+        "interaction_details": "PARP1 binds to ATM, an interaction that is stimulated by DNA damage, and the automodification of PARP1 leads to ATM activation."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "NMNAT1"
+        ],
+        "interaction_type": "stimulation",
+        "interaction_details": "NMNAT1 may stimulate SIRT1 activity."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "NBS1"
+        ],
+        "interaction_type": "deacetylation",
+        "interaction_details": "SIRT1 helps to maintain NBS1 in a hypoacetylated state by deacetylating NBS1."
+    },
+    {
+        "entities_involved": [
+            "CHK2",
+            "HuR"
+        ],
+        "interaction_type": "phosphorylation",
+        "interaction_details": "CHK2 phosphorylates HuR at several sites causing it to dissociate from SIRT1 mRNA, reducing the half-life of the SIRT1 mRNA."
+    },
+    {
+        "entities_involved": [
+            "E2F1",
+            "SIRT1"
+        ],
+        "interaction_type": "transcriptional regulation",
+        "interaction_details": "E2F1 induces the transcription of SIRT1. E2F1 has been suggested to be a target for SIRT1 deacetylation, inhibiting E2F1 activity."
+    },
+    {
+        "entities_involved": [
+            "E2F1",
+            "Rb"
+        ],
+        "interaction_type": "acetylation",
+        "interaction_details": "SIRT1 deacetylates Rb, which regulates the binding of Rb to E2F1."
+    },
+    {
+        "entities_involved": [
+            "c-MYC",
+            "SIRT1"
+        ],
+        "interaction_type": "deacetylation",
+        "interaction_details": "c-MYC is deacetylated by SIRT1, leading to the destabilization of c-MYC."
+    },
+    {
+        "entities_involved": [
+            "c-MYC",
+            "NAMPT"
+        ],
+        "interaction_type": "transcriptional regulation",
+        "interaction_details": "c-MYC induces the transcription of NAMPT."
+    },
+    {
+        "entities_involved": [
+            "PARP1",
+            "E2F1"
+        ],
+        "interaction_type": "binding",
+        "interaction_details": "PARP1 binds to E2F1, stimulating E2F1-dependent transcription of c-MYC."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "PARP1",
+            "NAMPT",
+            "c-MYC"
+        ],
+        "interaction_type": "regulation",
+        "interaction_details": "SIRT1 and PARP1 may influence the regulation of NAMPT to affect NAD+ levels through c-MYC."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "NF-\u03baB",
+            "RelA/p65 subunit"
+        ],
+        "interaction_type": "inhibition",
+        "interaction_details": "SIRT1 deacetylates the RelA/p65 subunit of NF-\u03baB at K310 to inhibit NF-\u03baB transactivation activity."
+    },
+    {
+        "entities_involved": [
+            "PARP1",
+            "NF-\u03baB"
+        ],
+        "interaction_type": "activation",
+        "interaction_details": "PARP1 is an activator of NF-\u03baB through direct binding to NF-\u03baB; acetylation of PARP1 by p300/CBP is required for the binding of PARP1 to NF-\u03baB."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "p53"
+        ],
+        "interaction_type": "inhibition",
+        "interaction_details": "SIRT1 inhibits p53 by deacetylation, leading to inhibition of p53's transcription factor activity that induces apoptosis."
+    },
+    {
+        "entities_involved": [
+            "p53",
+            "DBC1"
+        ],
+        "interaction_type": "inhibition",
+        "interaction_details": "DBC1 acts as an inhibitor of SIRT1, leading to p53 hypoacetylation."
+    },
+    {
+        "entities_involved": [
+            "p53",
+            "AROS"
+        ],
+        "interaction_type": "activation",
+        "interaction_details": "AROS binds SIRT1 and enhances the deacetylation of p53 by SIRT1."
+    },
+    {
+        "entities_involved": [
+            "PARP1",
+            "p53"
+        ],
+        "interaction_type": "modification",
+        "interaction_details": "PARP1 helps p53 accumulate in the nucleus by (ADP-ribosyl)ating p53, preventing p53 nuclear export."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "Ku70",
+            "Bax"
+        ],
+        "interaction_type": "deacetylation",
+        "interaction_details": "SIRT1 deacetylates Ku70 at K539 and K542, leading to the dissociation of Ku70 and Bax, triggering apoptosis."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "Ku70",
+            "Bax"
+        ],
+        "interaction_type": "stimulation",
+        "interaction_details": "SIRT1 helps control the interaction between Ku70 and Bax by stimulating the acetylation of Ku70."
+    },
+    {
+        "entities_involved": [
+            "ATP",
+            "caspase"
+        ],
+        "interaction_type": "requirement",
+        "interaction_details": "ATP is required for optimal caspase activation."
+    },
+    {
+        "entities_involved": [
+            "ATP"
+        ],
+        "interaction_type": "depletion",
+        "interaction_details": "Depletion of ATP can direct cells between apoptotic and necrotic pathways."
+    },
+    {
+        "entities_involved": [
+            "PARP1",
+            "caspases"
+        ],
+        "interaction_type": "cleavage",
+        "interaction_details": "PARP1 is cleaved by caspases during normal apoptosis."
+    },
+    {
+        "entities_involved": [
+            "PARP1"
+        ],
+        "interaction_type": "prevention",
+        "interaction_details": "PARP1 cleavage helps prevent energy depletion (NAD+ and ATP) in response to severe DNA damage."
+    },
+    {
+        "entities_involved": [
+            "PARP1",
+            "NAD+"
+        ],
+        "interaction_type": "reduction",
+        "interaction_details": "Extreme loss of NAD+ triggers necrosis by reducing cellular ability to synthesize ATP."
+    },
+    {
+        "entities_involved": [
+            "PARP1",
+            "SIRT1"
+        ],
+        "interaction_type": "reduction",
+        "interaction_details": "Rapid depletion of NAD+ levels by PARP1 reduces SIRT1 activity and inhibits the capability of SIRT1 to deacetylate its targets in response to genotoxic stress."
+    },
+    {
+        "entities_involved": [
+            "PARP1",
+            "AIF"
+        ],
+        "interaction_type": "release",
+        "interaction_details": "PARP1 activation leads to apoptosis-inducing factor (AIF) release from the mitochondria, inducing nuclear chromatin fragmentation."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "BMAL1"
+        ],
+        "interaction_type": "deacetylation",
+        "interaction_details": "SIRT1 deacetylates BMAL1 at K537 destabilizing the interaction between CRY and BMAL1."
+    },
+    {
+        "entities_involved": [
+            "CLOCK",
+            "BMAL1"
+        ],
+        "interaction_type": "regulation",
+        "interaction_details": "CLOCK possesses acetyltransferase activity that regulates the transcriptional activity of CLOCK/BMAL1."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "PER2"
+        ],
+        "interaction_type": "deacetylation",
+        "interaction_details": "SIRT1 deacetylates PER2 destabilizing the protein."
+    },
+    {
+        "entities_involved": [
+            "PARP1",
+            "CLOCK"
+        ],
+        "interaction_type": "ADP-ribosylation",
+        "interaction_details": "PARP1 is capable of ADP-ribosylating CLOCK in a circadian manner disrupting the association between the BMAL1/CLOCK heterodimer and its targets."
+    },
+    {
+        "entities_involved": [
+            "SIRT6",
+            "PARP1"
+        ],
+        "interaction_type": "activation",
+        "interaction_details": "SIRT6 promotes DNA damage repair by binding and activating PARP1 through mono-ADP-ribosylation, triggering its auto-ADP-ribosylation activity."
+    },
+    {
+        "entities_involved": [
+            "PARP2",
+            "SIRT1"
+        ],
+        "interaction_type": "inhibition",
+        "interaction_details": "PARP2 inhibits the transcription of SIRT1, deletion of PARP2 increases overall levels of SIRT1 activity without directly targeting NAD+ levels."
+    },
+    {
+        "entities_involved": [
+            "PARP1",
+            "SIRT3"
+        ],
+        "interaction_type": "activation",
+        "interaction_details": "PARP1 increases levels of mitochondrial SIRT3, allowing SIRT3 to function under stress conditions even as cytosolic NAD+ levels are depleted by PARP1."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "PARP1"
+        ],
+        "interaction_type": "binding",
+        "interaction_details": null
+    },
+    {
+        "entities_involved": [
+            "poly(ADP-ribose) polymerase",
+            "sirtuin enzymes"
+        ],
+        "interaction_type": "crosstalk",
+        "interaction_details": null
+    },
+    {
+        "entities_involved": [
+            "SIRT4",
+            "glutamate dehydrogenase"
+        ],
+        "interaction_type": "inhibition",
+        "interaction_details": null
+    },
+    {
+        "entities_involved": [
+            "SIRT7",
+            "cardiomyocytes"
+        ],
+        "interaction_type": "activation",
+        "interaction_details": "increases stress resistance and prevents apoptosis and inflammatory cardiomyopathy"
+    },
+    {
+        "entities_involved": [
+            "Sir2 protein"
+        ],
+        "interaction_type": "essential for gene silencing",
+        "interaction_details": "An enzymatic activity in the yeast Sir2 protein is essential for gene silencing."
+    },
+    {
+        "entities_involved": [
+            "PARP superfamily"
+        ],
+        "interaction_type": "catalytic dimer",
+        "interaction_details": "Poly(ADP-ribose) polymerase is a catalytic dimer."
+    },
+    {
+        "entities_involved": [
+            "PARP superfamily"
+        ],
+        "interaction_type": "automodification",
+        "interaction_details": "The automodification reaction of Poly(ADP-ribose) polymerase is intermolecular."
+    },
+    {
+        "entities_involved": [
+            "PARP1",
+            "lysine residues of the core histone tails"
+        ],
+        "interaction_type": "ADP-ribosylates",
+        "interaction_details": "PARP1 ADP-ribosylates lysine residues of the core histone tails."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "JNK1"
+        ],
+        "interaction_type": "phosphorylates",
+        "interaction_details": "JNK1 phosphorylates SIRT1 and promotes its enzymatic activity."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "mTOR"
+        ],
+        "interaction_type": "inhibition",
+        "interaction_details": "Mammalian target of rapamycin (mTOR)-dependent inhibition of sirtuin 1 regulates cancer cell survival following DNA damage-mediated premature senescence."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "CK2"
+        ],
+        "interaction_type": "regulator of substrate-binding affinity, deacetylase activity, and cellular response to DNA damage",
+        "interaction_details": "CK2 regulates SIRT1 substrate-binding affinity, deacetylase activity, and cellular response to DNA damage."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "protein kinase CK2"
+        ],
+        "interaction_type": "phosphorylation",
+        "interaction_details": "Protein kinase CK2 phosphorylates the carboxy-terminal of SIRT1."
+    },
+    {
+        "entities_involved": [
+            "SIRT1"
+        ],
+        "interaction_type": "essential for deacetylase activity",
+        "interaction_details": "Peptide switch is essential for Sirt1 deacetylase activity."
+    },
+    {
+        "entities_involved": [
+            "SIRT1"
+        ],
+        "interaction_type": "regulation by phosphorylation",
+        "interaction_details": "Phosphorylation regulates SIRT1 function."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "DYRK1A",
+            "DYRK3"
+        ],
+        "interaction_type": "promote cell survival through phosphorylation and activation",
+        "interaction_details": "DYRK1A and DYRK3 promote cell survival through phosphorylation and activation of SIRT1."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "AMPK",
+            "p53"
+        ],
+        "interaction_type": "promotes p53 acetylation via phosphorylation and inactivation",
+        "interaction_details": "AMPK promotes p53 acetylation via phosphorylation and inactivation of SIRT1 in liver cancer cells."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "Methyltransferase Set7/9"
+        ],
+        "interaction_type": "regulates p53 activity",
+        "interaction_details": "Methyltransferase Set7/9 regulates p53 activity by interacting with Sirtuin 1 (SIRT1)."
+    },
+    {
+        "entities_involved": [
+            "SIRT1"
+        ],
+        "interaction_type": "sumoylation",
+        "interaction_details": "SIRT1 sumoylation regulates its deacetylase activity and cellular response to genotoxic stress."
+    },
+    {
+        "entities_involved": [
+            "GAPDH",
+            "nuclear proteins"
+        ],
+        "interaction_type": "mediates nitrosylation",
+        "interaction_details": "GAPDH mediates nitrosylation of nuclear proteins."
+    },
+    {
+        "entities_involved": [
+            "DNA-dependent protein kinase",
+            "poly(ADP-ribose) polymerase"
+        ],
+        "interaction_type": "stimulation",
+        "interaction_details": "Poly(ADP-ribose) polymerase stimulates the DNA-dependent protein kinase."
+    },
+    {
+        "entities_involved": [
+            "AMP-activated protein kinase",
+            "poly(ADP-ribose) polymerase"
+        ],
+        "interaction_type": "positive regulator",
+        "interaction_details": "AMP-activated protein kinase is a positive regulator of poly(ADP-ribose) polymerase."
+    },
+    {
+        "entities_involved": [
+            "poly(ADP-ribose) polymerase-1",
+            "extracellular signal-regulated kinases 1/2"
+        ],
+        "interaction_type": "phosphorylation",
+        "interaction_details": "Extracellular signal-regulated kinases 1/2 phosphorylate poly(ADP-ribose) polymerase-1."
+    },
+    {
+        "entities_involved": [
+            "poly(ADP-ribose) polymerase-1",
+            "p300/CREB-binding protein"
+        ],
+        "interaction_type": "acetylation",
+        "interaction_details": "p300/CREB-binding protein acetylates poly(ADP-ribose) polymerase-1, regulating coactivation of NF-kappaB-dependent transcription."
+    },
+    {
+        "entities_involved": [
+            "poly(ADP-ribose) polymerase-1",
+            "sumoylation"
+        ],
+        "interaction_type": "inhibition",
+        "interaction_details": "Sumoylation of poly(ADP-ribose) polymerase-1 inhibits its acetylation and restrains transcriptional coactivator function."
+    },
+    {
+        "entities_involved": [
+            "poly(ADP-ribose) polymerase-1",
+            "Sir2alpha deacetylase"
+        ],
+        "interaction_type": "deacetylation",
+        "interaction_details": "Poly(ADP-ribose) polymerase-1-dependent cardiac myocyte cell death during heart failure is mediated by NAD + depletion and reduced Sir2alpha deacetylase activity."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "PARP-1"
+        ],
+        "interaction_type": "interplay",
+        "interaction_details": "Control of AIF-mediated cell death by the functional interplay of SIRT1 and PARP-1 in response to DNA damage."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "PARP-1"
+        ],
+        "interaction_type": "deacetylation",
+        "interaction_details": "SIRT1 promotes cell survival under stress by deacetylation-dependent deactivation of poly(ADP-ribose) polymerase 1."
+    },
+    {
+        "entities_involved": [
+            "PARP-1",
+            "SIRT1"
+        ],
+        "interaction_type": "activation",
+        "interaction_details": "PARP-1 inhibition increases mitochondrial metabolism through SIRT1 activation."
+    },
+    {
+        "entities_involved": [
+            "PARP-2",
+            "SIRT1"
+        ],
+        "interaction_type": "regulation",
+        "interaction_details": "PARP-2 regulates SIRT1 expression and whole-body energy expenditure."
+    },
+    {
+        "entities_involved": [
+            "nicotinamide phosphoribosyltransferase",
+            "NAD"
+        ],
+        "interaction_type": "inhibition",
+        "interaction_details": "Inhibition of nicotinamide phosphoribosyltransferase leads to cellular bioenergetics revealing a mitochondrial insensitive NAD pool."
+    },
+    {
+        "entities_involved": [
+            "CLOCK",
+            "SIRT1"
+        ],
+        "interaction_type": "control",
+        "interaction_details": "Circadian control of the NAD + salvage pathway by CLOCK-SIRT1."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "NAD"
+        ],
+        "interaction_type": "activation",
+        "interaction_details": "Increased nuclear NAD biosynthesis and SIRT1 activation prevent axonal degeneration."
+    },
+    {
+        "entities_involved": [
+            "NMN adenylyl transferase 1",
+            "poly(ADP-ribose) polymerase 1"
+        ],
+        "interaction_type": "regulation",
+        "interaction_details": "Regulation of poly(ADP-ribose) polymerase 1 activity by the phosphorylation state of NMN adenylyl transferase 1."
+    },
+    {
+        "entities_involved": [
+            "enzymes",
+            "SIRT1"
+        ],
+        "interaction_type": "regulation",
+        "interaction_details": "Enzymes in the NAD + salvage pathway regulate SIRT1 activity at target gene promoters."
+    },
+    {
+        "entities_involved": [
+            "Sir2",
+            "NAD"
+        ],
+        "interaction_type": "binding",
+        "interaction_details": "Sir2 is an NAD-dependent histone deacetylase"
+    },
+    {
+        "entities_involved": [
+            "PARP-1",
+            "histone H1"
+        ],
+        "interaction_type": "binding",
+        "interaction_details": "Reciprocal binding at promoters specifying transcriptional outcomes"
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "TIP60"
+        ],
+        "interaction_type": "negative regulation",
+        "interaction_details": "SIRT1 negatively regulates the activities, functions, and protein levels of hMOF and TIP60"
+    },
+    {
+        "entities_involved": [
+            "53BP1",
+            "acetylation"
+        ],
+        "interaction_type": "limitation",
+        "interaction_details": "Acetylation limits 53BP1 association with damaged chromatin to promote homologous recombination"
+    },
+    {
+        "entities_involved": [
+            "MOF",
+            "histone H4"
+        ],
+        "interaction_type": "acetylation",
+        "interaction_details": "MOF and histone H4 acetylation at lysine 16 are critical for DNA damage response and double-strand break repair"
+    },
+    {
+        "entities_involved": [
+            "histone H4",
+            "53BP1"
+        ],
+        "interaction_type": "facilitation",
+        "interaction_details": "Histone H4 deacetylation facilitates 53BP1 DNA damage signaling and double-strand break repair"
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "chromatin"
+        ],
+        "interaction_type": "redistribution",
+        "interaction_details": "SIRT1 redistribution on chromatin promotes genomic stability but alters gene expression during aging"
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "SIRT2"
+        ],
+        "interaction_type": "regulation",
+        "interaction_details": "Role of SIRT1 and SIRT2 in radiation and cisplatin-induced cell death in vertebrate cells"
+    },
+    {
+        "entities_involved": [
+            "ATM",
+            "PARP-1"
+        ],
+        "interaction_type": "sensitization",
+        "interaction_details": "Interaction between ATM and PARP-1 in response to DNA damage and sensitization of ATM deficient cells through PARP inhibition"
+    },
+    {
+        "entities_involved": [
+            "PARP-1",
+            "DNA repair"
+        ],
+        "interaction_type": "modulation",
+        "interaction_details": "PARP-1 modulates DNA repair capacity and prevents formation of DNA double-strand breaks"
+    },
+    {
+        "entities_involved": [
+            "poly(ADP-ribose) polymerase",
+            "DNA damage"
+        ],
+        "interaction_type": "requirement",
+        "interaction_details": "Requirement of poly(ADP-ribose) polymerase in recovery from DNA damage in mice and in cells"
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "NBS1"
+        ],
+        "interaction_type": "functional link",
+        "interaction_details": "Functional link between SIRT1 deacetylase and NBS1 in DNA damage response"
+    },
+    {
+        "entities_involved": [
+            "HuR",
+            "Chk2"
+        ],
+        "interaction_type": "phosphorylation",
+        "interaction_details": "Phosphorylation of HuR by Chk2 regulates SIRT1 expression"
+    },
+    {
+        "entities_involved": [
+            "E2F1",
+            "SirT1"
+        ],
+        "interaction_type": "regulation",
+        "interaction_details": "Interactions between E2F1 and SirT1 regulate apoptotic response to DNA damage"
+    },
+    {
+        "entities_involved": [
+            "retinoblastoma tumour suppressor protein",
+            "SIRT1"
+        ],
+        "interaction_type": "deacetylation",
+        "interaction_details": "Deacetylation of the retinoblastoma tumour suppressor protein by SIRT1"
+    },
+    {
+        "entities_involved": [
+            "pRb",
+            "E2F-1"
+        ],
+        "interaction_type": "acetylation",
+        "interaction_details": "DNA-damage-responsive acetylation of pRb regulates binding to E2F-1"
+    },
+    {
+        "entities_involved": [
+            "c-Myc",
+            "SIRT1"
+        ],
+        "interaction_type": "feedback loop",
+        "interaction_details": "Regulates cell growth and transformation"
+    },
+    {
+        "entities_involved": [
+            "c-MYC",
+            "NAMPT enzyme",
+            "DBC1",
+            "SIRT1"
+        ],
+        "interaction_type": "positive feedback loop",
+        "interaction_details": null
+    },
+    {
+        "entities_involved": [
+            "PARP-1",
+            "E2F-1"
+        ],
+        "interaction_type": "binding",
+        "interaction_details": "PARP-1 binds E2F-1 independently of its DNA binding and catalytic domains"
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "NF-kappaB"
+        ],
+        "interaction_type": "modulation",
+        "interaction_details": "SIRT1 deacetylase modulates NF-kappaB-dependent transcription and cell survival"
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "cisplatin"
+        ],
+        "interaction_type": "contribution to resistance",
+        "interaction_details": "SIRT1 contributes to cisplatin resistance in cancer cells by altering mitochondrial metabolism"
+    },
+    {
+        "entities_involved": [
+            "Sir2alpha",
+            "p53"
+        ],
+        "interaction_type": "negative control",
+        "interaction_details": "Sir2alpha negatively controls p53 to promote cell survival under stress"
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "p53"
+        ],
+        "interaction_type": "acetylation",
+        "interaction_details": "Inhibition of SIRT1 catalytic activity increases p53 acetylation following DNA damage"
+    },
+    {
+        "entities_involved": [
+            "p53",
+            "SIRT1"
+        ],
+        "interaction_type": "up-regulation",
+        "interaction_details": "Serum withdrawal up-regulates human SIRT1 gene expression in a p53-dependent manner"
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "forkhead"
+        ],
+        "interaction_type": "regulation",
+        "interaction_details": "Nutrient availability regulates SIRT1 through a forkhead-dependent pathway"
+    },
+    {
+        "entities_involved": [
+            "HIC1",
+            "SIRT1",
+            "p53"
+        ],
+        "interaction_type": "regulation",
+        "interaction_details": "Tumor suppressor HIC1 directly regulates SIRT1 to modulate p53-dependent DNA-damage responses"
+    },
+    {
+        "entities_involved": [
+            "MiR-34",
+            "SIRT1",
+            "p53"
+        ],
+        "interaction_type": "feedback loop",
+        "interaction_details": null
+    },
+    {
+        "entities_involved": [
+            "DBC1",
+            "SIRT1"
+        ],
+        "interaction_type": "negative regulation",
+        "interaction_details": "DBC1 negatively regulates the deacetylase SIRT1"
+    },
+    {
+        "entities_involved": [
+            "genotoxic stress",
+            "SIRT1"
+        ],
+        "interaction_type": "regulation",
+        "interaction_details": "Regulation of SIRT1 activity by genotoxic stress"
+    },
+    {
+        "entities_involved": [
+            "DBC1",
+            "SIRT1"
+        ],
+        "interaction_type": "negative regulation",
+        "interaction_details": "DBC1 is a negative regulator of SIRT1"
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "p53"
+        ],
+        "interaction_type": "suppression",
+        "interaction_details": "Active regulator of SIRT1 cooperates with SIRT1 and facilitates suppression of p53 activity"
+    },
+    {
+        "entities_involved": [
+            "Crm1",
+            "p53"
+        ],
+        "interaction_type": "inhibition",
+        "interaction_details": "Inhibition of Crm1-p53 interaction and nuclear export of p53 by poly (ADP-ribosyl)ation"
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "p53",
+            "Nanog"
+        ],
+        "interaction_type": "regulation",
+        "interaction_details": "SIRT1 regulates apoptosis and Nanog expression in mouse embryonic stem cells by controlling p53 subcellular localization"
+    },
+    {
+        "entities_involved": [
+            "SIRT1"
+        ],
+        "interaction_type": "induction",
+        "interaction_details": "Calorie restriction induces the SIRT1 deacetylase to promote mammalian cell survival"
+    },
+    {
+        "entities_involved": [
+            "poly(ADP-ribose) polymerase-1",
+            "cell death"
+        ],
+        "interaction_type": "mediation",
+        "interaction_details": "Poly(ADP-ribose) polymerase-1 mediates cell death."
+    },
+    {
+        "entities_involved": [
+            "H2O2",
+            "cellular senescence",
+            "acetylated p53",
+            "SIRT1",
+            "NAD+"
+        ],
+        "interaction_type": "acceleration",
+        "interaction_details": "H2O2 accelerates cellular senescence by accumulation of acetylated p53 via decrease in the function of SIRT1 by NAD+ depletion."
+    },
+    {
+        "entities_involved": [
+            "Poly(ADP-ribose)",
+            "apoptosis-inducing factor"
+        ],
+        "interaction_type": "binding",
+        "interaction_details": "Poly(ADP-ribose) binds to apoptosis-inducing factor, critical for PAR polymerase-1-dependent cell death (parthanatos)."
+    },
+    {
+        "entities_involved": [
+            "CLOCK",
+            "BMAL1"
+        ],
+        "interaction_type": "acetylation",
+        "interaction_details": "CLOCK mediates acetylation of BMAL1 to control circadian function."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "CLOCK",
+            "chromatin remodeling",
+            "circadian control"
+        ],
+        "interaction_type": "modulation",
+        "interaction_details": "SIRT1 modulates CLOCK-mediated chromatin remodeling and circadian control."
+    },
+    {
+        "entities_involved": [
+            "CLOCK"
+        ],
+        "interaction_type": "acetylation",
+        "interaction_details": "CLOCK is a histone acetyltransferase."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "PER2"
+        ],
+        "interaction_type": "deacetylation",
+        "interaction_details": "SIRT1 regulates circadian clock gene expression through PER2 deacetylation."
+    },
+    {
+        "entities_involved": [
+            "NAMPT",
+            "NAD+"
+        ],
+        "interaction_type": "biosynthesis",
+        "interaction_details": "NAMPT mediates NAD+ biosynthesis in the circadian clock feedback cycle."
+    },
+    {
+        "entities_involved": [
+            "Poly(ADP-ribose) polymerase 1",
+            "circadian clocks"
+        ],
+        "interaction_type": "participation",
+        "interaction_details": "Poly(ADP-ribose) polymerase 1 participates in the phase entrainment of circadian clocks to feeding."
+    },
+    {
+        "entities_involved": [
+            "SIRT6",
+            "PARP1",
+            "DNA repair"
+        ],
+        "interaction_type": "activation",
+        "interaction_details": "SIRT6 promotes DNA repair under stress by activating PARP1."
+    },
+    {
+        "entities_involved": [
+            "Sirt3",
+            "excitotoxic injury",
+            "mouse cortical neuron culture"
+        ],
+        "interaction_type": "protection",
+        "interaction_details": "Neuronal Sirt3 protects against excitotoxic injury in mouse cortical neuron culture."
+    },
+    {
+        "entities_involved": [
+            "SIRT1",
+            "central circadian control",
+            "SCN"
+        ],
+        "interaction_type": "mediation",
+        "interaction_details": "SIRT1 mediates central circadian control in the SCN."
+    }
+]
