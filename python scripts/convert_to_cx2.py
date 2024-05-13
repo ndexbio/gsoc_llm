@@ -1,6 +1,3 @@
-import json
-
-
 def convert_to_cx2(extracted_data):
     # Initialize the CX2 format structure
     cx2_network = {
@@ -10,7 +7,6 @@ def convert_to_cx2(extracted_data):
         "nodeAttributes": [],
         "edgeAttributes": []
     }
-
     # Define node and edge ids
     node_id = 1
     edge_id = 1
@@ -30,13 +26,14 @@ def convert_to_cx2(extracted_data):
         target_node_id = nodes_map[interaction['entities_involved'][1]]
 
         # Add edge based on the interaction
-        cx2_network['edges'].append({"@id": edge_id, "s": source_node_id, "t": target_node_id, "i": interaction['interaction_type']})
+        cx2_network['edges'].append({"@id": edge_id, "s": source_node_id, "t": target_node_id, 
+                                     "i": interaction['interaction_type']})
         edge_id += 1
 
         # Optionally, add edge attributes if interaction_details are present
         if interaction.get('interaction_details'):
             cx2_network['edgeAttributes'].append({
-                "po": edge_id - 1,          #property_of edge attribute
+                "po": edge_id - 1,          
                 "n": "interaction_details",
                 "v": interaction['interaction_details']
             })
