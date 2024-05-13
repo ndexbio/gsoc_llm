@@ -9,7 +9,6 @@ warnings.filterwarnings("ignore")
 
 
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
-
 model = ChatOpenAI(model = "gpt-3.5-turbo", temperature=0, openai_api_key=OPENAI_API_KEY)
 
 # Define Pydantic models for the data we want to extract
