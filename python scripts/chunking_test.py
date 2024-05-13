@@ -31,6 +31,10 @@ prep = RunnableLambda(
 chain = prep | extraction_chain.map() | flatten
 results = chain.invoke(page_content)
 
+# Count the number of interactions
+interaction_count = len(results)
+print(f"Number of interactions: {interaction_count}")
+
 # Initialize a set to store unique interaction types
 unique_interaction_types = set()
 for interaction in results:
