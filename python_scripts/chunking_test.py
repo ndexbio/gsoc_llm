@@ -27,6 +27,10 @@ splits = text_splitter.split_text(page_content)
 prep = RunnableLambda(
     lambda x: [{"input": doc} for doc in text_splitter.split_text(x)]
 )
+# print(splits[0])
+# print(len(splits[0]))
+# print(len(splits))
+
 
 chain = prep | extraction_chain.map() | flatten
 results = chain.invoke(page_content)
