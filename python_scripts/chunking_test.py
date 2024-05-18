@@ -1,7 +1,7 @@
 import json
 import time
-from read_pdf import read_pdf
 from get_interactions import extraction_chain
+from indra_nxml_extraction import extract_text, get_xml_from_file
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema.runnable import RunnableLambda
 
@@ -9,8 +9,9 @@ from langchain.schema.runnable import RunnableLambda
 # Start the timer
 start_time = time.time()
 
-doc = read_pdf("/Users/favourjames/Downloads/gsoc_llm/papers/review_paper1.pdf")
-page_content = doc
+
+xml_string = get_xml_from_file("/Users/favourjames/Downloads/gsoc_llm/results/pmc6044858/output.xml")
+text = extract_text(xml_string)
 
 
 # Define a function to flatten a 2D list (matrix) into a 1D list (flat list).
@@ -23,32 +24,17 @@ def flatten(matrix):
 
 
 text_splitter = RecursiveCharacterTextSplitter(chunk_overlap=0)
-splits = text_splitter.split_text(page_content)
+splits = text_splitter.split_text(text)
 prep = RunnableLambda(
     lambda x: [{"input": doc} for doc in text_splitter.split_text(x)]
 )
-# print(splits[0])
-# print(len(splits[0]))
-# print(len(splits))
-
 
 chain = prep | extraction_chain.map() | flatten
-results = chain.invoke(page_content)
-
-# Count the number of interactions
-interaction_count = len(results)
-print(f"Number of interactions: {interaction_count}")
-
-# Initialize a set to store unique interaction types
-unique_interaction_types = set()
-for interaction in results:
-    if 'interaction_type' in interaction:
-        unique_interaction_types.add(interaction['interaction_type'])
-print(f"Number of unique interaction types: {len(unique_interaction_types)}")
+results = chain.invoke(text)
 
 
 json_output = json.dumps(results, indent=4)
-with open('results/SIRT1_PARP1/output3.json', 'w') as file:
+with open('results/pmc6044858/output.json', 'w') as file:
     file.write(json_output)
 
 

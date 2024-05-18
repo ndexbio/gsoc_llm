@@ -1,0 +1,6335 @@
+{
+  "statements": [
+    {
+      "type": "Complex",
+      "members": [
+        {
+          "name": "IVNS1ABP",
+          "db_refs": {
+            "UP": "Q9Y6Y0",
+            "TEXT": "NS1",
+            "EGID": "10625",
+            "HGNC": "16951"
+          }
+        },
+        {
+          "name": "TLR4",
+          "db_refs": {
+            "UP": "O00206",
+            "TEXT": "TLR4",
+            "HGNC": "11850",
+            "EGID": "7099"
+          }
+        }
+      ],
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "DENV NS1 may bind to the TLR4 of leukocytes, inducing the secretion of cytokines and MMPs, or it may directly bind to endothelial cells, inducing the secretion of HPA-1, both of which can cause glycocalyx degradation and subsequent vascular leakage.",
+          "annotations": {
+            "found_by": "binding1b",
+            "agents": {
+              "coords": [
+                [
+                  5,
+                  8
+                ],
+                [
+                  25,
+                  29
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": true,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 2390195140562759000
+        }
+      ],
+      "id": "fd3a823a-dae6-4f99-8143-12225525d6c5",
+      "matches_hash": "-22021826868465997"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "HPSE",
+        "db_refs": {
+          "UP": "Q9Y251",
+          "TEXT": "HPA-1",
+          "EGID": "10855",
+          "HGNC": "5164"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Nonstructural protein 1 (NS1) of dengue virus (DENV) can stimulate endothelial cells to secrete endothelial hyperpermeability factor, macrophage migration inhibitory factor (MIF), and the glycocalyx degradation factor heparanase 1 (HPA-1).",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  25,
+                  28
+                ],
+                [
+                  232,
+                  237
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -375508985561572400
+        }
+      ],
+      "id": "5808bf5c-2df0-408e-a371-c3342119538d",
+      "matches_hash": "15396805592709786"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "NS1",
+        "db_refs": {
+          "UP": "Q90185",
+          "TEXT": "Nonstructural protein 1",
+          "EGID": "955416"
+        }
+      },
+      "obj": {
+        "name": "HPSE",
+        "db_refs": {
+          "UP": "Q9Y251",
+          "TEXT": "HPA-1",
+          "EGID": "10855",
+          "HGNC": "5164"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Nonstructural protein 1 (NS1) of dengue virus (DENV) can stimulate endothelial cells to secrete endothelial hyperpermeability factor, macrophage migration inhibitory factor (MIF), and the glycocalyx degradation factor heparanase 1 (HPA-1).",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  0,
+                  23
+                ],
+                [
+                  232,
+                  237
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -375508985561572400
+        }
+      ],
+      "id": "231156e6-049e-415a-957a-961e6edcb1c6",
+      "matches_hash": "-11527867287496509"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "HPSE",
+        "db_refs": {
+          "UP": "Q9Y251",
+          "TEXT": "heparanase 1",
+          "EGID": "10855",
+          "HGNC": "5164"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Nonstructural protein 1 (NS1) of dengue virus (DENV) can stimulate endothelial cells to secrete endothelial hyperpermeability factor, macrophage migration inhibitory factor (MIF), and the glycocalyx degradation factor heparanase 1 (HPA-1).",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  25,
+                  28
+                ],
+                [
+                  218,
+                  230
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -375508985561572400
+        }
+      ],
+      "id": "86479b51-fcd6-4970-a1ee-f9a0f458617c",
+      "matches_hash": "15396805592709786"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "NS1",
+        "db_refs": {
+          "UP": "Q90185",
+          "TEXT": "Nonstructural protein 1",
+          "EGID": "955416"
+        }
+      },
+      "obj": {
+        "name": "HPSE",
+        "db_refs": {
+          "UP": "Q9Y251",
+          "TEXT": "heparanase 1",
+          "EGID": "10855",
+          "HGNC": "5164"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Nonstructural protein 1 (NS1) of dengue virus (DENV) can stimulate endothelial cells to secrete endothelial hyperpermeability factor, macrophage migration inhibitory factor (MIF), and the glycocalyx degradation factor heparanase 1 (HPA-1).",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  0,
+                  23
+                ],
+                [
+                  218,
+                  230
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -375508985561572400
+        }
+      ],
+      "id": "e17ab101-c997-401b-a19b-92fc8e59e09b",
+      "matches_hash": "-11527867287496509"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "macrophage migration inhibitory factor (MIF)",
+        "db_refs": {
+          "PF": "PF01187",
+          "TEXT": "macrophage migration inhibitory factor (MIF)"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Nonstructural protein 1 (NS1) of dengue virus (DENV) can stimulate endothelial cells to secrete endothelial hyperpermeability factor, macrophage migration inhibitory factor (MIF), and the glycocalyx degradation factor heparanase 1 (HPA-1).",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  25,
+                  28
+                ],
+                [
+                  134,
+                  178
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -375508985561572400
+        }
+      ],
+      "id": "dcd7c0a6-ceb5-4207-b4a5-b677ce6da0fd",
+      "matches_hash": "6826241500862041"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "NS1",
+        "db_refs": {
+          "UP": "Q90185",
+          "TEXT": "Nonstructural protein 1",
+          "EGID": "955416"
+        }
+      },
+      "obj": {
+        "name": "macrophage migration inhibitory factor (MIF)",
+        "db_refs": {
+          "PF": "PF01187",
+          "TEXT": "macrophage migration inhibitory factor (MIF)"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Nonstructural protein 1 (NS1) of dengue virus (DENV) can stimulate endothelial cells to secrete endothelial hyperpermeability factor, macrophage migration inhibitory factor (MIF), and the glycocalyx degradation factor heparanase 1 (HPA-1).",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  0,
+                  23
+                ],
+                [
+                  134,
+                  178
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -375508985561572400
+        }
+      ],
+      "id": "20b4c277-e283-4c2d-a48c-c3d5310bc702",
+      "matches_hash": "11342783711098437"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "HPSE",
+        "db_refs": {
+          "UP": "Q9Y251",
+          "TEXT": "HPA-1",
+          "EGID": "10855",
+          "HGNC": "5164"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Our tabulated results suggested that NS1 stimulation could induce human endothelial cells to secrete HPA-1 and immune cells to secrete MMP-9, resulting in endothelial glycocalyx degradation and hyperpermeability.",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  37,
+                  40
+                ],
+                [
+                  101,
+                  106
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "hypothesis": true,
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -4556375093296511500
+        }
+      ],
+      "id": "ca00b930-e21b-4288-98f5-efa60f18f9af",
+      "matches_hash": "15396805592709786"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "HPSE",
+        "db_refs": {
+          "UP": "Q9Y251",
+          "TEXT": "HPA-1",
+          "EGID": "10855",
+          "HGNC": "5164"
+        }
+      },
+      "obj": {
+        "name": "SDC1",
+        "db_refs": {
+          "UP": "P18827",
+          "TEXT": "CD138",
+          "HGNC": "10658",
+          "EGID": "6382"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Activated HPA-1 enhances shedding of the transmembrane heparan sulfate proteoglycan syndecan-1 (CD138) and elevates the level of CD138 in the bloodstream [7, 9, 10].",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  10,
+                  15
+                ],
+                [
+                  96,
+                  101
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 76705320669719840
+        }
+      ],
+      "id": "b29e0271-551d-4ef8-9845-f408bd56288b",
+      "matches_hash": "-35998828443473589"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "HPSE",
+        "db_refs": {
+          "UP": "Q9Y251",
+          "TEXT": "HPA-1",
+          "EGID": "10855",
+          "HGNC": "5164"
+        }
+      },
+      "obj": {
+        "name": "CD44",
+        "db_refs": {
+          "UP": "P16070",
+          "TEXT": "heparan sulfate proteoglycan",
+          "EGID": "960",
+          "HGNC": "1681"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Activated HPA-1 enhances shedding of the transmembrane heparan sulfate proteoglycan syndecan-1 (CD138) and elevates the level of CD138 in the bloodstream [7, 9, 10].",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  10,
+                  15
+                ],
+                [
+                  55,
+                  83
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 76705320669719840
+        }
+      ],
+      "id": "45032793-1efb-45ec-abb2-7212e0a46312",
+      "matches_hash": "-7381803220490851"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "HPSE",
+        "db_refs": {
+          "UP": "Q9Y251",
+          "TEXT": "HPA-1",
+          "EGID": "10855",
+          "HGNC": "5164"
+        }
+      },
+      "obj": {
+        "name": "SDC1",
+        "db_refs": {
+          "UP": "P18827",
+          "TEXT": "syndecan-1",
+          "HGNC": "10658",
+          "EGID": "6382"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Activated HPA-1 enhances shedding of the transmembrane heparan sulfate proteoglycan syndecan-1 (CD138) and elevates the level of CD138 in the bloodstream [7, 9, 10].",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  10,
+                  15
+                ],
+                [
+                  84,
+                  94
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 76705320669719840
+        }
+      ],
+      "id": "9249ed76-7a7f-4587-9f82-ad319f91524a",
+      "matches_hash": "-35998828443473589"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "Infections",
+        "db_refs": {
+          "MESH": "D007239",
+          "TEXT": "infection",
+          "EFO": "0000544"
+        }
+      },
+      "obj": {
+        "name": "Disease",
+        "db_refs": {
+          "MESH": "D004194",
+          "TEXT": "disease"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Furthermore, DENV infection-induced disease was found to be less severe in MIF knockout (Mif  ) mice than in normal mice [29].",
+          "annotations": {
+            "found_by": "Positive_early_activation",
+            "agents": {
+              "coords": [
+                [
+                  18,
+                  27
+                ],
+                [
+                  36,
+                  43
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -5045423989097682000
+        }
+      ],
+      "id": "c1cbcf87-9248-4f55-9248-c3fa2d6c9aaa",
+      "matches_hash": "11740454599062583"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "HPSE",
+        "db_refs": {
+          "UP": "Q9Y251",
+          "TEXT": "HPA-1",
+          "EGID": "10855",
+          "HGNC": "5164"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "According to a previous study, NS1 can induce endothelial cells to secrete HPA-1 to disrupt the endothelial glycocalyx, and this disruption is characterized by CD138 shedding [18].",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  31,
+                  34
+                ],
+                [
+                  75,
+                  80
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "hypothesis": true,
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -7085768861087202000
+        }
+      ],
+      "id": "b1db85b2-cc32-435a-a080-ad91c618c6aa",
+      "matches_hash": "15396805592709786"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "HPSE",
+        "db_refs": {
+          "UP": "Q9Y251",
+          "TEXT": "HPA-1",
+          "EGID": "10855",
+          "HGNC": "5164"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "To further investigate the underlying mechanism of NS1-induced HPA-1 secretion, human umbilical vein endothelial cells (HUVECs) were stimulated with NS1 for various durations.",
+          "annotations": {
+            "found_by": "Positive_early_activation",
+            "agents": {
+              "coords": [
+                [
+                  51,
+                  54
+                ],
+                [
+                  63,
+                  68
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 1260995311463199700
+        }
+      ],
+      "id": "2e62e428-f8b6-435d-93bd-fd55cffc633b",
+      "matches_hash": "15396805592709786"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "mAb",
+        "db_refs": {
+          "TEXT": "mAb"
+        }
+      },
+      "obj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "To confirm that this effect was induced by NS1, anti-NS1 monoclonal antibody (mAb) was used to block the effect of NS1.",
+          "annotations": {
+            "found_by": "Negative_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  78,
+                  81
+                ],
+                [
+                  115,
+                  118
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -5824685167092591000
+        }
+      ],
+      "id": "5cfe8e42-b9d3-4e8d-a557-a7f8a0c680f9",
+      "matches_hash": "1885186285447783"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "anti-NS1 monoclonal antibody",
+        "db_refs": {
+          "TEXT": "anti-NS1 monoclonal antibody"
+        }
+      },
+      "obj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "To confirm that this effect was induced by NS1, anti-NS1 monoclonal antibody (mAb) was used to block the effect of NS1.",
+          "annotations": {
+            "found_by": "Negative_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  48,
+                  76
+                ],
+                [
+                  115,
+                  118
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -5824685167092591000
+        }
+      ],
+      "id": "075fb33d-ed3d-4b89-a3a9-0f2ffbf4b68f",
+      "matches_hash": "-4830017317115843"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "SDC1",
+        "db_refs": {
+          "UP": "P18827",
+          "TEXT": "CD138",
+          "HGNC": "10658",
+          "EGID": "6382"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Anti-NS1 mAb 2E8, which can inhibit NS1-induced vascular leakage, was able to inhibit NS1-induced CD138 shedding (Fig 3B) [19].",
+          "annotations": {
+            "found_by": "Positive_early_activation",
+            "agents": {
+              "coords": [
+                [
+                  86,
+                  89
+                ],
+                [
+                  98,
+                  103
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 7569035962096947000
+        }
+      ],
+      "id": "88bae017-5bb7-457a-84cb-d551edc73cb8",
+      "matches_hash": "-21000986038948640"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "SDC1",
+        "db_refs": {
+          "UP": "P18827",
+          "TEXT": "CD138",
+          "HGNC": "10658",
+          "EGID": "6382"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "In contrast, another anti-NS1 mAb (DN5C6), which was used as a negative control, failed to inhibit NS1-induced CD138 shedding from endothelial cells (Fig 3B) [19].",
+          "annotations": {
+            "found_by": "Positive_early_activation",
+            "agents": {
+              "coords": [
+                [
+                  99,
+                  102
+                ],
+                [
+                  111,
+                  116
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -5851043473387959000
+        }
+      ],
+      "id": "10235384-0855-4178-99db-3ed646c45079",
+      "matches_hash": "-21000986038948640"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "OGT",
+        "db_refs": {
+          "UP": "O15294",
+          "TEXT": "OGT",
+          "HGNC": "8127",
+          "EGID": "8473"
+        }
+      },
+      "obj": {
+        "name": "SDC1",
+        "db_refs": {
+          "UP": "P18827",
+          "TEXT": "CD138",
+          "HGNC": "10658",
+          "EGID": "6382"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "To confirm that HPA-1 is involved in NS1-induced endothelial hyperpermeability and CD138 shedding, recombinant HPA-1 protein and the HPA-1 inhibitor OGT 2115 were used.",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  149,
+                  152
+                ],
+                [
+                  83,
+                  88
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 2205006608135014000
+        }
+      ],
+      "id": "674658c8-52b7-4c28-957f-03f3cb650903",
+      "matches_hash": "-8880676254960281"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "recombinant HPA-1 protein",
+        "db_refs": {
+          "TEXT": "recombinant HPA-1 protein"
+        }
+      },
+      "obj": {
+        "name": "SDC1",
+        "db_refs": {
+          "UP": "P18827",
+          "TEXT": "CD138",
+          "HGNC": "10658",
+          "EGID": "6382"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "To confirm that HPA-1 is involved in NS1-induced endothelial hyperpermeability and CD138 shedding, recombinant HPA-1 protein and the HPA-1 inhibitor OGT 2115 were used.",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  99,
+                  124
+                ],
+                [
+                  83,
+                  88
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 2205006608135014000
+        }
+      ],
+      "id": "8622f7ef-e614-4326-9d9f-5508246d3892",
+      "matches_hash": "-27539035707052984"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "SDC1",
+        "db_refs": {
+          "UP": "P18827",
+          "TEXT": "CD138",
+          "HGNC": "10658",
+          "EGID": "6382"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "To clarify which protein mediates NS1-induced endothelial hyperpermeability and CD138 shedding, MIF-blocking antibodies, the HPA-1 inhibitor OGT 2115 and NS1-blocking antibodies were used.",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  34,
+                  37
+                ],
+                [
+                  80,
+                  85
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 5039517830125314000
+        }
+      ],
+      "id": "cc6dc490-3a97-4996-a1c1-aa467b1a9221",
+      "matches_hash": "-21000986038948640"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "OGT",
+        "db_refs": {
+          "UP": "O15294",
+          "TEXT": "OGT",
+          "HGNC": "8127",
+          "EGID": "8473"
+        }
+      },
+      "obj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "To clarify which protein mediates NS1-induced endothelial hyperpermeability and CD138 shedding, MIF-blocking antibodies, the HPA-1 inhibitor OGT 2115 and NS1-blocking antibodies were used.",
+          "annotations": {
+            "found_by": "Negative_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  141,
+                  144
+                ],
+                [
+                  96,
+                  99
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 5039517830125314000
+        }
+      ],
+      "id": "6b0fcfa9-d32d-426a-ab05-8ebb34f2e020",
+      "matches_hash": "34572646871294774"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "anti-MIF antibodies",
+        "db_refs": {
+          "TEXT": "anti-MIF antibodies"
+        }
+      },
+      "obj": {
+        "name": "GOPC",
+        "mutations": [
+          {
+            "position": "3",
+            "residue_from": "S",
+            "residue_to": "E"
+          }
+        ],
+        "db_refs": {
+          "UP": "Q9HD26",
+          "TEXT": "Fig",
+          "EGID": "57120",
+          "HGNC": "17643"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "The results show that both the anti-MIF antibodies and OGT 2115 attenuated NS1-stimulated conditioned medium-induced HUVEC hyperpermeability and CD138 shedding (S3D and S3E Fig).",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  31,
+                  50
+                ],
+                [
+                  173,
+                  176
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -2084204363349685000
+        }
+      ],
+      "id": "52eaa3e1-e578-4156-98bc-37d058f0ec60",
+      "matches_hash": "-11919876706092020"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "OGT",
+        "db_refs": {
+          "UP": "O15294",
+          "TEXT": "OGT",
+          "HGNC": "8127",
+          "EGID": "8473"
+        }
+      },
+      "obj": {
+        "name": "SDC1",
+        "db_refs": {
+          "UP": "P18827",
+          "TEXT": "CD138",
+          "HGNC": "10658",
+          "EGID": "6382"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "The results show that both the anti-MIF antibodies and OGT 2115 attenuated NS1-stimulated conditioned medium-induced HUVEC hyperpermeability and CD138 shedding (S3D and S3E Fig).",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  55,
+                  58
+                ],
+                [
+                  145,
+                  150
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -2084204363349685000
+        }
+      ],
+      "id": "c5a3d63f-31e0-4913-9d69-2a6be237a2b7",
+      "matches_hash": "-8880676254960281"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "anti-MIF antibodies",
+        "db_refs": {
+          "TEXT": "anti-MIF antibodies"
+        }
+      },
+      "obj": {
+        "name": "GOPC",
+        "mutations": [
+          {
+            "position": "3",
+            "residue_from": "S",
+            "residue_to": "E"
+          }
+        ],
+        "db_refs": {
+          "UP": "Q9HD26",
+          "TEXT": "Fig",
+          "EGID": "57120",
+          "HGNC": "17643"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "The results show that both the anti-MIF antibodies and OGT 2115 attenuated NS1-stimulated conditioned medium-induced HUVEC hyperpermeability and CD138 shedding (S3D and S3E Fig).",
+          "annotations": {
+            "found_by": "Negative_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  31,
+                  50
+                ],
+                [
+                  173,
+                  176
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -2084204363349685000
+        }
+      ],
+      "id": "fd512c38-5435-4154-b9a5-d74b76b2a129",
+      "matches_hash": "-11919876706092020"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "anti-MIF antibodies",
+        "db_refs": {
+          "TEXT": "anti-MIF antibodies"
+        }
+      },
+      "obj": {
+        "name": "GOPC",
+        "mutations": [
+          {
+            "position": "3",
+            "residue_from": "S",
+            "residue_to": "D"
+          }
+        ],
+        "db_refs": {
+          "UP": "Q9HD26",
+          "TEXT": "Fig",
+          "EGID": "57120",
+          "HGNC": "17643"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "The results show that both the anti-MIF antibodies and OGT 2115 attenuated NS1-stimulated conditioned medium-induced HUVEC hyperpermeability and CD138 shedding (S3D and S3E Fig).",
+          "annotations": {
+            "found_by": "Negative_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  31,
+                  50
+                ],
+                [
+                  173,
+                  176
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -2084204363349685000
+        }
+      ],
+      "id": "d4c1a39d-e189-404f-83ef-ec2540bdeb83",
+      "matches_hash": "7341419967148377"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "OGT",
+        "db_refs": {
+          "UP": "O15294",
+          "TEXT": "OGT",
+          "HGNC": "8127",
+          "EGID": "8473"
+        }
+      },
+      "obj": {
+        "name": "GOPC",
+        "mutations": [
+          {
+            "position": "3",
+            "residue_from": "S",
+            "residue_to": "D"
+          }
+        ],
+        "db_refs": {
+          "UP": "Q9HD26",
+          "TEXT": "Fig",
+          "EGID": "57120",
+          "HGNC": "17643"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "The results show that both the anti-MIF antibodies and OGT 2115 attenuated NS1-stimulated conditioned medium-induced HUVEC hyperpermeability and CD138 shedding (S3D and S3E Fig).",
+          "annotations": {
+            "found_by": "Negative_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  55,
+                  58
+                ],
+                [
+                  173,
+                  176
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -2084204363349685000
+        }
+      ],
+      "id": "eb8730ec-cfc7-4875-ac2c-7c6de3061250",
+      "matches_hash": "5298168806269759"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "anti-MIF antibodies",
+        "db_refs": {
+          "TEXT": "anti-MIF antibodies"
+        }
+      },
+      "obj": {
+        "name": "GOPC",
+        "mutations": [
+          {
+            "position": "3",
+            "residue_from": "S",
+            "residue_to": "D"
+          }
+        ],
+        "db_refs": {
+          "UP": "Q9HD26",
+          "TEXT": "Fig",
+          "EGID": "57120",
+          "HGNC": "17643"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "The results show that both the anti-MIF antibodies and OGT 2115 attenuated NS1-stimulated conditioned medium-induced HUVEC hyperpermeability and CD138 shedding (S3D and S3E Fig).",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  31,
+                  50
+                ],
+                [
+                  173,
+                  176
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -2084204363349685000
+        }
+      ],
+      "id": "33ce1406-414d-4244-9fa3-579fa123ed60",
+      "matches_hash": "7341419967148377"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "OGT",
+        "db_refs": {
+          "UP": "O15294",
+          "TEXT": "OGT",
+          "HGNC": "8127",
+          "EGID": "8473"
+        }
+      },
+      "obj": {
+        "name": "GOPC",
+        "mutations": [
+          {
+            "position": "3",
+            "residue_from": "S",
+            "residue_to": "E"
+          }
+        ],
+        "db_refs": {
+          "UP": "Q9HD26",
+          "TEXT": "Fig",
+          "EGID": "57120",
+          "HGNC": "17643"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "The results show that both the anti-MIF antibodies and OGT 2115 attenuated NS1-stimulated conditioned medium-induced HUVEC hyperpermeability and CD138 shedding (S3D and S3E Fig).",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  55,
+                  58
+                ],
+                [
+                  173,
+                  176
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -2084204363349685000
+        }
+      ],
+      "id": "5be2350a-4ab4-4ef6-93a1-b8c526a91edc",
+      "matches_hash": "-6246617693657795"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "OGT",
+        "db_refs": {
+          "UP": "O15294",
+          "TEXT": "OGT",
+          "HGNC": "8127",
+          "EGID": "8473"
+        }
+      },
+      "obj": {
+        "name": "GOPC",
+        "mutations": [
+          {
+            "position": "3",
+            "residue_from": "S",
+            "residue_to": "D"
+          }
+        ],
+        "db_refs": {
+          "UP": "Q9HD26",
+          "TEXT": "Fig",
+          "EGID": "57120",
+          "HGNC": "17643"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "The results show that both the anti-MIF antibodies and OGT 2115 attenuated NS1-stimulated conditioned medium-induced HUVEC hyperpermeability and CD138 shedding (S3D and S3E Fig).",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  55,
+                  58
+                ],
+                [
+                  173,
+                  176
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -2084204363349685000
+        }
+      ],
+      "id": "edd17e18-d8c2-4807-bacb-fdbd25e983c4",
+      "matches_hash": "5298168806269759"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "SDC1",
+        "db_refs": {
+          "UP": "P18827",
+          "TEXT": "CD138",
+          "HGNC": "10658",
+          "EGID": "6382"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "The results show that both the anti-MIF antibodies and OGT 2115 attenuated NS1-stimulated conditioned medium-induced HUVEC hyperpermeability and CD138 shedding (S3D and S3E Fig).",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  75,
+                  78
+                ],
+                [
+                  145,
+                  150
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -2084204363349685000
+        }
+      ],
+      "id": "e71aa062-21b3-4264-b07d-7d946c3102d3",
+      "matches_hash": "-21000986038948640"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "anti-MIF antibodies",
+        "db_refs": {
+          "TEXT": "anti-MIF antibodies"
+        }
+      },
+      "obj": {
+        "name": "SDC1",
+        "db_refs": {
+          "UP": "P18827",
+          "TEXT": "CD138",
+          "HGNC": "10658",
+          "EGID": "6382"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "The results show that both the anti-MIF antibodies and OGT 2115 attenuated NS1-stimulated conditioned medium-induced HUVEC hyperpermeability and CD138 shedding (S3D and S3E Fig).",
+          "annotations": {
+            "found_by": "Negative_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  31,
+                  50
+                ],
+                [
+                  145,
+                  150
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -2084204363349685000
+        }
+      ],
+      "id": "ec76aec2-461c-4979-b2e3-eb2eccb9b971",
+      "matches_hash": "-8144618816614290"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "OGT",
+        "db_refs": {
+          "UP": "O15294",
+          "TEXT": "OGT",
+          "HGNC": "8127",
+          "EGID": "8473"
+        }
+      },
+      "obj": {
+        "name": "GOPC",
+        "mutations": [
+          {
+            "position": "3",
+            "residue_from": "S",
+            "residue_to": "E"
+          }
+        ],
+        "db_refs": {
+          "UP": "Q9HD26",
+          "TEXT": "Fig",
+          "EGID": "57120",
+          "HGNC": "17643"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "The results show that both the anti-MIF antibodies and OGT 2115 attenuated NS1-stimulated conditioned medium-induced HUVEC hyperpermeability and CD138 shedding (S3D and S3E Fig).",
+          "annotations": {
+            "found_by": "Negative_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  55,
+                  58
+                ],
+                [
+                  173,
+                  176
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -2084204363349685000
+        }
+      ],
+      "id": "209b547a-dcdc-4bcb-9c66-b7408cc63aa7",
+      "matches_hash": "-6246617693657795"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "GOPC",
+        "mutations": [
+          {
+            "position": "3",
+            "residue_from": "S",
+            "residue_to": "D"
+          }
+        ],
+        "db_refs": {
+          "UP": "Q9HD26",
+          "TEXT": "Fig",
+          "EGID": "57120",
+          "HGNC": "17643"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "The results show that both the anti-MIF antibodies and OGT 2115 attenuated NS1-stimulated conditioned medium-induced HUVEC hyperpermeability and CD138 shedding (S3D and S3E Fig).",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  75,
+                  78
+                ],
+                [
+                  173,
+                  176
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -2084204363349685000
+        }
+      ],
+      "id": "5a91b2a3-2c1d-4ae3-a820-8128c555fbe3",
+      "matches_hash": "21220768946464717"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "GOPC",
+        "mutations": [
+          {
+            "position": "3",
+            "residue_from": "S",
+            "residue_to": "E"
+          }
+        ],
+        "db_refs": {
+          "UP": "Q9HD26",
+          "TEXT": "Fig",
+          "EGID": "57120",
+          "HGNC": "17643"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "The results show that both the anti-MIF antibodies and OGT 2115 attenuated NS1-stimulated conditioned medium-induced HUVEC hyperpermeability and CD138 shedding (S3D and S3E Fig).",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  75,
+                  78
+                ],
+                [
+                  173,
+                  176
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -2084204363349685000
+        }
+      ],
+      "id": "c10e253b-5c86-453b-bf13-ecc75c6d5db1",
+      "matches_hash": "-12799642052187022"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "anti-MIF antibodies",
+        "db_refs": {
+          "TEXT": "anti-MIF antibodies"
+        }
+      },
+      "obj": {
+        "name": "SDC1",
+        "db_refs": {
+          "UP": "P18827",
+          "TEXT": "CD138",
+          "HGNC": "10658",
+          "EGID": "6382"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "The results show that both the anti-MIF antibodies and OGT 2115 attenuated NS1-stimulated conditioned medium-induced HUVEC hyperpermeability and CD138 shedding (S3D and S3E Fig).",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  31,
+                  50
+                ],
+                [
+                  145,
+                  150
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -2084204363349685000
+        }
+      ],
+      "id": "4218443d-d808-4b5f-bbc6-335fe0375b82",
+      "matches_hash": "-8144618816614290"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "OGT",
+        "db_refs": {
+          "UP": "O15294",
+          "TEXT": "OGT",
+          "HGNC": "8127",
+          "EGID": "8473"
+        }
+      },
+      "obj": {
+        "name": "SDC1",
+        "db_refs": {
+          "UP": "P18827",
+          "TEXT": "CD138",
+          "HGNC": "10658",
+          "EGID": "6382"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "The results show that both the anti-MIF antibodies and OGT 2115 attenuated NS1-stimulated conditioned medium-induced HUVEC hyperpermeability and CD138 shedding (S3D and S3E Fig).",
+          "annotations": {
+            "found_by": "Negative_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  55,
+                  58
+                ],
+                [
+                  145,
+                  150
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -2084204363349685000
+        }
+      ],
+      "id": "f2c9b791-3677-4507-af02-fe5c658cb12f",
+      "matches_hash": "-8880676254960281"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "SDC1",
+        "db_refs": {
+          "UP": "P18827",
+          "TEXT": "CD138",
+          "HGNC": "10658",
+          "EGID": "6382"
+        }
+      },
+      "obj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Interestingly, the NS1-blocking antibody 2E8 only partially diminished the conditioned medium-induced HUVEC hyperpermeability but not the conditioned medium-induced HUVEC CD138 shedding (S3D and S3E Fig).",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  171,
+                  176
+                ],
+                [
+                  19,
+                  22
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -6741425874197388000
+        }
+      ],
+      "id": "77797339-8a0b-49da-881f-cfcfe5077ded",
+      "matches_hash": "26310223259180709"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "GOPC",
+        "mutations": [
+          {
+            "position": "3",
+            "residue_from": "S",
+            "residue_to": "D"
+          }
+        ],
+        "db_refs": {
+          "UP": "Q9HD26",
+          "TEXT": "Fig",
+          "EGID": "57120",
+          "HGNC": "17643"
+        }
+      },
+      "obj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Interestingly, the NS1-blocking antibody 2E8 only partially diminished the conditioned medium-induced HUVEC hyperpermeability but not the conditioned medium-induced HUVEC CD138 shedding (S3D and S3E Fig).",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  199,
+                  202
+                ],
+                [
+                  19,
+                  22
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -6741425874197388000
+        }
+      ],
+      "id": "055f8c53-71b7-4c60-907a-5d20ecbe029b",
+      "matches_hash": "-29737434156376504"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "GOPC",
+        "mutations": [
+          {
+            "position": "3",
+            "residue_from": "S",
+            "residue_to": "E"
+          }
+        ],
+        "db_refs": {
+          "UP": "Q9HD26",
+          "TEXT": "Fig",
+          "EGID": "57120",
+          "HGNC": "17643"
+        }
+      },
+      "obj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Interestingly, the NS1-blocking antibody 2E8 only partially diminished the conditioned medium-induced HUVEC hyperpermeability but not the conditioned medium-induced HUVEC CD138 shedding (S3D and S3E Fig).",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  199,
+                  202
+                ],
+                [
+                  19,
+                  22
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -6741425874197388000
+        }
+      ],
+      "id": "7a4821dc-2a6d-4dab-be94-00bae345792e",
+      "matches_hash": "-786363951112304"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "matrix metallopeptidase secretion",
+        "db_refs": {
+          "GO": "GO:1990773",
+          "TEXT": "MMP secretion"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Since MMPs are primarily secreted by leukocytes (white blood cells, WBCs), including neutrophils and monocytes [33], we tested whether NS1 could induce MMP secretion in human leukocytes, peripheral blood mononuclear cells (PBMCs), and THP-1 human monocytes.",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  135,
+                  138
+                ],
+                [
+                  152,
+                  165
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "hypothesis": true,
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -4448414345088156000
+        }
+      ],
+      "id": "2b21e929-4b2c-4873-8014-713e413058d0",
+      "matches_hash": "-9916881613577418"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "GOPC",
+        "db_refs": {
+          "UP": "Q9HD26",
+          "TEXT": "Fig",
+          "EGID": "57120",
+          "HGNC": "17643"
+        }
+      },
+      "obj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "We found that NS1 induced MMP-9 secretion in freshly isolated leukocytes after 3 h of stimulation (Fig 4B), an effect that was attenuated by the NS1-blocking antibody 2E8 (Fig 4C).",
+          "annotations": {
+            "found_by": "Negative_activation_syntax_2_verb",
+            "agents": {
+              "coords": [
+                [
+                  172,
+                  175
+                ],
+                [
+                  145,
+                  148
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -7085399696286777000
+        }
+      ],
+      "id": "0dfeafc7-4cd9-434e-85ca-bc8d70f9d81c",
+      "matches_hash": "-15993171769998126"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "phorbol",
+        "db_refs": {
+          "CHEBI": "CHEBI:8116",
+          "TEXT": "phorbol",
+          "CAS": "17673-25-5",
+          "CHEMBL": "CHEMBL124518",
+          "PUBCHEM": "442070"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Similarly, NS1 induced phorbol myristate acetate (PMA)-activated THP-1 cells to secrete MMP-9 after incubation for 3 h (Fig 4D).",
+          "annotations": {
+            "found_by": "Positive_early_activation",
+            "agents": {
+              "coords": [
+                [
+                  11,
+                  14
+                ],
+                [
+                  23,
+                  30
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 4600733114960546300
+        }
+      ],
+      "id": "7080ea52-df21-4e4d-962b-8b3a9b770304",
+      "matches_hash": "11009462414732438"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "MMP",
+        "db_refs": {
+          "FPLX": "MMP",
+          "TEXT": "MMPs",
+          "NCIT": "C18164"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "To obtain the secretion profile of MMPs, we used an MMP antibody array to analyze which MMPs were increased by NS1 in PMA-activated THP-1 cells and leukocytes.",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_2_verb",
+            "agents": {
+              "coords": [
+                [
+                  111,
+                  114
+                ],
+                [
+                  88,
+                  92
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -1230402476553381600
+        }
+      ],
+      "id": "c7e9231e-a6de-4ce1-b53a-76f354951beb",
+      "matches_hash": "-6612871369474159"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "GOPC",
+        "db_refs": {
+          "UP": "Q9HD26",
+          "TEXT": "Fig",
+          "EGID": "57120",
+          "HGNC": "17643"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Similar results were found for the supernatant obtained from NS1-stimulated leukocytes (S6 Fig).",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  61,
+                  64
+                ],
+                [
+                  91,
+                  94
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -6879103924834706000
+        }
+      ],
+      "id": "e5055ccd-64de-4cd8-b463-f21115c7820d",
+      "matches_hash": "-1969907242101035"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "obj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "As MIF is a crucial mediator of NS1-induced vascular leakage and an upstream regulator of MMP-9 [19, 26, 34, 35], we tested whether NS1-induced MMP-9 secretion in leukocytes is also MIF dependent.",
+          "annotations": {
+            "found_by": "Positive_activation_copula_1",
+            "agents": {
+              "coords": [
+                [
+                  3,
+                  6
+                ],
+                [
+                  32,
+                  35
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 6335200828054574000
+        }
+      ],
+      "id": "9b6d7868-a70b-4330-bdfe-10a0b237ca77",
+      "matches_hash": "4172866776973855"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "GOPC",
+        "db_refs": {
+          "UP": "Q9HD26",
+          "TEXT": "Fig",
+          "EGID": "57120",
+          "HGNC": "17643"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Consistent with our previous study, the knockdown of MIF in HUVECs diminished NS1-induced endothelial hyperpermeability (S8A and S8B Fig).",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  78,
+                  81
+                ],
+                [
+                  133,
+                  136
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 2954257752211270000
+        }
+      ],
+      "id": "0e697b77-b0a3-47d6-8ba8-2b38d30a38de",
+      "matches_hash": "-1969907242101035"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "obj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "These results suggest that MIF acts on both endothelial cells and leukocytes to mediate NS1-induced endothelial hyperpermeability.",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  27,
+                  30
+                ],
+                [
+                  88,
+                  91
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "hypothesis": true,
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 4222647001380673000
+        }
+      ],
+      "id": "5d03f3a9-2991-4637-9111-ddea2198efd1",
+      "matches_hash": "4172866776973855"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "Casp14",
+        "db_refs": {
+          "UP": "O89094",
+          "TEXT": "mice",
+          "EGID": "12365"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "MIF inhibition attenuates DENV NS1-induced endothelial glycocalyx degradation in mice.",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_7_verb",
+            "agents": {
+              "coords": [
+                [
+                  31,
+                  34
+                ],
+                [
+                  81,
+                  85
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 8941130394213562000
+        }
+      ],
+      "id": "b020db93-7a95-408d-9bc1-d9d44781f889",
+      "matches_hash": "15401639117282281"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "obj": {
+        "name": "Casp14",
+        "db_refs": {
+          "UP": "O89094",
+          "TEXT": "mice",
+          "EGID": "12365"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "MIF inhibition attenuates DENV NS1-induced endothelial glycocalyx degradation in mice.",
+          "annotations": {
+            "found_by": "Negative_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  0,
+                  3
+                ],
+                [
+                  81,
+                  85
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 8941130394213562000
+        }
+      ],
+      "id": "7c3f43c1-c934-4d09-a1c4-859ee0d5e010",
+      "matches_hash": "-34364229415835596"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "Casp14",
+        "db_refs": {
+          "UP": "O89094",
+          "TEXT": "mice",
+          "EGID": "12365"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "To further investigate whether NS1 causes endothelial glycocalyx degradation in mice, the skin tissues of mice after two sequential subcutaneous injections of NS1 were fixed for immunohistochemical (IHC) staining.",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  31,
+                  34
+                ],
+                [
+                  80,
+                  84
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "hypothesis": true,
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 5176051057010159000
+        }
+      ],
+      "id": "adec71fc-2194-4c4b-98c7-b1dbae6f1a18",
+      "matches_hash": "-17181371323521589"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "MMP9",
+        "db_refs": {
+          "UP": "P14780",
+          "TEXT": "MMP-9",
+          "HGNC": "7176",
+          "EGID": "4318"
+        }
+      },
+      "obj": {
+        "name": "Casp14",
+        "db_refs": {
+          "UP": "O89094",
+          "TEXT": "mice",
+          "EGID": "12365"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Furthermore, the inhibition of MIF and MMP-9 also attenuated NS1-induced vascular leakage in mice (S9 Fig).",
+          "annotations": {
+            "found_by": "Negative_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  39,
+                  44
+                ],
+                [
+                  93,
+                  97
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 8451177119287571000
+        }
+      ],
+      "id": "fc265470-b66b-4a73-a24d-2f3c9d697fb0",
+      "matches_hash": "5629480347477610"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "obj": {
+        "name": "Casp14",
+        "db_refs": {
+          "UP": "O89094",
+          "TEXT": "mice",
+          "EGID": "12365"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Furthermore, the inhibition of MIF and MMP-9 also attenuated NS1-induced vascular leakage in mice (S9 Fig).",
+          "annotations": {
+            "found_by": "Negative_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  31,
+                  34
+                ],
+                [
+                  93,
+                  97
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 8451177119287571000
+        }
+      ],
+      "id": "9f332e9e-f6b6-4eab-a8dc-2eabca95e5af",
+      "matches_hash": "-34364229415835596"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "MMP9",
+        "db_refs": {
+          "UP": "P14780",
+          "TEXT": "MMP-9",
+          "HGNC": "7176",
+          "EGID": "4318"
+        }
+      },
+      "obj": {
+        "name": "GOPC",
+        "db_refs": {
+          "UP": "Q9HD26",
+          "TEXT": "Fig",
+          "EGID": "57120",
+          "HGNC": "17643"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Furthermore, the inhibition of MIF and MMP-9 also attenuated NS1-induced vascular leakage in mice (S9 Fig).",
+          "annotations": {
+            "found_by": "Negative_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  39,
+                  44
+                ],
+                [
+                  102,
+                  105
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 8451177119287571000
+        }
+      ],
+      "id": "126db116-038f-49e3-8894-e38713cb1d17",
+      "matches_hash": "19584230361758394"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "obj": {
+        "name": "GOPC",
+        "db_refs": {
+          "UP": "Q9HD26",
+          "TEXT": "Fig",
+          "EGID": "57120",
+          "HGNC": "17643"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Furthermore, the inhibition of MIF and MMP-9 also attenuated NS1-induced vascular leakage in mice (S9 Fig).",
+          "annotations": {
+            "found_by": "Negative_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  31,
+                  34
+                ],
+                [
+                  102,
+                  105
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 8451177119287571000
+        }
+      ],
+      "id": "06a60ce6-a631-440c-b4cb-87a32565c4df",
+      "matches_hash": "20751845105176765"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "Casp14",
+        "db_refs": {
+          "UP": "O89094",
+          "TEXT": "mice",
+          "EGID": "12365"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Furthermore, the inhibition of MIF and MMP-9 also attenuated NS1-induced vascular leakage in mice (S9 Fig).",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_7_verb",
+            "agents": {
+              "coords": [
+                [
+                  61,
+                  64
+                ],
+                [
+                  93,
+                  97
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 8451177119287571000
+        }
+      ],
+      "id": "60b25815-906c-404d-a6fc-e72a096a09df",
+      "matches_hash": "15401639117282281"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "MMP9",
+        "db_refs": {
+          "UP": "P14780",
+          "TEXT": "MMP-9",
+          "HGNC": "7176",
+          "EGID": "4318"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "These results suggest that MMP-9 induced by NS1-stimulated leukocytes may play an important role in endothelial glycocalyx degradation.",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_2_verb",
+            "agents": {
+              "coords": [
+                [
+                  44,
+                  47
+                ],
+                [
+                  27,
+                  32
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "hypothesis": true,
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -2776639513482010000
+        }
+      ],
+      "id": "e1b8e373-c30a-4439-8fad-b03e9e36091f",
+      "matches_hash": "1091440534001842"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "HPSE",
+        "db_refs": {
+          "UP": "Q9Y251",
+          "TEXT": "HPA-1",
+          "EGID": "10855",
+          "HGNC": "5164"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Most importantly, both in vitro and in vivo data showed that dengue NS1-induced HPA-1 and MMP-9 secretion was MIF dependent.",
+          "annotations": {
+            "found_by": "Positive_early_activation",
+            "agents": {
+              "coords": [
+                [
+                  68,
+                  71
+                ],
+                [
+                  80,
+                  85
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 559833210382350300
+        }
+      ],
+      "id": "0cdb2e2f-70c2-4914-b17f-b6c86afc74f2",
+      "matches_hash": "15396805592709786"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "GOPC",
+        "db_refs": {
+          "UP": "Q9HD26",
+          "TEXT": "Fig",
+          "EGID": "57120",
+          "HGNC": "17643"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Therefore, these results suggest that MIF is a central modulator of both direct and indirect dengue NS1-induced endothelial glycocalyx degradation (Fig 8).",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  100,
+                  103
+                ],
+                [
+                  148,
+                  151
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "hypothesis": true,
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -3029215468591680500
+        }
+      ],
+      "id": "f88b4c12-e0be-4cd2-8b0b-6548366d19b7",
+      "matches_hash": "-9982457756150487"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "Infections",
+        "db_refs": {
+          "MESH": "D007239",
+          "TEXT": "infection",
+          "EFO": "0000544"
+        }
+      },
+      "obj": {
+        "name": "MMP9",
+        "db_refs": {
+          "UP": "P14780",
+          "TEXT": "MMP-9",
+          "HGNC": "7176",
+          "EGID": "4318"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "It is known that DENV infection induces dendritic cells to secrete MMP-9 [31].",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  22,
+                  31
+                ],
+                [
+                  67,
+                  72
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 5798252236403239000
+        }
+      ],
+      "id": "19d6153b-ed15-4b18-8cc1-73b0a68bc678",
+      "matches_hash": "-4273423758416478"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "MMP8",
+        "db_refs": {
+          "UP": "P22894",
+          "TEXT": "MMP-8",
+          "HGNC": "7175",
+          "EGID": "4317"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "From the results of the MMP antibody array, we also found that MMP-8 and tissue inhibitor of metalloproteinases 1 (TIMP-1) were upregulated by NS1-stimulated leukocytes.",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_2_verb",
+            "agents": {
+              "coords": [
+                [
+                  143,
+                  146
+                ],
+                [
+                  63,
+                  68
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 4052927711973036000
+        }
+      ],
+      "id": "a8d9ccc7-b2b1-4642-814b-0d2d936424c9",
+      "matches_hash": "-23715423452519243"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "TIMP1",
+        "db_refs": {
+          "UP": "P01033",
+          "TEXT": "tissue inhibitor of metalloproteinases 1",
+          "EGID": "7076",
+          "HGNC": "11820"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "From the results of the MMP antibody array, we also found that MMP-8 and tissue inhibitor of metalloproteinases 1 (TIMP-1) were upregulated by NS1-stimulated leukocytes.",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_2_verb",
+            "agents": {
+              "coords": [
+                [
+                  143,
+                  146
+                ],
+                [
+                  73,
+                  113
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 4052927711973036000
+        }
+      ],
+      "id": "47cd0673-7046-4a4b-8d1a-257642049811",
+      "matches_hash": "-16005669939682058"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "MMP8",
+        "db_refs": {
+          "UP": "P22894",
+          "TEXT": "MMP-8",
+          "HGNC": "7175",
+          "EGID": "4317"
+        }
+      },
+      "obj": {
+        "name": "TIMP1",
+        "db_refs": {
+          "UP": "P01033",
+          "TEXT": "TIMP-1",
+          "EGID": "7076",
+          "HGNC": "11820"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "From the results of the MMP antibody array, we also found that MMP-8 and tissue inhibitor of metalloproteinases 1 (TIMP-1) were upregulated by NS1-stimulated leukocytes.",
+          "annotations": {
+            "found_by": "Negative_activation_syntax_3_noun",
+            "agents": {
+              "coords": [
+                [
+                  63,
+                  68
+                ],
+                [
+                  115,
+                  121
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 4052927711973036000
+        }
+      ],
+      "id": "262c6219-f347-49ab-91fe-1b0684971fb4",
+      "matches_hash": "1231189862423775"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "TIMP1",
+        "db_refs": {
+          "UP": "P01033",
+          "TEXT": "TIMP-1",
+          "EGID": "7076",
+          "HGNC": "11820"
+        }
+      },
+      "obj": {
+        "name": "MMP",
+        "db_refs": {
+          "FPLX": "MMP",
+          "TEXT": "MMPs",
+          "NCIT": "C18164"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "TIMP-1, which is a potent inhibitor of MMPs, can form a complex with pro-MMP-9 at a 1:1 stoichiometric relationship to inhibit its activation [44, 45].",
+          "annotations": {
+            "found_by": "Negative_activation_copula_1",
+            "agents": {
+              "coords": [
+                [
+                  0,
+                  6
+                ],
+                [
+                  39,
+                  43
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -1125463016230786700
+        }
+      ],
+      "id": "d65c060d-8f98-4502-8b31-e19591babe30",
+      "matches_hash": "26629463489719333"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "ELANE",
+        "db_refs": {
+          "UP": "P08246",
+          "TEXT": "neutrophil elastase",
+          "HGNC": "3309",
+          "EGID": "1991"
+        }
+      },
+      "obj": {
+        "name": "TIMP1",
+        "db_refs": {
+          "UP": "P01033",
+          "TEXT": "TIMP-1",
+          "EGID": "7076",
+          "HGNC": "11820"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "However, neutrophil elastase can inactivate TIMP-1 in the complex to free pro-MMP-9, such that it can be activated by MMP-3 [46].",
+          "annotations": {
+            "found_by": "Negative_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  9,
+                  28
+                ],
+                [
+                  44,
+                  50
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -5987362698073463000
+        }
+      ],
+      "id": "03584bb6-9676-4480-87ef-3aa3442300f4",
+      "matches_hash": "-25475729336920225"
+    },
+    {
+      "type": "Inhibition",
+      "subj": {
+        "name": "MPO",
+        "db_refs": {
+          "UP": "P05164",
+          "TEXT": "myeloperoxidase",
+          "HGNC": "7218",
+          "EGID": "4353"
+        }
+      },
+      "obj": {
+        "name": "TIMP1",
+        "db_refs": {
+          "UP": "P01033",
+          "TEXT": "TIMP-1",
+          "EGID": "7076",
+          "HGNC": "11820"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "In addition, myeloperoxidase, which is most abundantly expressed by neutrophils, can also inactivate TIMP-1 via generating hypochlorous acid [47].",
+          "annotations": {
+            "found_by": "Negative_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  13,
+                  28
+                ],
+                [
+                  101,
+                  107
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 3342175711468862000
+        }
+      ],
+      "id": "bc710847-babb-49bc-9cc5-b1dd9489dcdf",
+      "matches_hash": "-1690478316131201"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "IL6",
+        "db_refs": {
+          "UP": "P05231",
+          "TEXT": "IL-6",
+          "EGID": "3569",
+          "HGNC": "6018"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "A previous study has shown that NS1 can induce PBMCs to secrete IL-6 and IL-8 via Toll-like receptor 4 (TLR4), leading to vascular leakage [16].",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  32,
+                  35
+                ],
+                [
+                  64,
+                  68
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -904072989235709000
+        }
+      ],
+      "id": "3a92aac5-dead-4558-8f1a-f2a1288060d5",
+      "matches_hash": "17388336549940504"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "CXCL8",
+        "db_refs": {
+          "UP": "P10145",
+          "TEXT": "IL-8",
+          "HGNC": "6025",
+          "EGID": "3576"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "A previous study has shown that NS1 can induce PBMCs to secrete IL-6 and IL-8 via Toll-like receptor 4 (TLR4), leading to vascular leakage [16].",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  32,
+                  35
+                ],
+                [
+                  73,
+                  77
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -904072989235709000
+        }
+      ],
+      "id": "74110d4e-147b-4143-a6b0-59fd27c428fd",
+      "matches_hash": "27127102908619543"
+    },
+    {
+      "type": "Activation",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "obj_activity": "activity",
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "In our previous study and in this study, we demonstrated that NS1 induced HMEC-1 cells or HUMECs to secrete MIF, causing endothelial hyperpermeability [19].",
+          "annotations": {
+            "found_by": "Positive_activation_syntax_1_verb",
+            "agents": {
+              "coords": [
+                [
+                  62,
+                  65
+                ],
+                [
+                  108,
+                  111
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 6858505094076128000
+        }
+      ],
+      "id": "bd6756b6-3d69-4903-9c09-32560d44f9ab",
+      "matches_hash": "-9209809153481760"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "HPSE",
+        "db_refs": {
+          "UP": "Q9Y251",
+          "TEXT": "HPA-1",
+          "EGID": "10855",
+          "HGNC": "5164"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "In addition, NS1 can induce the expression and activation of HPA-1, leading to endothelial glycocalyx degradation and hyperpermeability [18].",
+          "annotations": {
+            "found_by": "transcription_1b",
+            "agents": {
+              "coords": [
+                [
+                  13,
+                  16
+                ],
+                [
+                  61,
+                  66
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 3268680310307437600
+        }
+      ],
+      "id": "4f9f07d7-6a22-4b51-a070-ad7117ea9be5",
+      "matches_hash": "29970233835238355"
+    },
+    {
+      "type": "DecreaseAmount",
+      "subj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "obj": {
+        "name": "HPSE",
+        "db_refs": {
+          "UP": "Q9Y251",
+          "TEXT": "HPA-1",
+          "EGID": "10855",
+          "HGNC": "5164"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "As shown in Fig 3G, NS1-induced HPA-1 expression, CD138 deposition and sialic acid degradation could also be rescued by MIF inhibition.",
+          "annotations": {
+            "found_by": "expression_1",
+            "agents": {
+              "coords": [
+                [
+                  120,
+                  123
+                ],
+                [
+                  32,
+                  37
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -2558530344822650000
+        }
+      ],
+      "id": "5f9c5da6-a2e5-4977-9ec0-8c9c9f327681",
+      "matches_hash": "-9886077347217561"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "IL6",
+        "db_refs": {
+          "UP": "P05231",
+          "TEXT": "IL-6",
+          "EGID": "3569",
+          "HGNC": "6018"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Since a previous study has shown that NS1 increases the expression of IL-6 and IL-8 in PBMCs [16], we also measured the concentrations of IL-6 and IL-8 after NS1 stimulation.",
+          "annotations": {
+            "found_by": "transcription_1b",
+            "agents": {
+              "coords": [
+                [
+                  38,
+                  41
+                ],
+                [
+                  70,
+                  74
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -6205160845385824000
+        }
+      ],
+      "id": "30aa5fed-3f0e-4e25-b439-dc2211c30403",
+      "matches_hash": "12306053387407592"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "CXCL8",
+        "db_refs": {
+          "UP": "P10145",
+          "TEXT": "IL-8",
+          "HGNC": "6025",
+          "EGID": "3576"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Since a previous study has shown that NS1 increases the expression of IL-6 and IL-8 in PBMCs [16], we also measured the concentrations of IL-6 and IL-8 after NS1 stimulation.",
+          "annotations": {
+            "found_by": "transcription_1b",
+            "agents": {
+              "coords": [
+                [
+                  38,
+                  41
+                ],
+                [
+                  79,
+                  83
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -6205160845385824000
+        }
+      ],
+      "id": "630abe4e-7faf-47ea-a547-48630de6548e",
+      "matches_hash": "7596253383124936"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "obj": {
+        "name": "MMP9",
+        "db_refs": {
+          "UP": "P14780",
+          "TEXT": "MMP-9",
+          "HGNC": "7176",
+          "EGID": "4318"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "A previous study has shown that MIF induces MMP-9 expression in macrophages via the MAPK pathway [35].",
+          "annotations": {
+            "found_by": "expression_1",
+            "agents": {
+              "coords": [
+                [
+                  32,
+                  35
+                ],
+                [
+                  44,
+                  49
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -8221100821028651000
+        }
+      ],
+      "id": "3fb82d65-14df-4c18-b76d-966ef51850d7",
+      "matches_hash": "25745070574465472"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "MIF inhibitors",
+        "db_refs": {
+          "TEXT": "MIF inhibitors"
+        }
+      },
+      "obj": {
+        "name": "SDC1",
+        "db_refs": {
+          "UP": "P18827",
+          "TEXT": "CD138",
+          "HGNC": "10658",
+          "EGID": "6382"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Moreover, HPA-1, MMP-9, and CD138 secretion after NS1 stimulation was blocked by MIF inhibitors or antibodies both in vitro and in mice.",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  81,
+                  95
+                ],
+                [
+                  28,
+                  33
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 4841248486313604000
+        }
+      ],
+      "id": "be5b7814-9a51-4143-83de-5da9ccc148e0",
+      "matches_hash": "25063258908297561"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "HPSE",
+        "db_refs": {
+          "UP": "Q9Y251",
+          "TEXT": "HPA-1",
+          "EGID": "10855",
+          "HGNC": "5164"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "NS1 stimulation also increased the active HPA-1 level in endothelial cell lysates, which was abolished by mAb 2E8 but not control mouse IgG (S2A Fig).",
+          "annotations": {
+            "found_by": "amount_1",
+            "agents": {
+              "coords": [
+                [
+                  0,
+                  3
+                ],
+                [
+                  42,
+                  47
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 478553515167709800
+        }
+      ],
+      "id": "a44563ba-8f15-450e-9417-9d956139e0c7",
+      "matches_hash": "29970233835238355"
+    },
+    {
+      "type": "DecreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "SDC1",
+        "db_refs": {
+          "UP": "P18827",
+          "TEXT": "CD138",
+          "HGNC": "10658",
+          "EGID": "6382"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Furthermore, cotreatment with OGT 2115 attenuated NS1-induced endothelial hyperpermeability (Fig 3C) and reduced CD138 release to levels similar to those of the phosphate-buffered saline (PBS) control in vitro (Fig 3D).",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  30,
+                  33
+                ],
+                [
+                  113,
+                  118
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 4133796911652885000
+        }
+      ],
+      "id": "bbfb171f-cdb2-4ff8-adb1-24a5b918eb50",
+      "matches_hash": "-1525837151204365"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "OGT",
+        "db_refs": {
+          "UP": "O15294",
+          "TEXT": "OGT",
+          "HGNC": "8127",
+          "EGID": "8473"
+        }
+      },
+      "obj": {
+        "name": "SDC1",
+        "db_refs": {
+          "UP": "P18827",
+          "TEXT": "CD138",
+          "HGNC": "10658",
+          "EGID": "6382"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Furthermore, cotreatment with OGT 2115 attenuated NS1-induced endothelial hyperpermeability (Fig 3C) and reduced CD138 release to levels similar to those of the phosphate-buffered saline (PBS) control in vitro (Fig 3D).",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  30,
+                  33
+                ],
+                [
+                  113,
+                  118
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 4133796911652885000
+        }
+      ],
+      "id": "b72717c5-74a7-4ee0-a890-42e50c8c6b7b",
+      "matches_hash": "-21327740922108184"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "μ",
+        "db_refs": {
+          "TEXT": "μ"
+        }
+      },
+      "obj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "The result shows that 10 μg/ml NS1 was sufficient to induce MIF secretion (S3A Fig).",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  31,
+                  34
+                ],
+                [
+                  60,
+                  63
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 3876318770837512700
+        }
+      ],
+      "id": "cac59a7a-e39a-48a1-8223-8a731e6e8fc6",
+      "matches_hash": "-17157581950800332"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "The result shows that 10 μg/ml NS1 was sufficient to induce MIF secretion (S3A Fig).",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  31,
+                  34
+                ],
+                [
+                  60,
+                  63
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 3876318770837512700
+        }
+      ],
+      "id": "b016cbc9-e133-45f4-92ea-92fc7586a980",
+      "matches_hash": "5509630914145019"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "obj": {
+        "name": "HPSE",
+        "db_refs": {
+          "UP": "Q9Y251",
+          "TEXT": "HPA-1",
+          "EGID": "10855",
+          "HGNC": "5164"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "The results show that MIF increased CD138 shedding and the active HPA-1 level in HUVECs (S4A and S4B Fig).",
+          "annotations": {
+            "found_by": "amount_1",
+            "agents": {
+              "coords": [
+                [
+                  22,
+                  25
+                ],
+                [
+                  66,
+                  71
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 7784690203809049000
+        }
+      ],
+      "id": "0a7f0fd3-f980-4f13-bad2-3f512336b0b0",
+      "matches_hash": "-11443014631889934"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "HPSE",
+        "db_refs": {
+          "UP": "Q9Y251",
+          "TEXT": "HPA-1",
+          "EGID": "10855",
+          "HGNC": "5164"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "These results indicate that NS1 can induce the MIF-mediated secretion of active HPA-1, leading to endothelial glycocalyx degradation.",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  28,
+                  31
+                ],
+                [
+                  80,
+                  85
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -7729283391532426000
+        }
+      ],
+      "id": "3e7f3430-587b-4267-b6d0-272d27e94baf",
+      "matches_hash": "29970233835238355"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "MMP9",
+        "db_refs": {
+          "UP": "P14780",
+          "TEXT": "MMP-9",
+          "HGNC": "7176",
+          "EGID": "4318"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "DENV NS1 induces MMP-9 secretion in THP-1 cells and leukocytes.",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  5,
+                  8
+                ],
+                [
+                  17,
+                  22
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 9004644418352736000
+        }
+      ],
+      "id": "5d4c2757-f9a7-4cc7-ace5-5a293abb155a",
+      "matches_hash": "26638865215269997"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "MMP9",
+        "db_refs": {
+          "UP": "P14780",
+          "TEXT": "MMP-9",
+          "HGNC": "7176",
+          "EGID": "4318"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Because a previous study has indicated that an increase in circulating MMP-9 levels is associated with dengue disease severity [32], we first examined whether NS1 induces MMP-9 secretion.",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  159,
+                  162
+                ],
+                [
+                  171,
+                  176
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -5136616382857717000
+        }
+      ],
+      "id": "977b12e7-6b67-4628-9ec1-82af8151f911",
+      "matches_hash": "26638865215269997"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "MMP9",
+        "db_refs": {
+          "UP": "P14780",
+          "TEXT": "MMP-9",
+          "HGNC": "7176",
+          "EGID": "4318"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "However, we found that NS1 barely induced MMP-9 secretion in HUVECs (Fig 4A).",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  23,
+                  26
+                ],
+                [
+                  42,
+                  47
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -6309125525623809000
+        }
+      ],
+      "id": "85138a2a-f315-4dab-a7af-0dc208dc8bc6",
+      "matches_hash": "26638865215269997"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "MMP9",
+        "db_refs": {
+          "UP": "P14780",
+          "TEXT": "MMP-9",
+          "HGNC": "7176",
+          "EGID": "4318"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "These results indicate that NS1 can induce MMP-9 secretion in leukocytes, leading to endothelial barrier dysfunction.",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  28,
+                  31
+                ],
+                [
+                  43,
+                  48
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 6572557346806713000
+        }
+      ],
+      "id": "fc8e2b84-4699-44d5-8265-a2dfa490f0eb",
+      "matches_hash": "26638865215269997"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "First, we wanted to confirm whether NS1 induces the secretion of MIF from leukocytes and THP-1 cells.",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  36,
+                  39
+                ],
+                [
+                  65,
+                  68
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 6620518949282229000
+        }
+      ],
+      "id": "9cd04f79-1201-4b50-b426-fd6a4b74d9cd",
+      "matches_hash": "5509630914145019"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "CXCL8",
+        "db_refs": {
+          "UP": "P10145",
+          "TEXT": "IL-8",
+          "HGNC": "6025",
+          "EGID": "3576"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "NS1 could also enhance the secretion of IL-6 and IL-8 from leukocytes, but the concentrations dropped rapidly after 3 h (S7 B and S7C Fig).",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  0,
+                  3
+                ],
+                [
+                  49,
+                  53
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 4380394339779046000
+        }
+      ],
+      "id": "62a1df05-ff34-47e4-ac5d-0946770262a8",
+      "matches_hash": "7596253383124936"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "IL6",
+        "db_refs": {
+          "UP": "P05231",
+          "TEXT": "IL-6",
+          "EGID": "3569",
+          "HGNC": "6018"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "NS1 could also enhance the secretion of IL-6 and IL-8 from leukocytes, but the concentrations dropped rapidly after 3 h (S7 B and S7C Fig).",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  0,
+                  3
+                ],
+                [
+                  40,
+                  44
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 4380394339779046000
+        }
+      ],
+      "id": "f59a3bf6-7267-4456-a26b-813c199abbe1",
+      "matches_hash": "12306053387407592"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "However, in THP-1 cells, NS1 only enhanced the secretion of MIF, not IL-6 or IL-8 (S7D–S7F Fig).",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  25,
+                  28
+                ],
+                [
+                  60,
+                  63
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -6817541583539591000
+        }
+      ],
+      "id": "bafbbc9a-4550-4c07-a461-de560918f859",
+      "matches_hash": "5509630914145019"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "obj": {
+        "name": "MMP9",
+        "db_refs": {
+          "UP": "P14780",
+          "TEXT": "MMP-9",
+          "HGNC": "7176",
+          "EGID": "4318"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "To clarify whether NS1-induced MMP-9 secretion is mediated by MIF, the MIF inhibitor p425 and MIF short-hairpin RNA (shRNA) were used.",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  62,
+                  65
+                ],
+                [
+                  31,
+                  36
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 7062600271609665000
+        }
+      ],
+      "id": "fa56f1b4-e1e2-47b6-8182-c49cad84f0de",
+      "matches_hash": "25745070574465472"
+    },
+    {
+      "type": "DecreaseAmount",
+      "subj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "obj": {
+        "name": "MMP9",
+        "db_refs": {
+          "UP": "P14780",
+          "TEXT": "MMP-9",
+          "HGNC": "7176",
+          "EGID": "4318"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "The ELISA results show that inhibiting MIF with its inhibitor p425 abolished NS1-induced MMP-9 secretion, while p425 alone did not affect MMP-9 secretion (Fig 6A).",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  39,
+                  42
+                ],
+                [
+                  89,
+                  94
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -4227484910117138400
+        }
+      ],
+      "id": "961eea40-7bb0-4901-be85-d70be2ddf4a9",
+      "matches_hash": "23955397281546291"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "MMP9",
+        "db_refs": {
+          "UP": "P14780",
+          "TEXT": "MMP-9",
+          "HGNC": "7176",
+          "EGID": "4318"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "The ELISA results show that inhibiting MIF with its inhibitor p425 abolished NS1-induced MMP-9 secretion, while p425 alone did not affect MMP-9 secretion (Fig 6A).",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  39,
+                  42
+                ],
+                [
+                  138,
+                  143
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -4227484910117138400
+        }
+      ],
+      "id": "08e7597b-fae0-431a-975d-69302bda071a",
+      "matches_hash": "26638865215269997"
+    },
+    {
+      "type": "DecreaseAmount",
+      "subj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "obj": {
+        "name": "MMP9",
+        "db_refs": {
+          "UP": "P14780",
+          "TEXT": "MMP-9",
+          "HGNC": "7176",
+          "EGID": "4318"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "The ELISA results show that inhibiting MIF with its inhibitor p425 abolished NS1-induced MMP-9 secretion, while p425 alone did not affect MMP-9 secretion (Fig 6A).",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  39,
+                  42
+                ],
+                [
+                  138,
+                  143
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -4227484910117138400
+        }
+      ],
+      "id": "b90e964b-b160-4810-a324-537080270bd1",
+      "matches_hash": "23955397281546291"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "obj": {
+        "name": "MMP9",
+        "db_refs": {
+          "UP": "P14780",
+          "TEXT": "MMP-9",
+          "HGNC": "7176",
+          "EGID": "4318"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Furthermore, the knockdown of MIF decreased NS1-induced MMP-9 secretion from THP-1 cells (Fig 6B), and the culture supernatant from shMIF THP-1 cells failed to increase endothelial permeability or CD138 shedding (Fig 6C and 6D).",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  30,
+                  33
+                ],
+                [
+                  56,
+                  61
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -9101659855922925000
+        }
+      ],
+      "id": "a5e49d09-a96c-400d-b206-5ca13d72fb58",
+      "matches_hash": "25745070574465472"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "SDC1",
+        "db_refs": {
+          "UP": "P18827",
+          "TEXT": "CD138",
+          "HGNC": "10658",
+          "EGID": "6382"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "DENV NS1 induces MIF, HPA-1, MMP-9 and CD138 secretion in mice.",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  5,
+                  8
+                ],
+                [
+                  39,
+                  44
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 3307131315802720000
+        }
+      ],
+      "id": "738e3ddc-d35e-465e-8d55-7b75c98fc986",
+      "matches_hash": "-1194970149088433"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "HPSE",
+        "db_refs": {
+          "UP": "Q9Y251",
+          "TEXT": "HPA-1",
+          "EGID": "10855",
+          "HGNC": "5164"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "DENV NS1 induces MIF, HPA-1, MMP-9 and CD138 secretion in mice.",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  5,
+                  8
+                ],
+                [
+                  22,
+                  27
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 3307131315802720000
+        }
+      ],
+      "id": "c366a49b-3901-413a-bf4e-5438be87811c",
+      "matches_hash": "29970233835238355"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "MMP9",
+        "db_refs": {
+          "UP": "P14780",
+          "TEXT": "MMP-9",
+          "HGNC": "7176",
+          "EGID": "4318"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "DENV NS1 induces MIF, HPA-1, MMP-9 and CD138 secretion in mice.",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  5,
+                  8
+                ],
+                [
+                  29,
+                  34
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 3307131315802720000
+        }
+      ],
+      "id": "a2e63dc2-258e-4219-9e0c-149ef2beb5ff",
+      "matches_hash": "26638865215269997"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "HPSE",
+        "db_refs": {
+          "UP": "Q9Y251",
+          "TEXT": "HPA-1",
+          "EGID": "10855",
+          "HGNC": "5164"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "To further confirm that NS1 can induce MIF, HPA-1, MMP-9 and CD138 secretion in vivo, we injected 50 μg of NS1 into the tail veins of mice, and blood samples were collected every 24 h.",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  24,
+                  27
+                ],
+                [
+                  44,
+                  49
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 6445912497446949000
+        }
+      ],
+      "id": "c1e94829-b842-4cd7-81a1-b2c7a567996c",
+      "matches_hash": "29970233835238355"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "SDC1",
+        "db_refs": {
+          "UP": "P18827",
+          "TEXT": "CD138",
+          "HGNC": "10658",
+          "EGID": "6382"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "To further confirm that NS1 can induce MIF, HPA-1, MMP-9 and CD138 secretion in vivo, we injected 50 μg of NS1 into the tail veins of mice, and blood samples were collected every 24 h.",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  24,
+                  27
+                ],
+                [
+                  61,
+                  66
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 6445912497446949000
+        }
+      ],
+      "id": "f4ed301f-50dc-430a-8fa5-3f9983e7aab0",
+      "matches_hash": "-1194970149088433"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "MMP9",
+        "db_refs": {
+          "UP": "P14780",
+          "TEXT": "MMP-9",
+          "HGNC": "7176",
+          "EGID": "4318"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "To further confirm that NS1 can induce MIF, HPA-1, MMP-9 and CD138 secretion in vivo, we injected 50 μg of NS1 into the tail veins of mice, and blood samples were collected every 24 h.",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  24,
+                  27
+                ],
+                [
+                  51,
+                  56
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 6445912497446949000
+        }
+      ],
+      "id": "959e6f67-4640-44ce-a3fb-8c2b9e563f85",
+      "matches_hash": "26638865215269997"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "SDC1",
+        "db_refs": {
+          "UP": "P18827",
+          "TEXT": "CD138",
+          "HGNC": "10658",
+          "EGID": "6382"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "In addition, the intraperitoneal injection of NS1 significantly induced HPA-1, MMP-9, and CD138 secretion, and coinjection of ISO-1 significantly abolished the secretion of MMP-9 and CD138 but not HPA-1 found by the peritoneal lavage (Fig 7C–7E).",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  46,
+                  49
+                ],
+                [
+                  90,
+                  95
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 5895859880381694000
+        }
+      ],
+      "id": "223a66ee-d36a-467c-83a6-aaaf1e9dca3f",
+      "matches_hash": "-1194970149088433"
+    },
+    {
+      "type": "DecreaseAmount",
+      "subj": {
+        "name": "EIF1",
+        "db_refs": {
+          "UP": "P41567",
+          "TEXT": "ISO-1",
+          "HGNC": "3249",
+          "EGID": "10209"
+        }
+      },
+      "obj": {
+        "name": "SDC1",
+        "db_refs": {
+          "UP": "P18827",
+          "TEXT": "CD138",
+          "HGNC": "10658",
+          "EGID": "6382"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "In addition, the intraperitoneal injection of NS1 significantly induced HPA-1, MMP-9, and CD138 secretion, and coinjection of ISO-1 significantly abolished the secretion of MMP-9 and CD138 but not HPA-1 found by the peritoneal lavage (Fig 7C–7E).",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  126,
+                  131
+                ],
+                [
+                  183,
+                  188
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 5895859880381694000
+        }
+      ],
+      "id": "d1cfb689-b5c9-4711-ba34-b3659cdfaa16",
+      "matches_hash": "21593498636158158"
+    },
+    {
+      "type": "DecreaseAmount",
+      "subj": {
+        "name": "EIF1",
+        "db_refs": {
+          "UP": "P41567",
+          "TEXT": "ISO-1",
+          "HGNC": "3249",
+          "EGID": "10209"
+        }
+      },
+      "obj": {
+        "name": "MMP9",
+        "db_refs": {
+          "UP": "P14780",
+          "TEXT": "MMP-9",
+          "HGNC": "7176",
+          "EGID": "4318"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "In addition, the intraperitoneal injection of NS1 significantly induced HPA-1, MMP-9, and CD138 secretion, and coinjection of ISO-1 significantly abolished the secretion of MMP-9 and CD138 but not HPA-1 found by the peritoneal lavage (Fig 7C–7E).",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  126,
+                  131
+                ],
+                [
+                  173,
+                  178
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 5895859880381694000
+        }
+      ],
+      "id": "cb7e0457-4eac-4048-9436-e21d5fc0dc9f",
+      "matches_hash": "23309393920752785"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "MMP9",
+        "db_refs": {
+          "UP": "P14780",
+          "TEXT": "MMP-9",
+          "HGNC": "7176",
+          "EGID": "4318"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Next, we showed that the DENV NS1 stimulation of endothelial cells and leukocytes could induce HPA-1 and MMP-9 secretion, respectively, causing endothelial glycocalyx degradation and hyperpermeability.",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  30,
+                  33
+                ],
+                [
+                  105,
+                  110
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -2085579246344612900
+        }
+      ],
+      "id": "3333e742-9e5d-4db0-92ca-667fab9ab825",
+      "matches_hash": "26638865215269997"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "HPSE",
+        "db_refs": {
+          "UP": "Q9Y251",
+          "TEXT": "HPA-1",
+          "EGID": "10855",
+          "HGNC": "5164"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Next, we showed that the DENV NS1 stimulation of endothelial cells and leukocytes could induce HPA-1 and MMP-9 secretion, respectively, causing endothelial glycocalyx degradation and hyperpermeability.",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  30,
+                  33
+                ],
+                [
+                  95,
+                  100
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -2085579246344612900
+        }
+      ],
+      "id": "de339979-5c5c-4026-8210-5c45b616ddf5",
+      "matches_hash": "29970233835238355"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "MMP9",
+        "db_refs": {
+          "UP": "P14780",
+          "TEXT": "MMP-9",
+          "HGNC": "7176",
+          "EGID": "4318"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "In this study, we further demonstrated that the NS1 stimulation of leukocytes but not endothelial cells nor PBMCs could induce MMP-9 secretion.",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  48,
+                  51
+                ],
+                [
+                  127,
+                  132
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -55527509545733100
+        }
+      ],
+      "id": "0f8c2cfc-e56f-492a-aa33-b63bf53fa84f",
+      "matches_hash": "26638865215269997"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "obj": {
+        "name": "MMP9",
+        "db_refs": {
+          "UP": "P14780",
+          "TEXT": "MMP-9",
+          "HGNC": "7176",
+          "EGID": "4318"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "A previous study has also shown that MIF can mediate the secretion of MMP-9 from neutrophils [39].",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  37,
+                  40
+                ],
+                [
+                  70,
+                  75
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -3109391509185849000
+        }
+      ],
+      "id": "1b2af93c-5c7a-46cf-88eb-8e234bd8d55f",
+      "matches_hash": "25745070574465472"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "obj": {
+        "name": "HPSE",
+        "db_refs": {
+          "UP": "Q9Y251",
+          "TEXT": "HPA-1",
+          "EGID": "10855",
+          "HGNC": "5164"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "In addition, we further demonstrated that both the secretion of HPA-1 and the shedding of CD138 induced by NS1-stimulation of endothelial cells are mediated by MIF.",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  160,
+                  163
+                ],
+                [
+                  64,
+                  69
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 1819282203136638200
+        }
+      ],
+      "id": "f8812586-9510-43a0-ac90-495f4f239ae8",
+      "matches_hash": "-11443014631889934"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "obj": {
+        "name": "HPSE",
+        "db_refs": {
+          "UP": "Q9Y251",
+          "TEXT": "HPA-1",
+          "EGID": "10855",
+          "HGNC": "5164"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "However, the mechanism of how MIF causes HPA-1 and MMP-9 secretion is still unclear.",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  30,
+                  33
+                ],
+                [
+                  41,
+                  46
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 8124352117956290000
+        }
+      ],
+      "id": "31528831-a1e4-4b1a-a365-5ce3907fe2c3",
+      "matches_hash": "-11443014631889934"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "obj": {
+        "name": "MMP9",
+        "db_refs": {
+          "UP": "P14780",
+          "TEXT": "MMP-9",
+          "HGNC": "7176",
+          "EGID": "4318"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "However, the mechanism of how MIF causes HPA-1 and MMP-9 secretion is still unclear.",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  30,
+                  33
+                ],
+                [
+                  51,
+                  56
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 8124352117956290000
+        }
+      ],
+      "id": "b8669633-6db4-483b-9fe5-653827acced3",
+      "matches_hash": "25745070574465472"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "obj": {
+        "name": "MMP9",
+        "db_refs": {
+          "UP": "P14780",
+          "TEXT": "MMP-9",
+          "HGNC": "7176",
+          "EGID": "4318"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Therefore, it is possible that MIF contributes to the secretion of HPA-1 and MMP-9 via the MAPK/NF-κB pathway.",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  31,
+                  34
+                ],
+                [
+                  77,
+                  82
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 3168034295627939000
+        }
+      ],
+      "id": "b4e68386-d286-46d1-8728-55574a55a204",
+      "matches_hash": "25745070574465472"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "obj": {
+        "name": "HPSE",
+        "db_refs": {
+          "UP": "Q9Y251",
+          "TEXT": "HPA-1",
+          "EGID": "10855",
+          "HGNC": "5164"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "Therefore, it is possible that MIF contributes to the secretion of HPA-1 and MMP-9 via the MAPK/NF-κB pathway.",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  31,
+                  34
+                ],
+                [
+                  67,
+                  72
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 3168034295627939000
+        }
+      ],
+      "id": "776fa05e-eed1-4e36-9bea-a6fed9b5b3b7",
+      "matches_hash": "-11443014631889934"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "AMH",
+        "db_refs": {
+          "UP": "P03971",
+          "TEXT": "MIF",
+          "EGID": "268",
+          "HGNC": "464"
+        }
+      },
+      "obj": {
+        "name": "MMP9",
+        "db_refs": {
+          "UP": "P14780",
+          "TEXT": "MMP-9",
+          "HGNC": "7176",
+          "EGID": "4318"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "However, from our in vivo study, we also noticed that NS1-induced MMP-9 secretion and CD138 shedding were significantly attenuated by MIF inhibition, whereas the attenuation of HPA-1 secretion was not as significant.",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  134,
+                  137
+                ],
+                [
+                  66,
+                  71
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": -7879270056719964000
+        }
+      ],
+      "id": "71741296-e766-4468-bcac-0e185f3cb423",
+      "matches_hash": "25745070574465472"
+    },
+    {
+      "type": "IncreaseAmount",
+      "subj": {
+        "name": "IVNS1ABP",
+        "bound_conditions": [
+          {
+            "agent": {
+              "name": "TLR4",
+              "db_refs": {
+                "UP": "O00206",
+                "TEXT": "TLR4",
+                "HGNC": "11850",
+                "EGID": "7099"
+              }
+            },
+            "is_bound": true
+          }
+        ],
+        "db_refs": {
+          "UP": "Q9Y6Y0",
+          "TEXT": "NS1",
+          "EGID": "10625",
+          "HGNC": "16951"
+        }
+      },
+      "obj": {
+        "name": "MMP",
+        "db_refs": {
+          "FPLX": "MMP",
+          "TEXT": "MMPs",
+          "NCIT": "C18164"
+        }
+      },
+      "belief": 1,
+      "evidence": [
+        {
+          "source_api": "reach",
+          "pmid": "29702687",
+          "text": "DENV NS1 may bind to the TLR4 of leukocytes, inducing the secretion of cytokines and MMPs, or it may directly bind to endothelial cells, inducing the secretion of HPA-1, both of which can cause glycocalyx degradation and subsequent vascular leakage.",
+          "annotations": {
+            "found_by": "secretion_1",
+            "agents": {
+              "coords": [
+                [
+                  5,
+                  8
+                ],
+                [
+                  85,
+                  89
+                ]
+              ]
+            }
+          },
+          "epistemics": {
+            "direct": false,
+            "section_type": null
+          },
+          "text_refs": {
+            "PMID": "29702687"
+          },
+          "source_hash": 2390195140562759000
+        }
+      ],
+      "id": "9948192c-7b8e-48fb-8378-b84d9dc6211a",
+      "matches_hash": "28981106550092427"
+    }
+  ]
+}
