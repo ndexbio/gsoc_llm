@@ -2,6 +2,7 @@ import json
 import time
 from get_interactions import extraction_chain
 from indra_nxml_extraction import extract_text, get_xml_from_file
+# import spacy
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema.runnable import RunnableLambda
 
@@ -25,6 +26,7 @@ def flatten(matrix):
 
 text_splitter = RecursiveCharacterTextSplitter(chunk_overlap=0)
 splits = text_splitter.split_text(text)
+
 prep = RunnableLambda(
     lambda x: [{"input": doc} for doc in text_splitter.split_text(x)]
 )

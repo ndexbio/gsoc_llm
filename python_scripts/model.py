@@ -2,8 +2,8 @@ import os
 import warnings
 import time
 from dotenv import load_dotenv
-from typing import List, Optional
-from pydantic import BaseModel
+from typing import List
+from pydantic import BaseModel, Field
 from langchain_core.utils.function_calling import convert_pydantic_to_openai_function
 from langchain_openai import ChatOpenAI
 warnings.filterwarnings("ignore")
@@ -26,9 +26,12 @@ delay = 60.0 / rate_limit_per_minute
 # Define Pydantic models for the data we want to extract
 class Interaction(BaseModel):
     """Information about molecular interactions mentioned."""
-    entities_involved: List[str]
-    interaction_type: str
-    interaction_details: Optional[str]
+    entities_involved: List[str] = Field(..., description="List of entities involved where the first entity is the \
+        subject interacting with the second entity which is the object")
+    interaction_type: str = Field(..., description="This shows the activity or type of interaction going on between the\
+        subject and the object")
+    interaction_details: str = Field(..., description="This is the exact sentence from which the interacting entities\
+        are extracted from and the interaction type between the entities. The sentence should not be paraphrased")
 
 
 class Molecular_Interactions(BaseModel):
@@ -42,7 +45,7 @@ paper_extraction_function = [
 ]
 
 # Define model for extraction
-model = delayed_completion(delay_in_seconds=delay, model="gpt-3.5-turbo",
+model = delayed_completion(delay_in_seconds=delay, model="gpt-4 Turbo",
                            temperature=0, openai_api_key=OPENAI_API_KEY)
 
 extraction_model = model.bind(

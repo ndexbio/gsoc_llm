@@ -5,14 +5,26 @@ from model import extraction_model
 warnings.filterwarnings("ignore")
 
 # Write a prompt for extracting molecular interactions
-template = """A scientific paper will be provided to you. 
-Ensure to extract all molecular interactions mentioned in this paper.
-Identify the entities involved in each interaction and describe the type of interaction
-(e.g., binding, inhibition, activation).
-If detailed interaction mechanisms or effects are mentioned, include those as well.
-Do not include any background information or general knowledge not directly 
-related to the interactions described in the paper.
-Only extract and report on the specific molecular interactions that the paper presents."""
+template = """
+Extract all molecular interactions from the provided scientific text. Let the interaction details be the exact sentence 
+from which the interaction was made. The subject should be the first entity interacting with the second entity which is
+the object. Then the activity should be the interaction type. The results should look like the examples below:
+      "type": "Activation",
+      "subj": "NS1",
+      "obj": "HPA-1",
+          "text": "Nonstructural protein 1 (NS1) of dengue virus (DENV) can stimulate endothelial cells to secrete 
+          endothelial hyperpermeability factor, macrophage migration inhibitory factor (MIF), and the glycocalyx 
+          degradation factor heparanase 1 (HPA-1)."
+    "type": "Inhibition",
+      "subj": "NS1",
+      "obj": "macrophage migration inhibitory factor (MIF)"
+          "text": "Nonstructural protein 1 (NS1) of dengue virus (DENV) can stimulate endothelial cells to secrete 
+          endothelial hyperpermeability factor, macrophage migration inhibitory factor (MIF), and the glycocalyx 
+          degradation factor heparanase 1 (HPA-1)."
+In the example above, notice that the subj is the first gene and the second gene is the obj and the subj is the one
+interacting with the obj, then the text is the interaction detail and the genes involved are in the text. Please 
+do not paraphrase the sentences, it should be exactly the same sentence that is passed to the chain.
+"""
 
 # Define the extraction chain
 prompt = ChatPromptTemplate.from_messages([
