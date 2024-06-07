@@ -1,4 +1,4 @@
-# import json
+import json
 import time
 from get_interactions import extraction_chain
 from indra_nxml_extraction import extract_text, get_xml_from_file
@@ -33,8 +33,8 @@ for sent in doc.sents:
         break
     # sentences += sent.text + " "
     sentences.append(sent.text)
-    
-# print(sentences, len(sentences))
+print(len(sentences))
+
 
 # Prepare the text for the extraction chain
 prep = RunnableLambda(
@@ -44,6 +44,9 @@ prep = RunnableLambda(
 chain = prep | extraction_chain.map() | flatten
 results = chain.invoke(text)
 
+json_output = json.dumps(results, indent=4)
+with open('results/pmc6044858/sentence_output.json', 'w') as file:
+    file.write(json_output)
 
 end_time = time.time()
 elapsed_time = end_time - start_time

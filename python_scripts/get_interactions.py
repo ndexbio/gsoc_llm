@@ -4,11 +4,12 @@ from langchain.output_parsers.openai_functions import JsonKeyOutputFunctionsPars
 from model import extraction_model
 warnings.filterwarnings("ignore")
 
+
 # Write a prompt for extracting molecular interactions
 template = """
-Extract all molecular interactions from the provided scientific text. Let the interaction details be the exact sentence 
-from which the interaction was made. The subject should be the first entity interacting with the second entity which is
-the object. Then the activity should be the interaction type. The results should look like the examples below:
+Extract all molecular interactions from the provided scientific text. The subject should be the first entity 
+interacting with the second entity which is the object. Then the activity between the two entities should be the 
+interaction type. The results should look like the examples below:
       "type": "Activation",
       "subj": "NS1",
       "obj": "HPA-1",
@@ -22,7 +23,7 @@ the object. Then the activity should be the interaction type. The results should
           endothelial hyperpermeability factor, macrophage migration inhibitory factor (MIF), and the glycocalyx 
           degradation factor heparanase 1 (HPA-1)."
 In the example above, notice that the subj is the first gene and the second gene is the obj and the subj is the one
-interacting with the obj, then the text is the interaction detail and the genes involved are in the text. Please 
+interacting with the obj, then the text is the the sentence from which the interaction was taken from. Please 
 do not paraphrase the sentences, it should be exactly the same sentence that is passed to the chain.
 """
 

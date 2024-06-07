@@ -24,14 +24,23 @@ delay = 60.0 / rate_limit_per_minute
 
 
 # Define Pydantic models for the data we want to extract
+# class Interaction(BaseModel):
+#     """Information about molecular interactions mentioned."""
+#     entities_involved: List[str] = Field(..., description="List of entities involved where the first entity is the \
+#         subject interacting with the second entity which is the object")
+#     interaction_type: str = Field(..., description="This shows the activity or type of interaction going on between \
+#        the subject and the object")
+#     interaction_details: str = Field(..., description="This is the exact sentence from which the interacting entities\
+#         are extracted from and the interaction type between the entities. The sentence should not be paraphrased")
+
+
 class Interaction(BaseModel):
     """Information about molecular interactions mentioned."""
-    entities_involved: List[str] = Field(..., description="List of entities involved where the first entity is the \
-        subject interacting with the second entity which is the object")
+    subject: str = Field(..., description="Entity that is the first involved in the interaction")
+    object: str = Field(..., description="Entity that is the second involved in the interaction")
     interaction_type: str = Field(..., description="This shows the activity or type of interaction going on between the\
         subject and the object")
-    interaction_details: str = Field(..., description="This is the exact sentence from which the interacting entities\
-        are extracted from and the interaction type between the entities. The sentence should not be paraphrased")
+    Text: str = Field(..., description="The exact sentence from which the interacting subject and object is taken from")
 
 
 class Molecular_Interactions(BaseModel):
@@ -39,14 +48,14 @@ class Molecular_Interactions(BaseModel):
     interactions: List[Interaction]
 
 
-# Convert the pydantic classes to openai model   
 paper_extraction_function = [
     convert_pydantic_to_openai_function(Molecular_Interactions)
 ]
 
 # Define model for extraction
-model = delayed_completion(delay_in_seconds=delay, model="gpt-4 Turbo",
+model = delayed_completion(delay_in_seconds=delay, model="gpt-3.5-turbo",
                            temperature=0, openai_api_key=OPENAI_API_KEY)
+
 
 extraction_model = model.bind(
     functions=paper_extraction_function,

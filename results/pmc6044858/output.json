@@ -1,950 +1,710 @@
 [
     {
-        "entities_involved": [
-            "NS1",
-            "MIF"
-        ],
+        "subject": "Macrophage migration inhibitory factor",
+        "object": "dengue NS1",
         "interaction_type": "Activation",
-        "interaction_details": "NS1 stimulates endothelial cells to secrete MIF"
+        "Text": "Macrophage migration inhibitory factor is critical for dengue NS1-induced endothelial glycocalyx degradation and hyperpermeability"
     },
     {
-        "entities_involved": [
-            "NS1",
-            "HPA-1"
-        ],
+        "subject": "MIF",
+        "object": "DENV NS1",
         "interaction_type": "Activation",
-        "interaction_details": "NS1 stimulates endothelial cells to secrete HPA-1"
+        "Text": "MIF in DENV NS1-induced endothelial glycocalyx degradation and hyperpermeability"
     },
     {
-        "entities_involved": [
-            "NS1",
-            "MMP-9"
-        ],
-        "interaction_type": "Activation",
-        "interaction_details": "NS1 stimulates immune cells to secrete MMP-9"
+        "subject": "NS1",
+        "object": "endothelial cells",
+        "interaction_type": "Stimulation",
+        "Text": "Nonstructural protein 1 (NS1) of dengue virus (DENV) can stimulate endothelial cells to secrete endothelial hyperpermeability factor, macrophage migration inhibitory factor (MIF), and the glycocalyx degradation factor heparanase 1 (HPA-1)."
     },
     {
-        "entities_involved": [
-            "NS1",
-            "CD138"
-        ],
-        "interaction_type": "Activation",
-        "interaction_details": "NS1 shows a positive correlation with CD138 level in severe patients"
+        "subject": "MIF",
+        "object": "NS1-induced glycocalyx degradation",
+        "interaction_type": "Unclear involvement",
+        "Text": "However, it is unclear whether MIF is directly involved in NS1-induced glycocalyx degradation."
     },
     {
-        "entities_involved": [
-            "NS1",
-            "HPA-1"
-        ],
-        "interaction_type": "Activation",
-        "interaction_details": "NS1 stimulation induces human endothelial cells to secrete HPA-1"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "MMP-9"
-        ],
-        "interaction_type": "Activation",
-        "interaction_details": "NS1 stimulation induces immune cells to secrete MMP-9"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "CD138"
-        ],
-        "interaction_type": "Activation",
-        "interaction_details": "NS1 stimulation induces CD138 secretion"
-    },
-    {
-        "entities_involved": [
-            "MIF",
-            "HPA-1"
-        ],
-        "interaction_type": "Activation",
-        "interaction_details": "MIF inhibitors or antibodies block HPA-1 secretion"
-    },
-    {
-        "entities_involved": [
-            "MIF",
-            "MMP-9"
-        ],
-        "interaction_type": "Activation",
-        "interaction_details": "MIF inhibitors or antibodies block MMP-9 secretion"
-    },
-    {
-        "entities_involved": [
-            "MIF",
-            "CD138"
-        ],
-        "interaction_type": "Activation",
-        "interaction_details": "MIF inhibitors or antibodies block CD138 secretion"
-    },
-    {
-        "entities_involved": [
-            "HPA-1",
-            "CD138"
-        ],
-        "interaction_type": "Activation",
-        "interaction_details": "Activated HPA-1 enhances shedding of CD138"
-    },
-    {
-        "entities_involved": [
-            "MMPs",
-            "endothelial glycocalyx"
-        ],
-        "interaction_type": "Degradation",
-        "interaction_details": "MMPs are capable of digesting the endothelial glycocalyx"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "HPA-1"
-        ],
-        "interaction_type": "Activation",
-        "interaction_details": "NS1 induces the expression and activation of HPA-1"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "MIF"
-        ],
-        "interaction_type": "Activation",
-        "interaction_details": "NS1 induces the expression and activation of MIF"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "HPA-1"
-        ],
-        "interaction_type": "Increase",
-        "interaction_details": "The concentrations of NS1 and HPA-1 were increased in both dengue patients with warning signs and severe dengue patients."
-    },
-    {
-        "entities_involved": [
-            "MMP-9"
-        ],
-        "interaction_type": "Increase",
-        "interaction_details": "The concentrations of MMP-9 were significantly elevated in dengue patients with warning signs but not in severe dengue patients."
-    },
-    {
-        "entities_involved": [
-            "CD138",
-            "MIF"
-        ],
-        "interaction_type": "Increase",
-        "interaction_details": "The concentrations of CD138 and MIF were significantly elevated in the serum of severe dengue patients compared to dengue patients with warning signs."
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "MIF",
-            "CD138"
-        ],
+        "subject": "NS1",
+        "object": "MIF",
         "interaction_type": "Positive correlation",
-        "interaction_details": "NS1 and MIF showed a positive correlation with CD138 in the sera of severe dengue patients."
+        "Text": "only NS1 and MIF showed a positive correlation with the CD138 level in severe patients."
     },
     {
-        "entities_involved": [
-            "NS1",
-            "HPA-1"
-        ],
-        "interaction_type": "Induction",
-        "interaction_details": "DENV NS1-induced endothelial HPA-1 secretion leads to glycocalyx degradation and hyperpermeability."
+        "subject": "NS1",
+        "object": "human endothelial cells",
+        "interaction_type": "Stimulation",
+        "Text": "Our tabulated results suggested that NS1 stimulation could induce human endothelial cells to secrete HPA-1 and immune cells to secrete MMP-9, resulting in endothelial glycocalyx degradation and hyperpermeability."
     },
     {
-        "entities_involved": [
-            "HPA-1",
-            "CD138"
-        ],
-        "interaction_type": "Association",
-        "interaction_details": "HPA-1 is involved in NS1-induced endothelial hyperpermeability and CD138 shedding."
+        "subject": "NS1 stimulation",
+        "object": "HPA-1, MMP-9, and CD138 secretion",
+        "interaction_type": "Blockage",
+        "Text": "Moreover, HPA-1, MMP-9, and CD138 secretion after NS1 stimulation was blocked by MIF inhibitors or antibodies both in vitro and in mice."
     },
     {
-        "entities_involved": [
-            "HPA-1"
-        ],
-        "interaction_type": "Induction",
-        "interaction_details": "Inoculating the mice with native recombinant HPA-1 directly induced vascular leakage."
+        "subject": "MIF",
+        "object": "dengue NS1-induced glycocalyx degradation",
+        "interaction_type": "Direct engagement",
+        "Text": "Taken together, these results suggest that MIF directly engages in dengue NS1-induced glycocalyx degradation."
     },
     {
-        "entities_involved": [
-            "HPA-1"
-        ],
+        "subject": "endothelial glycocalyx",
+        "object": "heparanase, HPA-1",
+        "interaction_type": "Activation",
+        "Text": "Shedding of the endothelial glycocalyx is related to the activation of a heparan sulfate-specific heparanase, HPA-1."
+    },
+    {
+        "subject": "HPA-1",
+        "object": "syndecan-1 (CD138)",
+        "interaction_type": "Activation",
+        "Text": "Activated HPA-1 enhances shedding of the transmembrane heparan sulfate proteoglycan syndecan-1 (CD138) and elevates the level of CD138 in the bloodstream."
+    },
+    {
+        "subject": "matrix metalloproteinases (MMPs)",
+        "object": "endothelial glycocalyx",
+        "interaction_type": "Activation",
+        "Text": "In addition, matrix metalloproteinases (MMPs) are capable of digesting many types of extracellular matrix, including the endothelial glycocalyx."
+    },
+    {
+        "subject": "DENV nonstructural protein 1 (NS1)",
+        "object": "HPA-1",
+        "interaction_type": "Activation",
+        "Text": "In addition, NS1 can induce the expression and activation of HPA-1, leading to endothelial glycocalyx degradation and hyperpermeability."
+    },
+    {
+        "subject": "DENV nonstructural protein 1 (NS1)",
+        "object": "MIF",
+        "interaction_type": "Activation",
+        "Text": "In our previous study, we found that DENV NS1 can increase vascular permeability through macrophage migration inhibitory factor (MIF)-induced autophagy."
+    },
+    {
+        "subject": "MIF",
+        "object": "CD74 and/or CXCR2/4/7",
+        "interaction_type": "Activation",
+        "Text": "MIF is a chemokine-like inflammatory cytokine that binds to cell surface receptors (CD74 and/or CXCR2/4/7) and activates downstream signals, such as MAPK/ERK, to modulate inflammatory and immune responses."
+    },
+    {
+        "subject": "DENV infection",
+        "object": "MIF",
+        "interaction_type": "Activation",
+        "Text": "DENV infection can induce MIF secretion."
+    },
+    {
+        "subject": "DENV infection-induced disease",
+        "object": "MIF knockout (Mif-/-) mice",
         "interaction_type": "Inhibition",
-        "interaction_details": "Cotreatment with OGT 2115 attenuated NS1-induced endothelial hyperpermeability and reduced CD138 release."
+        "Text": "DENV infection-induced disease was found to be less severe in MIF knockout (Mif-/-) mice than in normal mice."
     },
     {
-        "entities_involved": [
-            "NS1",
-            "CD138"
-        ],
+        "subject": "NS1",
+        "object": "MIF",
         "interaction_type": "Activation",
-        "interaction_details": "HUVECs treated with NS1 recombinant proteins resulted in the detection of CD138 by ELISA."
+        "Text": "However, it is unclear whether MIF is directly involved in NS1-induced glycocalyx degradation."
     },
     {
-        "entities_involved": [
-            "NS1",
-            "CD138"
-        ],
+        "subject": "NS1",
+        "object": "MIF",
         "interaction_type": "Activation",
-        "interaction_details": "HUVECs treated with NS1 mixed with anti-NS1 antibodies resulted in the detection of CD138 by ELISA."
+        "Text": "Most importantly, the NS1-induced increases in HPA-1, MMP-9, and CD138 were all inhibited in the presence of MIF inhibitors or antibodies both in vitro and in vivo, indicating that NS1-induced MIF secretion may play an important role in the pathogenesis of DENV NS1-induced glycocalyx degradation and vascular leakage."
     },
     {
-        "entities_involved": [
-            "NS1",
-            "endothelial permeability"
-        ],
-        "interaction_type": "Activation",
-        "interaction_details": "HUVECs treated with NS1 affected endothelial permeability in a Transwell permeability assay."
+        "subject": "NS1",
+        "object": "HPA-1",
+        "interaction_type": "Stimulation",
+        "Text": "DENV NS1-induced endothelial HPA-1 secretion leads to glycocalyx degradation and hyperpermeability and is MIF dependent"
     },
     {
-        "entities_involved": [
-            "NS1",
-            "CD138"
-        ],
-        "interaction_type": "Activation",
-        "interaction_details": "HUVECs treated with NS1 resulted in the measurement of CD138 concentration by ELISA."
+        "subject": "NS1",
+        "object": "CD138",
+        "interaction_type": "Stimulation",
+        "Text": "According to a previous study, NS1 can induce endothelial cells to secrete HPA-1 to disrupt the endothelial glycocalyx, and this disruption is characterized by CD138 shedding"
     },
     {
-        "entities_involved": [
-            "NS1",
-            "HPA-1"
-        ],
-        "interaction_type": "Activation",
-        "interaction_details": "HUVECs treated with NS1 resulted in the measurement of HPA-1 concentration by ELISA."
+        "subject": "NS1",
+        "object": "CD138",
+        "interaction_type": "Stimulation",
+        "Text": "(A) HUVECs were treated with PBS or 20 \u03bcg/ml NS1 recombinant proteins for the indicated time, followed by collection of the supernatants for CD138 detection by ELISA. (n = 4)"
     },
     {
-        "entities_involved": [
-            "NS1",
-            "CD138"
-        ],
-        "interaction_type": "Activation",
-        "interaction_details": "HUVECs treated with NS1 resulted in the measurement of CD138 concentration by ELISA."
+        "subject": "NS1",
+        "object": "CD138",
+        "interaction_type": "Stimulation",
+        "Text": "(B) HUVECs were treated with PBS, 20 \u03bcg/ml NS1, or 20 \u03bcg/ml NS1 mixed with 10 \u03bcg/ml anti-NS1 antibodies (2E8 or DN5C6). After 24 h of incubation, the culture medium was collected, and the concentration of CD138 was determined by ELISA. (n = 3)"
     },
     {
-        "entities_involved": [
-            "NS1",
-            "HPA-1"
-        ],
-        "interaction_type": "Activation",
-        "interaction_details": "HUVECs treated with NS1 resulted in the assessment of HPA-1 distribution."
+        "subject": "NS1",
+        "object": "endothelial permeability",
+        "interaction_type": "Stimulation",
+        "Text": "(C) HUVECs seeded as monolayers in upper Transwell chambers were treated with PBS, 20 \u03bcg/ml NS1 or 20 \u03bcg/ml NS1 mixed with DMSO or the indicated concentration of OGT 2115. After 24 h, endothelial permeability was determined by a Transwell permeability assay, as described in the Materials and Methods section. (n = 3)"
     },
     {
-        "entities_involved": [
-            "MIF",
-            "HPA-1"
-        ],
+        "subject": "NS1",
+        "object": "CD138",
+        "interaction_type": "Stimulation",
+        "Text": "(D) HUVECs were treated with PBS or 20 \u03bcg/ml NS1 with or without 5 \u03bcM OGT 2115. After 24 h, the cell culture medium was collected, and the CD138 concentration was measured by ELISA. (n = 5)"
+    },
+    {
+        "subject": "NS1",
+        "object": "HPA-1",
+        "interaction_type": "Stimulation",
+        "Text": "(E) HUVECs were treated with PBS or 20 \u03bcg/ml NS1 with or without 100 \u03bcM p425, 50 \u03bcM ISO-1, or 10 \u03bcg/ml anti-MIF antibodies, as indicated. After 24 h, the cell culture medium was collected, and the HPA-1 concentration was measured by ELISA. (n = 3)"
+    },
+    {
+        "subject": "NS1",
+        "object": "CD138",
+        "interaction_type": "Stimulation",
+        "Text": "(F) HUVECs were treated with PBS or 20 \u03bcg/ml NS1 with or without p425, ISO-1 or anti-MIF antibodies. After 24 h, the cell culture medium was collected, and the CD138 concentration was measured by ELISA. (n = 5)"
+    },
+    {
+        "subject": "NS1",
+        "object": "HPA-1",
+        "interaction_type": "Stimulation",
+        "Text": "(G) HUVECs were treated with PBS or NS1 (20 \u03bcg/ml) with or without anti-MIF polyclonal antibodies (10 \u03bcg/ml) for 24 h. The distribution of HPA-1 (red) and CD138 (green) was assessed by staining with specific antibodies. Sialic acid expression on HUVECs monolayers was assessed by staining with WGA-FITC (green). *P<0.05, **P<0.01, ***P<0.001; ns, not significant; unpaired t-test (panel A), Kruskal-Wallis ANOVA (panel B, C, D, E and F)."
+    },
+    {
+        "subject": "MIF",
+        "object": "endothelial hyperpermeability",
         "interaction_type": "Induction",
-        "interaction_details": "MIF is capable of inducing HPA-1 secretion"
+        "Text": "In addition to HPA-1, MIF is also capable of inducing endothelial hyperpermeability [19]."
     },
     {
-        "entities_involved": [
-            "NS1",
-            "MIF"
-        ],
+        "subject": "NS1",
+        "object": "MIF",
+        "interaction_type": "Stimulation",
+        "Text": "As a result, the MIF concentration in the conditioned medium obtained from NS1-stimulated HUVECs was measured."
+    },
+    {
+        "subject": "NS1-stimulated HUVECs",
+        "object": "MIF",
         "interaction_type": "Induction",
-        "interaction_details": "NS1 induces MIF secretion"
+        "Text": "The result shows that 10 \u03bcg/ml NS1 was sufficient to induce MIF secretion."
     },
     {
-        "entities_involved": [
-            "NS1",
-            "HUVECs"
-        ],
+        "subject": "NS1-stimulated HUVECs",
+        "object": "endothelial hyperpermeability",
         "interaction_type": "Induction",
-        "interaction_details": "NS1 stimulates endothelial hyperpermeability and CD138 shedding in HUVECs"
+        "Text": "Furthermore, the conditioned medium obtained from NS1-stimulated HUVECs could induce endothelial hyperpermeability."
     },
     {
-        "entities_involved": [
-            "NS1",
-            "MIF"
-        ],
+        "subject": "NS1-stimulated HUVECs",
+        "object": "CD138 shedding",
         "interaction_type": "Induction",
-        "interaction_details": "NS1 induces MIF secretion"
+        "Text": "Furthermore, the conditioned medium obtained from NS1-stimulated HUVECs could induce CD138 shedding after incubation with another HUVEC monolayer."
     },
     {
-        "entities_involved": [
-            "NS1",
-            "MIF"
-        ],
-        "interaction_type": "Inhibition",
-        "interaction_details": "MIF inhibitors attenuate NS1-induced HPA-1 secretion and CD138 shedding"
+        "subject": "MIF-blocking antibodies, the HPA-1 inhibitor OGT 2115, NS1-blocking antibodies",
+        "object": "NS1-stimulated conditioned medium-induced HUVEC hyperpermeability and CD138 shedding",
+        "interaction_type": "Attenuation",
+        "Text": "The results show that both the anti-MIF antibodies and OGT 2115 attenuated NS1-stimulated conditioned medium-induced HUVEC hyperpermeability and CD138 shedding."
     },
     {
-        "entities_involved": [
-            "NS1",
-            "MIF"
-        ],
-        "interaction_type": "Inhibition",
-        "interaction_details": "MIF inhibition rescues NS1-induced HPA-1 expression, CD138 deposition, and sialic acid degradation"
+        "subject": "NS1-blocking antibody 2E8",
+        "object": "conditioned medium-induced HUVEC hyperpermeability",
+        "interaction_type": "Partial Diminishment",
+        "Text": "Interestingly, the NS1-blocking antibody 2E8 only partially diminished the conditioned medium-induced HUVEC hyperpermeability."
     },
     {
-        "entities_involved": [
-            "MIF",
-            "HPA-1"
-        ],
-        "interaction_type": "Activation",
-        "interaction_details": "MIF is the upstream effector of HPA-1"
+        "subject": "MIF inhibitors (anti-MIF antibodies, ISO-1, and p425), NS1",
+        "object": "NS1-induced HPA-1 secretion and CD138 shedding of endothelial cells",
+        "interaction_type": "Attenuation",
+        "Text": "Cotreatment with MIF inhibitors (anti-MIF antibodies, ISO-1, and p425) and NS1 also attenuated the NS1-induced HPA-1 secretion and CD138 shedding of endothelial cells."
     },
     {
-        "entities_involved": [
-            "MIF",
-            "CD138"
-        ],
-        "interaction_type": "Induction",
-        "interaction_details": "MIF increases CD138 shedding"
+        "subject": "MIF inhibition",
+        "object": "NS1-induced HPA-1 expression, CD138 deposition, and sialic acid degradation",
+        "interaction_type": "Rescue",
+        "Text": "NS1-induced HPA-1 expression, CD138 deposition, and sialic acid degradation could also be rescued by MIF inhibition."
     },
     {
-        "entities_involved": [
-            "MIF",
-            "HPA-1"
-        ],
-        "interaction_type": "Induction",
-        "interaction_details": "MIF increases active HPA-1 level"
+        "subject": "MIF",
+        "object": "HPA-1",
+        "interaction_type": "Upstream Effector",
+        "Text": "However, the HPA-1 inhibitor OGT 2115 failed to affect MIF secretion, suggested that MIF is the upstream effector of HPA-1."
     },
     {
-        "entities_involved": [
-            "MMPs",
-            "endothelial glycocalyx"
-        ],
-        "interaction_type": "Degradation",
-        "interaction_details": "MMPs can degrade the endothelial glycocalyx"
-    },
-    {
-        "entities_involved": [
-            "MMPs",
-            "DENV infection"
-        ],
-        "interaction_type": "Upregulation",
-        "interaction_details": "Several MMPs are upregulated during DENV infection"
-    },
-    {
-        "entities_involved": [
-            "MMPs",
-            "NS1"
-        ],
-        "interaction_type": "Involvement",
-        "interaction_details": "MMPs are involved in NS1-induced glycocalyx degradation"
-    },
-    {
-        "entities_involved": [
-            "MMP-9",
-            "dengue disease severity"
-        ],
-        "interaction_type": "Association",
-        "interaction_details": "An increase in circulating MMP-9 levels is associated with dengue disease severity"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "MMP-9"
-        ],
-        "interaction_type": "Induction",
-        "interaction_details": "NS1 induces MMP-9 secretion"
-    },
-    {
-        "entities_involved": [
-            "MMPs",
-            "leukocytes"
-        ],
-        "interaction_type": "Secretion",
-        "interaction_details": "MMPs are primarily secreted by leukocytes"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "MMP secretion"
-        ],
-        "interaction_type": "Induction",
-        "interaction_details": "NS1 could induce MMP secretion in human leukocytes, peripheral blood mononuclear cells (PBMCs), and THP-1 human monocytes"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "MMP-9"
-        ],
-        "interaction_type": "Secretion",
-        "interaction_details": "NS1 induced MMP-9 secretion in freshly isolated leukocytes and PMA-activated THP-1 cells"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "MMP-8",
-            "MMP-9",
-            "TIMP-1"
-        ],
+        "subject": "recombinant MIF",
+        "object": "CD138 shedding and active HPA-1 level in HUVECs",
         "interaction_type": "Increase",
-        "interaction_details": "NS1 increased MMP-8, MMP-9, and TIMP-1 in the culture medium of THP-1 cells and leukocytes"
+        "Text": "The results show that MIF increased CD138 shedding and the active HPA-1 level in HUVECs."
     },
     {
-        "entities_involved": [
-            "NS1",
-            "pro-MMP-9",
-            "activated MMP-9"
-        ],
+        "subject": "MIF stimulation",
+        "object": "HPA-1 expression and CD138 deposition",
+        "interaction_type": "Increase",
+        "Text": "The increased HPA-1 expression and CD138 deposition after MIF stimulation could also be observed by immunofluorescence."
+    },
+    {
+        "subject": "NS1",
+        "object": "MMP-9 secretion",
+        "interaction_type": "Induction",
+        "Text": "DENV NS1 induces MMP-9 secretion in THP-1 cells and leukocytes."
+    },
+    {
+        "subject": "MMPs",
+        "object": "endothelial glycocalyx",
+        "interaction_type": "Degradation",
+        "Text": "Since MMPs can degrade the endothelial glycocalyx and several MMPs are upregulated during DENV infection [30, 31], we speculated that MMPs are involved in NS1-induced glycocalyx degradation."
+    },
+    {
+        "subject": "MMPs",
+        "object": "NS1",
+        "interaction_type": "Induction",
+        "Text": "we first examined whether NS1 induces MMP-9 secretion. However, we found that NS1 barely induced MMP-9 secretion in HUVECs."
+    },
+    {
+        "subject": "MMPs",
+        "object": "leukocytes",
         "interaction_type": "Secretion",
-        "interaction_details": "NS1 induced both THP-1 cells and leukocytes to secrete pro-MMP-9 and activated MMP-9"
+        "Text": "we tested whether NS1 could induce MMP secretion in human leukocytes, peripheral blood mononuclear cells (PBMCs), and THP-1 human monocytes."
     },
     {
-        "entities_involved": [
-            "NS1",
-            "MMP-9"
-        ],
-        "interaction_type": "Secretion",
-        "interaction_details": "NS1-induced MMP-9 secretion from THP-1 cells causes endothelial hyperpermeability and glycocalyx degradation."
+        "subject": "NS1",
+        "object": "MMP-9",
+        "interaction_type": "Induction",
+        "Text": "we found that NS1 induced MMP-9 secretion in freshly isolated leukocytes after 3 h of stimulation."
     },
     {
-        "entities_involved": [
-            "NS1",
-            "MIF"
-        ],
+        "subject": "NS1",
+        "object": "MMP-9",
+        "interaction_type": "Induction",
+        "Text": "Similarly, NS1 induced phorbol myristate acetate (PMA)-activated THP-1 cells to secrete MMP-9 after incubation for 3 h."
+    },
+    {
+        "subject": "NS1",
+        "object": "MMP-9",
         "interaction_type": "Activation",
-        "interaction_details": "NS1 induces the secretion of MIF from leukocytes and THP-1 cells."
+        "Text": "NS1 induces MMP-9 secretion from human leukocytes but not HUVECs."
     },
     {
-        "entities_involved": [
-            "NS1",
-            "MIF"
-        ],
+        "subject": "NS1",
+        "object": "MMP-9",
+        "interaction_type": "Secretion",
+        "Text": "NS1 induced MMP-9 secretion in freshly isolated leukocytes after 3 h of stimulation."
+    },
+    {
+        "subject": "NS1",
+        "object": "MMP-9",
+        "interaction_type": "Activation",
+        "Text": "Similarly, NS1 induced phorbol myristate acetate (PMA)-activated THP-1 cells to secrete MMP-9 after incubation for 3 h."
+    },
+    {
+        "subject": "NS1",
+        "object": "MMP-9",
+        "interaction_type": "Activation",
+        "Text": "DENV NS1-induced MMP-9 secretion from THP-1 cells increases endothelial permeability and glycocalyx degradation."
+    },
+    {
+        "subject": "NS1",
+        "object": "MMP-9",
+        "interaction_type": "secretion",
+        "Text": "To test whether the NS1-induced MMP-9 secretion of THP-1 cells causes endothelial hyperpermeability, the supernatant from NS1-treated THP-1 cells was incubated with HUVECs, and both permeability and CD138 shedding were examined."
+    },
+    {
+        "subject": "NS1",
+        "object": "MMP-2/MMP-9",
+        "interaction_type": "Inhibition",
+        "Text": "The results show that after 3 h of treatment, the supernatant from NS1-treated THP-1 cells increased endothelial permeability. This phenomenon was attenuated in the presence of the MMP-2/MMP-9 inhibitor SB-3CT and the MMP-9-specific inhibitor MMP-9 inhibitor I."
+    },
+    {
+        "subject": "NS1",
+        "object": "CD138",
+        "interaction_type": "shedding",
+        "Text": "Similarly, the supernatant from NS1-treated THP-1 cells also induced CD138 shedding from HUVECs, and this effect was diminished by SB-3CT and MMP-9 inhibitor I."
+    },
+    {
+        "subject": "NS1",
+        "object": "MIF",
+        "interaction_type": "secretion",
+        "Text": "MIF is required for DENV NS1-induced MMP-9 secretion. As MIF is a crucial mediator of NS1-induced vascular leakage and an upstream regulator of MMP-9, we tested whether NS1-induced MMP-9 secretion in leukocytes is also MIF dependent."
+    },
+    {
+        "subject": "NS1",
+        "object": "MIF",
+        "interaction_type": "Induction",
+        "Text": "To clarify whether NS1-induced MMP-9 secretion is mediated by MIF, the MIF inhibitor p425 and MIF short-hairpin RNA (shRNA) were used."
+    },
+    {
+        "subject": "MIF",
+        "object": "MMP-9",
         "interaction_type": "Regulation",
-        "interaction_details": "NS1-induced MMP-9 secretion is regulated by MIF"
+        "Text": "NS1-induced MMP-9 secretion from THP-1 cells is regulated by MIF."
     },
     {
-        "entities_involved": [
-            "NS1",
-            "MIF"
-        ],
+        "subject": "MIF",
+        "object": "HPA-1",
         "interaction_type": "Induction",
-        "interaction_details": "DENV NS1 induces MIF secretion in mice"
+        "Text": "DENV NS1 induces MIF, HPA-1, MMP-9 and CD138 secretion in mice."
     },
     {
-        "entities_involved": [
-            "NS1",
-            "HPA-1"
-        ],
-        "interaction_type": "Induction",
-        "interaction_details": "DENV NS1 induces HPA-1 secretion in mice"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "MMP-9"
-        ],
-        "interaction_type": "Induction",
-        "interaction_details": "DENV NS1 induces MMP-9 secretion in mice"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "CD138"
-        ],
-        "interaction_type": "Induction",
-        "interaction_details": "DENV NS1 induces CD138 secretion in mice"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "MIF"
-        ],
-        "interaction_type": "Stimulation",
-        "interaction_details": "DENV NS1 stimulation of endothelial cells and leukocytes inducing HPA-1 and MMP-9 secretion"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "TLR4"
-        ],
-        "interaction_type": "Binding",
-        "interaction_details": "Circulating DENV NS1 binding to endothelial cells via TLR4"
-    },
-    {
-        "entities_involved": [
-            "MIF",
-            "HPA-1"
-        ],
-        "interaction_type": "Activation",
-        "interaction_details": "MIF elevating the protein level of active HPA-1, causing glycocalyx digestion on the intravascular luminal surface of endothelial cells"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "TLR4"
-        ],
-        "interaction_type": "Binding",
-        "interaction_details": "NS1 binding to TLR4 on leukocytes to secrete MMP-9"
-    },
-    {
-        "entities_involved": [
-            "HPA-1",
-            "NS1"
-        ],
-        "interaction_type": "Activation",
-        "interaction_details": "NS1-induced glycocalyx degradation and hyperpermeability"
-    },
-    {
-        "entities_involved": [
-            "DENV infection",
-            "dendritic cells",
-            "MMP-9"
-        ],
-        "interaction_type": "Secretion",
-        "interaction_details": "DENV infection induces dendritic cells to secrete MMP-9"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "leukocytes"
-        ],
-        "interaction_type": "Secretion",
-        "interaction_details": "NS1 stimulation of leukocytes induces MMP-9 secretion"
-    },
-    {
-        "entities_involved": [
-            "DENV NS1",
-            "neutrophils"
-        ],
-        "interaction_type": "Induction",
-        "interaction_details": "DENV NS1 induces neutrophil extracellular traps containing MMP-9"
-    },
-    {
-        "entities_involved": [
-            "MIF",
-            "neutrophils",
-            "MMP-9"
-        ],
+        "subject": "MIF",
+        "object": "endothelial cells",
         "interaction_type": "Mediation",
-        "interaction_details": "MIF mediates the secretion of MMP-9 from neutrophils"
+        "Text": "These results suggest that MIF acts on both endothelial cells and leukocytes to mediate NS1-induced endothelial hyperpermeability."
     },
     {
-        "entities_involved": [
-            "NS1-stimulated neutrophils",
-            "MMP-9"
-        ],
-        "interaction_type": "Contribution",
-        "interaction_details": "NS1-stimulated neutrophils contribute to MMP-9 secretion in the blood"
+        "subject": "MIF",
+        "object": "glycocalyx",
+        "interaction_type": "Attenuation",
+        "Text": "MIF inhibition attenuates DENV NS1-induced glycocalyx degradation in mice."
     },
     {
-        "entities_involved": [
-            "MMP-9",
-            "dengue patients"
-        ],
-        "interaction_type": "Upregulation",
-        "interaction_details": "Concentrations of MMPs are increased in dengue patients, with MMP-9 upregulation positively correlated with disease severity and vascular leakage"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "leukocytes",
-            "MMP-8",
-            "TIMP-1"
-        ],
-        "interaction_type": "Upregulation",
-        "interaction_details": "NS1-stimulated leukocytes upregulate MMP-8 and TIMP-1"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "PBMCs"
-        ],
-        "interaction_type": "Induction",
-        "interaction_details": "NS1 induces PBMCs to secrete IL-6 and IL-8 via TLR4"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "leukocytes"
-        ],
+        "subject": "NS1",
+        "object": "MIF",
         "interaction_type": "Stimulation",
-        "interaction_details": "NS1-stimulation in leukocytes leads to rapid drop in IL-6 and IL-8 secretion"
+        "Text": "Nonstructural protein 1 (NS1) of dengue virus (DENV) can stimulate endothelial cells to secrete endothelial hyperpermeability factor, macrophage migration inhibitory factor (MIF), and the glycocalyx degradation factor heparanase 1 (HPA-1)."
     },
     {
-        "entities_involved": [
-            "NS1",
-            "leukocytes"
-        ],
+        "subject": "NS1",
+        "object": "HPA-1",
+        "interaction_type": "Stimulation",
+        "Text": "Nonstructural protein 1 (NS1) of dengue virus (DENV) can stimulate endothelial cells to secrete endothelial hyperpermeability factor, macrophage migration inhibitory factor (MIF), and the glycocalyx degradation factor heparanase 1 (HPA-1)."
+    },
+    {
+        "subject": "NS1",
+        "object": "MMP-9",
+        "interaction_type": "Stimulation",
+        "Text": "Next, we showed that the DENV NS1 stimulation of endothelial cells and leukocytes could induce HPA-1 and MMP-9 secretion, respectively, causing endothelial glycocalyx degradation and hyperpermeability."
+    },
+    {
+        "subject": "MIF",
+        "object": "CD138",
+        "interaction_type": "Positive correlation",
+        "Text": "In this study, we first observed that the concentrations of NS1, MIF, HPA-1, MMP-9 and CD138 in the serum of dengue patients were increased. However, only the concentrations of NS1 and MIF showed a positive correlation with CD138 in severe dengue patients."
+    },
+    {
+        "subject": "NS1",
+        "object": "HPA-1",
+        "interaction_type": "Dependent",
+        "Text": "Most importantly, both in vitro and in vivo data showed that dengue NS1-induced HPA-1 and MMP-9 secretion was MIF dependent."
+    },
+    {
+        "subject": "NS1",
+        "object": "MMP-9",
+        "interaction_type": "Dependent",
+        "Text": "Most importantly, both in vitro and in vivo data showed that dengue NS1-induced HPA-1 and MMP-9 secretion was MIF dependent."
+    },
+    {
+        "subject": "HPA-1",
+        "object": "NS1",
+        "interaction_type": "Degradation",
+        "Text": "Previously, Puerta-Guardo et al. showed that HPA-1 is involved in NS1-induced glycocalyx degradation and hyperpermeability [18]."
+    },
+    {
+        "subject": "MMP-9",
+        "object": "endothelial glycocalyx",
+        "interaction_type": "Degradation",
+        "Text": "However, MMPs were not discussed in the mechanism, even though they are the main enzymes that degrade endothelial glycocalyx [11, 12]."
+    },
+    {
+        "subject": "DENV infection",
+        "object": "dendritic cells",
+        "interaction_type": "Induction",
+        "Text": "It is known that DENV infection induces dendritic cells to secrete MMP-9 [31]."
+    },
+    {
+        "subject": "NS1",
+        "object": "leukocytes",
+        "interaction_type": "Stimulation",
+        "Text": "In this study, we further demonstrated that the NS1 stimulation of leukocytes but not endothelial cells nor PBMCs could induce MMP-9 secretion."
+    },
+    {
+        "subject": "DENV NS1",
+        "object": "neutrophil extracellular traps",
+        "interaction_type": "Induction",
+        "Text": "It is known that DENV NS1 can induce neutrophil extracellular traps, which results in the release of tertiary granules containing MMP-9 [37, 38]."
+    },
+    {
+        "subject": "MIF",
+        "object": "neutrophils",
+        "interaction_type": "Mediation",
+        "Text": "A previous study has also shown that MIF can mediate the secretion of MMP-9 from neutrophils [39]."
+    },
+    {
+        "subject": "NS1",
+        "object": "neutrophils",
+        "interaction_type": "Induction",
+        "Text": "Since neutrophils are a major population of leukocytes, taken together, these results suggest that NS1-stimulated neutrophils may represent the main contributors to MMP-9 secretion in the blood."
+    },
+    {
+        "subject": "MMP-9",
+        "object": "dengue patients",
+        "interaction_type": "Upregulation",
+        "Text": "Interestingly, although it has been shown in previous studies that the concentrations of MMPs are increased in dengue patients [13, 32] and MMP-9 upregulation is positively correlated with the disease severity and vascular leakage of dengue [31, 32, 42, 43], we observed a significant increase in the serum level of MMP-9 only in dengue patients with warning signs, not in severe dengue patients."
+    },
+    {
+        "subject": "NS1",
+        "object": "mice",
+        "interaction_type": "Challenge",
+        "Text": "From the in vivo mouse study, we noticed that the secretion of MMP-9 occurred within a smaller time window than that of HPA-1 in mice after NS1 challenge."
+    },
+    {
+        "subject": "TIMP-1",
+        "object": "MMP-9",
+        "interaction_type": "Inhibition",
+        "Text": "TIMP-1, which is a potent inhibitor of MMPs, can form a complex with pro-MMP-9 at a 1:1 stoichiometric relationship to inhibit its activation [44, 45]."
+    },
+    {
+        "subject": "NS1",
+        "object": "PBMCs",
+        "interaction_type": "Induction",
+        "Text": "A previous study has shown that NS1 can induce PBMCs to secrete IL-6 and IL-8 via Toll-like receptor 4 (TLR4), leading to vascular leakage [16]."
+    },
+    {
+        "subject": "NS1",
+        "object": "IL-6",
+        "interaction_type": "Stimulation",
+        "Text": "A previous study has shown that NS1 can induce PBMCs to secrete IL-6 and IL-8 via Toll-like receptor 4 (TLR4), leading to vascular leakage [16]."
+    },
+    {
+        "subject": "NS1",
+        "object": "IL-8",
+        "interaction_type": "Stimulation",
+        "Text": "A previous study has shown that NS1 can induce PBMCs to secrete IL-6 and IL-8 via Toll-like receptor 4 (TLR4), leading to vascular leakage [16]."
+    },
+    {
+        "subject": "NS1",
+        "object": "MIF",
         "interaction_type": "Accumulation",
-        "interaction_details": "MIF steadily accumulates in the supernatant of leukocyte cultures after NS1 treatment"
+        "Text": "In contrast, MIF steadily accumulated in the supernatant of leukocyte cultures after NS1 treatment, and the concentration of MIF was higher than that of IL-6 and IL-8 (S7 Fig)."
     },
     {
-        "entities_involved": [
-            "NS1",
-            "endothelial cells"
-        ],
+        "subject": "NS1",
+        "object": "IL-6",
+        "interaction_type": "Speculation",
+        "Text": "As NS1 needs at least 24 h to induce endothelial glycocalyx degradation (Fig 3A), we speculated that IL-6 and IL-8 are not very involved in NS1-induced endothelial glycocalyx degradation."
+    },
+    {
+        "subject": "NS1",
+        "object": "IL-8",
+        "interaction_type": "Speculation",
+        "Text": "As NS1 needs at least 24 h to induce endothelial glycocalyx degradation (Fig 3A), we speculated that IL-6 and IL-8 are not very involved in NS1-induced endothelial glycocalyx degradation."
+    },
+    {
+        "subject": "NS1",
+        "object": "HMEC-1 human endothelial cells",
         "interaction_type": "Induction",
-        "interaction_details": "NS1 induces endothelial cells to secrete MIF"
+        "Text": "which found that DENV NS1 does not induce HMEC-1 human endothelial cells to secrete TNF-\u03b1, IL-6 or IL-8 and that blocking these cytokines does not affect DENV NS1-induced endothelial hyperpermeability [48]."
     },
     {
-        "entities_involved": [
-            "NS1",
-            "endothelial cells"
-        ],
+        "subject": "NS1",
+        "object": "TNF-\u03b1",
         "interaction_type": "Induction",
-        "interaction_details": "NS1 induces endothelial cells to secrete HPA-1"
+        "Text": "which found that DENV NS1 does not induce HMEC-1 human endothelial cells to secrete TNF-\u03b1, IL-6 or IL-8 and that blocking these cytokines does not affect DENV NS1-induced endothelial hyperpermeability [48]."
     },
     {
-        "entities_involved": [
-            "MIF",
-            "MMP-9"
-        ],
+        "subject": "NS1",
+        "object": "CD138",
+        "interaction_type": "Shedding",
+        "Text": "In addition, we further demonstrated that both the secretion of HPA-1 and the shedding of CD138 induced by NS1-stimulation of endothelial cells are mediated by MIF."
+    },
+    {
+        "subject": "MIF",
+        "object": "MMP-9",
         "interaction_type": "Regulation",
-        "interaction_details": "MIF regulates the secretion of MMP-9"
+        "Text": "Due to MIF regulating the secretion of both MMP-9 and HPA-1 and because CD138 shedding was also directly affected by MIF signaling, MIF may be an upstream regulator of DENV NS1-induced glycocalyx degradation."
     },
     {
-        "entities_involved": [
-            "MIF",
-            "HPA-1"
-        ],
+        "subject": "MIF",
+        "object": "HPA-1",
         "interaction_type": "Regulation",
-        "interaction_details": "MIF regulates the secretion of HPA-1"
+        "Text": "Due to MIF regulating the secretion of both MMP-9 and HPA-1 and because CD138 shedding was also directly affected by MIF signaling, MIF may be an upstream regulator of DENV NS1-induced glycocalyx degradation."
     },
     {
-        "entities_involved": [
-            "MIF",
-            "CD138"
-        ],
-        "interaction_type": "Regulation",
-        "interaction_details": "MIF affects CD138 shedding"
-    },
-    {
-        "entities_involved": [
-            "MIF",
-            "MMP-9"
-        ],
+        "subject": "MIF",
+        "object": "MMP-9",
         "interaction_type": "Inhibition",
-        "interaction_details": "MIF inhibition attenuates NS1-induced MMP-9 secretion"
+        "Text": "from our in vivo study, we also noticed that NS1-induced MMP-9 secretion and CD138 shedding were significantly attenuated by MIF inhibition, whereas the attenuation of HPA-1 secretion was not as significant."
     },
     {
-        "entities_involved": [
-            "MIF",
-            "CD138"
-        ],
-        "interaction_type": "Inhibition",
-        "interaction_details": "MIF inhibition attenuates NS1-induced CD138 shedding"
+        "subject": "MIF",
+        "object": "CD138",
+        "interaction_type": "Affect",
+        "Text": "from our in vivo study, we also noticed that NS1-induced MMP-9 secretion and CD138 shedding were significantly attenuated by MIF inhibition, whereas the attenuation of HPA-1 secretion was not as significant."
     },
     {
-        "entities_involved": [
-            "MIF",
-            "HPA-1"
-        ],
-        "interaction_type": "Inhibition",
-        "interaction_details": "MIF inhibition attenuates NS1-induced HPA-1 secretion"
+        "subject": "MIF",
+        "object": "MMP-9",
+        "interaction_type": "Secretion",
+        "Text": "from our in vivo study, we also noticed that NS1-induced MMP-9 secretion and CD138 shedding were significantly attenuated by MIF inhibition, whereas the attenuation of HPA-1 secretion was not as significant."
     },
     {
-        "entities_involved": [
-            "NS1",
-            "TLR4"
-        ],
+        "subject": "NS1",
+        "object": "TLR4",
         "interaction_type": "Binding",
-        "interaction_details": "NS1 binds to the TLR4 of leukocytes"
+        "Text": "DENV NS1 may bind to the TLR4 of leukocytes, inducing the secretion of cytokines and MMPs, or it may directly bind to endothelial cells, inducing the secretion of HPA-1, both of which can cause glycocalyx degradation and subsequent vascular leakage."
     },
     {
-        "entities_involved": [
-            "NS1",
-            "endothelial cells"
-        ],
+        "subject": "MIF",
+        "object": "CD74",
         "interaction_type": "Binding",
-        "interaction_details": "NS1 directly binds to endothelial cells"
+        "Text": "MIF is also known to activate NF-\u03baB signaling through binding to CD74 [49]."
     },
     {
-        "entities_involved": [
-            "DENV infection",
-            "endothelial glycocalyx"
-        ],
-        "interaction_type": "Degradation",
-        "interaction_details": "DENV infection-induced endothelial glycocalyx degradation"
+        "subject": "DENV infection",
+        "object": "endothelial glycocalyx",
+        "interaction_type": "degradation",
+        "Text": "The aim of this study was to clarify the mechanism of DENV infection-induced endothelial glycocalyx degradation."
     },
     {
-        "entities_involved": [
-            "glycocalyx degradation",
-            "MIF secretion"
-        ],
+        "subject": "clinical samples",
+        "object": "MIF",
+        "interaction_type": "correlation",
+        "Text": "From analyzing clinical samples, we correlated glycocalyx degradation to MIF secretion."
+    },
+    {
+        "subject": "MIF",
+        "object": "glycocalyx degradation",
+        "interaction_type": "mediation",
+        "Text": "By applying the results from other studies, we hypothesized that HPA-1 or MMP-9 was involved in MIF-mediated glycocalyx degradation in dengue."
+    },
+    {
+        "subject": "NS1",
+        "object": "endothelial cells",
+        "interaction_type": "stimulation",
+        "Text": "This hypothesis was examined via in vitro experiments, which were carried out by recombinant NS1 stimulation, as it was indicated as an important effector in severe dengue."
+    },
+    {
+        "subject": "NS1",
+        "object": "leukocytes",
+        "interaction_type": "effects",
+        "Text": "Since the interaction between different cell types is critical under physiological conditions, we assessed the DENV NS1-induced effects on both endothelial cells and leukocytes."
+    },
+    {
+        "subject": "MMPs",
+        "object": "mechanism",
+        "interaction_type": "involvement",
+        "Text": "To further elucidate the involvement of MMPs in this mechanism, MMP antibody array and gelatin zymography assays were performed."
+    },
+    {
+        "subject": "NS1",
+        "object": "endothelial glycocalyx",
+        "interaction_type": "degradation",
+        "Text": "Subsequently, recombinant NS1 was injected into mice systemically or locally to confirm the involvement of MIF, HPA-1 and MMP-9 in NS1-induced endothelial glycocalyx degradation and hyperpermeability in vivo."
+    },
+    {
+        "subject": "NS1",
+        "object": "MIF",
+        "interaction_type": "Inhibition",
+        "Text": "To inhibit MIF activity, HUVECs were cotreated for 24 h with NS1 and either 100 \u03bcM p425 (6,6\u02b9-[(3,3-dimethoxy[1,1\u02b9-biphenyl]-4,4\u02b9-diyl)bis(azo)]bis[4-amino-5-hydroxy-1,3-napthalenedisulphonic acid] tetrasodium salt; Calbiochem, La Jolla, CA, USA) or 50 \u03bcM ISO-1 ((S,R)-3-(4-hydroxyphenyl)-4,5-dihydro-5-isoxazole acetic acid; Calbiochem)."
+    },
+    {
+        "subject": "NS1",
+        "object": "HPA-1",
+        "interaction_type": "Inhibition",
+        "Text": "To inhibit HPA-1, OGT 2115 (Tocris Bioscience, Bristol, UK) was used at the indicated concentration."
+    },
+    {
+        "subject": "NS1",
+        "object": "MMP-9",
+        "interaction_type": "Inhibition",
+        "Text": "To inhibit MMP-9, SB-3CT (Abcam, Cambridge, UK) and MMP-9 inhibitor I (Santa Cruz, Dallas, TX, USA) were used at the indicated concentrations."
+    },
+    {
+        "subject": "NS1",
+        "object": "HUVECs",
+        "interaction_type": "Stimulation",
+        "Text": "A Transwell permeability assay was performed as described in a previous study [58]. HUVECs (2 x 105) were grown on a Transwell insert (0.4 \u03bcm; Corning Life Sciences, Corning, NY, USA) until a monolayer formed. The upper chambers were reconstituted with 20 \u03bcg/ml NS1, culture supernatant from NS1-activated THP-1 cells, or the inhibitor-containing medium."
+    },
+    {
+        "subject": "NS1",
+        "object": "endothelial glycocalyx",
+        "interaction_type": "Stimulation",
+        "Text": "To measure the integrity of the endothelial glycocalyx and the deposition of CD138, the expression of sialic acid was stained with wheat germ agglutinin (WGA) lectin conjugated to FITC (WGA-FITC, Genetex) and the distribution of HPA-1 and CD138 was detected by anti-mouse-CD138 mAb (BD, Franklin Lakes, NJ, USA) or rabbit anti-HPA-1 polyclonal antibody (GeneTex)."
+    },
+    {
+        "subject": "NS1",
+        "object": "MMP",
+        "interaction_type": "Stimulation",
+        "Text": "The human MMP antibody array (Abcam) was used according to the manufacturer\u2019s instructions. Briefly, array membranes were incubated in equal quantities of the culture supernatant from PBS- or NS1-treated THP-1 cells or NS1-treated leukocytes for 24 h overnight at 4\u00b0C."
+    },
+    {
+        "subject": "NS1",
+        "object": "MMP",
+        "interaction_type": "Activation",
+        "Text": "MMP activity in the culture supernatant was assayed by gelatin zymography using 7.5% acrylamide gel containing gelatin [59]. Briefly, the culture supernatant of NS1-treated THP-1 cells or leukocytes was concentrated."
+    },
+    {
+        "subject": "NS1",
+        "object": "MIF",
+        "interaction_type": "Stimulation",
+        "Text": "DENV NS1-induced MIF, HPA-1, MMP-9 and CD138 secretion in mice"
+    },
+    {
+        "subject": "NS1",
+        "object": "MIF",
+        "interaction_type": "Stimulation",
+        "Text": "Nonstructural protein 1 (NS1) of dengue virus (DENV) can stimulate endothelial cells to secrete endothelial hyperpermeability factor, macrophage migration inhibitory factor (MIF), and the glycocalyx degradation factor heparanase 1 (HPA-1)."
+    },
+    {
+        "subject": "NS1",
+        "object": "HPA-1",
+        "interaction_type": "Stimulation",
+        "Text": "Nonstructural protein 1 (NS1) of dengue virus (DENV) can stimulate endothelial cells to secrete endothelial hyperpermeability factor, macrophage migration inhibitory factor (MIF), and the glycocalyx degradation factor heparanase 1 (HPA-1)."
+    },
+    {
+        "subject": "NS1",
+        "object": "MMP",
+        "interaction_type": "Stimulation",
+        "Text": "Nonstructural protein 1 (NS1) of dengue virus (DENV) can stimulate endothelial cells to secrete endothelial hyperpermeability factor, macrophage migration inhibitory factor (MIF), and the glycocalyx degradation factor heparanase 1 (HPA-1)."
+    },
+    {
+        "subject": "NS1",
+        "object": "CD138",
+        "interaction_type": "Induction",
+        "Text": "To further confirm that NS1 induced CD138 shedding in endothelial cells in mice, 50 \u03bcg of recombinant NS1, E or prM protein or 50 \u03bcl of PBS was subcutaneously injected into 8- to 12-week-old BALB/c mice, followed by a second injection of an equal amount of recombinant proteins or PBS 24 h after the first injection at the same site."
+    },
+    {
+        "subject": "DENV NS1",
+        "object": "HPA-1",
+        "interaction_type": "Activation",
+        "Text": "DENV NS1 induces HPA-1 activation and vascular leakage."
+    },
+    {
+        "subject": "DENV NS1",
+        "object": "MIF",
+        "interaction_type": "Secretion",
+        "Text": "DENV NS1-induced MIF secretion causes glycocalyx degradation and hyperpermeability in HUVECs."
+    },
+    {
+        "subject": "MIF",
+        "object": "HPA-1",
+        "interaction_type": "Activation",
+        "Text": "MIF induces HPA-1 activation and glycocalyx shedding in HUVECs."
+    },
+    {
+        "subject": "DENV NS1",
+        "object": "MMP-9",
+        "interaction_type": "Secretion",
+        "Text": "DENV NS1 does not induce MIF and MMP-9 secretion in PBMCs."
+    },
+    {
+        "subject": "DENV NS1",
+        "object": "MMP-9",
+        "interaction_type": "Secretion",
+        "Text": "DENV NS1-induced MMP-9 secretion from WBCs causes endothelial hyperpermeability."
+    },
+    {
+        "subject": "DENV NS1",
+        "object": "WBCs",
+        "interaction_type": "Stimulation",
+        "Text": "Cytokine secretion profile of WBCs and THP-1 cells after DENV NS1 stimulation."
+    },
+    {
+        "subject": "DENV NS1",
+        "object": "MIF",
+        "interaction_type": "Mediation",
+        "Text": "DENV NS1-induced endothelial hyperpermeability is mediated by MIF."
+    },
+    {
+        "subject": "MIF",
+        "object": "NS1",
+        "interaction_type": "Inhibition",
+        "Text": "Inhibition of MIF and MMP-9 attenuate NS1-induced vascular leakage in mice."
+    },
+    {
+        "subject": "HPA-1",
+        "object": "NS1",
         "interaction_type": "Correlation",
-        "interaction_details": "correlated glycocalyx degradation to MIF secretion"
-    },
-    {
-        "entities_involved": [
-            "MIF",
-            "HPA-1",
-            "MMP-9"
-        ],
-        "interaction_type": "Hypothesis",
-        "interaction_details": "hypothesized involvement of HPA-1 or MMP-9 in MIF-mediated glycocalyx degradation in dengue"
-    },
-    {
-        "entities_involved": [
-            "recombinant NS1",
-            "severe dengue"
-        ],
-        "interaction_type": "Stimulation",
-        "interaction_details": "recombinant NS1 stimulation indicated as an important effector in severe dengue"
-    },
-    {
-        "entities_involved": [
-            "DENV NS1",
-            "endothelial cells",
-            "leukocytes"
-        ],
-        "interaction_type": "Effect",
-        "interaction_details": "assessed DENV NS1-induced effects on both endothelial cells and leukocytes"
-    },
-    {
-        "entities_involved": [
-            "MMPs",
-            "mechanism"
-        ],
-        "interaction_type": "Involvement",
-        "interaction_details": "elucidated the involvement of MMPs in the mechanism"
-    },
-    {
-        "entities_involved": [
-            "MIF",
-            "HPA-1",
-            "MMP-9",
-            "endothelial glycocalyx"
-        ],
-        "interaction_type": "Degradation",
-        "interaction_details": "confirmed involvement of MIF, HPA-1, and MMP-9 in NS1-induced endothelial glycocalyx degradation and hyperpermeability in vivo"
-    },
-    {
-        "entities_involved": [
-            "MIF",
-            "HUVECs"
-        ],
-        "interaction_type": "Inhibition",
-        "interaction_details": "To inhibit MIF activity, HUVECs were cotreated for 24 h with NS1 and either 100 \u03bcM p425 or 50 \u03bcM ISO-1."
-    },
-    {
-        "entities_involved": [
-            "HPA-1",
-            "OGT 2115"
-        ],
-        "interaction_type": "Inhibition",
-        "interaction_details": "To inhibit HPA-1, OGT 2115 was used at the indicated concentration."
-    },
-    {
-        "entities_involved": [
-            "MMP-9",
-            "SB-3CT"
-        ],
-        "interaction_type": "Inhibition",
-        "interaction_details": "To inhibit MMP-9, SB-3CT was used at the indicated concentration."
-    },
-    {
-        "entities_involved": [
-            "MMP-9",
-            "MMP-9 inhibitor I"
-        ],
-        "interaction_type": "Inhibition",
-        "interaction_details": "To inhibit MMP-9, MMP-9 inhibitor I was used at the indicated concentration."
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "HUVECs"
-        ],
-        "interaction_type": "Stimulation",
-        "interaction_details": "NS1 stimulation on HUVECs in Transwell insert assay"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "THP-1 cells"
-        ],
-        "interaction_type": "Stimulation",
-        "interaction_details": "NS1 stimulation on THP-1 cells leading to culture supernatant collection"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "inhibitor"
-        ],
-        "interaction_type": "Inhibition",
-        "interaction_details": "NS1 inhibition using inhibitor-containing medium"
-    },
-    {
-        "entities_involved": [
-            "streptavidin-HRP",
-            "serum-free media"
-        ],
-        "interaction_type": "Addition",
-        "interaction_details": "Addition of streptavidin-HRP to serum-free media in the upper chamber"
-    },
-    {
-        "entities_involved": [
-            "streptavidin-HRP",
-            "medium"
-        ],
-        "interaction_type": "Collection",
-        "interaction_details": "Collection of medium from lower chamber after addition of streptavidin-HRP"
-    },
-    {
-        "entities_involved": [
-            "HRP",
-            "TMB substrate"
-        ],
-        "interaction_type": "Reaction",
-        "interaction_details": "HRP activity assay using TMB substrate"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "HUVECs"
-        ],
-        "interaction_type": "Stimulation",
-        "interaction_details": "NS1-induced MIF, HPA-1, MMP-9, and CD138 secretion in mice"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "CD138"
-        ],
-        "interaction_type": "Induction",
-        "interaction_details": "NS1 induced CD138 shedding in endothelial cells in mice."
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "MIF"
-        ],
-        "interaction_type": "Binding",
-        "interaction_details": null
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "HPA-1"
-        ],
-        "interaction_type": "Binding",
-        "interaction_details": null
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "MMP"
-        ],
-        "interaction_type": "Binding",
-        "interaction_details": null
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "CD138"
-        ],
-        "interaction_type": "Binding",
-        "interaction_details": null
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "MIF"
-        ],
-        "interaction_type": "Binding",
-        "interaction_details": null
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "HPA-1"
-        ],
-        "interaction_type": "Binding",
-        "interaction_details": null
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "MMP-9"
-        ],
-        "interaction_type": "Binding",
-        "interaction_details": null
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "HPA-1"
-        ],
-        "interaction_type": "Activation",
-        "interaction_details": "DENV NS1 induces HPA-1 activation and vascular leakage."
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "MIF"
-        ],
-        "interaction_type": "Secretion",
-        "interaction_details": "DENV NS1-induced MIF secretion causes glycocalyx degradation and hyperpermeability in HUVECs."
-    },
-    {
-        "entities_involved": [
-            "MIF",
-            "HPA-1"
-        ],
-        "interaction_type": "Activation",
-        "interaction_details": "MIF induces HPA-1 activation and glycocalyx shedding in HUVECs."
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "MMP-9"
-        ],
-        "interaction_type": "Secretion",
-        "interaction_details": "DENV NS1 does not induce MIF and MMP-9 secretion in PBMCs."
-    },
-    {
-        "entities_involved": [
-            "MMP-9",
-            "WBCs"
-        ],
-        "interaction_type": "Secretion",
-        "interaction_details": "DENV NS1-induced MMP-9 secretion from WBCs causes endothelial hyperpermeability."
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "WBCs",
-            "THP-1 cells"
-        ],
-        "interaction_type": "Stimulation",
-        "interaction_details": "Cytokine secretion profile of WBCs and THP-1 cells after DENV NS1 stimulation."
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "MIF"
-        ],
-        "interaction_type": "Mediation"
-    },
-    {
-        "entities_involved": [
-            "MIF",
-            "MMP-9"
-        ],
-        "interaction_type": "Inhibition"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "MMP-9"
-        ],
-        "interaction_type": "Inhibition"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "MIF"
-        ],
-        "interaction_type": "Correlation"
-    },
-    {
-        "entities_involved": [
-            "NS1",
-            "HPA-1"
-        ],
-        "interaction_type": "Correlation"
-    },
-    {
-        "entities_involved": [
-            "MIF",
-            "HPA-1"
-        ],
-        "interaction_type": "Correlation"
+        "Text": "The correlations of serum levels of HPA-1 with NS1 and MIF in severe dengue patients."
     }
 ]
