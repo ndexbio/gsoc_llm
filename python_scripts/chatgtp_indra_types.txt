@@ -1,0 +1,34 @@
+INDRA (Integrated Network and Dynamical Reasoning Assembler) is a system for assembling mechanistic models from biological literature and databases. The interaction types used in the INDRA knowledge representation schema include:
+
+1. **Activation**: A process where one entity increases the activity of another.
+2. **Inhibition**: A process where one entity decreases the activity of another.
+3. **Phosphorylation**: The addition of a phosphate group to a protein or other organic molecule, typically altering the function or activity of the molecule.
+4. **Dephosphorylation**: The removal of a phosphate group from a molecule.
+5. **Ubiquitination**: The addition of ubiquitin to a protein, often marking it for degradation.
+6. **Deubiquitination**: The removal of ubiquitin from a protein.
+7. **Complex Formation**: The process where two or more molecules bind together to form a complex.
+8. **Complex Dissociation**: The process where a complex breaks apart into its constituent molecules.
+9. **Gene Expression**: The process where information from a gene is used to synthesize a functional gene product, typically a protein.
+10. **Transcription**: The process of copying a segment of DNA into RNA.
+11. **Translation**: The process of synthesizing a protein from an mRNA template.
+12. **Degradation**: The breakdown of a molecule into smaller components.
+13. **Synthesis**: The creation of a molecule from smaller precursors.
+14. **Transport**: The movement of a molecule from one location to another within the cell or across cell membranes.
+15. **Binding**: The interaction of two molecules resulting in a stable association.
+16. **Modification**: Any form of post-translational modification other than phosphorylation, ubiquitination, or dephosphorylation.
+17. **Mutual Regulation**: A process where two entities regulate each other's activity in a bidirectional manner.
+18. **Autophosphorylation**: The phosphorylation of an enzyme by itself.
+19. **Autodephosphorylation**: The removal of a phosphate group by the enzyme itself.
+20. **Autoubiquitination**: The ubiquitination of a protein by itself.
+21. **Autodeubiquitination**: The removal of ubiquitin from a protein by itself.
+22. **Hydroxylation**: The addition of a hydroxyl group to a molecule.
+23. **Methylation**: The addition of a methyl group to a molecule.
+24. **Demethylation**: The removal of a methyl group from a molecule.
+25. **Acetylation**: The addition of an acetyl group to a molecule.
+26. **Deacetylation**: The removal of an acetyl group from a molecule.
+27. **Palmitoylation**: The addition of a palmitoyl group to a molecule.
+28. **Depalmitoylation**: The removal of a palmitoyl group from a molecule.
+29. **SUMOylation**: The addition of a small ubiquitin-like modifier (SUMO) to a protein.
+30. **Desumoylation**: The removal of a small ubiquitin-like modifier (SUMO) from a protein.
+
+These interaction types enable the representation of a wide range of biological processes and mechanisms, allowing INDRA to capture complex biological interactions and assemble them into coherent models.
