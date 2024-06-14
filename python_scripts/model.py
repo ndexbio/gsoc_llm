@@ -23,17 +23,6 @@ rate_limit_per_minute = 3
 delay = 60.0 / rate_limit_per_minute
 
 
-# Define Pydantic models for the data we want to extract
-# class Interaction(BaseModel):
-#     """Information about molecular interactions mentioned."""
-#     entities_involved: List[str] = Field(..., description="List of entities involved where the first entity is the \
-#         subject interacting with the second entity which is the object")
-#     interaction_type: str = Field(..., description="This shows the activity or type of interaction going on between \
-#        the subject and the object")
-#     interaction_details: str = Field(..., description="This is the exact sentence from which the interacting entities\
-#         are extracted from and the interaction type between the entities. The sentence should not be paraphrased")
-
-
 class Interaction(BaseModel):
     """Information about molecular interactions mentioned."""
     subject: str = Field(..., description="Entity that is the first involved in the interaction")
@@ -41,6 +30,11 @@ class Interaction(BaseModel):
     interaction_type: str = Field(..., description="This shows the activity or type of interaction going on between the\
         subject and the object")
     Text: str = Field(..., description="The exact sentence from which the interacting subject and object is taken from")
+    direct: str = Field(..., description="This captures where there is a physical interaction between the subject and \
+        object. If there is a physical relationship, then response is True. Otherwise, response is False")
+    hypothesis: str = Field(..., description="This captures if an interaction is known (from previous or the current \
+        study) versus the authors think it might exist but have not verified it. If suggested by authors, then true. \
+            Otherwise, response is false")
 
 
 class Molecular_Interactions(BaseModel):
