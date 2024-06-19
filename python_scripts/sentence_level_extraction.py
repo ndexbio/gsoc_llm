@@ -1,7 +1,8 @@
 import json
 import time
+from read_pdf import read_pdf
 from get_interactions import extraction_chain
-from indra_nxml_extraction import extract_text, get_xml_from_file
+# from indra_nxml_extraction import extract_text, get_xml_from_file
 import spacy
 from langchain.schema.runnable import RunnableLambda
 
@@ -9,8 +10,10 @@ from langchain.schema.runnable import RunnableLambda
 start_time = time.time()
 
 # Define a function to extract text from XML
-xml_string = get_xml_from_file("/Users/favourjames/Downloads/gsoc_llm/results/pmc6044858/output.xml")
-text = extract_text(xml_string)
+# xml_string = get_xml_from_file("/Users/favourjames/Downloads/gsoc_llm/results/pmc6044858/output.xml")
+# text = extract_text(xml_string)
+
+text = read_pdf("/Users/favourjames/Downloads/gsoc_llm/papers/pmid13086.pdf")
 
 
 # Define a function to flatten a 2D list (matrix) into a 1D list (flat list).
@@ -45,7 +48,7 @@ chain = prep | extraction_chain.map() | flatten
 results = chain.invoke(text)
 
 json_output = json.dumps(results, indent=4)
-with open('results/pmc6044858/sentence_output_direct.json', 'w') as file:
+with open('results/pmc333362/output.json', 'w') as file:
     file.write(json_output)
 
 end_time = time.time()

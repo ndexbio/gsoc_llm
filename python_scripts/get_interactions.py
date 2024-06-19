@@ -7,9 +7,9 @@ warnings.filterwarnings("ignore")
 #explain what subject, object, interaction type, hypothesis, direct
 # Write a prompt for extracting molecular interactions
 template = """
-Extract all molecular interactions from the provided scientific text. The subject should be the first entity 
-interacting with the second entity which is the object. Then the activity between the two entities should be the 
-interaction type. For the interaction types, you should make use of the interaction types present in the 
+Extract all molecular interactions from the provided scientific text. The subject should be the first molecular entity 
+interacting with the second molecular entity which is the object. Then the activity between the two entities should be 
+the interaction type. For the interaction types, you should make use of the interaction types present in the 
 indra database, that is, you should use the same names used to describe interaction types in Indra database 
 interactions. The results should look like the examples below:
       "type": "Activation",
@@ -45,7 +45,8 @@ interacting with the obj, then the text is the the sentence from which the inter
 do not paraphrase the sentences, it should be exactly the same sentence that is passed to the chain. 
 Also extract responses for the direct and hypothesis variable. Direct is true if there is a direct \
 relationship/interaction between the subject and object. Then hypothesis is true if the interaction is suggested \
-by the authors.
+by the authors. Please note the examples were just randomly gotten from the results of a paper, you are not supposed to 
+include those examples in the results if you don't specifically see them in the uploaded text.
 """
 #only use the indra database interaction types
 #hypothesis: hypothesis is true if the interaction is only suggested.

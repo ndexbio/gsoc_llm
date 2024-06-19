@@ -1,7 +1,7 @@
 import requests 
 from indra_nxml_extraction import get_xml, extract_text
 
-pmc_id = "PMC6044858" 
+pmc_id = "PMC6044858"
 
 if pmc_id.upper().startswith('PMC'):
     pmc_id = pmc_id[3:]
@@ -25,4 +25,4 @@ with open("results/pmc6044858/output.xml", "w") as file:
 
 # xml_string = get_xml_from_file("PMC6070353.xml")
 # text = extract_text(xml_string)
-lines = text.splitlines()
+# lines = text.splitlines()

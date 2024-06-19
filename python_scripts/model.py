@@ -29,10 +29,10 @@ class Interaction(BaseModel):
     object: str = Field(..., description="Entity that is the second involved in the interaction")
     interaction_type: str = Field(..., description="This shows the activity or type of interaction going on between the\
         subject and the object")
-    Text: str = Field(..., description="The exact sentence from which the interacting subject and object is taken from")
-    direct: str = Field(..., description="This captures where there is a physical interaction between the subject and \
+    text: str = Field(..., description="The exact sentence from which the interacting subject and object is taken from")
+    direct: bool = Field(..., description="This captures where there is a physical interaction between the subject and \
         object. If there is a physical relationship, then response is True. Otherwise, response is False")
-    hypothesis: str = Field(..., description="This captures if an interaction is known (from previous or the current \
+    hypothesis: bool = Field(..., description="This captures if an interaction is known (from previous or the current \
         study) versus the authors think it might exist but have not verified it. If suggested by authors, then true. \
             Otherwise, response is false")
 
@@ -47,7 +47,7 @@ paper_extraction_function = [
 ]
 
 # Define model for extraction
-model = delayed_completion(delay_in_seconds=delay, model="gpt-3.5-turbo",
+model = delayed_completion(delay_in_seconds=delay, model="gpt-4-turbo",
                            temperature=0, openai_api_key=OPENAI_API_KEY)
 
 
