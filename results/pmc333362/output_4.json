@@ -1,0 +1,1282 @@
+[
+    {
+        "subject": "catecholamine",
+        "object": "adenylate cyclase",
+        "interaction_type": "unknown",
+        "text": "The molecular basis for the aberrant catecholamine responsiveness of the adenylate cyclase of adrenocortical carcinoma 494 was explored.",
+        "direct": true,
+        "hypothesis": true
+    },
+    {
+        "subject": "adrenocorticotropic hormone",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "The adenylate cyclase of this corticosteroid-producing, transplanted, adrenal cancer of the rat was stimulated not only by adrenocorticotropic hormone and fluoride, but also by the f8-adrenergic agonist, isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isoproterenol",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "The adenylate cyclase of this corticosteroid-producing, transplanted, adrenal cancer of the rat was stimulated not only by adrenocorticotropic hormone and fluoride, but also by the f8-adrenergic agonist, isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isoproterenol",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "The adenylate cyclase of normal adrenal tissue was unresponsive to isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(-)[3H]dihydroalprenolol",
+        "object": "tumor membrane protein",
+        "interaction_type": "binding",
+        "text": "Direct binding studies with the specific high affinity ,8-adrenergic ligand, (-)[3H]dihydroalprenolol, demonstrated the presence of 0.094 pmol of specific binding sites per milligram of tumor membrane protein.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(-)[3H]dihydroalprenolol",
+        "object": "tumor binding sites",
+        "interaction_type": "binding",
+        "text": "The tumor binding sites had high affinity for (-)[3H]dihydroalprenolol with an equilibrium dissociation constant of 2.1 nM.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(-)isoproterenol",
+        "object": "tumor binding sites",
+        "interaction_type": "competition",
+        "text": "Adrenergic agonists competed for the binding sites in an order of potency, [(-)isoproterenol > (-)epinephrine - (-)norepinephrine], paralleling their order of potency as f8-adrenergic agonists.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(-)epinephrine",
+        "object": "tumor binding sites",
+        "interaction_type": "competition",
+        "text": "Adrenergic agonists competed for the binding sites in an order of potency, [(-)isoproterenol > (-)epinephrine - (-)norepinephrine], paralleling their order of potency as f8-adrenergic agonists.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(-)norepinephrine",
+        "object": "tumor binding sites",
+        "interaction_type": "competition",
+        "text": "Adrenergic agonists competed for the binding sites in an order of potency, [(-)isoproterenol > (-)epinephrine - (-)norepinephrine], paralleling their order of potency as f8-adrenergic agonists.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(-)propranolol",
+        "object": "binding",
+        "interaction_type": "Inhibition",
+        "text": "The f8-adrenergic antagonist, (-)propranolol, competed for binding, causing half-maximal inhibition of specific binding at a concentration of 6 nM.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "phentolamine",
+        "object": "binding sites",
+        "interaction_type": "NoEffect",
+        "text": "The a-adrenergic antagonist, phentolamine, and several catecholamine metabolites and precursors did not effectively compete for the binding sites at high concentrations.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(+)stereoisomers of ,B-adrenergic agonists and antagonists",
+        "object": "Binding",
+        "interaction_type": "Binding",
+        "text": "Binding was stereospecific, the (+)stereoisomers of ,B-adrenergic agonists and antagonists requiring 40- to 300-fold higher concentrations than the corresponding (-)stereo-",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isomers",
+        "object": "(-)[3H]dihydroalprenolol binding",
+        "interaction_type": "Inhibition",
+        "text": "isomers to half maximally inhibit (-)[3H]dihydroalprenolol binding.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adreno-cortical carcinoma 494 membranes",
+        "object": ",8-adrenergic receptor-binding sites",
+        "interaction_type": "Binding",
+        "text": "These results indicate that adreno-cortical carcinoma 494 membranes contain ,8-adrenergic receptor-binding sites which are not normally present in membranes of adrenal tissue.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenergic receptors",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "These ectopic adrenergic receptors presumably confer on the neoplastic tissue the catecholamine sensitivity of its adenylate cyclase.",
+        "direct": true,
+        "hypothesis": true
+    },
+    {
+        "subject": "hormones",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "Cyclic AMP-mediated responses of a hormonally sensitive tissue are elicited only by those hormones which activate the membrane-bound adenylate cyclase in that tissue.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenocorticotropic hormone",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "In the adrenal cortex, the binding of adrenocorticotropic hormone (ACTH) to specific receptors which are functionally coupled to adenylate cyclase (1), initiates cyclic AMP-mediated steroidogenesis.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "endogenous catecholamines",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "Compounds such as the endogenous catecholamines are normally ineffective in stimulating adrenocortical adenylate cyclase, and hence do not initiate steroidogenesis.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "catecholamines",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "(2, 3) have reported that the adenylate cyclase of adrenocortical carcinoma 494 unexpectedly responds to catecholamines with a /3-adrenergic specificity.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "3-adrenergic receptors",
+        "object": "adenylate cyclase",
+        "interaction_type": "Link",
+        "text": "One possible explanation is that normal adrenal cortical tissue is devoid of 3-adrenergic receptors, whereas the adrenocortical neoplastic tissue possesses ectopic /-adrenergic receptors linked to adenylate cyclase.",
+        "direct": true,
+        "hypothesis": true
+    },
+    {
+        "subject": "adrenergic receptors",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "An alternative possibility is that both normal adrenal cortical and tumor tissue possess (8- adrenergic receptors, but only in the tumor are the receptors functionally coupled to adenylate cyclase.",
+        "direct": true,
+        "hypothesis": true
+    },
+    {
+        "subject": "ACTH",
+        "object": "adenylate cyclase",
+        "interaction_type": "unknown",
+        "text": "Effects of ACTH (A) and isoproterenol (B) on normal adrenal and adrenocortical carcinoma adenylate cyclase.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isoproterenol",
+        "object": "adenylate cyclase",
+        "interaction_type": "unknown",
+        "text": "Effects of ACTH (A) and isoproterenol (B) on normal adrenal and adrenocortical carcinoma adenylate cyclase.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "ACTH",
+        "object": "adrenal and tumor membranes",
+        "interaction_type": "Activation",
+        "text": "Panel A represents the responses of adrenal and tumor membranes to 10 U/ml ACTH",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isoproterenol",
+        "object": "adrenal and tumor membranes",
+        "interaction_type": "Activation",
+        "text": "panel B represents the response of adrenal and tumor membranes to 104 M isoproterenol",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(-)[3H]dihydroalprenolol",
+        "object": "&fadrenergic receptors",
+        "interaction_type": "binding",
+        "text": "Direct binding techniques using the potent,& adrenergic antagonist, (-)[3H]dihydroalprenolol, were used to test for the presence of &fadrenergic receptors in normal adrenal and adrenocortical tumor mem- branes.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(-)[3H]dihydroalprenolol",
+        "object": "adrenergic receptors",
+        "interaction_type": "binding",
+        "text": "This approach is based on the previously reported use of(-)[3H]dihydroalprenolol to identify ,-\n adrenergic receptors in a variety of non-neoplastic tissues (4-8).",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "catecholamine",
+        "object": "adenylate cyclase",
+        "interaction_type": "Binding",
+        "text": "These binding techniques provide a direct method for assessing whether or not the aberrant catecholamine responsiveness of the adenylate cyclase in this neoplastic tissue is associated with the appearance of ectopic ,\u00a2adrenergic receptors.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(-)[3H]Dihydroalprenolol",
+        "object": "(-)alprenolol",
+        "interaction_type": "Conversion",
+        "text": "(-)[3H]Dihydroalprenolol (sp act 33 Ci/mmol) was prepared by New England Nuclear (Boston, Mass.) by catalytic reduction of (-)alprenolol (Hassle Pharmaceuticals, Molndal, Sweden) with tritium gas using paladium as a catalyst.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(-)[3H]dihydroalprenolol",
+        "object": "dihydroalprenolol",
+        "interaction_type": "Identical",
+        "text": "The structure of (-)[3H]dihydroalprenolol is identical to that ofunlabeled dihydroalprenolol as determined by mass spectroscopy.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "dihydroalprenolol",
+        "object": "isoproterenol-stimulated adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "The labeled compound as well as unlabeled dihydroalprenolol have been demonstrated to be potent antagonists of isoproterenol-stimulated adenylate cyclase (9).",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "This membrane preparation",
+        "object": "adenylate cyclase",
+        "interaction_type": "activity",
+        "text": "This membrane preparation has previously (2) been shown to possess the highest adenylate cyclase activity of several fractions tested from normal and tumor tissue.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(-)[3H]dihydroalprenolol",
+        "object": "normal adrenal and tumor membranes",
+        "interaction_type": "binding",
+        "text": "The use of significantly smaller incubation volumes (< 1 ml) resulted in the complication of a significant amount of nonspecific binding of (-)[3H]dihydroalprenolol to both normal adrenal and tumor membranes.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "filters",
+        "object": "Triton-toluene based scintillation cocktail",
+        "interaction_type": "Addition",
+        "text": "The filters were dried by gentle heating and added to a Triton-toluene based scintillation cocktail.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(-)[3H]dihydroalprenolol",
+        "object": "Membranes",
+        "interaction_type": "binding",
+        "text": "Membranes were incubated with 0.7 nM (-)[3H]dihydroalprenolol and binding was assayed as described in Methods.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "Specific binding",
+        "object": "total binding",
+        "interaction_type": "Subtraction",
+        "text": "\"Specific binding\" is defined as total binding minus non-specific binding.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "Specific binding",
+        "object": "non-specific binding",
+        "interaction_type": "Subtraction",
+        "text": "\"Specific binding\" is defined as total binding minus non-specific binding.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "membranes from adrenocortical carcinoma 494",
+        "object": "protein",
+        "interaction_type": "binding",
+        "text": "In membranes from adrenocortical carcinoma 494, specific binding ranged from 43 to 75% of the total binding to protein.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenocorticotropic hormone",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "The adenylate cyclase of this corticosteroid-producing, transplanted, adrenal cancer of the rat was stimulated not only by adrenocorticotropic hormone and fluoride, but also by the f8-adrenergic agonist, isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isoproterenol",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "The adenylate cyclase of normal adrenal tissue was unresponsive to isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "Adenylate cyclase",
+        "object": "tumor and normal adrenal membranes",
+        "interaction_type": "response",
+        "text": "Adenylate cyclase responses of tumor and normal adrenal membranes.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "ACTH",
+        "object": "enzyme",
+        "interaction_type": "Activation",
+        "text": "The activity of the enzyme was stimulated by ACTH (10 U/ml) in both normal adrenal (620%/o above basal) and adrenocortical tumor (480%o above basal) membranes (Fig. 1A).",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "sodium fluoride",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "Similarly, 20 mM of sodium fluoride stimulated normal adrenal (5,400% above basal) and adrenocortical tumor (1,090%o above basal) adenylate cyclase activity (not shown).",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "/8-adrenergic agonist, isoproterenol",
+        "object": "normal adrenal cyclase",
+        "interaction_type": "Inhibition",
+        "text": "By contrast, the /8-adrenergic agonist, isoproterenol (10-4M), caused virtually no stimulation of the normal adrenal cyclase while stimulating the tumor adenylate cyclase 220%o above basal activity (Fig. 1B).",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "/8-adrenergic agonist, isoproterenol",
+        "object": "tumor adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "By contrast, the /8-adrenergic agonist, isoproterenol (10-4M), caused virtually no stimulation of the normal adrenal cyclase while stimulating the tumor adenylate cyclase 220%o above basal activity (Fig. 1B).",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "catecholamines",
+        "object": "adenylate cyclase of adrenocortical carcinoma 494",
+        "interaction_type": "Activation",
+        "text": "This confirms the results of Schorr and Ney (2) who demonstrated that the adenylate cyclase of adrenocortical carcinoma 494 was stimulated by catecholamines, whereas normal adrenal adenylate cyclase was unresponsive to 8-adrenergic agonists.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "8-adrenergic agonists",
+        "object": "normal adrenal adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "This confirms the results of Schorr and Ney (2) who demonstrated that the adenylate cyclase of adrenocortical carcinoma 494 was stimulated by catecholamines, whereas normal adrenal adenylate cyclase was unresponsive to 8-adrenergic agonists.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "catecholamines",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "It has been previously demonstrated (3) that catecholamines stimulate the adrenocortical tumor, adenylate cyclase, with a typical f-adrenergic specificity.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(-)[3H]dihydroalprenolol",
+        "object": "membranes",
+        "interaction_type": "binding",
+        "text": "The binding of the ,B-adrenergic antagonist, (-)[3H]dihydroalprenolol, was studied in membranes prepared from both normal adrenal and tumor tissue.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(-)[3H]dihydroalprenolol",
+        "object": "adrenal membranes",
+        "interaction_type": "Binding",
+        "text": "Hence, very few, if any, specific (-)[3H]dihydroalprenolol binding sites are detect-able in normal adrenal membranes under the same conditions that exist when a significant amount of binding is measured in adrenocortical carcinoma 494 membranes.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "[3H ]dihydroalprenolol",
+        "object": "binding sites",
+        "interaction_type": "binding",
+        "text": "[3H ]dihydroalprenolol bind-ing sites in tumor membranes.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "binding sites",
+        "object": "f-adrenergic receptors",
+        "interaction_type": "binding",
+        "text": "Experiments were designed to determine whether the binding sites detected in adrenal tumor membranes had the characteristics expected of f-adrenergic receptors.",
+        "direct": true,
+        "hypothesis": true
+    },
+    {
+        "subject": "(-)[3H]dihydroalprenolol",
+        "object": "tumor membranes",
+        "interaction_type": "binding",
+        "text": "Binding of 0.7 nM of(-)[3H]dihydroalprenolol to 0.3 mg proteinlml of tumor membranes was rapid, reaching a steady-state level in <5 min at 370C. Binding was constant for at least 16 min of incubation at 37\u00b0C.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "propranolol",
+        "object": "(-)[3H]dihydroalprenolol",
+        "interaction_type": "binding",
+        "text": "In separate experiments, the reversibility of binding was tested by adding a large excess (10-5M) of propranolol to an equilibrated mixture of (-)[3H]dihydroalprenolol and 14 1.2 KD a 2.3 nM O\\ n * 0Q094 pmol /mg prceIn 0~~~~~~~~~ 04 [(-)[3gjj DIHYDROALPRENOLOL BOUND] (pM) FIGURE 3 Scatchard plot of (-)[3H]dihydroalprenolol binding to rat adrenocortical carcinoma membranes.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(-)[3H]dihydroalprenolol",
+        "object": "binding",
+        "interaction_type": "binding",
+        "text": "Specific binding determined at a series of (-)[3H]dihydroalprenolol concentrations from 0.138 to 4.15 nM, ranged from 100 to 1,260 cpm.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "specified agonists",
+        "object": "(-)[3H]dihydroalprenolol",
+        "interaction_type": "Inhibition",
+        "text": "The ordinate represents the percent inhibition of (-)[3H]dihydroalprenolol binding by the specified agonists present in the incubation at the concentrations indicated on the abscissa.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "specific binding",
+        "object": "100% inhibition",
+        "interaction_type": "Inhibition",
+        "text": "100% inhibition refers to complete inhibition of specific binding.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "specific binding",
+        "object": "",
+        "interaction_type": "Reversible",
+        "text": "The specific binding was rapidly and totally reversible (ti - 4 min).",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(-)[3H]dihydroalprenolol",
+        "object": "binding sites",
+        "interaction_type": "binding",
+        "text": "Scatchard analysis (16) (Fig. 3) of the (-)[3H]dihydroalprenolol binding sites in the tumor membranes demonstrated that the sites have a high affinity for (-)[3H]dihydroalprenolol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "dihydroalprenolol",
+        "object": "binding sites",
+        "interaction_type": "binding",
+        "text": "The negative reciprocal ofthe slope ofthe plot provided an estimate of the equilibrium dissociation constant (2.1 nM) for the interaction of dihydroalprenolol with its binding sites on the tumor membranes.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "alprenolol",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "This value is consistent with the reported dissociation constant (5-9 nM) of alprenolol as a 83-adrenergic antagonist of catecholamine-stimulated adenylate cyclase in a variety of tissues (4-6).",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "catecholamine",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "This value is consistent with the reported dissociation constant (5-9 nM) of alprenolol as a 83-adrenergic antagonist of catecholamine-stimulated adenylate cyclase in a variety of tissues (4-6).",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(-)[3H]dihydroalprenolol",
+        "object": "8-adrenergic receptors",
+        "interaction_type": "binding",
+        "text": "This is comparable to the number of (-)[3H]dihydroalprenolol binding sites found previously (5-8) in non-neoplastic mammalian tissues known to possess 8-adrenergic receptors.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenergic agonists",
+        "object": "(-)[3H]dihydro-alprenolol binding sites",
+        "interaction_type": "binding",
+        "text": "The specificity of the binding sites for adrenergic agonists and antagonists was assessed by testing the ability of these agents to compete for (-)[3H]dihydro-alprenolol binding sites.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenergic antagonists",
+        "object": "(-)[3H]dihydro-alprenolol binding sites",
+        "interaction_type": "binding",
+        "text": "The specificity of the binding sites for adrenergic agonists and antagonists was assessed by testing the ability of these agents to compete for (-)[3H]dihydro-alprenolol binding sites.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "/3-adrenergic",
+        "object": "binding",
+        "interaction_type": "binding",
+        "text": "The binding displayed a typical /3-adrenergic specificity.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(-)isoproterenol",
+        "object": "binding sites",
+        "interaction_type": "binding",
+        "text": "Adrenergic agonists (Fig. 4) competed for the binding sites in an order of potency, [(-)isoproterenol > (-)epinephrine - (-)-norepinephrine], consistent with the potency order of these compounds as f8-adrenergic agonists.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(-)epinephrine",
+        "object": "binding sites",
+        "interaction_type": "binding",
+        "text": "Adrenergic agonists (Fig. 4) competed for the binding sites in an order of potency, [(-)isoproterenol > (-)epinephrine - (-)-norepinephrine], consistent with the potency order of these compounds as f8-adrenergic agonists.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(-)-norepinephrine",
+        "object": "binding sites",
+        "interaction_type": "binding",
+        "text": "Adrenergic agonists (Fig. 4) competed for the binding sites in an order of potency, [(-)isoproterenol > (-)epinephrine - (-)-norepinephrine], consistent with the potency order of these compounds as f8-adrenergic agonists.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "/3- adrenergic pattern",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "This /3- adrenergic pattern has been previously reported for these compounds as activators of the tumor, adenylate cyclase (3).",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "f8-adrenergic agonists",
+        "object": "binding sites",
+        "interaction_type": "Inhibition",
+        "text": "The f8-adrenergic agonists competed for the binding sites stereospecifically (Fig. 4), the (+)-stereoisomers requiring 40-300-fold higher concentrations than the corresponding (-)stereoisomers to inhibit an equivalent amount of binding.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(-)-propranolol",
+        "object": "binding sites",
+        "interaction_type": "Inhibition",
+        "text": "The f3-adrener-\ngic antagonist, (-)-propranolol, potently competed for\nthe binding sites (Fig. 5) causing half-maximal inhibi-\ntion of binding at a concentration of 6 nM.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "propranolol",
+        "object": "catecholamine-stimulated adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "This is\nconsistent with the previously reported (5, 17, 18) dis-\nsociation constant (3-9 nM) of propranolol for inhibi-\ntion of catecholamine-stimulated adenylate cyclase in\nmammalian tissue.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(+)stereoisomer of propranolol",
+        "object": "binding",
+        "interaction_type": "Inhibition",
+        "text": "The (+)stereoisomer of propranolol (Fig. 5) required a 20-fold higher concentration than (-)propranolol to inhibit 50% of the binding.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "structurally related compounds",
+        "object": "(-)[3H]dihydroalprenolol-binding sites",
+        "interaction_type": "binding",
+        "text": "Struc- turally related compounds, devoid of 3-adrenergic activity, did not effectively compete for (-)[3H]dihy- droalprenolol-binding sites.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "Phentolamine",
+        "object": "binding",
+        "interaction_type": "Inhibition",
+        "text": "Phentolamine, (\u00b1)nor- metanephrine, pyrocatechol, and dihydroxyphenyl- alanine, when present at concentrations of 10-5M, inhibited 10%o or less of the binding.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(\u00b1)nor- metanephrine",
+        "object": "binding",
+        "interaction_type": "Inhibition",
+        "text": "Phentolamine, (\u00b1)nor- metanephrine, pyrocatechol, and dihydroxyphenyl- alanine, when present at concentrations of 10-5M, inhibited 10%o or less of the binding.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "pyrocatechol",
+        "object": "binding",
+        "interaction_type": "Inhibition",
+        "text": "Phentolamine, (\u00b1)nor- metanephrine, pyrocatechol, and dihydroxyphenyl- alanine, when present at concentrations of 10-5M, inhibited 10%o or less of the binding.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "dihydroxyphenyl- alanine",
+        "object": "binding",
+        "interaction_type": "Inhibition",
+        "text": "Phentolamine, (\u00b1)nor- metanephrine, pyrocatechol, and dihydroxyphenyl- alanine, when present at concentrations of 10-5M, inhibited 10%o or less of the binding.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "stereoisomers of propranolol",
+        "object": "(-)[3H]dihydroalprenolol binding sites",
+        "interaction_type": "Competition",
+        "text": "Competition for (-)[3H]dihydroalprenolol binding sites by the stereoisomers of propranolol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "stereoisomers of propranolol",
+        "object": "(-)[3H]dihydroalprenolol binding",
+        "interaction_type": "Inhibition",
+        "text": "The ordinate represents the percent inhibition of(-)[3H]dihydroalprenolol binding by the specified stereoisomers of propranolol present in the incubations at the concentrations indicated on the abscissa.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "propranolol",
+        "object": "specific binding",
+        "interaction_type": "Inhibition",
+        "text": "The average specific binding in the absence of propranolol was 300 cpm and the average nonspecific binding was 260 cpm.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "catecholamines",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "The results of these binding studies with (-)[3H]-dihydroalprenolol demonstrate that normal rat adrenal tissue, which possesses an adenylate cyclase unresponsive to catecholamines, does not possess a significant number of 13-adrenergic receptor binding sites.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "catecholamine",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "By contrast, an adrenocortical carcinoma in which the adenylate cyclase responds to catecholamine stimulation, possesses ( -)[3H]dihydroalprenolol-bind-ing sites which have the characteristics expected of 8-adrenergic receptors.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "18-adrenergic agonists",
+        "object": "tumor binding sites",
+        "interaction_type": "binding",
+        "text": "The tumor binding sites have high affinity for 18-adrenergic agonists and antagonists, and demonstrate characteristic f-adrener- gic specificity and stereospecificity.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "18-adrenergic antagonists",
+        "object": "tumor binding sites",
+        "interaction_type": "binding",
+        "text": "The tumor binding sites have high affinity for 18-adrenergic agonists and antagonists, and demonstrate characteristic f-adrener- gic specificity and stereospecificity.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": ",8-adrenergic receptor",
+        "object": "adenylate cyclase",
+        "interaction_type": "binding",
+        "text": "The number of ,8-adrenergic receptor binding sites found in the tumor membranes (0.094 pmol/mg protein) is comparable to the number of sites previously found in similar membrane fractions from a variety of mammalian tissues which contain adenylate cyclase coupled,8-adrenergic receptors (5-8).",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "13-adrenergic receptor binding sites",
+        "object": "adenylate cyclase",
+        "interaction_type": "Modification",
+        "text": "Thus, these data suggest that the aberrant catecholamine responsiveness of the tumor adenylate cyclase can be attributed to the appearance of ectopic 13-adrenergic receptor binding sites which are not normally present in adrenal tissue.",
+        "direct": true,
+        "hypothesis": true
+    },
+    {
+        "subject": "(-)[3H]dihydroalprenolol",
+        "object": "f3-adrenergic receptor",
+        "interaction_type": "binding",
+        "text": "The (-)[3H]dihydroalprenolol binding sites in the tumor membranes clearly had the specificity expected of a f3-adrenergic receptor.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "catecholamines",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "(3) previously observed a 132 specificity in the adenylate cyclase response of the tumor to catecholamines.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "neoplastic adrenal membranes",
+        "object": "18-adrenergic receptors",
+        "interaction_type": "binding",
+        "text": "Our results indicate that the neoplastic adrenal membranes differ from the normal adrenal membranes in possessing 18-adrenergic receptors which can be detected by direct binding studies.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "tumor cells",
+        "object": "18-receptors",
+        "interaction_type": "Synthesis",
+        "text": "The appearance of these receptor binding sites in adreno-cortical carcinoma 494 is presumably associated with \"dedifferentiation\" of the tumor cells which then allows expression of the ability to synthesize the 18-receptors.",
+        "direct": true,
+        "hypothesis": true
+    },
+    {
+        "subject": "1-adrenergic receptors",
+        "object": "rat reticulocyte",
+        "interaction_type": "Presence",
+        "text": "Spiegel et al. (20) have observed that,1-adrenergic receptors may be present in high numbers in an immature tissue such as the rat reticulocyte and may \"regress\" as the tissue differentiates into a mature erythrocyte.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "1-adrenergic receptors",
+        "object": "mature erythrocyte",
+        "interaction_type": "Regression",
+        "text": "Spiegel et al. (20) have observed that,1-adrenergic receptors may be present in high numbers in an immature tissue such as the rat reticulocyte and may \"regress\" as the tissue differentiates into a mature erythrocyte.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "catecholamine",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "Maguire et al. (21) have demonstrated that in hybrids of rat glioma cells grown in tissue culture, sensitivity of adenylate cyclase to catecholamine stimulation is a function of the presence or absence of 13-receptor binding sites which is in turn genetically regulated.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "ectopic 13-receptor binding site",
+        "object": "neoplastic tissue",
+        "interaction_type": "Modification",
+        "text": "Our results indicate that the apparent insertion of an ectopic 13-receptor binding site into the membranes of a neoplastic tissue can result in important functional consequences in the hormonal responsiveness of the tissue.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "ACTH",
+        "object": "steroidogenesis",
+        "interaction_type": "Activation",
+        "text": "For example, in normal adrenocortical tissue, steroidogenesis is a cyclic AMP-mediated process which is stimulated only by ACTH.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "catecholamines",
+        "object": "cyclic AMP levels",
+        "interaction_type": "Activation",
+        "text": "However, in an adrenocortical tumor with ectopic ,8-adrenergic receptors, cyclic AMP levels might be stimulated by endogenous levels of catecholamines, and an inappropriate steroidogenic response might be seen.",
+        "direct": true,
+        "hypothesis": true
+    },
+    {
+        "subject": "unrecognized hormone",
+        "object": "endocrine tumor",
+        "interaction_type": "Activation",
+        "text": "Hence, an endocrine tumor which is undergoing steroidogenesis in a seemingly autonomous manner might actually be responding to an unrecognized hormone which normally does not stimulate the noncancerous tissue.",
+        "direct": true,
+        "hypothesis": true
+    },
+    {
+        "subject": "ACTH-125I",
+        "object": "adenyl cyclase",
+        "interaction_type": "binding",
+        "text": "ACTH receptors in the adrenal: Specific binding of ACTH-125I and its relation to adenyl cyclase.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenocorticotropic hormone",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "The adenylate cyclase of this corticosteroid-producing, transplanted, adrenal cancer of the rat was stimulated not only by adrenocorticotropic hormone and fluoride, but also by the f8-adrenergic agonist, isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isoproterenol",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "The adenylate cyclase of normal adrenal tissue was unresponsive to isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "Acad",
+        "object": "",
+        "interaction_type": "",
+        "text": "Acad.",
+        "direct": false,
+        "hypothesis": false
+    },
+    {
+        "subject": "Abnormal hormone",
+        "object": "adrenocortical cancer adenyl cyclase",
+        "interaction_type": "responses",
+        "text": "Abnormal hormone responses of an adrenocortical cancer adenyl cyclase.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenocorticotropic hormone",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "The adenylate cyclase of this corticosteroid-producing, transplanted, adrenal cancer of the rat was stimulated not only by adrenocorticotropic hormone and fluoride, but also by the f8-adrenergic agonist, isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isoproterenol",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "The adenylate cyclase of normal adrenal tissue was unresponsive to isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "Multiple specific hormone receptors",
+        "object": "adenylate cyclase",
+        "interaction_type": "Binding",
+        "text": "Multiple specific hormone receptors in the adenylate cyclase of an adrenocortical carcinoma.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "B-adrenergic receptors",
+        "object": "adenylate cyclase",
+        "interaction_type": "Coupling",
+        "text": "Identification of adenylate cyclase coupled,B-adrenergic receptors in frog erythrocytes with (-)[3H]alprenolol.J. Biol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenocorticotropic hormone",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "The adenylate cyclase of this corticosteroid-producing, transplanted, adrenal cancer of the rat was stimulated not only by adrenocorticotropic hormone and fluoride, but also by the f8-adrenergic agonist, isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isoproterenol",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "The adenylate cyclase of normal adrenal tissue was unresponsive to isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(-)[3H]alprenolol",
+        "object": "lymphocytes",
+        "interaction_type": "binding",
+        "text": "Identification of ,3-adrenergic receptors in human Adrenocortical Tumor Ectopic ,&Adrenergic Receptors 323 lymphocytes by (-)[3H]alprenolol binding.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenocorticotropic hormone",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "The adenylate cyclase of this corticosteroid-producing, transplanted, adrenal cancer of the rat was stimulated not only by adrenocorticotropic hormone and fluoride, but also by the f8-adrenergic agonist, isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isoproterenol",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "The adenylate cyclase of normal adrenal tissue was unresponsive to isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "(-)[3H]alprenolol",
+        "object": "cardiac ,8-adrenergic receptors",
+        "interaction_type": "binding",
+        "text": "Identification of cardiac ,8-adrenergic receptors by (-)[3H]alprenolol binding.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenocorticotropic hormone",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "The adenylate cyclase of this corticosteroid-producing, transplanted, adrenal cancer of the rat was stimulated not only by adrenocorticotropic hormone and fluoride, but also by the f8-adrenergic agonist, isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isoproterenol",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "The adenylate cyclase of normal adrenal tissue was unresponsive to isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenocorticotropic hormone",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "The adenylate cyclase of this corticosteroid-producing, transplanted, adrenal cancer of the rat was stimulated not only by adrenocorticotropic hormone and fluoride, but also by the f8-adrenergic agonist, isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isoproterenol",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "The adenylate cyclase of normal adrenal tissue was unresponsive to isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenocorticotropic hormone",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "The adenylate cyclase of this corticosteroid-producing, transplanted, adrenal cancer of the rat was stimulated not only by adrenocorticotropic hormone and fluoride, but also by the f8-adrenergic agonist, isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isoproterenol",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "The adenylate cyclase of normal adrenal tissue was unresponsive to isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "Adipocyte",
+        "object": "-adrenergic receptors",
+        "interaction_type": "Binding",
+        "text": "Adipocyte ,-adrenergic receptors.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "3H-1-alprenolol",
+        "object": "adenylate cyclase",
+        "interaction_type": "Stimulation",
+        "text": "Correlation ofbinding of3H-1-alprenolol with stimulation of adenylate cyclase.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenocorticotropic hormone",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "The adenylate cyclase of this corticosteroid-producing, transplanted, adrenal cancer of the rat was stimulated not only by adrenocorticotropic hormone and fluoride, but also by the f8-adrenergic agonist, isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isoproterenol",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "The adenylate cyclase of normal adrenal tissue was unresponsive to isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "beta adrenergic receptors",
+        "object": "adenylate cyclase",
+        "interaction_type": "Binding",
+        "text": "Structure-activity relationships of adenylate cyclase-coupled beta adrenergic receptors: Determination by direct binding studies.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenocorticotropic hormone",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "The adenylate cyclase of this corticosteroid-producing, transplanted, adrenal cancer of the rat was stimulated not only by adrenocorticotropic hormone and fluoride, but also by the f8-adrenergic agonist, isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isoproterenol",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "The adenylate cyclase of normal adrenal tissue was unresponsive to isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "J. Natl.",
+        "object": "",
+        "interaction_type": "",
+        "text": "J. Natl.",
+        "direct": false,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenocorticotropic hormone",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "The adenylate cyclase of this corticosteroid-producing, transplanted, adrenal cancer of the rat was stimulated not only by adrenocorticotropic hormone and fluoride, but also by the f8-adrenergic agonist, isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isoproterenol",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "The adenylate cyclase of normal adrenal tissue was unresponsive to isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adenosine 3',5'monophosphate",
+        "object": "corticosterone",
+        "interaction_type": "Regulation",
+        "text": "Abnormal regulation of adenosine 3',5'monophosphate and corticosterone formation in an adrenocortical carcinoma.",
+        "direct": false,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenocorticotropic hormone",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "The adenylate cyclase of this corticosteroid-producing, transplanted, adrenal cancer of the rat was stimulated not only by adrenocorticotropic hormone and fluoride, but also by the f8-adrenergic agonist, isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isoproterenol",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "The adenylate cyclase of normal adrenal tissue was unresponsive to isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenocorticotropic hormone",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "The adenylate cyclase of this corticosteroid-producing, transplanted, adrenal cancer of the rat was stimulated not only by adrenocorticotropic hormone and fluoride, but also by the f8-adrenergic agonist, isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isoproterenol",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "The adenylate cyclase of normal adrenal tissue was unresponsive to isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "5'guanylyl-imidodiphosphate",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "Stimulation of catecholamine sensitive adenylate cyclase by 5'guanylyl-imidodiphosphate.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "J. Biol.",
+        "object": "",
+        "interaction_type": "",
+        "text": "J. Biol.",
+        "direct": false,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenocorticotropic hormone",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "The adenylate cyclase of this corticosteroid-producing, transplanted, adrenal cancer of the rat was stimulated not only by adrenocorticotropic hormone and fluoride, but also by the f8-adrenergic agonist, isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isoproterenol",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "The adenylate cyclase of normal adrenal tissue was unresponsive to isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenocorticotropic hormone",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "The adenylate cyclase of this corticosteroid-producing, transplanted, adrenal cancer of the rat was stimulated not only by adrenocorticotropic hormone and fluoride, but also by the f8-adrenergic agonist, isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isoproterenol",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "The adenylate cyclase of normal adrenal tissue was unresponsive to isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "Biochem.",
+        "object": "",
+        "interaction_type": "",
+        "text": "Biochem.",
+        "direct": false,
+        "hypothesis": false
+    },
+    {
+        "subject": "Protein",
+        "object": "folin phenol reagent",
+        "interaction_type": "binding",
+        "text": "Protein measurement with folin phenol reagent.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "proteins",
+        "object": "small molecules",
+        "interaction_type": "binding",
+        "text": "The attractions of proteins for small molecules and ions.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "proteins",
+        "object": "ions",
+        "interaction_type": "binding",
+        "text": "The attractions of proteins for small molecules and ions.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenocorticotropic hormone",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "The adenylate cyclase of this corticosteroid-producing, transplanted, adrenal cancer of the rat was stimulated not only by adrenocorticotropic hormone and fluoride, but also by the f8-adrenergic agonist, isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isoproterenol",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "The adenylate cyclase of normal adrenal tissue was unresponsive to isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenocorticotropic hormone",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "The adenylate cyclase of this corticosteroid-producing, transplanted, adrenal cancer of the rat was stimulated not only by adrenocorticotropic hormone and fluoride, but also by the f8-adrenergic agonist, isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isoproterenol",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "The adenylate cyclase of normal adrenal tissue was unresponsive to isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenergic agonists",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "Effects of adrenergic agonists and antagonists on adenylate cyclase activity of dog heart and liver.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenergic antagonists",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "Effects of adrenergic agonists and antagonists on adenylate cyclase activity of dog heart and liver.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenocorticotropic hormone",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "The adenylate cyclase of this corticosteroid-producing, transplanted, adrenal cancer of the rat was stimulated not only by adrenocorticotropic hormone and fluoride, but also by the f8-adrenergic agonist, isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isoproterenol",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "The adenylate cyclase of normal adrenal tissue was unresponsive to isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "Ther",
+        "object": "",
+        "interaction_type": "",
+        "text": "Ther.",
+        "direct": false,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenergic receptor",
+        "object": "membranes of stress-induced erythrocytes",
+        "interaction_type": "IncreaseAmount",
+        "text": "Increased adrenergic receptor content in membranes of stress-induced erythrocytes.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenocorticotropic hormone",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "The adenylate cyclase of this corticosteroid-producing, transplanted, adrenal cancer of the rat was stimulated not only by adrenocorticotropic hormone and fluoride, but also by the f8-adrenergic agonist, isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isoproterenol",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "The adenylate cyclase of normal adrenal tissue was unresponsive to isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "adrenocorticotropic hormone",
+        "object": "adenylate cyclase",
+        "interaction_type": "Activation",
+        "text": "The adenylate cyclase of this corticosteroid-producing, transplanted, adrenal cancer of the rat was stimulated not only by adrenocorticotropic hormone and fluoride, but also by the f8-adrenergic agonist, isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "isoproterenol",
+        "object": "adenylate cyclase",
+        "interaction_type": "Inhibition",
+        "text": "The adenylate cyclase of normal adrenal tissue was unresponsive to isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "[I251]iodohydroxybenzyl-pindolol",
+        "object": "/8-adrenergic receptors",
+        "interaction_type": "binding",
+        "text": "Binding of [I251]iodohydroxybenzyl-pindolol to putative /8-adrenergic receptors of rat glioma cells and other cell clones.",
+        "direct": true,
+        "hypothesis": false
+    }
+]
