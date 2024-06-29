@@ -1,0 +1,18 @@
+[
+    {
+        "subject": "fluoride",
+        "object": "ADCY",
+        "interaction_type": "Activation",
+        "text": "The adenylate cyclase of this corticosteroid producing, transplanted, adrenal cancer of the rat was stimulated not only by adrenocorticotropic hormone and fluoride, but also by the beta-adrenergic agonist, isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    },
+    {
+        "subject": "POMC",
+        "object": "ADCY",
+        "interaction_type": "Activation",
+        "text": "The adenylate cyclase of this corticosteroid producing, transplanted, adrenal cancer of the rat was stimulated not only by adrenocorticotropic hormone and fluoride, but also by the beta-adrenergic agonist, isoproterenol.",
+        "direct": true,
+        "hypothesis": false
+    }
+]
