@@ -47,7 +47,7 @@ paper_extraction_function = [
 ]
 
 # Define model for extraction
-model = delayed_completion(delay_in_seconds=delay, model="gpt-4-turbo",
+model = delayed_completion(delay_in_seconds=delay, model="gpt-4o",
                            temperature=0, openai_api_key=OPENAI_API_KEY)
 
 

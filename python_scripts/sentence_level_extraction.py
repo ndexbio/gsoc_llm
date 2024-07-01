@@ -48,7 +48,7 @@ chain = prep | extraction_chain.map() | flatten
 results = chain.invoke(text)
 
 json_output = json.dumps(results, indent=4)
-with open('results/pmc333362/output.json', 'w') as file:
+with open('results/pmc333362/output_4o.json', 'w') as file:
     file.write(json_output)
 
 end_time = time.time()
