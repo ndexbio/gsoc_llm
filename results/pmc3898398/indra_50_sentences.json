@@ -1,0 +1,4404 @@
+{
+    "INDRA_REACH_extractions": [
+        {
+            "Index": "0",
+            "Sentence": "Phosphorylation of SIRT1 by JNK occurs at three sites : S27, S47, and T530 in response to oxidative stress that stimulates its deacetylation activity [[A4]] [XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "JNK",
+                        "db_refs": {
+                            "FPLX": "JNK",
+                            "TEXT": "JNK",
+                            "IP": "IPR008351"
+                        }
+                    },
+                    "sub": {
+                        "name": "SIRT1",
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Phosphorylation of SIRT1 by JNK occurs at three sites : S27, S47, and T530 in response to oxidative stress that stimulates its deacetylation activity [[A4]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Phosphorylation_syntax_1a_noun",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            28,
+                                            31
+                                        ],
+                                        [
+                                            19,
+                                            24
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 1740970669727578469
+                        }
+                    ],
+                    "id": "e6b287f2-1c71-4c30-ac4b-627e0c295277",
+                    "matches_hash": "-14467883410637501"
+                }
+            ]
+        },
+        {
+            "Index": "1",
+            "Sentence": "In contrast, mTOR also phosphorylates SIRT1 in response to oxidative stress, but only at a single site, S47, resulting in the inhibition of SIRT1 [[A5]] suggesting a multi-site phosphorylation regulatory mechanism is in place; such a mechanism may be involved in the regulation of the timing of SIRT1 activity [XREF_BIBR, XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "MTOR",
+                        "db_refs": {
+                            "UP": "P42345",
+                            "TEXT": "mTOR",
+                            "EGID": "2475",
+                            "HGNC": "3942"
+                        }
+                    },
+                    "sub": {
+                        "name": "SIRT1",
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "In contrast, mTOR also phosphorylates SIRT1 in response to oxidative stress, but only at a single site, S47, resulting in the inhibition of SIRT1 [[A5]] suggesting a multi-site phosphorylation regulatory mechanism is in place; such a mechanism may be involved in the regulation of the timing of SIRT1 activity [XREF_BIBR, XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Phosphorylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            13,
+                                            17
+                                        ],
+                                        [
+                                            38,
+                                            43
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -467423058962353027
+                        }
+                    ],
+                    "id": "0f8157fb-7617-438e-963f-aeea14c686e2",
+                    "matches_hash": "-19494139017854193"
+                }
+            ]
+        },
+        {
+            "Index": "10",
+            "Sentence": "In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1 mediated deacetylation of p53 in response to DNA damage [[A9]] [XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Methylation",
+                    "enz": {
+                        "name": "SETD7",
+                        "db_refs": {
+                            "UP": "Q8WTS6",
+                            "TEXT": "Set7/9",
+                            "EGID": "80854",
+                            "HGNC": "30412"
+                        }
+                    },
+                    "sub": {
+                        "name": "SIRT1",
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "residue": "K",
+                    "position": "233",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1 mediated deacetylation of p53 in response to DNA damage [[A9]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Methylation_syntax_1a_noun",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            56,
+                                            62
+                                        ],
+                                        [
+                                            47,
+                                            52
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 3926766502298799133
+                        }
+                    ],
+                    "id": "962d68fa-2683-44f2-b494-62a119361235",
+                    "matches_hash": "-24567116608928295"
+                }
+            ]
+        },
+        {
+            "Index": "11",
+            "Sentence": "DNA-PK phosphorylates PARP1 though its effect is unknown [[A12]] [XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "DNA-PK",
+                        "db_refs": {
+                            "TEXT": "DNA-PK"
+                        }
+                    },
+                    "sub": {
+                        "name": "PARP1",
+                        "db_refs": {
+                            "UP": "P09874",
+                            "TEXT": "PARP1",
+                            "HGNC": "270",
+                            "EGID": "142"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "DNA-PK phosphorylates PARP1 though its effect is unknown [[A12]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Phosphorylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            0,
+                                            6
+                                        ],
+                                        [
+                                            22,
+                                            27
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 7042698045747296789
+                        }
+                    ],
+                    "id": "ce011fd4-757c-45de-b275-0eeb3d4dfb4c",
+                    "matches_hash": "-33911866084371229"
+                }
+            ]
+        },
+        {
+            "Index": "12",
+            "Sentence": "Phosphorylation of PARP1 by AMPK has been shown to enhance its activity [[A13]] [XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "AMPK",
+                        "db_refs": {
+                            "FPLX": "AMPK",
+                            "TEXT": "AMPK",
+                            "ECCODE": "2.7.11.31",
+                            "NCIT": "C94701"
+                        }
+                    },
+                    "sub": {
+                        "name": "PARP1",
+                        "db_refs": {
+                            "UP": "P09874",
+                            "TEXT": "PARP1",
+                            "HGNC": "270",
+                            "EGID": "142"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Phosphorylation of PARP1 by AMPK has been shown to enhance its activity [[A13]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Phosphorylation_syntax_1a_noun",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            28,
+                                            32
+                                        ],
+                                        [
+                                            19,
+                                            24
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 3920912648717651496
+                        }
+                    ],
+                    "id": "504c4671-7e99-4148-9a6e-8a68ab35004a",
+                    "matches_hash": "-7505942140276743"
+                }
+            ]
+        },
+        {
+            "Index": "13",
+            "Sentence": "PARP1 is acetylated by p300 / CBP; this acetylation is involved in the activation of NF-\u03ba B by PARP1 [[A14]] [XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Acetylation",
+                    "enz": {
+                        "name": "EP300",
+                        "db_refs": {
+                            "UP": "Q09472",
+                            "TEXT": "p300",
+                            "HGNC": "3373",
+                            "EGID": "2033"
+                        }
+                    },
+                    "sub": {
+                        "name": "PARP1",
+                        "db_refs": {
+                            "UP": "P09874",
+                            "TEXT": "PARP1",
+                            "HGNC": "270",
+                            "EGID": "142"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "PARP1 is acetylated by p300 / CBP; this acetylation is involved in the activation of NF-\u03ba B by PARP1 [[A14]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Acetylation_syntax_2a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            23,
+                                            27
+                                        ],
+                                        [
+                                            0,
+                                            5
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -6031788161771142387
+                        }
+                    ],
+                    "id": "0adefc3a-4449-4a1e-a858-335ff0b96ca3",
+                    "matches_hash": "16609712154584692"
+                }
+            ]
+        },
+        {
+            "Index": "14",
+            "Sentence": "PARP1 is acetylated by p300 / CBP; this acetylation is involved in the activation of NF-\u03ba B by PARP1 [[A14]] [XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Acetylation",
+                    "enz": {
+                        "name": "EP300",
+                        "db_refs": {
+                            "UP": "Q09472",
+                            "TEXT": "p300",
+                            "HGNC": "3373",
+                            "EGID": "2033"
+                        }
+                    },
+                    "sub": {
+                        "name": "PARP1",
+                        "db_refs": {
+                            "UP": "P09874",
+                            "TEXT": "PARP1",
+                            "HGNC": "270",
+                            "EGID": "142"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "PARP1 is acetylated by p300 / CBP; this acetylation is involved in the activation of NF-\u03ba B by PARP1 [[A14]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Acetylation_syntax_2a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            23,
+                                            27
+                                        ],
+                                        [
+                                            0,
+                                            5
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -6031788161771142387
+                        }
+                    ],
+                    "id": "d88b4be2-5567-48ce-bb2e-8037cee1402e",
+                    "matches_hash": "16609712154584692"
+                }
+            ]
+        },
+        {
+            "Index": "15",
+            "Sentence": "PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1 's auto-modification domain.",
+            "Results": [
+                {
+                    "type": "Sumoylation",
+                    "enz": {
+                        "name": "SUMO1",
+                        "db_refs": {
+                            "UP": "P63165",
+                            "TEXT": "SUMO1",
+                            "HGNC": "12502",
+                            "EGID": "7341"
+                        }
+                    },
+                    "sub": {
+                        "name": "PARP1",
+                        "db_refs": {
+                            "UP": "P09874",
+                            "TEXT": "PARP1",
+                            "HGNC": "270",
+                            "EGID": "142"
+                        }
+                    },
+                    "residue": "K",
+                    "position": "486",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1 ' s auto-modification domain.",
+                            "annotations": {
+                                "found_by": "Sumoylation_syntax_2a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            33,
+                                            38
+                                        ],
+                                        [
+                                            0,
+                                            5
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 8510991710790842878
+                        }
+                    ],
+                    "id": "3f8c69f0-59cc-4437-9319-5333ef779091",
+                    "matches_hash": "33877602892857261"
+                },
+                {
+                    "type": "Sumoylation",
+                    "enz": {
+                        "name": "SUMO3",
+                        "db_refs": {
+                            "UP": "P55854",
+                            "TEXT": "SUMO3",
+                            "HGNC": "11124",
+                            "EGID": "6612"
+                        }
+                    },
+                    "sub": {
+                        "name": "PARP1",
+                        "db_refs": {
+                            "UP": "P09874",
+                            "TEXT": "PARP1",
+                            "HGNC": "270",
+                            "EGID": "142"
+                        }
+                    },
+                    "residue": "K",
+                    "position": "486",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1 ' s auto-modification domain.",
+                            "annotations": {
+                                "found_by": "Sumoylation_syntax_2a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            33,
+                                            38
+                                        ],
+                                        [
+                                            0,
+                                            5
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 8510991710790842878
+                        }
+                    ],
+                    "id": "5496cb8b-89c1-44be-ae2d-eed676187dc6",
+                    "matches_hash": "-34024851803597946"
+                }
+            ]
+        },
+        {
+            "Index": "16",
+            "Sentence": "PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1 's auto-modification domain.",
+            "Results": [
+                {
+                    "type": "Sumoylation",
+                    "enz": {
+                        "name": "SUMO1",
+                        "db_refs": {
+                            "UP": "P63165",
+                            "TEXT": "SUMO1",
+                            "HGNC": "12502",
+                            "EGID": "7341"
+                        }
+                    },
+                    "sub": {
+                        "name": "PARP1",
+                        "db_refs": {
+                            "UP": "P09874",
+                            "TEXT": "PARP1",
+                            "HGNC": "270",
+                            "EGID": "142"
+                        }
+                    },
+                    "residue": "K",
+                    "position": "486",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1 ' s auto-modification domain.",
+                            "annotations": {
+                                "found_by": "Sumoylation_syntax_2a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            33,
+                                            38
+                                        ],
+                                        [
+                                            0,
+                                            5
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 8510991710790842878
+                        }
+                    ],
+                    "id": "c935a30c-bf76-4eff-9b89-bdf1c0ee742d",
+                    "matches_hash": "33877602892857261"
+                },
+                {
+                    "type": "Sumoylation",
+                    "enz": {
+                        "name": "SUMO3",
+                        "db_refs": {
+                            "UP": "P55854",
+                            "TEXT": "SUMO3",
+                            "HGNC": "11124",
+                            "EGID": "6612"
+                        }
+                    },
+                    "sub": {
+                        "name": "PARP1",
+                        "db_refs": {
+                            "UP": "P09874",
+                            "TEXT": "PARP1",
+                            "HGNC": "270",
+                            "EGID": "142"
+                        }
+                    },
+                    "residue": "K",
+                    "position": "486",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1 ' s auto-modification domain.",
+                            "annotations": {
+                                "found_by": "Sumoylation_syntax_2a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            33,
+                                            38
+                                        ],
+                                        [
+                                            0,
+                                            5
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 8510991710790842878
+                        }
+                    ],
+                    "id": "6ff75dba-8a5b-43a9-beb0-e4de98a85e5d",
+                    "matches_hash": "-34024851803597946"
+                }
+            ]
+        },
+        {
+            "Index": "17",
+            "Sentence": "in 2009 found increased levels of PARP1 acetylation in response to mechanical stress, suggesting that SIRT1 can deacetylate PARP1 [[A16]] [XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Deacetylation",
+                    "enz": {
+                        "name": "SIRT1",
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "sub": {
+                        "name": "PARP1",
+                        "db_refs": {
+                            "UP": "P09874",
+                            "TEXT": "PARP1",
+                            "HGNC": "270",
+                            "EGID": "142"
+                        }
+                    },
+                    "residue": "A",
+                    "position": "16",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "in 2009 found increased levels of PARP1 acetylation in response to mechanical stress, suggesting that SIRT1 can deacetylate PARP1 [[A16]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Deacetylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            102,
+                                            107
+                                        ],
+                                        [
+                                            124,
+                                            129
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "hypothesis": true,
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -1410965114963415561
+                        }
+                    ],
+                    "id": "3308924d-3500-4104-a926-75dac00fbf74",
+                    "matches_hash": "-24455255205291924"
+                }
+            ]
+        },
+        {
+            "Index": "18",
+            "Sentence": "Nicotinamide mononucleotide adenylyltransferase 1 (NMNAT1), which catalyzes the conversion of NMN into NAD + in the synthesis of NAD + via the salvage pathway, can bind to (ADP-ribose) polymers in vitro leading to the stimulation of PARP1 activity; this effect is diminished when NMNAT1 is phosphorylated at S136 by protein kinase C (PKC) [[A18]] [XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "PKC",
+                        "db_refs": {
+                            "FPLX": "PKC",
+                            "TEXT": "protein kinase C",
+                            "NCIT": "C17017",
+                            "IP": "IPR012233",
+                            "ECCODE": "2.7.11.13"
+                        }
+                    },
+                    "sub": {
+                        "name": "NMNAT1",
+                        "db_refs": {
+                            "UP": "Q9HAN9",
+                            "TEXT": "NMNAT1",
+                            "EGID": "64802",
+                            "HGNC": "17877"
+                        }
+                    },
+                    "residue": "S",
+                    "position": "136",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Nicotinamide mononucleotide adenylyltransferase 1 (NMNAT1), which catalyzes the conversion of NMN into NAD + in the synthesis of NAD + via the salvage pathway, can bind to (ADP-ribose) polymers in vitro leading to the stimulation of PARP1 activity; this effect is diminished when NMNAT1 is phosphorylated at S136 by protein kinase C (PKC) [[A18]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Phosphorylation_syntax_2a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            316,
+                                            332
+                                        ],
+                                        [
+                                            280,
+                                            286
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -6628642654999934529
+                        }
+                    ],
+                    "id": "7edcf5d9-6827-4b7f-948b-d40fd7f3f02b",
+                    "matches_hash": "-35475237231364838"
+                }
+            ]
+        },
+        {
+            "Index": "19",
+            "Sentence": "It has been suggested that ADP ribosylation of histone H1 promotes transcription by inhibiting the ability of histone H1 to bind to DNA [XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Ribosylation",
+                    "enz": {
+                        "name": "ADP",
+                        "db_refs": {
+                            "PUBCHEM": "6022",
+                            "TEXT": "ADP",
+                            "CHEMBL": "CHEMBL14830",
+                            "DRUGBANK": "DB03431",
+                            "CAS": "20398-34-9",
+                            "CHEBI": "CHEBI:16761",
+                            "HMDB": "HMDB0001341"
+                        }
+                    },
+                    "sub": {
+                        "name": "histone H1",
+                        "db_refs": {
+                            "TEXT": "histone H1"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "It has been suggested that ADP ribosylation of histone H1 promotes transcription by inhibiting the ability of histone H1 to bind to DNA [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Ribosylation_syntax_1a_noun",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            27,
+                                            30
+                                        ],
+                                        [
+                                            47,
+                                            57
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "hypothesis": true,
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -5631914817400039496
+                        }
+                    ],
+                    "id": "0269b89b-c330-469e-b43b-ca4d5081668f",
+                    "matches_hash": "-5795556422825393"
+                },
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "histone H1",
+                        "db_refs": {
+                            "TEXT": "histone H1"
+                        }
+                    },
+                    "obj": {
+                        "name": "histone H1",
+                        "db_refs": {
+                            "TEXT": "histone H1"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "It has been suggested that ADP ribosylation of histone H1 promotes transcription by inhibiting the ability of histone H1 to bind to DNA [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_1_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            47,
+                                            57
+                                        ],
+                                        [
+                                            110,
+                                            120
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "hypothesis": true,
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": -5631914817400039496
+                        }
+                    ],
+                    "id": "5591f790-dd4b-4e07-8827-b1e65213ec80",
+                    "matches_hash": "-11231957976865086"
+                },
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "histone H1",
+                        "db_refs": {
+                            "TEXT": "histone H1"
+                        }
+                    },
+                    "obj": {
+                        "name": "transcription, DNA-templated",
+                        "db_refs": {
+                            "GO": "GO:0006351",
+                            "TEXT": "transcription",
+                            "MESH": "D014158"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "It has been suggested that ADP ribosylation of histone H1 promotes transcription by inhibiting the ability of histone H1 to bind to DNA [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_1_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            47,
+                                            57
+                                        ],
+                                        [
+                                            67,
+                                            80
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "hypothesis": true,
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": -5631914817400039496
+                        }
+                    ],
+                    "id": "5716e1ac-6dfe-481b-82f6-aaa197e9c014",
+                    "matches_hash": "32529729914206862"
+                }
+            ]
+        },
+        {
+            "Index": "2",
+            "Sentence": "CK2 phosphorylates human SIRT1 at S659 and S661, both in vivo and in vitro, stimulating its deacetylation activity [[A4]] [XREF_BIBR, XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "CK2",
+                        "db_refs": {
+                            "FPLX": "CK2",
+                            "TEXT": "CK2",
+                            "NCIT": "C107559",
+                            "GO": "GO:0005956"
+                        }
+                    },
+                    "sub": {
+                        "name": "SIRT1",
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "residue": "S",
+                    "position": "659",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "CK2 phosphorylates human SIRT1 at S659 and S661, both in vivo and in vitro, stimulating its deacetylation activity [[A4]] [XREF_BIBR, XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Phosphorylation_token_6_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            0,
+                                            3
+                                        ],
+                                        [
+                                            25,
+                                            30
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -283078647376443366
+                        }
+                    ],
+                    "id": "c0f76799-4f5a-49ee-bee3-108f01a1703f",
+                    "matches_hash": "-2449521168392335"
+                },
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "CK2",
+                        "db_refs": {
+                            "FPLX": "CK2",
+                            "TEXT": "CK2",
+                            "NCIT": "C107559",
+                            "GO": "GO:0005956"
+                        }
+                    },
+                    "sub": {
+                        "name": "SIRT1",
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "residue": "S",
+                    "position": "661",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "CK2 phosphorylates human SIRT1 at S659 and S661, both in vivo and in vitro, stimulating its deacetylation activity [[A4]] [XREF_BIBR, XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Phosphorylation_token_6_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            0,
+                                            3
+                                        ],
+                                        [
+                                            25,
+                                            30
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -283078647376443366
+                        }
+                    ],
+                    "id": "69c1f3b6-a392-4427-8280-8784908e2db3",
+                    "matches_hash": "-34542730089720589"
+                }
+            ]
+        },
+        {
+            "Index": "20",
+            "Sentence": "Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP ribosylation of histone H4 [[A22]] [XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Ribosylation",
+                    "enz": {
+                        "name": "ADP",
+                        "db_refs": {
+                            "PUBCHEM": "6022",
+                            "TEXT": "ADP",
+                            "CHEMBL": "CHEMBL14830",
+                            "DRUGBANK": "DB03431",
+                            "CAS": "20398-34-9",
+                            "CHEBI": "CHEBI:16761",
+                            "HMDB": "HMDB0001341"
+                        }
+                    },
+                    "sub": {
+                        "name": "histone H4",
+                        "db_refs": {
+                            "TEXT": "histone H4"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP ribosylation of histone H4 [[A22]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Ribosylation_syntax_1a_noun",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            123,
+                                            126
+                                        ],
+                                        [
+                                            143,
+                                            153
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -1437487095011931606
+                        }
+                    ],
+                    "id": "db8d5cc6-1603-4754-9244-dcc2cc31767e",
+                    "matches_hash": "18075563674287198"
+                },
+                {
+                    "type": "Ribosylation",
+                    "enz": {
+                        "name": "ADP",
+                        "db_refs": {
+                            "PUBCHEM": "6022",
+                            "TEXT": "ADP",
+                            "CHEMBL": "CHEMBL14830",
+                            "DRUGBANK": "DB03431",
+                            "CAS": "20398-34-9",
+                            "CHEBI": "CHEBI:16761",
+                            "HMDB": "HMDB0001341"
+                        }
+                    },
+                    "sub": {
+                        "name": "histone H4",
+                        "db_refs": {
+                            "TEXT": "histone H4"
+                        }
+                    },
+                    "residue": "A",
+                    "position": "22",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP ribosylation of histone H4 [[A22]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Ribosylation_syntax_1a_noun",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            123,
+                                            126
+                                        ],
+                                        [
+                                            143,
+                                            153
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -1437487095011931606
+                        }
+                    ],
+                    "id": "e7f5b31b-054a-4451-9de2-c250c45b0965",
+                    "matches_hash": "14292271817258022"
+                }
+            ]
+        },
+        {
+            "Index": "21",
+            "Sentence": "Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP ribosylation of histone H4 [[A22]] [XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Ribosylation",
+                    "enz": {
+                        "name": "ADP",
+                        "db_refs": {
+                            "PUBCHEM": "6022",
+                            "TEXT": "ADP",
+                            "CHEMBL": "CHEMBL14830",
+                            "DRUGBANK": "DB03431",
+                            "CAS": "20398-34-9",
+                            "CHEBI": "CHEBI:16761",
+                            "HMDB": "HMDB0001341"
+                        }
+                    },
+                    "sub": {
+                        "name": "histone H4",
+                        "db_refs": {
+                            "TEXT": "histone H4"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP ribosylation of histone H4 [[A22]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Ribosylation_syntax_1a_noun",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            123,
+                                            126
+                                        ],
+                                        [
+                                            143,
+                                            153
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -1437487095011931606
+                        }
+                    ],
+                    "id": "12466af3-b59d-443f-93dc-ae952f5d4979",
+                    "matches_hash": "18075563674287198"
+                },
+                {
+                    "type": "Ribosylation",
+                    "enz": {
+                        "name": "ADP",
+                        "db_refs": {
+                            "PUBCHEM": "6022",
+                            "TEXT": "ADP",
+                            "CHEMBL": "CHEMBL14830",
+                            "DRUGBANK": "DB03431",
+                            "CAS": "20398-34-9",
+                            "CHEBI": "CHEBI:16761",
+                            "HMDB": "HMDB0001341"
+                        }
+                    },
+                    "sub": {
+                        "name": "histone H4",
+                        "db_refs": {
+                            "TEXT": "histone H4"
+                        }
+                    },
+                    "residue": "A",
+                    "position": "22",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP ribosylation of histone H4 [[A22]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Ribosylation_syntax_1a_noun",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            123,
+                                            126
+                                        ],
+                                        [
+                                            143,
+                                            153
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -1437487095011931606
+                        }
+                    ],
+                    "id": "8fd173c2-91bf-48fa-adf5-1e9ff87c250b",
+                    "matches_hash": "14292271817258022"
+                }
+            ]
+        },
+        {
+            "Index": "22",
+            "Sentence": "Here a potential contradiction in the role of SIRT1 in condensing chromatin arises whereby SIRT1 deacetylation activity could potentially help drive the PARP1 ADP ribosylation activity on H4K16.",
+            "Results": [
+                {
+                    "type": "Ribosylation",
+                    "enz": {
+                        "name": "SIRT1",
+                        "mods": [
+                            {
+                                "mod_type": "acetylation",
+                                "is_modified": false
+                            }
+                        ],
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "sub": {
+                        "name": "ADP",
+                        "db_refs": {
+                            "PUBCHEM": "6022",
+                            "TEXT": "ADP",
+                            "CHEMBL": "CHEMBL14830",
+                            "DRUGBANK": "DB03431",
+                            "CAS": "20398-34-9",
+                            "CHEBI": "CHEBI:16761",
+                            "HMDB": "HMDB0001341"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Here a potential contradiction in the role of SIRT1 in condensing chromatin arises whereby SIRT1 deacetylation activity could potentially help drive the PARP1 ADP ribosylation activity on H4K16.",
+                            "annotations": {
+                                "found_by": "Ribosylation_token_3_noun",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            91,
+                                            96
+                                        ],
+                                        [
+                                            159,
+                                            162
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 7609172474201695175
+                        }
+                    ],
+                    "id": "f87abdd3-f69a-4510-b692-d94dabf0fa06",
+                    "matches_hash": "-7463608840149501"
+                }
+            ]
+        },
+        {
+            "Index": "23",
+            "Sentence": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4 [[A23]].",
+            "Results": [
+                {
+                    "type": "Acetylation",
+                    "enz": {
+                        "name": "KAT8",
+                        "db_refs": {
+                            "UP": "Q9H7Z6",
+                            "TEXT": "MOF",
+                            "EGID": "84148",
+                            "HGNC": "17933"
+                        }
+                    },
+                    "sub": {
+                        "name": "histone H4",
+                        "db_refs": {
+                            "TEXT": "histone H4"
+                        }
+                    },
+                    "residue": "A",
+                    "position": "23",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4 [[A23]].",
+                            "annotations": {
+                                "found_by": "Acetylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            159,
+                                            164
+                                        ],
+                                        [
+                                            202,
+                                            212
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 4109624763342939135
+                        }
+                    ],
+                    "id": "6f45cd09-f2d3-4615-810b-d1f592cdf225",
+                    "matches_hash": "-19275504012892079"
+                },
+                {
+                    "type": "Acetylation",
+                    "enz": {
+                        "name": "Histone",
+                        "db_refs": {
+                            "FPLX": "Histone",
+                            "TEXT": "histone",
+                            "CHEBI": "CHEBI:15358",
+                            "CAS": "37244-51-2",
+                            "NCIT": "C16687"
+                        }
+                    },
+                    "sub": {
+                        "name": "histone H4",
+                        "db_refs": {
+                            "TEXT": "histone H4"
+                        }
+                    },
+                    "residue": "A",
+                    "position": "23",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4 [[A23]].",
+                            "annotations": {
+                                "found_by": "Acetylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            159,
+                                            164
+                                        ],
+                                        [
+                                            202,
+                                            212
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 4109624763342939135
+                        }
+                    ],
+                    "id": "d6f8581a-b38d-4f88-8497-5840ee34f59a",
+                    "matches_hash": "-20314603562891046"
+                },
+                {
+                    "type": "Acetylation",
+                    "enz": {
+                        "name": "KAT5",
+                        "db_refs": {
+                            "UP": "Q92993",
+                            "TEXT": "TIP60",
+                            "EGID": "10524",
+                            "HGNC": "5275"
+                        }
+                    },
+                    "sub": {
+                        "name": "histone H4",
+                        "db_refs": {
+                            "TEXT": "histone H4"
+                        }
+                    },
+                    "residue": "A",
+                    "position": "23",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4 [[A23]].",
+                            "annotations": {
+                                "found_by": "Acetylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            159,
+                                            164
+                                        ],
+                                        [
+                                            202,
+                                            212
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 4109624763342939135
+                        }
+                    ],
+                    "id": "8e4d2f6f-e1b7-4bf5-b58e-ea81102bfdaa",
+                    "matches_hash": "-16374365905624123"
+                }
+            ]
+        },
+        {
+            "Index": "24",
+            "Sentence": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4 [[A23]].",
+            "Results": [
+                {
+                    "type": "Acetylation",
+                    "enz": {
+                        "name": "KAT8",
+                        "db_refs": {
+                            "UP": "Q9H7Z6",
+                            "TEXT": "MOF",
+                            "EGID": "84148",
+                            "HGNC": "17933"
+                        }
+                    },
+                    "sub": {
+                        "name": "histone H4",
+                        "db_refs": {
+                            "TEXT": "histone H4"
+                        }
+                    },
+                    "residue": "A",
+                    "position": "23",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4 [[A23]].",
+                            "annotations": {
+                                "found_by": "Acetylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            159,
+                                            164
+                                        ],
+                                        [
+                                            202,
+                                            212
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 4109624763342939135
+                        }
+                    ],
+                    "id": "e6fa793e-9dd4-43ab-a930-c98db700f813",
+                    "matches_hash": "-19275504012892079"
+                },
+                {
+                    "type": "Acetylation",
+                    "enz": {
+                        "name": "Histone",
+                        "db_refs": {
+                            "FPLX": "Histone",
+                            "TEXT": "histone",
+                            "CHEBI": "CHEBI:15358",
+                            "CAS": "37244-51-2",
+                            "NCIT": "C16687"
+                        }
+                    },
+                    "sub": {
+                        "name": "histone H4",
+                        "db_refs": {
+                            "TEXT": "histone H4"
+                        }
+                    },
+                    "residue": "A",
+                    "position": "23",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4 [[A23]].",
+                            "annotations": {
+                                "found_by": "Acetylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            159,
+                                            164
+                                        ],
+                                        [
+                                            202,
+                                            212
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 4109624763342939135
+                        }
+                    ],
+                    "id": "923f3ab2-6e5c-4fb0-b6a5-155915479cf2",
+                    "matches_hash": "-20314603562891046"
+                },
+                {
+                    "type": "Acetylation",
+                    "enz": {
+                        "name": "KAT5",
+                        "db_refs": {
+                            "UP": "Q92993",
+                            "TEXT": "TIP60",
+                            "EGID": "10524",
+                            "HGNC": "5275"
+                        }
+                    },
+                    "sub": {
+                        "name": "histone H4",
+                        "db_refs": {
+                            "TEXT": "histone H4"
+                        }
+                    },
+                    "residue": "A",
+                    "position": "23",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4 [[A23]].",
+                            "annotations": {
+                                "found_by": "Acetylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            159,
+                                            164
+                                        ],
+                                        [
+                                            202,
+                                            212
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 4109624763342939135
+                        }
+                    ],
+                    "id": "dd769211-141a-46f9-98c4-7c50149efa90",
+                    "matches_hash": "-16374365905624123"
+                }
+            ]
+        },
+        {
+            "Index": "25",
+            "Sentence": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4 [[A23]].",
+            "Results": [
+                {
+                    "type": "Acetylation",
+                    "enz": {
+                        "name": "KAT8",
+                        "db_refs": {
+                            "UP": "Q9H7Z6",
+                            "TEXT": "MOF",
+                            "EGID": "84148",
+                            "HGNC": "17933"
+                        }
+                    },
+                    "sub": {
+                        "name": "histone H4",
+                        "db_refs": {
+                            "TEXT": "histone H4"
+                        }
+                    },
+                    "residue": "A",
+                    "position": "23",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4 [[A23]].",
+                            "annotations": {
+                                "found_by": "Acetylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            159,
+                                            164
+                                        ],
+                                        [
+                                            202,
+                                            212
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 4109624763342939135
+                        }
+                    ],
+                    "id": "bd613919-68b7-40e3-9960-a50ccbce3f3b",
+                    "matches_hash": "-19275504012892079"
+                },
+                {
+                    "type": "Acetylation",
+                    "enz": {
+                        "name": "Histone",
+                        "db_refs": {
+                            "FPLX": "Histone",
+                            "TEXT": "histone",
+                            "CHEBI": "CHEBI:15358",
+                            "CAS": "37244-51-2",
+                            "NCIT": "C16687"
+                        }
+                    },
+                    "sub": {
+                        "name": "histone H4",
+                        "db_refs": {
+                            "TEXT": "histone H4"
+                        }
+                    },
+                    "residue": "A",
+                    "position": "23",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4 [[A23]].",
+                            "annotations": {
+                                "found_by": "Acetylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            159,
+                                            164
+                                        ],
+                                        [
+                                            202,
+                                            212
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 4109624763342939135
+                        }
+                    ],
+                    "id": "235da9bf-0073-466f-af7d-e736770f62eb",
+                    "matches_hash": "-20314603562891046"
+                },
+                {
+                    "type": "Acetylation",
+                    "enz": {
+                        "name": "KAT5",
+                        "db_refs": {
+                            "UP": "Q92993",
+                            "TEXT": "TIP60",
+                            "EGID": "10524",
+                            "HGNC": "5275"
+                        }
+                    },
+                    "sub": {
+                        "name": "histone H4",
+                        "db_refs": {
+                            "TEXT": "histone H4"
+                        }
+                    },
+                    "residue": "A",
+                    "position": "23",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4 [[A23]].",
+                            "annotations": {
+                                "found_by": "Acetylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            159,
+                                            164
+                                        ],
+                                        [
+                                            202,
+                                            212
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 4109624763342939135
+                        }
+                    ],
+                    "id": "6b5879d5-8790-44c3-8a3f-b353c4b620fb",
+                    "matches_hash": "-16374365905624123"
+                }
+            ]
+        },
+        {
+            "Index": "26",
+            "Sentence": "TIP60 dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non homologous end joining [[A24]] [XREF_BIBR, XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Acetylation",
+                    "enz": {
+                        "name": "KAT5",
+                        "db_refs": {
+                            "UP": "Q92993",
+                            "TEXT": "TIP60",
+                            "EGID": "10524",
+                            "HGNC": "5275"
+                        }
+                    },
+                    "sub": {
+                        "name": "H4K16",
+                        "db_refs": {
+                            "TEXT": "H4K16"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "TIP60 dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non homologous end joining [[A24]] [XREF_BIBR, XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Acetylation_syntax_1a_noun",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            0,
+                                            5
+                                        ],
+                                        [
+                                            31,
+                                            36
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 902902225364604288
+                        }
+                    ],
+                    "id": "b963bd53-72ee-4eee-be7b-23200faf487d",
+                    "matches_hash": "-5274727211282761"
+                },
+                {
+                    "type": "Complex",
+                    "members": [
+                        {
+                            "name": "TP53BP1",
+                            "db_refs": {
+                                "UP": "Q12888",
+                                "TEXT": "53BP1",
+                                "HGNC": "11999",
+                                "EGID": "7158"
+                            }
+                        },
+                        {
+                            "name": "H4K20me2",
+                            "db_refs": {
+                                "TEXT": "H4K20me2"
+                            }
+                        }
+                    ],
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "TIP60 dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non homologous end joining [[A24]] [XREF_BIBR, XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "binding_token_4",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            61,
+                                            66
+                                        ],
+                                        [
+                                            70,
+                                            78
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 902902225364604288
+                        }
+                    ],
+                    "id": "df7c4fda-592d-4d78-98b0-60739aa54cc0",
+                    "matches_hash": "-19770542704659333"
+                },
+                {
+                    "type": "Inhibition",
+                    "subj": {
+                        "name": "TP53BP1",
+                        "bound_conditions": [
+                            {
+                                "agent": {
+                                    "name": "H4K20me2",
+                                    "db_refs": {
+                                        "TEXT": "H4K20me2"
+                                    }
+                                },
+                                "is_bound": true
+                            }
+                        ],
+                        "db_refs": {
+                            "UP": "Q12888",
+                            "TEXT": "53BP1",
+                            "HGNC": "11999",
+                            "EGID": "7158"
+                        }
+                    },
+                    "obj": {
+                        "name": "ENG",
+                        "db_refs": {
+                            "UP": "P17813",
+                            "TEXT": "end",
+                            "EGID": "2022",
+                            "HGNC": "3349"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "TIP60 dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non homologous end joining [[A24]] [XREF_BIBR, XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_1_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            61,
+                                            66
+                                        ],
+                                        [
+                                            110,
+                                            113
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 902902225364604288
+                        }
+                    ],
+                    "id": "88591b73-b902-4194-aa09-adef9cd93e4b",
+                    "matches_hash": "4793216649227615"
+                },
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "TP53BP1",
+                        "bound_conditions": [
+                            {
+                                "agent": {
+                                    "name": "H4K20me2",
+                                    "db_refs": {
+                                        "TEXT": "H4K20me2"
+                                    }
+                                },
+                                "is_bound": true
+                            }
+                        ],
+                        "db_refs": {
+                            "UP": "Q12888",
+                            "TEXT": "53BP1",
+                            "HGNC": "11999",
+                            "EGID": "7158"
+                        }
+                    },
+                    "obj": {
+                        "name": "ENG",
+                        "db_refs": {
+                            "UP": "P17813",
+                            "TEXT": "end",
+                            "EGID": "2022",
+                            "HGNC": "3349"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "TIP60 dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non homologous end joining [[A24]] [XREF_BIBR, XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_1_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            61,
+                                            66
+                                        ],
+                                        [
+                                            110,
+                                            113
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 902902225364604288
+                        }
+                    ],
+                    "id": "fe22e286-29f9-4080-9065-2cf13040f778",
+                    "matches_hash": "753047479827839"
+                }
+            ]
+        },
+        {
+            "Index": "27",
+            "Sentence": "In this loop, NBS1 is phosphorylated by ATM in response to genotoxic stress at S343 for the activation of NBS1; to be phosphorylated, it is necessary for NBS1 to be in a hypoacetylated state, which SIRT1 helps to maintain by deacetylating NBS1 [[A32-A33]] [XREF_BIBR, XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "ATM",
+                        "db_refs": {
+                            "UP": "Q13315",
+                            "TEXT": "ATM",
+                            "HGNC": "795",
+                            "EGID": "472"
+                        }
+                    },
+                    "sub": {
+                        "name": "NBN",
+                        "db_refs": {
+                            "UP": "O60934",
+                            "TEXT": "NBS1",
+                            "HGNC": "7652",
+                            "EGID": "4683"
+                        }
+                    },
+                    "residue": "S",
+                    "position": "343",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "In this loop, NBS1 is phosphorylated by ATM in response to genotoxic stress at S343 for the activation of NBS1; to be phosphorylated, it is necessary for NBS1 to be in a hypoacetylated state, which SIRT1 helps to maintain by deacetylating NBS1 [[A32-A33]] [XREF_BIBR, XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Phosphorylation_syntax_2a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            40,
+                                            43
+                                        ],
+                                        [
+                                            14,
+                                            18
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -1947899168290088793
+                        }
+                    ],
+                    "id": "5b902496-db65-4696-8f6c-df29e467bff2",
+                    "matches_hash": "-26245870576869488"
+                }
+            ]
+        },
+        {
+            "Index": "28",
+            "Sentence": "CHK2 can then phosphorylate HuR at several sites causing it to dissociate from SIRT1 mRNA, and thereby reduce the half-life of the SIRT1 mRNA [[A34]] [XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "CHEK2",
+                        "db_refs": {
+                            "UP": "O96017",
+                            "TEXT": "CHK2",
+                            "HGNC": "16627",
+                            "EGID": "11200"
+                        }
+                    },
+                    "sub": {
+                        "name": "ELAVL1",
+                        "db_refs": {
+                            "UP": "Q15717",
+                            "TEXT": "HuR",
+                            "HGNC": "3312",
+                            "EGID": "1994"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "CHK2 can then phosphorylate HuR at several sites causing it to dissociate from SIRT1 mRNA, and thereby reduce the half-life of the SIRT1 mRNA [[A34]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Phosphorylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            0,
+                                            4
+                                        ],
+                                        [
+                                            28,
+                                            31
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 3650521120884243772
+                        }
+                    ],
+                    "id": "d437f204-b894-40f3-81e2-d495a4e73d9a",
+                    "matches_hash": "-5258541581497332"
+                }
+            ]
+        },
+        {
+            "Index": "29",
+            "Sentence": "In one publication, c-MYC over-expression leads to an increase in SIRT1 expression and then deacetylation of c-MYC by SIRT1 leads to the destabilization of c-MYC [[A39]] [XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Deacetylation",
+                    "enz": {
+                        "name": "SIRT1",
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "sub": {
+                        "name": "MYC",
+                        "db_refs": {
+                            "UP": "Q17103",
+                            "TEXT": "c-MYC"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "In one publication, c-MYC over-expression leads to an increase in SIRT1 expression and then deacetylation of c-MYC by SIRT1 leads to the destabilization of c-MYC [[A39]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Deacetylation_syntax_1a_noun",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            118,
+                                            123
+                                        ],
+                                        [
+                                            109,
+                                            114
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 4262355993548160634
+                        }
+                    ],
+                    "id": "ee0215a7-0270-4489-92af-b7278cb160ba",
+                    "matches_hash": "3000279408626016"
+                }
+            ]
+        },
+        {
+            "Index": "3",
+            "Sentence": "CK2 phosphorylates human SIRT1 at S659 and S661, both in vivo and in vitro, stimulating its deacetylation activity [[A4]] [XREF_BIBR, XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "CK2",
+                        "db_refs": {
+                            "FPLX": "CK2",
+                            "TEXT": "CK2",
+                            "NCIT": "C107559",
+                            "GO": "GO:0005956"
+                        }
+                    },
+                    "sub": {
+                        "name": "SIRT1",
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "residue": "S",
+                    "position": "659",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "CK2 phosphorylates human SIRT1 at S659 and S661, both in vivo and in vitro, stimulating its deacetylation activity [[A4]] [XREF_BIBR, XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Phosphorylation_token_6_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            0,
+                                            3
+                                        ],
+                                        [
+                                            25,
+                                            30
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -283078647376443366
+                        }
+                    ],
+                    "id": "d17c73af-0a05-4ee0-8926-5d6d024ca47b",
+                    "matches_hash": "-2449521168392335"
+                },
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "CK2",
+                        "db_refs": {
+                            "FPLX": "CK2",
+                            "TEXT": "CK2",
+                            "NCIT": "C107559",
+                            "GO": "GO:0005956"
+                        }
+                    },
+                    "sub": {
+                        "name": "SIRT1",
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "residue": "S",
+                    "position": "661",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "CK2 phosphorylates human SIRT1 at S659 and S661, both in vivo and in vitro, stimulating its deacetylation activity [[A4]] [XREF_BIBR, XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Phosphorylation_token_6_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            0,
+                                            3
+                                        ],
+                                        [
+                                            25,
+                                            30
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -283078647376443366
+                        }
+                    ],
+                    "id": "f0e8b035-4a6d-47e2-8b7e-6101c837c846",
+                    "matches_hash": "-34542730089720589"
+                }
+            ]
+        },
+        {
+            "Index": "30",
+            "Sentence": "SIRT1 can deacetylate the RelA / p65 subunit of NF-\u03ba B at K310 to inhibit NF-\u03ba B transactivation activity [[A42]] [XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Deacetylation",
+                    "enz": {
+                        "name": "SIRT1",
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "sub": {
+                        "name": "SYT1",
+                        "db_refs": {
+                            "UP": "P21579",
+                            "TEXT": "p65",
+                            "EGID": "6857",
+                            "HGNC": "11509"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "SIRT1 can deacetylate the RelA / p65 subunit of NF-\u03ba B at K310 to inhibit NF-\u03ba B transactivation activity [[A42]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Deacetylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            0,
+                                            5
+                                        ],
+                                        [
+                                            33,
+                                            36
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -6454633486330535031
+                        }
+                    ],
+                    "id": "0abc6013-3eeb-481b-be82-9f91d40cac3f",
+                    "matches_hash": "7397811314964016"
+                },
+                {
+                    "type": "Deacetylation",
+                    "enz": {
+                        "name": "SIRT1",
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "sub": {
+                        "name": "RELA",
+                        "db_refs": {
+                            "UP": "Q04206",
+                            "TEXT": "RelA",
+                            "EGID": "5970",
+                            "HGNC": "9955"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "SIRT1 can deacetylate the RelA / p65 subunit of NF-\u03ba B at K310 to inhibit NF-\u03ba B transactivation activity [[A42]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Deacetylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            0,
+                                            5
+                                        ],
+                                        [
+                                            26,
+                                            30
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -6454633486330535031
+                        }
+                    ],
+                    "id": "621899d4-2b67-487b-83b8-f66522c64904",
+                    "matches_hash": "-5992211156533205"
+                }
+            ]
+        },
+        {
+            "Index": "31",
+            "Sentence": "SIRT1 can deacetylate the RelA / p65 subunit of NF-\u03ba B at K310 to inhibit NF-\u03ba B transactivation activity [[A42]] [XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Deacetylation",
+                    "enz": {
+                        "name": "SIRT1",
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "sub": {
+                        "name": "SYT1",
+                        "db_refs": {
+                            "UP": "P21579",
+                            "TEXT": "p65",
+                            "EGID": "6857",
+                            "HGNC": "11509"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "SIRT1 can deacetylate the RelA / p65 subunit of NF-\u03ba B at K310 to inhibit NF-\u03ba B transactivation activity [[A42]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Deacetylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            0,
+                                            5
+                                        ],
+                                        [
+                                            33,
+                                            36
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -6454633486330535031
+                        }
+                    ],
+                    "id": "476270e4-dfdc-4657-b2a0-2d979f956118",
+                    "matches_hash": "7397811314964016"
+                },
+                {
+                    "type": "Deacetylation",
+                    "enz": {
+                        "name": "SIRT1",
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "sub": {
+                        "name": "RELA",
+                        "db_refs": {
+                            "UP": "Q04206",
+                            "TEXT": "RelA",
+                            "EGID": "5970",
+                            "HGNC": "9955"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "SIRT1 can deacetylate the RelA / p65 subunit of NF-\u03ba B at K310 to inhibit NF-\u03ba B transactivation activity [[A42]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Deacetylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            0,
+                                            5
+                                        ],
+                                        [
+                                            26,
+                                            30
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -6454633486330535031
+                        }
+                    ],
+                    "id": "28a72de1-261c-4f9f-82bf-1d2b6307e36f",
+                    "matches_hash": "-5992211156533205"
+                }
+            ]
+        },
+        {
+            "Index": "32",
+            "Sentence": "PARP1 is an activator of NF-\u03ba B through its direct binding to NF-\u03ba B; acetylation of PARP1 by p300 / CBP is required for the binding of PARP1 to NF-\u03ba B [[A43]] [XREF_BIBR].",
+            "Results": []
+        },
+        {
+            "Index": "33",
+            "Sentence": "PARP1 is an activator of NF-\u03ba B through its direct binding to NF-\u03ba B; acetylation of PARP1 by p300 / CBP is required for the binding of PARP1 to NF-\u03ba B [[A43]] [XREF_BIBR].",
+            "Results": []
+        },
+        {
+            "Index": "34",
+            "Sentence": "Micro-RNAs have also been shown to downregulate SIRT1 dependent deacetylation of p53.",
+            "Results": [
+                {
+                    "type": "Deacetylation",
+                    "enz": {
+                        "name": "SIRT1",
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "sub": {
+                        "name": "TP53",
+                        "db_refs": {
+                            "UP": "P04637",
+                            "TEXT": "p53",
+                            "EGID": "7157",
+                            "HGNC": "11998"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Micro-RNAs have also been shown to downregulate SIRT1 dependent deacetylation of p53.",
+                            "annotations": {
+                                "found_by": "Deacetylation_syntax_1a_noun",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            48,
+                                            53
+                                        ],
+                                        [
+                                            81,
+                                            84
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 1014313150001508979
+                        }
+                    ],
+                    "id": "d775c7b6-80f3-4fa0-a2fc-03825cd6cca1",
+                    "matches_hash": "25432345321514615"
+                }
+            ]
+        },
+        {
+            "Index": "35",
+            "Sentence": "Active Regulator of SIRT1 (AROS) has been shown to bind SIRT1 and help enhance the deacetylation of p53 by SIRT1 [[A53]] [XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Deacetylation",
+                    "enz": {
+                        "name": "RPS19BP1",
+                        "db_refs": {
+                            "UP": "Q86WX3",
+                            "TEXT": "Active Regulator of SIRT1",
+                            "EGID": "91582",
+                            "HGNC": "28749"
+                        }
+                    },
+                    "sub": {
+                        "name": "TP53",
+                        "db_refs": {
+                            "UP": "P04637",
+                            "TEXT": "p53",
+                            "EGID": "7157",
+                            "HGNC": "11998"
+                        }
+                    },
+                    "residue": "A",
+                    "position": "53",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Active Regulator of SIRT1 (AROS) has been shown to bind SIRT1 and help enhance the deacetylation of p53 by SIRT1 [[A53]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Deacetylation_syntax_1a_noun",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            107,
+                                            112
+                                        ],
+                                        [
+                                            100,
+                                            103
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 2138582415756158384
+                        }
+                    ],
+                    "id": "9a438ddd-0ff7-4371-bead-4aadc73159ae",
+                    "matches_hash": "-20640109583316491"
+                },
+                {
+                    "type": "Deacetylation",
+                    "enz": {
+                        "name": "SIRT1",
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "sub": {
+                        "name": "TP53",
+                        "db_refs": {
+                            "UP": "P04637",
+                            "TEXT": "p53",
+                            "EGID": "7157",
+                            "HGNC": "11998"
+                        }
+                    },
+                    "residue": "A",
+                    "position": "53",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Active Regulator of SIRT1 (AROS) has been shown to bind SIRT1 and help enhance the deacetylation of p53 by SIRT1 [[A53]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Deacetylation_syntax_1a_noun",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            107,
+                                            112
+                                        ],
+                                        [
+                                            100,
+                                            103
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 2138582415756158384
+                        }
+                    ],
+                    "id": "3853e126-6804-4918-b7ff-2cbbe94860ae",
+                    "matches_hash": "-34574340825104993"
+                }
+            ]
+        },
+        {
+            "Index": "36",
+            "Sentence": "Active Regulator of SIRT1 (AROS) has been shown to bind SIRT1 and help enhance the deacetylation of p53 by SIRT1 [[A53]] [XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Deacetylation",
+                    "enz": {
+                        "name": "RPS19BP1",
+                        "db_refs": {
+                            "UP": "Q86WX3",
+                            "TEXT": "Active Regulator of SIRT1",
+                            "EGID": "91582",
+                            "HGNC": "28749"
+                        }
+                    },
+                    "sub": {
+                        "name": "TP53",
+                        "db_refs": {
+                            "UP": "P04637",
+                            "TEXT": "p53",
+                            "EGID": "7157",
+                            "HGNC": "11998"
+                        }
+                    },
+                    "residue": "A",
+                    "position": "53",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Active Regulator of SIRT1 (AROS) has been shown to bind SIRT1 and help enhance the deacetylation of p53 by SIRT1 [[A53]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Deacetylation_syntax_1a_noun",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            107,
+                                            112
+                                        ],
+                                        [
+                                            100,
+                                            103
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 2138582415756158384
+                        }
+                    ],
+                    "id": "9ede9175-a9c8-4901-b7ae-26ac5dd3febf",
+                    "matches_hash": "-20640109583316491"
+                },
+                {
+                    "type": "Deacetylation",
+                    "enz": {
+                        "name": "SIRT1",
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "sub": {
+                        "name": "TP53",
+                        "db_refs": {
+                            "UP": "P04637",
+                            "TEXT": "p53",
+                            "EGID": "7157",
+                            "HGNC": "11998"
+                        }
+                    },
+                    "residue": "A",
+                    "position": "53",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Active Regulator of SIRT1 (AROS) has been shown to bind SIRT1 and help enhance the deacetylation of p53 by SIRT1 [[A53]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Deacetylation_syntax_1a_noun",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            107,
+                                            112
+                                        ],
+                                        [
+                                            100,
+                                            103
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 2138582415756158384
+                        }
+                    ],
+                    "id": "a008989e-dad5-4f9e-beda-5326f7dbc449",
+                    "matches_hash": "-34574340825104993"
+                }
+            ]
+        },
+        {
+            "Index": "37",
+            "Sentence": "SIRT1 deacetylates BMAL1 at K537 destabilizing the interaction between CRY and BMAL1 [[A63]] [XREF_BIBR, XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Deacetylation",
+                    "enz": {
+                        "name": "SIRT1",
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "sub": {
+                        "name": "ARNTL",
+                        "db_refs": {
+                            "UP": "O00327",
+                            "TEXT": "BMAL1",
+                            "HGNC": "701",
+                            "EGID": "406"
+                        }
+                    },
+                    "residue": "K",
+                    "position": "537",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "SIRT1 deacetylates BMAL1 at K537 destabilizing the interaction between CRY and BMAL1 [[A63]] [XREF_BIBR, XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Deacetylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            0,
+                                            5
+                                        ],
+                                        [
+                                            19,
+                                            24
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -4546810733226661123
+                        }
+                    ],
+                    "id": "ca8c7382-6c06-4802-8da1-e5b64c067c9f",
+                    "matches_hash": "15612713586489903"
+                },
+                {
+                    "type": "Complex",
+                    "members": [
+                        {
+                            "name": "CRYL1",
+                            "db_refs": {
+                                "UP": "Q9Y2S2",
+                                "TEXT": "CRY",
+                                "HGNC": "18246",
+                                "EGID": "51084"
+                            }
+                        },
+                        {
+                            "name": "ARNTL",
+                            "db_refs": {
+                                "UP": "O00327",
+                                "TEXT": "BMAL1",
+                                "HGNC": "701",
+                                "EGID": "406"
+                            }
+                        },
+                        {
+                            "name": "A63",
+                            "db_refs": {
+                                "TEXT": "A63"
+                            }
+                        }
+                    ],
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "SIRT1 deacetylates BMAL1 at K537 destabilizing the interaction between CRY and BMAL1 [[A63]] [XREF_BIBR, XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "binding11",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            71,
+                                            74
+                                        ],
+                                        [
+                                            79,
+                                            84
+                                        ],
+                                        [
+                                            87,
+                                            90
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": -4546810733226661123
+                        }
+                    ],
+                    "id": "e0d95e7f-1e59-40e2-bf51-db14d7bb1895",
+                    "matches_hash": "11447196585199641"
+                }
+            ]
+        },
+        {
+            "Index": "38",
+            "Sentence": "SIRT1 has also been shown to deacetylate PER2 destabilizing the protein [[A65]]; it has been hypothesized that acetylation of PER2 at lysine residues prevents their ubiquitination [XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Deacetylation",
+                    "enz": {
+                        "name": "SIRT1",
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "sub": {
+                        "name": "PER2",
+                        "db_refs": {
+                            "UP": "O15055",
+                            "TEXT": "PER2",
+                            "EGID": "8864",
+                            "HGNC": "8846"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "SIRT1 has also been shown to deacetylate PER2 destabilizing the protein [[A65]]; it has been hypothesized that acetylation of PER2 at lysine residues prevents their ubiquitination [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Deacetylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            0,
+                                            5
+                                        ],
+                                        [
+                                            41,
+                                            45
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "hypothesis": true,
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 2359693780225585018
+                        }
+                    ],
+                    "id": "1f33f87c-8f03-4b2d-afc8-6fd775826b88",
+                    "matches_hash": "-439354580967022"
+                }
+            ]
+        },
+        {
+            "Index": "39",
+            "Sentence": "Figure XREF_FIG shows a modular overview of how the SIRT1 and PARP1 interactions are laid out (an arrow indicates that a molecule or process from the source module has an interaction with a molecule or process in the target module) and Figure XREF_FIG provides a legend for reading the MIM notation.",
+            "Results": [
+                {
+                    "type": "Complex",
+                    "members": [
+                        {
+                            "name": "SIRT1",
+                            "db_refs": {
+                                "UP": "Q96EB6",
+                                "TEXT": "SIRT1",
+                                "EGID": "23411",
+                                "HGNC": "14929"
+                            }
+                        },
+                        {
+                            "name": "PARP1",
+                            "db_refs": {
+                                "UP": "P09874",
+                                "TEXT": "PARP1",
+                                "HGNC": "270",
+                                "EGID": "142"
+                            }
+                        }
+                    ],
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Figure XREF_FIG shows a modular overview of how the SIRT1 and PARP1 interactions are laid out (an arrow indicates that a molecule or process from the source module has an interaction with a molecule or process in the target module) and Figure XREF_FIG provides a legend for reading the MIM notation.",
+                            "annotations": {
+                                "found_by": "binding7a",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            52,
+                                            57
+                                        ],
+                                        [
+                                            62,
+                                            67
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -2113086880367695928
+                        }
+                    ],
+                    "id": "cc5f0cb1-a05a-4a64-ace9-e88de43383e0",
+                    "matches_hash": "-3916119482871011"
+                }
+            ]
+        },
+        {
+            "Index": "4",
+            "Sentence": "Cyclin B/Cdk1, a cell cycle dependent kinase, can phosphorylate SIRT1 at T530 and S540 [[A6]].",
+            "Results": [
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "PCNA",
+                        "db_refs": {
+                            "UP": "P12004",
+                            "TEXT": "Cyclin",
+                            "EGID": "5111",
+                            "HGNC": "8729"
+                        }
+                    },
+                    "sub": {
+                        "name": "SIRT1",
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "residue": "T",
+                    "position": "530",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Cyclin B/Cdk1, a cell cycle dependent kinase, can phosphorylate SIRT1 at T530 and S540 [[A6]].",
+                            "annotations": {
+                                "found_by": "Phosphorylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            0,
+                                            6
+                                        ],
+                                        [
+                                            64,
+                                            69
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 8904089903066857989
+                        }
+                    ],
+                    "id": "42fd3d2d-6636-45aa-a593-aeb96b76c231",
+                    "matches_hash": "-11088435514974549"
+                },
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "PCNA",
+                        "db_refs": {
+                            "UP": "P12004",
+                            "TEXT": "Cyclin",
+                            "EGID": "5111",
+                            "HGNC": "8729"
+                        }
+                    },
+                    "sub": {
+                        "name": "SIRT1",
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "residue": "S",
+                    "position": "540",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Cyclin B/Cdk1, a cell cycle dependent kinase, can phosphorylate SIRT1 at T530 and S540 [[A6]].",
+                            "annotations": {
+                                "found_by": "Phosphorylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            0,
+                                            6
+                                        ],
+                                        [
+                                            64,
+                                            69
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 8904089903066857989
+                        }
+                    ],
+                    "id": "d61729da-ae8b-456a-80dd-ed9ae577c396",
+                    "matches_hash": "-12855325268972195"
+                }
+            ]
+        },
+        {
+            "Index": "40",
+            "Sentence": "A similar interaction has been shown to occur with SIRT1, whereby SIRT1 binds to NMNAT1 helping to recruit NMNAT1 to specific promoters, which may help stimulate SIRT1 activity [[A19]] [XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Complex",
+                    "members": [
+                        {
+                            "name": "SIRT1",
+                            "db_refs": {
+                                "UP": "Q96EB6",
+                                "TEXT": "SIRT1",
+                                "EGID": "23411",
+                                "HGNC": "14929"
+                            }
+                        },
+                        {
+                            "name": "NMNAT1",
+                            "db_refs": {
+                                "UP": "Q9HAN9",
+                                "TEXT": "NMNAT1",
+                                "EGID": "64802",
+                                "HGNC": "17877"
+                            }
+                        }
+                    ],
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "A similar interaction has been shown to occur with SIRT1, whereby SIRT1 binds to NMNAT1 helping to recruit NMNAT1 to specific promoters, which may help stimulate SIRT1 activity [[A19]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "binding1b",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            51,
+                                            56
+                                        ],
+                                        [
+                                            81,
+                                            87
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 6824163592765574954
+                        }
+                    ],
+                    "id": "19fe816c-f337-4512-84e8-8671b2950e97",
+                    "matches_hash": "-17720366061556861"
+                },
+                {
+                    "type": "Complex",
+                    "members": [
+                        {
+                            "name": "SIRT1",
+                            "db_refs": {
+                                "UP": "Q96EB6",
+                                "TEXT": "SIRT1",
+                                "EGID": "23411",
+                                "HGNC": "14929"
+                            }
+                        },
+                        {
+                            "name": "NMNAT1",
+                            "db_refs": {
+                                "UP": "Q9HAN9",
+                                "TEXT": "NMNAT1",
+                                "EGID": "64802",
+                                "HGNC": "17877"
+                            }
+                        }
+                    ],
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "A similar interaction has been shown to occur with SIRT1, whereby SIRT1 binds to NMNAT1 helping to recruit NMNAT1 to specific promoters, which may help stimulate SIRT1 activity [[A19]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "binding1b",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            66,
+                                            71
+                                        ],
+                                        [
+                                            81,
+                                            87
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 6824163592765574954
+                        }
+                    ],
+                    "id": "417cfaf7-afa3-47f8-979d-9b4918f9e971",
+                    "matches_hash": "-17720366061556861"
+                }
+            ]
+        },
+        {
+            "Index": "41",
+            "Sentence": "A similar interaction has been shown to occur with SIRT1, whereby SIRT1 binds to NMNAT1 helping to recruit NMNAT1 to specific promoters, which may help stimulate SIRT1 activity [[A19]] [XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Complex",
+                    "members": [
+                        {
+                            "name": "SIRT1",
+                            "db_refs": {
+                                "UP": "Q96EB6",
+                                "TEXT": "SIRT1",
+                                "EGID": "23411",
+                                "HGNC": "14929"
+                            }
+                        },
+                        {
+                            "name": "NMNAT1",
+                            "db_refs": {
+                                "UP": "Q9HAN9",
+                                "TEXT": "NMNAT1",
+                                "EGID": "64802",
+                                "HGNC": "17877"
+                            }
+                        }
+                    ],
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "A similar interaction has been shown to occur with SIRT1, whereby SIRT1 binds to NMNAT1 helping to recruit NMNAT1 to specific promoters, which may help stimulate SIRT1 activity [[A19]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "binding1b",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            51,
+                                            56
+                                        ],
+                                        [
+                                            81,
+                                            87
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 6824163592765574954
+                        }
+                    ],
+                    "id": "94dbd928-9e2c-4929-990b-4e6ed0afda2d",
+                    "matches_hash": "-17720366061556861"
+                },
+                {
+                    "type": "Complex",
+                    "members": [
+                        {
+                            "name": "SIRT1",
+                            "db_refs": {
+                                "UP": "Q96EB6",
+                                "TEXT": "SIRT1",
+                                "EGID": "23411",
+                                "HGNC": "14929"
+                            }
+                        },
+                        {
+                            "name": "NMNAT1",
+                            "db_refs": {
+                                "UP": "Q9HAN9",
+                                "TEXT": "NMNAT1",
+                                "EGID": "64802",
+                                "HGNC": "17877"
+                            }
+                        }
+                    ],
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "A similar interaction has been shown to occur with SIRT1, whereby SIRT1 binds to NMNAT1 helping to recruit NMNAT1 to specific promoters, which may help stimulate SIRT1 activity [[A19]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "binding1b",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            66,
+                                            71
+                                        ],
+                                        [
+                                            81,
+                                            87
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 6824163592765574954
+                        }
+                    ],
+                    "id": "12169a2a-9840-429f-a098-de80b01aa080",
+                    "matches_hash": "-17720366061556861"
+                }
+            ]
+        },
+        {
+            "Index": "42",
+            "Sentence": "TIP60 dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non homologous end joining [[A24]] [XREF_BIBR, XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Acetylation",
+                    "enz": {
+                        "name": "KAT5",
+                        "db_refs": {
+                            "UP": "Q92993",
+                            "TEXT": "TIP60",
+                            "EGID": "10524",
+                            "HGNC": "5275"
+                        }
+                    },
+                    "sub": {
+                        "name": "H4K16",
+                        "db_refs": {
+                            "TEXT": "H4K16"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "TIP60 dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non homologous end joining [[A24]] [XREF_BIBR, XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Acetylation_syntax_1a_noun",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            0,
+                                            5
+                                        ],
+                                        [
+                                            31,
+                                            36
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 902902225364604288
+                        }
+                    ],
+                    "id": "9545e7cc-8592-4ce0-8118-bd23cff9d805",
+                    "matches_hash": "-5274727211282761"
+                },
+                {
+                    "type": "Complex",
+                    "members": [
+                        {
+                            "name": "TP53BP1",
+                            "db_refs": {
+                                "UP": "Q12888",
+                                "TEXT": "53BP1",
+                                "HGNC": "11999",
+                                "EGID": "7158"
+                            }
+                        },
+                        {
+                            "name": "H4K20me2",
+                            "db_refs": {
+                                "TEXT": "H4K20me2"
+                            }
+                        }
+                    ],
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "TIP60 dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non homologous end joining [[A24]] [XREF_BIBR, XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "binding_token_4",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            61,
+                                            66
+                                        ],
+                                        [
+                                            70,
+                                            78
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 902902225364604288
+                        }
+                    ],
+                    "id": "015d1561-ba0f-497f-b183-acca09c4d39c",
+                    "matches_hash": "-19770542704659333"
+                },
+                {
+                    "type": "Inhibition",
+                    "subj": {
+                        "name": "TP53BP1",
+                        "bound_conditions": [
+                            {
+                                "agent": {
+                                    "name": "H4K20me2",
+                                    "db_refs": {
+                                        "TEXT": "H4K20me2"
+                                    }
+                                },
+                                "is_bound": true
+                            }
+                        ],
+                        "db_refs": {
+                            "UP": "Q12888",
+                            "TEXT": "53BP1",
+                            "HGNC": "11999",
+                            "EGID": "7158"
+                        }
+                    },
+                    "obj": {
+                        "name": "ENG",
+                        "db_refs": {
+                            "UP": "P17813",
+                            "TEXT": "end",
+                            "EGID": "2022",
+                            "HGNC": "3349"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "TIP60 dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non homologous end joining [[A24]] [XREF_BIBR, XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_1_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            61,
+                                            66
+                                        ],
+                                        [
+                                            110,
+                                            113
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 902902225364604288
+                        }
+                    ],
+                    "id": "badf64fe-ea35-4907-a213-e0d048b36cae",
+                    "matches_hash": "4793216649227615"
+                },
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "TP53BP1",
+                        "bound_conditions": [
+                            {
+                                "agent": {
+                                    "name": "H4K20me2",
+                                    "db_refs": {
+                                        "TEXT": "H4K20me2"
+                                    }
+                                },
+                                "is_bound": true
+                            }
+                        ],
+                        "db_refs": {
+                            "UP": "Q12888",
+                            "TEXT": "53BP1",
+                            "HGNC": "11999",
+                            "EGID": "7158"
+                        }
+                    },
+                    "obj": {
+                        "name": "ENG",
+                        "db_refs": {
+                            "UP": "P17813",
+                            "TEXT": "end",
+                            "EGID": "2022",
+                            "HGNC": "3349"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "TIP60 dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non homologous end joining [[A24]] [XREF_BIBR, XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_1_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            61,
+                                            66
+                                        ],
+                                        [
+                                            110,
+                                            113
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 902902225364604288
+                        }
+                    ],
+                    "id": "7e7252e8-0122-4f38-bcfb-712a5541b9fc",
+                    "matches_hash": "753047479827839"
+                }
+            ]
+        },
+        {
+            "Index": "43",
+            "Sentence": "It has been shown that PARP1 binds to ATM, an interaction that is stimulated by DNA damage, and that the automodification of PARP1 leads to ATM activation [[A31]] [XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Complex",
+                    "members": [
+                        {
+                            "name": "PARP1",
+                            "db_refs": {
+                                "UP": "P09874",
+                                "TEXT": "PARP1",
+                                "HGNC": "270",
+                                "EGID": "142"
+                            }
+                        },
+                        {
+                            "name": "ATM",
+                            "db_refs": {
+                                "UP": "Q13315",
+                                "TEXT": "ATM",
+                                "HGNC": "795",
+                                "EGID": "472"
+                            }
+                        }
+                    ],
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "It has been shown that PARP1 binds to ATM, an interaction that is stimulated by DNA damage, and that the automodification of PARP1 leads to ATM activation [[A31]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "binding1b",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            23,
+                                            28
+                                        ],
+                                        [
+                                            38,
+                                            41
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -899569931326324785
+                        }
+                    ],
+                    "id": "fc34f9ba-94ee-4d46-8be7-7ad5d33bdaf6",
+                    "matches_hash": "-18195717651822948"
+                }
+            ]
+        },
+        {
+            "Index": "44",
+            "Sentence": "Additionally, the transcriptional activity of E2F1 is inhibited by Retinoblastoma (Rb), which is another substrate of SIRT1 deacetylation; acetylation of Rb has been shown to regulate the binding of Rb to E2F1 [[A38]] [XREF_BIBR, XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Complex",
+                    "members": [
+                        {
+                            "name": "RB1",
+                            "db_refs": {
+                                "UP": "P06400",
+                                "TEXT": "Rb",
+                                "EGID": "5925",
+                                "HGNC": "9884"
+                            }
+                        },
+                        {
+                            "name": "E2F1",
+                            "db_refs": {
+                                "UP": "Q01094",
+                                "TEXT": "E2F1",
+                                "EGID": "1869",
+                                "HGNC": "3113"
+                            }
+                        },
+                        {
+                            "name": "A38",
+                            "db_refs": {
+                                "TEXT": "A38"
+                            }
+                        }
+                    ],
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Additionally, the transcriptional activity of E2F1 is inhibited by Retinoblastoma (Rb), which is another substrate of SIRT1 deacetylation; acetylation of Rb has been shown to regulate the binding of Rb to E2F1 [[A38]] [XREF_BIBR, XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "binding_token_4",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            199,
+                                            201
+                                        ],
+                                        [
+                                            205,
+                                            209
+                                        ],
+                                        [
+                                            212,
+                                            215
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 1392701484319955010
+                        }
+                    ],
+                    "id": "7b0896fc-f8cf-4f94-9cdb-6041815d7e71",
+                    "matches_hash": "-4559335876565703"
+                }
+            ]
+        },
+        {
+            "Index": "45",
+            "Sentence": "Two studies have examined the interactions between SIRT1 and c-MYC producing contradictory results.",
+            "Results": [
+                {
+                    "type": "Complex",
+                    "members": [
+                        {
+                            "name": "SIRT1",
+                            "db_refs": {
+                                "UP": "Q96EB6",
+                                "TEXT": "SIRT1",
+                                "EGID": "23411",
+                                "HGNC": "14929"
+                            }
+                        },
+                        {
+                            "name": "MYC",
+                            "db_refs": {
+                                "UP": "Q17103",
+                                "TEXT": "c-MYC"
+                            }
+                        }
+                    ],
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Two studies have examined the interactions between SIRT1 and c-MYC producing contradictory results.",
+                            "annotations": {
+                                "found_by": "binding11",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            51,
+                                            56
+                                        ],
+                                        [
+                                            61,
+                                            66
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -7332316866257335330
+                        }
+                    ],
+                    "id": "25ef550a-39dd-4047-ab65-762ad9eac1cf",
+                    "matches_hash": "-1792388556773358"
+                }
+            ]
+        },
+        {
+            "Index": "46",
+            "Sentence": "There is evidence that PARP1 binds to E2F1 stimulating E2F1 dependent transcription of c-MYC [[A41]] [XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Complex",
+                    "members": [
+                        {
+                            "name": "PARP1",
+                            "db_refs": {
+                                "UP": "P09874",
+                                "TEXT": "PARP1",
+                                "HGNC": "270",
+                                "EGID": "142"
+                            }
+                        },
+                        {
+                            "name": "E2F1",
+                            "db_refs": {
+                                "UP": "Q01094",
+                                "TEXT": "E2F1",
+                                "EGID": "1869",
+                                "HGNC": "3113"
+                            }
+                        }
+                    ],
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "There is evidence that PARP1 binds to E2F1 stimulating E2F1 dependent transcription of c-MYC [[A41]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "binding_token_3",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            23,
+                                            28
+                                        ],
+                                        [
+                                            38,
+                                            42
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -3744650318685052079
+                        }
+                    ],
+                    "id": "7e62405e-e8d5-436a-8a35-e660dd3f480f",
+                    "matches_hash": "24336885459049939"
+                },
+                {
+                    "type": "IncreaseAmount",
+                    "subj": {
+                        "name": "PARP1",
+                        "bound_conditions": [
+                            {
+                                "agent": {
+                                    "name": "E2F1",
+                                    "db_refs": {
+                                        "UP": "Q01094",
+                                        "TEXT": "E2F1",
+                                        "EGID": "1869",
+                                        "HGNC": "3113"
+                                    }
+                                },
+                                "is_bound": true
+                            }
+                        ],
+                        "db_refs": {
+                            "UP": "P09874",
+                            "TEXT": "PARP1",
+                            "HGNC": "270",
+                            "EGID": "142"
+                        }
+                    },
+                    "obj": {
+                        "name": "MYC",
+                        "db_refs": {
+                            "UP": "Q17103",
+                            "TEXT": "c-MYC"
+                        }
+                    },
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "There is evidence that PARP1 binds to E2F1 stimulating E2F1 dependent transcription of c-MYC [[A41]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "transcription_3",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            23,
+                                            28
+                                        ],
+                                        [
+                                            87,
+                                            92
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": -3744650318685052079
+                        }
+                    ],
+                    "id": "d25ed7b9-b060-460b-961b-e18d78acb6cf",
+                    "matches_hash": "-16558778143710356"
+                }
+            ]
+        },
+        {
+            "Index": "47",
+            "Sentence": "This effect is countered by the transcription factor FOXO3A, which interacts with p53 in an inhibitory fashion during nutrient deprivation [[A46-A47]] [XREF_BIBR, XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Complex",
+                    "members": [
+                        {
+                            "name": "FOXO3",
+                            "db_refs": {
+                                "UP": "O43524",
+                                "TEXT": "FOXO3A",
+                                "EGID": "2309",
+                                "HGNC": "3821"
+                            }
+                        },
+                        {
+                            "name": "TP53",
+                            "db_refs": {
+                                "UP": "P04637",
+                                "TEXT": "p53",
+                                "EGID": "7157",
+                                "HGNC": "11998"
+                            }
+                        }
+                    ],
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "This effect is countered by the transcription factor FOXO3A, which interacts with p53 in an inhibitory fashion during nutrient deprivation [[A46-A47]] [XREF_BIBR, XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "binding13",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            53,
+                                            59
+                                        ],
+                                        [
+                                            82,
+                                            85
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -2118655437471877840
+                        }
+                    ],
+                    "id": "dd8ccad1-617c-44a2-814f-da6446459607",
+                    "matches_hash": "-31665956209389406"
+                }
+            ]
+        },
+        {
+            "Index": "48",
+            "Sentence": "Much less is known about the interaction between PARP1 and p53.",
+            "Results": [
+                {
+                    "type": "Complex",
+                    "members": [
+                        {
+                            "name": "PARP1",
+                            "db_refs": {
+                                "UP": "P09874",
+                                "TEXT": "PARP1",
+                                "HGNC": "270",
+                                "EGID": "142"
+                            }
+                        },
+                        {
+                            "name": "TP53",
+                            "db_refs": {
+                                "UP": "P04637",
+                                "TEXT": "p53",
+                                "EGID": "7157",
+                                "HGNC": "11998"
+                            }
+                        }
+                    ],
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Much less is known about the interaction between PARP1 and p53.",
+                            "annotations": {
+                                "found_by": "binding11",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            49,
+                                            54
+                                        ],
+                                        [
+                                            59,
+                                            62
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -4007464348886984202
+                        }
+                    ],
+                    "id": "0921a8d4-0be1-4d05-8eee-aa3031ba5d2f",
+                    "matches_hash": "-20804906621030811"
+                }
+            ]
+        },
+        {
+            "Index": "49",
+            "Sentence": "NBS1, which we have discussed here beforehand as being activated via deacetylation by SIRT1, has also been shown to help control the interaction between Ku70 and Bax by stimulating the acetylation of Ku70 [[A56]] [XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Complex",
+                    "members": [
+                        {
+                            "name": "XRCC6",
+                            "db_refs": {
+                                "UP": "P12956",
+                                "TEXT": "Ku70",
+                                "HGNC": "4055",
+                                "EGID": "2547"
+                            }
+                        },
+                        {
+                            "name": "BAX",
+                            "db_refs": {
+                                "UP": "Q07812",
+                                "TEXT": "Bax",
+                                "EGID": "581",
+                                "HGNC": "959"
+                            }
+                        }
+                    ],
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "NBS1, which we have discussed here beforehand as being activated via deacetylation by SIRT1, has also been shown to help control the interaction between Ku70 and Bax by stimulating the acetylation of Ku70 [[A56]] [XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "binding11",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            153,
+                                            157
+                                        ],
+                                        [
+                                            162,
+                                            165
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -2422912766738951150
+                        }
+                    ],
+                    "id": "626fc67c-38b1-4bc9-8890-545a9eaf99e6",
+                    "matches_hash": "13460412908986777"
+                }
+            ]
+        },
+        {
+            "Index": "5",
+            "Sentence": "Cyclin B/Cdk1, a cell cycle dependent kinase, can phosphorylate SIRT1 at T530 and S540 [[A6]].",
+            "Results": [
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "PCNA",
+                        "db_refs": {
+                            "UP": "P12004",
+                            "TEXT": "Cyclin",
+                            "EGID": "5111",
+                            "HGNC": "8729"
+                        }
+                    },
+                    "sub": {
+                        "name": "SIRT1",
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "residue": "T",
+                    "position": "530",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Cyclin B/Cdk1, a cell cycle dependent kinase, can phosphorylate SIRT1 at T530 and S540 [[A6]].",
+                            "annotations": {
+                                "found_by": "Phosphorylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            0,
+                                            6
+                                        ],
+                                        [
+                                            64,
+                                            69
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 8904089903066857989
+                        }
+                    ],
+                    "id": "6bc03ce7-558d-4c62-8f6c-60a0cff6a18b",
+                    "matches_hash": "-11088435514974549"
+                },
+                {
+                    "type": "Phosphorylation",
+                    "enz": {
+                        "name": "PCNA",
+                        "db_refs": {
+                            "UP": "P12004",
+                            "TEXT": "Cyclin",
+                            "EGID": "5111",
+                            "HGNC": "8729"
+                        }
+                    },
+                    "sub": {
+                        "name": "SIRT1",
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "residue": "S",
+                    "position": "540",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "Cyclin B/Cdk1, a cell cycle dependent kinase, can phosphorylate SIRT1 at T530 and S540 [[A6]].",
+                            "annotations": {
+                                "found_by": "Phosphorylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            0,
+                                            6
+                                        ],
+                                        [
+                                            64,
+                                            69
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 8904089903066857989
+                        }
+                    ],
+                    "id": "cda90544-c25e-4101-bff4-79cbd50f6b31",
+                    "matches_hash": "-12855325268972195"
+                }
+            ]
+        },
+        {
+            "Index": "50",
+            "Sentence": "The exact conditions leading to a differential role of SIRT1 on the Ku70 and Bax complex remains to be uncovered.",
+            "Results": [
+                {
+                    "type": "Complex",
+                    "members": [
+                        {
+                            "name": "XRCC6",
+                            "db_refs": {
+                                "UP": "P12956",
+                                "TEXT": "Ku70",
+                                "HGNC": "4055",
+                                "EGID": "2547"
+                            }
+                        },
+                        {
+                            "name": "BAX",
+                            "db_refs": {
+                                "UP": "Q07812",
+                                "TEXT": "Bax",
+                                "EGID": "581",
+                                "HGNC": "959"
+                            }
+                        }
+                    ],
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "The exact conditions leading to a differential role of SIRT1 on the Ku70 and Bax complex remains to be uncovered.",
+                            "annotations": {
+                                "found_by": "binding_token_5",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            68,
+                                            72
+                                        ],
+                                        [
+                                            77,
+                                            80
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": 5011510808461420097
+                        }
+                    ],
+                    "id": "546f1bae-a414-4702-a6cb-e6e6a95fa1ea",
+                    "matches_hash": "13460412908986777"
+                }
+            ]
+        },
+        {
+            "Index": "51",
+            "Sentence": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription [[A60-A62]].",
+            "Results": [
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "ARNTL",
+                        "db_refs": {
+                            "UP": "O00327",
+                            "TEXT": "BMAL1",
+                            "HGNC": "701",
+                            "EGID": "406"
+                        }
+                    },
+                    "obj": {
+                        "name": "transcription, DNA-templated",
+                        "db_refs": {
+                            "GO": "GO:0006351",
+                            "TEXT": "transcription",
+                            "MESH": "D014158"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription [[A60-A62]].",
+                            "annotations": {
+                                "found_by": "Positive_activation_syntax_5_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            64,
+                                            69
+                                        ],
+                                        [
+                                            101,
+                                            114
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 6183370746129536486
+                        }
+                    ],
+                    "id": "bfbb11cb-2755-477e-accb-2587f9f2fcdb",
+                    "matches_hash": "12857682077693486"
+                },
+                {
+                    "type": "Activation",
+                    "subj": {
+                        "name": "ARNTL",
+                        "db_refs": {
+                            "UP": "O00327",
+                            "TEXT": "BMAL1",
+                            "HGNC": "701",
+                            "EGID": "406"
+                        }
+                    },
+                    "obj": {
+                        "name": "transcription, DNA-templated",
+                        "db_refs": {
+                            "GO": "GO:0006351",
+                            "TEXT": "transcription",
+                            "MESH": "D014158"
+                        }
+                    },
+                    "obj_activity": "activity",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription [[A60-A62]].",
+                            "annotations": {
+                                "found_by": "Positive_early_activation",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            301,
+                                            306
+                                        ],
+                                        [
+                                            316,
+                                            329
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": 6183370746129536486
+                        }
+                    ],
+                    "id": "47c35c02-1b1f-439c-9a17-ace080203b51",
+                    "matches_hash": "12857682077693486"
+                }
+            ]
+        },
+        {
+            "Index": "52",
+            "Sentence": "SIRT1 deacetylates BMAL1 at K537 destabilizing the interaction between CRY and BMAL1 [[A63]] [XREF_BIBR, XREF_BIBR].",
+            "Results": [
+                {
+                    "type": "Deacetylation",
+                    "enz": {
+                        "name": "SIRT1",
+                        "db_refs": {
+                            "UP": "Q96EB6",
+                            "TEXT": "SIRT1",
+                            "EGID": "23411",
+                            "HGNC": "14929"
+                        }
+                    },
+                    "sub": {
+                        "name": "ARNTL",
+                        "db_refs": {
+                            "UP": "O00327",
+                            "TEXT": "BMAL1",
+                            "HGNC": "701",
+                            "EGID": "406"
+                        }
+                    },
+                    "residue": "K",
+                    "position": "537",
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "SIRT1 deacetylates BMAL1 at K537 destabilizing the interaction between CRY and BMAL1 [[A63]] [XREF_BIBR, XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "Deacetylation_syntax_1a_verb",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            0,
+                                            5
+                                        ],
+                                        [
+                                            19,
+                                            24
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": true,
+                                "section_type": null
+                            },
+                            "source_hash": -4546810733226661123
+                        }
+                    ],
+                    "id": "43affe54-273f-4ac7-b43e-a4b3f2d521c4",
+                    "matches_hash": "15612713586489903"
+                },
+                {
+                    "type": "Complex",
+                    "members": [
+                        {
+                            "name": "CRYL1",
+                            "db_refs": {
+                                "UP": "Q9Y2S2",
+                                "TEXT": "CRY",
+                                "HGNC": "18246",
+                                "EGID": "51084"
+                            }
+                        },
+                        {
+                            "name": "ARNTL",
+                            "db_refs": {
+                                "UP": "O00327",
+                                "TEXT": "BMAL1",
+                                "HGNC": "701",
+                                "EGID": "406"
+                            }
+                        },
+                        {
+                            "name": "A63",
+                            "db_refs": {
+                                "TEXT": "A63"
+                            }
+                        }
+                    ],
+                    "belief": 1,
+                    "evidence": [
+                        {
+                            "source_api": "reach",
+                            "text": "SIRT1 deacetylates BMAL1 at K537 destabilizing the interaction between CRY and BMAL1 [[A63]] [XREF_BIBR, XREF_BIBR].",
+                            "annotations": {
+                                "found_by": "binding11",
+                                "agents": {
+                                    "coords": [
+                                        [
+                                            71,
+                                            74
+                                        ],
+                                        [
+                                            79,
+                                            84
+                                        ],
+                                        [
+                                            87,
+                                            90
+                                        ]
+                                    ]
+                                }
+                            },
+                            "epistemics": {
+                                "direct": false,
+                                "section_type": null
+                            },
+                            "source_hash": -4546810733226661123
+                        }
+                    ],
+                    "id": "1ebd98bd-0950-49bb-8928-ba449061fd06",
+                    "matches_hash": "11447196585199641"
+                }
+            ]
+        },
+        {
+            "Index": "53",
+            "Sentence": "PARP1 is capable of ADP ribosylating CLOCK in a circadian manner disrupting the association between the BMAL1 / CLOCK heterodimer and its targets [[A66]] [XREF_BIBR].",
+            "Results": []
+        }
+    ]
+}
