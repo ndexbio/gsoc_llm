@@ -1,7 +1,7 @@
-# gsoc_llm project
+# GSoC_LLM Project
 This project proposes the development of a Python web application that utilizes Large Language Models (LLMs) for extracting, transforming, and visualizing molecular interaction networks from scientific literature. Leveraging LLMs' advanced natural language processing capabilities, the application will interpret complex academic texts to construct interaction graphs.
 
-# Prerequisites
+## Prerequisites
 Python (version 3.6 or higher)
 
 pip (Python package installer)
