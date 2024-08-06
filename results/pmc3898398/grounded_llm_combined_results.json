@@ -3,257 +3,244 @@
         "Index": "0",
         "Sentence": "Phosphorylation of SIRT1 by JNK occurs at three sites : S27, S47, and T530 in response to oxidative stress that stimulates its deacetylation activity [[A4]] [XREF_BIBR].",
         "Combined_Results": [
-            "JNK Phosphorylation SIRT1"
+            "JNK@FPLX Phosphorylation 14929@HGNC"
         ]
     },
     {
         "Index": "1",
         "Sentence": "In contrast, mTOR also phosphorylates SIRT1 in response to oxidative stress, but only at a single site, S47, resulting in the inhibition of SIRT1 [[A5]] suggesting a multi-site phosphorylation regulatory mechanism is in place; such a mechanism may be involved in the regulation of the timing of SIRT1 activity [XREF_BIBR, XREF_BIBR].",
         "Combined_Results": [
-            "MTOR Phosphorylation SIRT1"
+            "3942@HGNC Phosphorylation 14929@HGNC"
         ]
     },
     {
         "Index": "10",
         "Sentence": "In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1 mediated deacetylation of p53 in response to DNA damage [[A9]] [XREF_BIBR].",
         "Combined_Results": [
-            "SETD7 Methylation SIRT1",
-            "SIRT1 Deacetylation p53"
+            "30412@HGNC Methylation 14929@HGNC",
+            "14929@HGNC Deacetylation 11998@HGNC"
         ]
     },
     {
         "Index": "11",
         "Sentence": "DNA-PK phosphorylates PARP1 though its effect is unknown [[A12]] [XREF_BIBR].",
         "Combined_Results": [
-            "DNA-PK Phosphorylation PARP1"
+            "9413@HGNC Phosphorylation 270@HGNC"
         ]
     },
     {
         "Index": "12",
         "Sentence": "Phosphorylation of PARP1 by AMPK has been shown to enhance its activity [[A13]] [XREF_BIBR].",
         "Combined_Results": [
-            "AMPK Phosphorylation PARP1"
+            "AMPK@FPLX Phosphorylation 270@HGNC"
         ]
     },
     {
         "Index": "13",
         "Sentence": "PARP1 is acetylated by p300 / CBP; this acetylation is involved in the activation of NF-\u03ba B by PARP1 [[A14]] [XREF_BIBR].",
         "Combined_Results": [
-            "EP300 Acetylation PARP1"
+            "3373@HGNC Acetylation 270@HGNC"
         ]
     },
     {
         "Index": "14",
         "Sentence": "PARP1 is acetylated by p300 / CBP; this acetylation is involved in the activation of NF-\u03ba B by PARP1 [[A14]] [XREF_BIBR].",
         "Combined_Results": [
-            "EP300 Acetylation PARP1"
+            "3373@HGNC Acetylation 270@HGNC"
         ]
     },
     {
         "Index": "15",
         "Sentence": "PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1 's auto-modification domain.",
         "Combined_Results": [
-            "PARP1 Sumoylation SUMO1",
-            "PARP1 Sumoylation SUMO3"
+            "270@HGNC Sumoylation 12502@HGNC",
+            "270@HGNC Sumoylation 11124@HGNC"
         ]
     },
     {
         "Index": "16",
         "Sentence": "PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1 's auto-modification domain.",
         "Combined_Results": [
-            "PARP1 Sumoylation SUMO1",
-            "PARP1 Sumoylation SUMO3"
+            "270@HGNC Sumoylation 12502@HGNC",
+            "270@HGNC Sumoylation 11124@HGNC"
         ]
     },
     {
         "Index": "17",
         "Sentence": "in 2009 found increased levels of PARP1 acetylation in response to mechanical stress, suggesting that SIRT1 can deacetylate PARP1 [[A16]] [XREF_BIBR].",
         "Combined_Results": [
-            "SIRT1 Deacetylation PARP1"
+            "14929@HGNC Deacetylation 270@HGNC"
         ]
     },
     {
         "Index": "18",
         "Sentence": "Nicotinamide mononucleotide adenylyltransferase 1 (NMNAT1), which catalyzes the conversion of NMN into NAD + in the synthesis of NAD + via the salvage pathway, can bind to (ADP-ribose) polymers in vitro leading to the stimulation of PARP1 activity; this effect is diminished when NMNAT1 is phosphorylated at S136 by protein kinase C (PKC) [[A18]] [XREF_BIBR].",
         "Combined_Results": [
-            "NMNAT1 Conversion NMN",
-            "PKC Phosphorylation NMNAT1",
-            "NMNAT1 RegulateActivity PARP1"
+            "17877@HGNC Conversion CHEBI:16171@CHEBI",
+            "PKC@FPLX Phosphorylation 17877@HGNC",
+            "17877@HGNC RegulateActivity 270@HGNC"
         ]
     },
     {
         "Index": "19",
         "Sentence": "It has been suggested that ADP ribosylation of histone H1 promotes transcription by inhibiting the ability of histone H1 to bind to DNA [XREF_BIBR].",
-        "Combined_Results": [
-            "ADP Ribosylation histone H1"
-        ]
+        "Combined_Results": []
     },
     {
         "Index": "2",
         "Sentence": "CK2 phosphorylates human SIRT1 at S659 and S661, both in vivo and in vitro, stimulating its deacetylation activity [[A4]] [XREF_BIBR, XREF_BIBR].",
         "Combined_Results": [
-            "CK2 Phosphorylation SIRT1"
+            "CK2@FPLX Phosphorylation 14929@HGNC"
         ]
     },
     {
         "Index": "20",
         "Sentence": "Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP ribosylation of histone H4 [[A22]] [XREF_BIBR].",
-        "Combined_Results": [
-            "acetylation of H4K16 Inhibition ADP ribosylation of histone H4"
-        ]
+        "Combined_Results": []
     },
     {
         "Index": "21",
         "Sentence": "Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP ribosylation of histone H4 [[A22]] [XREF_BIBR].",
         "Combined_Results": [
-            "acetylation Inhibition H4K16",
-            "H4K16 Inhibition histone H4"
+            "D000107@MESH Inhibition None"
         ]
     },
     {
         "Index": "22",
         "Sentence": "Here a potential contradiction in the role of SIRT1 in condensing chromatin arises whereby SIRT1 deacetylation activity could potentially help drive the PARP1 ADP ribosylation activity on H4K16.",
         "Combined_Results": [
-            "PARP1 Ribosylation H4K16",
-            "SIRT1 Deacetylation H4K16"
+            "270@HGNC Ribosylation None",
+            "14929@HGNC Deacetylation None"
         ]
     },
     {
         "Index": "23",
         "Sentence": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4 [[A23]].",
         "Combined_Results": [
-            "SIRT1 Deacetylation TIP60",
-            "TIP60 Acetylation histone H4",
-            "SIRT1 Deacetylation MOF",
-            "MOF Acetylation histone H4"
+            "14929@HGNC Deacetylation 5275@HGNC",
+            "14929@HGNC Deacetylation 17933@HGNC"
         ]
     },
     {
         "Index": "24",
         "Sentence": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4 [[A23]].",
         "Combined_Results": [
-            "SIRT1 Deacetylation TIP60",
-            "TIP60 Acetylation histone H4",
-            "SIRT1 Deacetylation MOF",
-            "MOF Acetylation histone H4"
+            "14929@HGNC Deacetylation 5275@HGNC",
+            "14929@HGNC Deacetylation 17933@HGNC"
         ]
     },
     {
         "Index": "25",
         "Sentence": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4 [[A23]].",
         "Combined_Results": [
-            "SIRT1 Deacetylation TIP60",
-            "TIP60 Acetylation histone H4",
-            "SIRT1 Deacetylation MOF",
-            "MOF Acetylation histone H4"
+            "14929@HGNC Deacetylation 5275@HGNC",
+            "14929@HGNC Deacetylation 17933@HGNC"
         ]
     },
     {
         "Index": "26",
         "Sentence": "TIP60 dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non homologous end joining [[A24]] [XREF_BIBR, XREF_BIBR].",
         "Combined_Results": [
-            "TIP60 Acetylation H4K16",
-            "H4K16 Inhibition 53BP1"
+            "5275@HGNC Acetylation None",
+            "None Inhibition 11999@HGNC"
         ]
     },
     {
         "Index": "27",
         "Sentence": "In this loop, NBS1 is phosphorylated by ATM in response to genotoxic stress at S343 for the activation of NBS1; to be phosphorylated, it is necessary for NBS1 to be in a hypoacetylated state, which SIRT1 helps to maintain by deacetylating NBS1 [[A32-A33]] [XREF_BIBR, XREF_BIBR].",
         "Combined_Results": [
-            "ATM Phosphorylation NBS1",
-            "SIRT1 Deacetylation NBS1"
+            "795@HGNC Phosphorylation 22948@HGNC",
+            "14929@HGNC Deacetylation 22948@HGNC"
         ]
     },
     {
         "Index": "28",
         "Sentence": "CHK2 can then phosphorylate HuR at several sites causing it to dissociate from SIRT1 mRNA, and thereby reduce the half-life of the SIRT1 mRNA [[A34]] [XREF_BIBR].",
         "Combined_Results": [
-            "CHK2 Phosphorylation HuR"
+            "16627@HGNC Phosphorylation 3312@HGNC"
         ]
     },
     {
         "Index": "29",
         "Sentence": "In one publication, c-MYC over-expression leads to an increase in SIRT1 expression and then deacetylation of c-MYC by SIRT1 leads to the destabilization of c-MYC [[A39]] [XREF_BIBR].",
         "Combined_Results": [
-            "c-MYC DecreaseAmount c-MYC",
-            "SIRT1 Deacetylation c-MYC",
-            "c-MYC IncreaseAmount SIRT1"
+            "7553@HGNC DecreaseAmount 7553@HGNC",
+            "14929@HGNC Deacetylation 7553@HGNC",
+            "7553@HGNC IncreaseAmount 14929@HGNC"
         ]
     },
     {
         "Index": "3",
         "Sentence": "CK2 phosphorylates human SIRT1 at S659 and S661, both in vivo and in vitro, stimulating its deacetylation activity [[A4]] [XREF_BIBR, XREF_BIBR].",
         "Combined_Results": [
-            "CK2 Phosphorylation SIRT1"
+            "CK2@FPLX Phosphorylation 14929@HGNC"
         ]
     },
     {
         "Index": "30",
         "Sentence": "SIRT1 can deacetylate the RelA / p65 subunit of NF-\u03ba B at K310 to inhibit NF-\u03ba B transactivation activity [[A42]] [XREF_BIBR].",
         "Combined_Results": [
-            "SIRT1 Deacetylation RelA"
+            "14929@HGNC Deacetylation 9955@HGNC"
         ]
     },
     {
         "Index": "31",
         "Sentence": "SIRT1 can deacetylate the RelA / p65 subunit of NF-\u03ba B at K310 to inhibit NF-\u03ba B transactivation activity [[A42]] [XREF_BIBR].",
         "Combined_Results": [
-            "SIRT1 Deacetylation RelA"
+            "14929@HGNC Deacetylation 9955@HGNC"
         ]
     },
     {
         "Index": "32",
         "Sentence": "PARP1 is an activator of NF-\u03ba B through its direct binding to NF-\u03ba B; acetylation of PARP1 by p300 / CBP is required for the binding of PARP1 to NF-\u03ba B [[A43]] [XREF_BIBR].",
         "Combined_Results": [
-            "p300 Acetylation PARP1",
-            "PARP1 Complex NF-\u03ba B"
+            "3373@HGNC Acetylation 270@HGNC"
         ]
     },
     {
         "Index": "33",
         "Sentence": "PARP1 is an activator of NF-\u03ba B through its direct binding to NF-\u03ba B; acetylation of PARP1 by p300 / CBP is required for the binding of PARP1 to NF-\u03ba B [[A43]] [XREF_BIBR].",
         "Combined_Results": [
-            "p300 Acetylation PARP1",
-            "PARP1 Complex NF-\u03ba B"
+            "3373@HGNC Acetylation 270@HGNC"
         ]
     },
     {
         "Index": "34",
         "Sentence": "Micro-RNAs have also been shown to downregulate SIRT1 dependent deacetylation of p53.",
         "Combined_Results": [
-            "Micro-RNAs Inhibition SIRT1",
-            "SIRT1 Deacetylation p53"
+            "D035683@MESH Inhibition 14929@HGNC",
+            "14929@HGNC Deacetylation 11998@HGNC"
         ]
     },
     {
         "Index": "35",
         "Sentence": "Active Regulator of SIRT1 (AROS) has been shown to bind SIRT1 and help enhance the deacetylation of p53 by SIRT1 [[A53]] [XREF_BIBR].",
         "Combined_Results": [
-            "AROS Complex SIRT1",
-            "SIRT1 Deacetylation p53"
+            "28749@HGNC Complex 14929@HGNC",
+            "14929@HGNC Deacetylation 11998@HGNC"
         ]
     },
     {
         "Index": "36",
         "Sentence": "Active Regulator of SIRT1 (AROS) has been shown to bind SIRT1 and help enhance the deacetylation of p53 by SIRT1 [[A53]] [XREF_BIBR].",
         "Combined_Results": [
-            "AROS Complex SIRT1",
-            "SIRT1 Deacetylation p53"
+            "28749@HGNC Complex 14929@HGNC",
+            "14929@HGNC Deacetylation 11998@HGNC"
         ]
     },
     {
         "Index": "37",
         "Sentence": "SIRT1 deacetylates BMAL1 at K537 destabilizing the interaction between CRY and BMAL1 [[A63]] [XREF_BIBR, XREF_BIBR].",
         "Combined_Results": [
-            "SIRT1 Deacetylation BMAL1"
+            "14929@HGNC Deacetylation 701@HGNC"
         ]
     },
     {
         "Index": "38",
         "Sentence": "SIRT1 has also been shown to deacetylate PER2 destabilizing the protein [[A65]]; it has been hypothesized that acetylation of PER2 at lysine residues prevents their ubiquitination [XREF_BIBR].",
         "Combined_Results": [
-            "PER2 Ubiquitination PER2",
-            "SIRT1 Deacetylation PER2"
+            "8846@HGNC Ubiquitination 8846@HGNC",
+            "14929@HGNC Deacetylation 8846@HGNC"
         ]
     },
     {
@@ -265,67 +252,63 @@
         "Index": "4",
         "Sentence": "Cyclin B/Cdk1, a cell cycle dependent kinase, can phosphorylate SIRT1 at T530 and S540 [[A6]].",
         "Combined_Results": [
-            "CDK1 Phosphorylation SIRT1"
+            "1722@HGNC Phosphorylation 14929@HGNC"
         ]
     },
     {
         "Index": "40",
         "Sentence": "A similar interaction has been shown to occur with SIRT1, whereby SIRT1 binds to NMNAT1 helping to recruit NMNAT1 to specific promoters, which may help stimulate SIRT1 activity [[A19]] [XREF_BIBR].",
         "Combined_Results": [
-            "SIRT1 Complex NMNAT1"
+            "14929@HGNC Complex 17877@HGNC"
         ]
     },
     {
         "Index": "41",
         "Sentence": "A similar interaction has been shown to occur with SIRT1, whereby SIRT1 binds to NMNAT1 helping to recruit NMNAT1 to specific promoters, which may help stimulate SIRT1 activity [[A19]] [XREF_BIBR].",
         "Combined_Results": [
-            "SIRT1 Complex NMNAT1"
+            "14929@HGNC Complex 17877@HGNC"
         ]
     },
     {
         "Index": "42",
         "Sentence": "TIP60 dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non homologous end joining [[A24]] [XREF_BIBR, XREF_BIBR].",
         "Combined_Results": [
-            "TIP60 Acetylation H4K16",
-            "H4K16 Inhibition 53BP1"
+            "5275@HGNC Acetylation None",
+            "None Inhibition 11999@HGNC"
         ]
     },
     {
         "Index": "43",
         "Sentence": "It has been shown that PARP1 binds to ATM, an interaction that is stimulated by DNA damage, and that the automodification of PARP1 leads to ATM activation [[A31]] [XREF_BIBR].",
         "Combined_Results": [
-            "PARP1 Activation ATM",
-            "PARP1 Complex ATM"
+            "270@HGNC Activation 795@HGNC",
+            "270@HGNC Complex 795@HGNC"
         ]
     },
     {
         "Index": "44",
         "Sentence": "Additionally, the transcriptional activity of E2F1 is inhibited by Retinoblastoma (Rb), which is another substrate of SIRT1 deacetylation; acetylation of Rb has been shown to regulate the binding of Rb to E2F1 [[A38]] [XREF_BIBR, XREF_BIBR].",
-        "Combined_Results": [
-            "Retinoblastoma (Rb) RegulateActivity E2F1",
-            "SIRT1 Deacetylation Retinoblastoma (Rb)",
-            "E2F1 Inhibition Retinoblastoma (Rb)"
-        ]
+        "Combined_Results": []
     },
     {
         "Index": "45",
         "Sentence": "Two studies have examined the interactions between SIRT1 and c-MYC producing contradictory results.",
         "Combined_Results": [
-            "SIRT1 Complex c-MYC"
+            "14929@HGNC Complex 7553@HGNC"
         ]
     },
     {
         "Index": "46",
         "Sentence": "There is evidence that PARP1 binds to E2F1 stimulating E2F1 dependent transcription of c-MYC [[A41]] [XREF_BIBR].",
         "Combined_Results": [
-            "PARP1 Complex E2F1"
+            "270@HGNC Complex 3113@HGNC"
         ]
     },
     {
         "Index": "47",
         "Sentence": "This effect is countered by the transcription factor FOXO3A, which interacts with p53 in an inhibitory fashion during nutrient deprivation [[A46-A47]] [XREF_BIBR, XREF_BIBR].",
         "Combined_Results": [
-            "FOXO3A Inhibition p53"
+            "3821@HGNC Inhibition 11998@HGNC"
         ]
     },
     {
@@ -337,15 +320,15 @@
         "Index": "49",
         "Sentence": "NBS1, which we have discussed here beforehand as being activated via deacetylation by SIRT1, has also been shown to help control the interaction between Ku70 and Bax by stimulating the acetylation of Ku70 [[A56]] [XREF_BIBR].",
         "Combined_Results": [
-            "NBS1 Acetylation Ku70",
-            "SIRT1 Deacetylation NBS1"
+            "22948@HGNC Acetylation 4055@HGNC",
+            "14929@HGNC Deacetylation 22948@HGNC"
         ]
     },
     {
         "Index": "5",
         "Sentence": "Cyclin B/Cdk1, a cell cycle dependent kinase, can phosphorylate SIRT1 at T530 and S540 [[A6]].",
         "Combined_Results": [
-            "CDK1 Phosphorylation SIRT1"
+            "1722@HGNC Phosphorylation 14929@HGNC"
         ]
     },
     {
@@ -357,36 +340,36 @@
         "Index": "51",
         "Sentence": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription [[A60-A62]].",
         "Combined_Results": [
-            "CRY1 Complex PER1",
-            "CRY2 Complex PER3",
-            "CLOCK/BMAL1 RegulateAmount PER1",
-            "CRY1 Complex CRY2",
-            "CLOCK/BMAL1 RegulateAmount CRY1",
-            "CRY1 Complex PER3",
-            "CRY1 Complex PER2",
-            "CRY2 Complex PER2",
-            "PER2 Complex PER3",
-            "CLOCK Complex BMAL1",
-            "CLOCK/BMAL1 RegulateAmount PER3",
-            "CLOCK/BMAL1 RegulateAmount CRY2",
-            "CRY2 Complex PER1",
-            "PER1 Complex PER2",
-            "CLOCK/BMAL1 RegulateAmount PER2",
-            "PER1 Complex PER3"
+            "2384@HGNC Complex 8845@HGNC",
+            "2385@HGNC Complex 8847@HGNC",
+            "None RegulateAmount 8845@HGNC",
+            "2384@HGNC Complex 2385@HGNC",
+            "None RegulateAmount 2384@HGNC",
+            "2384@HGNC Complex 8847@HGNC",
+            "2384@HGNC Complex 8846@HGNC",
+            "2385@HGNC Complex 8846@HGNC",
+            "8846@HGNC Complex 8847@HGNC",
+            "2082@HGNC Complex 701@HGNC",
+            "None RegulateAmount 8847@HGNC",
+            "None RegulateAmount 2385@HGNC",
+            "2385@HGNC Complex 8845@HGNC",
+            "8845@HGNC Complex 8846@HGNC",
+            "None RegulateAmount 8846@HGNC",
+            "8845@HGNC Complex 8847@HGNC"
         ]
     },
     {
         "Index": "52",
         "Sentence": "SIRT1 deacetylates BMAL1 at K537 destabilizing the interaction between CRY and BMAL1 [[A63]] [XREF_BIBR, XREF_BIBR].",
         "Combined_Results": [
-            "SIRT1 Deacetylation BMAL1"
+            "14929@HGNC Deacetylation 701@HGNC"
         ]
     },
     {
         "Index": "53",
         "Sentence": "PARP1 is capable of ADP ribosylating CLOCK in a circadian manner disrupting the association between the BMAL1 / CLOCK heterodimer and its targets [[A66]] [XREF_BIBR].",
         "Combined_Results": [
-            "PARP1 Ribosylation CLOCK"
+            "270@HGNC Ribosylation 2082@HGNC"
         ]
     }
 ]

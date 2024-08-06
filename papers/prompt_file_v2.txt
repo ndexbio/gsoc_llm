@@ -74,4 +74,21 @@ The output obtained from each sentence should be structured in the format below.
 - text: The exact sentence from which the interaction was extracted.
 - direct: True if there is a direct relationship/interaction between the subject and object.
 - hypothesis: True if the interaction is suggested by the authors.
+
+Example Formats:
+Below are some examples of the kind of output I am expecting:
+
+"subject": "JNK", "object": "SIRT1", "interaction_type": "Phosphorylation", "text": "Phosphorylation of SIRT1 by JNK occurs at three sites : S27, S47, and T530 in response to oxidative stress that stimulates its deacetylation activity.", "direct": true, "hypothesis": false
+
+"subject": "MTOR", "object": "SIRT1", "interaction_type": "Phosphorylation", "text": "In contrast, mTOR also phosphorylates SIRT1 in response to oxidative stress, but only at a single site, S47, resulting in the inhibition of SIRT1 [[A5]] suggesting a multi-site phosphorylation regulatory mechanism is in place; such a mechanism may be involved in the regulation of the timing of SIRT1 activity [XREF_BIBR, XREF_BIBR].", "direct": true, "hypothesis": false
+
+"subject": "SETD7", "object": "SIRT1", "interaction_type": "Methylation", "text": "In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1 mediated deacetylation of p53 in response to DNA damage.", "direct": true, "hypothesis": false
+
+"subject": "EP300", "object": "PARP1", "interaction_type": "Acetylation", "text": "PARP1 is acetylated by p300 / CBP; this acetylation is involved in the activation of NF-\u03ba B by PARP1.", "direct": true, "hypothesis": false
+
+"subject": "ADP", "object": "histone H1", "interaction_type": "Ribosylation", "text": "It has been suggested that ADP ribosylation of histone H1 promotes transcription by inhibiting the ability of histone H1 to bind to DNA [XREF_BIBR].", "direct": true, "hypothesis": true
+
+"subject": "SIRT1", "object": "PARP1", "interaction_type": "Deacetylation", "text": "in 2009 found increased levels of PARP1 acetylation in response to mechanical stress, suggesting that SIRT1 can deacetylate PARP1 [[A16]] [XREF_BIBR].", "direct": true, "hypothesis": true
+
+"subject": "PARP1", "object": "ATM", "interaction_type": "Complex", "text": "It has been shown that PARP1 binds to ATM, an interaction that is stimulated by DNA damage, and that the automodification of PARP1 leads to ATM activation [[A31]] [XREF_BIBR].", "direct": true, "hypothesis": false
 """
