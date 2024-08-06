@@ -72,8 +72,10 @@ by the authors.
 
 """
 Extract all molecular interactions from the provided scientific text. The subject should be the first molecular entity interacting with the second molecular entity, which is the object. The activity between the two entities should be specified by the interaction type. An interaction must relate a subject to an object, this means, an interaction would always be between only two entities. Do not extract anything that is not a BIOLOGICAL ENTITY.
+For each sentence, Convert mentions of genes and proteins to their official HGNC symbols.
 
-Use the following interaction types and their descriptions from the INDRA database:
+
+Use the following interaction types and their descriptions from the INDRA database and state the relationships in the indra format.
 
 Biological Domain:
 - Complex: Formation of a complex between two or more biological entities.

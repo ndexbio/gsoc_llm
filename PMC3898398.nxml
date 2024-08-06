@@ -1,0 +1,4504 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2024-07-31T17:52:54Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3898398" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:3898398</identifier><datestamp>2014-01-23</datestamp><setSpec>genint</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.3/ https://jats.nlm.nih.gov/archiving/1.3/xsd/JATS-archivearticle1-3.xsd" article-type="review-article" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Genome Integr</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Genome Integr</journal-id>
+      <journal-title-group>
+        <journal-title>Genome Integrity</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2041-9414</issn>
+      <publisher>
+        <publisher-name>BioMed Central</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC3898398</article-id>
+      <article-id pub-id-type="pmcid">PMC3898398</article-id>
+      <article-id pub-id-type="pmc-uid">3898398</article-id>
+      <article-id pub-id-type="pmid">24360018</article-id>
+      <article-id pub-id-type="publisher-id">2041-9414-4-6</article-id>
+      <article-id pub-id-type="pmid">24360018</article-id>
+      <article-id pub-id-type="doi">10.1186/2041-9414-4-6</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Review</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>SIRT1/PARP1 crosstalk: connecting DNA damage and metabolism</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes" id="A1">
+          <name>
+            <surname>Luna</surname>
+            <given-names>Augustin</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <xref ref-type="aff" rid="I2">2</xref>
+          <email>augustin@mail.nih.gov</email>
+        </contrib>
+        <contrib contrib-type="author" id="A2">
+          <name>
+            <surname>Aladjem</surname>
+            <given-names>Mirit I</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>aladjemm@mail.nih.gov</email>
+        </contrib>
+        <contrib contrib-type="author" id="A3">
+          <name>
+            <surname>Kohn</surname>
+            <given-names>Kurt W</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>kohnk@dc37a.nci.nih.gov</email>
+        </contrib>
+      </contrib-group>
+      <aff id="I1"><label>1</label>Laboratory of Molecular Pharmacology, Center for Cancer Research, National Cancer Institute, NIH, Bethesda, MD 20892, USA</aff>
+      <aff id="I2"><label>2</label>Bioinformatics Program, Boston University, Boston, MA 02215, USA</aff>
+      <pub-date pub-type="collection">
+        <year>2013</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>20</day>
+        <month>12</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>4</volume>
+      <fpage>6</fpage>
+      <lpage>6</lpage>
+      <history>
+        <date date-type="received">
+          <day>14</day>
+          <month>8</month>
+          <year>2013</year>
+        </date>
+        <date date-type="accepted">
+          <day>2</day>
+          <month>12</month>
+          <year>2013</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright © 2013 Luna et al.; licensee BioMed Central Ltd.</copyright-statement>
+        <copyright-year>2013</copyright-year>
+        <copyright-holder>Luna et al.; licensee BioMed Central Ltd.</copyright-holder>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (
+<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0">http://creativecommons.org/licenses/by/2.0</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:href="http://www.genomeintegrity.com/content/4/1/6"/>
+      <abstract>
+        <p>An intricate network regulates the activities of SIRT1 and PARP1 proteins and continues to be uncovered. Both SIRT1 and PARP1 share a common co-factor nicotinamide adenine dinucleotide (NAD+) and several common substrates, including regulators of DNA damage response and circadian rhythms. We review this complex network using an interactive Molecular Interaction Map (MIM) to explore the interplay between these two proteins. Here we discuss how NAD + competition and post-transcriptional/translational feedback mechanisms create a regulatory network sensitive to environmental cues, such as genotoxic stress and metabolic states, and examine the role of those interactions in DNA repair and ultimately, cell fate decisions.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>SIRT1</kwd>
+        <kwd>Sirtuins</kwd>
+        <kwd>PARP1</kwd>
+        <kwd>Poly-(ADP) polymerases</kwd>
+        <kwd>Metabolism</kwd>
+        <kwd>Nicotinamide Adenine Dinucleotide (NAD+) competition</kwd>
+        <kwd>Post-translational modifications</kwd>
+        <kwd>Transcriptional regulation</kwd>
+        <kwd>DNA damage repair</kwd>
+        <kwd>Circadian rhythms</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Introduction</title>
+      <p>SIRT1 and PARP1 are enzymes that affect two key post-translational modifications: acetylation and ADP-ribosylation, respectively, for a diverse group of proteins. These enzymes are functionally connected due to their use of a common substrate, nicotinamide adenine dinucleotide (NAD+)
+[<xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B2">2</xref>]. Recent studies suggest that these proteins participate in common pathways providing cells with a mechanism for balancing cell survival and death. A well-developed understanding of activity overlap of these proteins may provide insights into the biology of these two proteins as they are actively being pursued as therapeutic targets in a range of conditions, including cancer and metabolic disorders
+[<xref ref-type="bibr" rid="B3">3</xref>-<xref ref-type="bibr" rid="B5">5</xref>].</p>
+      <p>In this review, we look at the role of each of these two proteins using a Molecular Interaction Map (MIM) that visually integrates the experimental findings of the regulatory pathways that surround these proteins, shown in Figure 
+<xref ref-type="fig" rid="F1">1</xref>. The MIM helps free readers from a linear view of events and gain a better understanding of control loops involved in these pathways
+[<xref ref-type="bibr" rid="B6">6</xref>]. A machine-readable version of the MIM is provided as Additional file
+<xref ref-type="supplementary-material" rid="S1">1</xref> viewable using PathVisio-MIM (
+<ext-link ext-link-type="uri" xlink:href="http://discover.nci.nih.gov/mim/mim_pathvisio.html">http://discover.nci.nih.gov/mim/mim_pathvisio.html</ext-link>)
+[<xref ref-type="bibr" rid="B7">7</xref>]. Additionally, the MIM covers in greater detail the interactions surrounding SIRT1 and PARP1; a complete list of annotations is also provided as Additional file
+<xref ref-type="supplementary-material" rid="S2">2</xref>.</p>
+      <fig id="F1" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p><bold>SIRT1 and PARP1 Molecular Interaction Map.</bold> Blue: Post-translational modifications, Red: Inhibition and cleavage, Green: Stimulation and catalysis.</p>
+        </caption>
+        <graphic xlink:href="2041-9414-4-6-1"/>
+      </fig>
+      <p>Figure 
+<xref ref-type="fig" rid="F2">2</xref> shows a modular overview of how the SIRT1 and PARP1 interactions are laid out (an arrow indicates that a molecule or process from the source module has an interaction with a molecule or process in the target module) and Figure 
+<xref ref-type="fig" rid="F3">3</xref> provides a legend for reading the MIM notation. Throughout this review readers will see annotation labels in double square brackets and prefixed with a letter that refer to specific interactions in the MIM shown in Figure 
+<xref ref-type="fig" rid="F1">1</xref> and Additional file
+<xref ref-type="supplementary-material" rid="S2">2</xref>. We focus on aspects that alter the activity of these proteins, including: post-translational modifications, co-regulation, NAD + competition and co-regulated targets. Additionally, we discuss outstanding questions that would more accurately describe the relationship between these proteins.</p>
+      <fig id="F2" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p><bold>Modular layout diagram of SIRT1 and PARP1 MIM.</bold> Arrows connecting modules indicate that a node starting in a module connects to a node in the target module.</p>
+        </caption>
+        <graphic xlink:href="2041-9414-4-6-2"/>
+      </fig>
+      <fig id="F3" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Reference guide for the MIM notation.</p>
+        </caption>
+        <graphic xlink:href="2041-9414-4-6-3"/>
+      </fig>
+    </sec>
+    <sec>
+      <title>Review</title>
+      <sec>
+        <title>SIRT1</title>
+        <p>Sirtuins were originally discovered in yeast where the SIR (Silent Information Regulator) genes are necessary for the repression of silent mating-type loci
+[<xref ref-type="bibr" rid="B1">1</xref>]. The mammalian family of sirtuins consists of 7 proteins, SIRT1-7, which are ubiquitously expressed. Three of the sirtuins, SIRT1, SIRT6, and SIRT7 localize to the nucleus, SIRT2 is mainly localized in the cytoplasm, while the remaining three sirtuins: SIRT3, SIRT4, and SIRT5 are found in the mitochondria
+[<xref ref-type="bibr" rid="B8">8</xref>]. The members of the sirtuin family not only differ in cellular locations, but also in enzymatic function. SIRT1 and SIRT5 are primarily protein deacetylases, SIRT4 and SIRT6 are mono(ADP)-ribosyltransferases, and SIRT2 and SIRT3 exhibit both enzymatic activities; no clear functionality has been attributed to SIRT 7
+[<xref ref-type="bibr" rid="B9">9</xref>-<xref ref-type="bibr" rid="B14">14</xref>]. The conserved catalytic domain of sirtuins is capable of carrying out both deacetylation and ADP-ribosylation activities using NAD+, and it has been suggested that sirtuins may have the potential to carry out either enzymatic activity under the right conditions
+[<xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref>]. This review will focus on SIRT1 (EC 3.5.1.-) a member of the sirtuin family that is expressed in many tissues and acts as a NAD + -dependent protein deacetylase
+[<xref ref-type="bibr" rid="B1">1</xref>]. SIRT1 has been implicated in signaling pathways underlying various diseases, including: diabetes, cardiovascular disease, neurodegeneration, cancer, aging, and obesity
+[<xref ref-type="bibr" rid="B17">17</xref>].</p>
+      </sec>
+      <sec>
+        <title>PARP1</title>
+        <p>PARP1 (EC 2.4.2.30) is an NAD + -dependent nuclear ADP-ribosyltransferase with three domains: a DNA binding domain (DBD), an auto-modification domain (AD), and a catalytic domain [[A1]]
+[<xref ref-type="bibr" rid="B18">18</xref>]. The PARP family of proteins are involved in many processes, including: DNA damage response, cell death, cell cycle regulation, and telomere regulation
+[<xref ref-type="bibr" rid="B19">19</xref>]. The main function of PARP1 is the formation of poly(ADP-ribose) (PAR) chains on itself and other proteins [[A2]]
+[<xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B20">20</xref>,<xref ref-type="bibr" rid="B21">21</xref>]. PARP1 is a transcriptional co-activator where PAR acts as a signal helping to regulate transcription
+[<xref ref-type="bibr" rid="B22">22</xref>]. PAR is quickly cleaved by poly (ADP-ribose) glycohydrolase (PARG) [[A3]]
+[<xref ref-type="bibr" rid="B20">20</xref>]. PARP1 becomes highly activated by DNA strand breaks; electrostatic repulsion between the poly (ADP)-ribose (PAR) chains and DNA eventually leads to its catalytic inactivation
+[<xref ref-type="bibr" rid="B18">18</xref>].</p>
+      </sec>
+      <sec>
+        <title>Post-transcriptional regulation of SIRT1 and PARP1</title>
+        <p>Here we review post-translational modifications that affect the activities of SIRT1 and PARP1.</p>
+      </sec>
+      <sec>
+        <title>SIRT1</title>
+        <p>For a comprehensive review of sirtuin modifications, see Flick and Luscher
+[<xref ref-type="bibr" rid="B23">23</xref>]. Below we describe several of these modifications for SIRT1 and augment this list with additional modifications.</p>
+        <p>SIRT1 phosphorylation results in both stimulatory and inhibitory effects. Phosphorylation of SIRT1 by JNK occurs at three sites: S27, S47, and T530 in response to oxidative stress that stimulates its deacetylation activity [[A4]]
+[<xref ref-type="bibr" rid="B24">24</xref>]. In contrast, mTOR also phosphorylates SIRT1 in response to oxidative stress, but only at a single site, S47, resulting in the inhibition of SIRT1 [[A5]] suggesting a multi-site phosphorylation regulatory mechanism is in place; such a mechanism may be involved in the regulation of the timing of SIRT1 activity
+[<xref ref-type="bibr" rid="B25">25</xref>,<xref ref-type="bibr" rid="B26">26</xref>]. CK2 phosphorylates human SIRT1 at S659 and S661, both <italic>in vivo</italic> and <italic>in vitro</italic>, stimulating its deacetylation activity [[A4]]
+[<xref ref-type="bibr" rid="B27">27</xref>,<xref ref-type="bibr" rid="B28">28</xref>]. These two phosphorylation sites exist in a region of SIRT1 that are essential for SIRT1 activity both for its catalytic activity and ability to bind to substrates
+[<xref ref-type="bibr" rid="B29">29</xref>]. Cyclin B/Cdk1, a cell cycle-dependent kinase, can phosphorylate SIRT1 at T530 and S540 [[A6]]. Phosphorylation at these two sites decreases the activity of SIRT1 and disrupts progress of the cell cycle
+[<xref ref-type="bibr" rid="B30">30</xref>]. Similar to the case with mTOR and S47, T530 is a site phosphorylated by JNK and may also function as a part of a combinatorial modification program.</p>
+        <p>Kinases DYRK1A and DYRK3 have been shown to phosphorylate human SIRT1 at T522, stimulating the deacetylation of p53 by SIRT1[[A7]]; phosphorylation at this site increases the rate of product release by SIRT1
+[<xref ref-type="bibr" rid="B31">31</xref>]. AMPK phosphorylates human SIRT1 at T344 inhibiting its ability to decacetylate p53, a known target of SIRT1 [[A8]]
+[<xref ref-type="bibr" rid="B32">32</xref>]. In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1-mediated deacetylation of p53 in response to DNA damage [[A9]]
+[<xref ref-type="bibr" rid="B33">33</xref>]. Sumoylation at K734 by SUMO1 increases, whereas desumoylation by SENP1 decreases, the activity of SIRT1 in response to genotoxic stress [[A10]]
+[<xref ref-type="bibr" rid="B34">34</xref>]. In this study, genotoxic stress promoted the association of SIRT1 with SENP1, which may help to inhibit the ability of SIRT1 to promote survival. Additionally, transnitrosylation of SIRT1 by GAPDH at C387 and C390 has been found to inhibit the activity of SIRT1 leading to decreased PGC1α transcriptional activity; PGC1α is an important regulator of metabolism and mitochondrial function [[A11]]
+[<xref ref-type="bibr" rid="B35">35</xref>].</p>
+      </sec>
+      <sec>
+        <title>PARP1</title>
+        <p>The activity of PARP1 can be modulated via post-translational modifications, including phosphorylation, sumoylation, and acetylation. DNA-PK phosphorylates PARP1 though its effect is unknown [[A12]]
+[<xref ref-type="bibr" rid="B36">36</xref>]. Phosphorylation of PARP1 by AMPK has been shown to enhance its activity [[A13]]
+[<xref ref-type="bibr" rid="B37">37</xref>]. This stimulation of PARP1 by AMPK contrasts with the AMPK-mediated inhibition of SIRT1 and suggests one mechanism by which AMPK, a metabolic sensor able to regulate ATP-consuming pathways, may be capable of controlling cell survival given the roles of PARP1 and SIRT1 in response to DNA damage. ERK1/2 has also been shown to phosphorylate PARP1 in neuronal cells and to stimulate the activity of PARP1 in response to DNA damage; inhibition of ERK1/2 results in the inhibition of PARP1-mediated cell death
+[<xref ref-type="bibr" rid="B38">38</xref>]. PARP1 is acetylated by p300/CBP; this acetylation is involved in the activation of NF-κB by PARP1 [[A14]]
+[<xref ref-type="bibr" rid="B39">39</xref>]. PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1's auto-modification domain. This modification inhibits the ability of p300 to acetylate PARP1 and inhibits the expression of genes that are transcriptionally targeted by PARP1 [[A15]]
+[<xref ref-type="bibr" rid="B40">40</xref>].</p>
+      </sec>
+      <sec>
+        <title>Co-regulation of SIRT1 and PARP1</title>
+        <sec>
+          <title>Cross-modification and transcriptional co-regulation</title>
+          <p>SIRT1 and PARP1 are transcriptionally and functionally interconnected
+[<xref ref-type="bibr" rid="B41">41</xref>-<xref ref-type="bibr" rid="B43">43</xref>]. In SIRT1-deficient mouse cardiomyocytes, Rajamohan et al. in 2009 found increased levels of PARP1 acetylation in response to mechanical stress, suggesting that SIRT1 can deacetylate PARP1 [[A16]]
+[<xref ref-type="bibr" rid="B44">44</xref>]. Whether this interaction occurs during genotoxic stress or other types of stresses remains an open question. No similar modification reaction has been seen on SIRT1 by PARP1 in response to DNA damage. However, SIRT1 is able to negatively regulate the PARP1 promoter, and the SIRT1 promoter has been shown to be under the influence of PARP2
+[<xref ref-type="bibr" rid="B45">45</xref>,<xref ref-type="bibr" rid="B46">46</xref>].</p>
+        </sec>
+      </sec>
+      <sec>
+        <title>NAD + competition</title>
+        <p>Another key co-regulatory mechanism between these two proteins is the utilization of nicotinamide adenine dinucleotide (NAD+). It has been suggested by several studies that activation of PARP1 causes a depletion in NAD + levels, which inhibits SIRT1 activity
+[<xref ref-type="bibr" rid="B42">42</xref>-<xref ref-type="bibr" rid="B45">45</xref>]. In mammals, NAD + is mainly generated through the salvage pathway; this pathway involves nicotinamide (NAM) as the major precursor in this multi-step process that involves the conversion of NAM into nicotinamide mononucleotide (NMN) and then NMN into NAD+. The rate-limiting protein in the NAM-NMN-NAD + conversion is nicotinamide phosphoribosyltransferase (NAMPT) [[A17]]. PARP1 was shown to have a greater effect on NAD + depletion than SIRT1 in response to the NAMPT inhibitor, FK866
+[<xref ref-type="bibr" rid="B47">47</xref>]. In a related study, the inhibition of NAMPT by FK866 was shown to produce an effect similar to SIRT1 depletion
+[<xref ref-type="bibr" rid="B48">48</xref>].</p>
+        <p>Recent evidence suggests that local supplies of NAD + may be important for the enzymatic activities of these two proteins, shown in Figure 
+<xref ref-type="fig" rid="F4">4</xref>[<xref ref-type="bibr" rid="B49">49</xref>-<xref ref-type="bibr" rid="B51">51</xref>]. Nicotinamide mononucleotide adenylyltransferase 1 (NMNAT1), which catalyzes the conversion of NMN into NAD + in the synthesis of NAD + via the salvage pathway, can bind to (ADP-ribose) polymers in vitro leading to the stimulation of PARP1 activity; this effect is diminished when NMNAT1 is phosphorylated at S136 by protein kinase C (PKC) [[A18]]
+[<xref ref-type="bibr" rid="B52">52</xref>]. A similar interaction has been shown to occur with SIRT1, whereby SIRT1 binds to NMNAT1 helping to recruit NMNAT1 to specific promoters, which may help stimulate SIRT1 activity [[A19]]
+[<xref ref-type="bibr" rid="B53">53</xref>]. PARP1 activity leads to increased NAM concentrations at DNA damage sites, potentially leading to local inhibition of SIRT1 histone deacetylase activity
+[<xref ref-type="bibr" rid="B54">54</xref>]. Further work is needed to understand the function of these two proteins around chromatin sites occupied beforehand by one of them.</p>
+        <fig id="F4" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <p><bold>The effect of NMNAT1 binding on SIRT1 and PARP1 activity.</bold> Zhang et al. proposed that NMNAT1 may stimulate SIRT1 activity; indicated by the dashed line.</p>
+          </caption>
+          <graphic xlink:href="2041-9414-4-6-4"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Regulation of common SIRT1 and PARP1 targets</title>
+        <sec>
+          <title>SIRT1/PARP1 response to DNA damage</title>
+          <p>DNA damage response to both endogenous and exogenous sources is an intricate process that is not fully understood due to the complexity of the potential lesions, the number of proteins involved in both surveillance and repair, the interconnected regulation of proteins involved in the detection and repair of damage, stoppage of the cell cycle, and the potential induction of cell death; reviewed by
+[<xref ref-type="bibr" rid="B55">55</xref>]. SIRT1 and PARP1 play several roles throughout the response to DNA damage from the initial response to final cell fate decisions.</p>
+        </sec>
+        <sec>
+          <title>Histones</title>
+          <p>Both SIRT1 and PARP1 are known to modify histones; deacetylation of histones triggers chromatin compaction and the inhibition of transcription, whereas poly (ADP-ribose) polymers help to relax chromatin. SIRT1 is capable of deacetylating several histone amino acid residues, including H1K26, H3K9, H3K14, and H4K16 [[A20]]
+[<xref ref-type="bibr" rid="B56">56</xref>,<xref ref-type="bibr" rid="B57">57</xref>], while PARP1 can modify histones H1, H2AK13, H2BK30, H3K27, H3K37, and H4K16 to possibly regulate transcription [[A21]]
+[<xref ref-type="bibr" rid="B21">21</xref>,<xref ref-type="bibr" rid="B58">58</xref>]. It has been suggested that ADP-ribosylation of histone H1 promotes transcription by inhibiting the ability of histone H1 to bind to DNA
+[<xref ref-type="bibr" rid="B59">59</xref>]. Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP-ribosylation of histone H4 [[A22]]
+[<xref ref-type="bibr" rid="B21">21</xref>]. Here a potential contradiction in the role of SIRT1 in condensing chromatin arises whereby SIRT1 deacetylation activity could potentially help drive the PARP1 ADP-ribosylation activity on H4K16. Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4 [[A23]]. Deacetylation of these two proteins promotes their ubiquitin-dependent degradation affecting DNA double-strand break (DSB) repair either through the repression of repair or affecting the choice of repair mechanism (i.e. homologous recombination or non-homologous end joining (NHEJ))
+[<xref ref-type="bibr" rid="B60">60</xref>-<xref ref-type="bibr" rid="B63">63</xref>]. TIP60-dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non-homologous end joining [[A24]]
+[<xref ref-type="bibr" rid="B62">62</xref>,<xref ref-type="bibr" rid="B64">64</xref>]. Further studies are needed to understand how DNA damage might affect modifications on the various histones though it is known that genotoxic stress causes a random redistribution of SIRT1 across the genome with a correlated increase in levels of H1K26 acetylation
+[<xref ref-type="bibr" rid="B65">65</xref>]. However, while PARP1 does localize to DNA strand breaks, it is also not known whether there is any further global redistribution PARP1 or a relationship to the redistribution of SIRT1.</p>
+        </sec>
+        <sec>
+          <title>DNA damage signaling pathway</title>
+          <p>Both SIRT1 and PARP1 are DNA damage responders and the absence of either of these proteins may lead to DNA damage sensitization
+[<xref ref-type="bibr" rid="B66">66</xref>,<xref ref-type="bibr" rid="B67">67</xref>]. PARP1 begins to localize to DNA breaks rapidly and becomes activated by binding to DNA breaks. The ADP-ribosylation activity of PARP1 increases 10–500 fold as a result of binding to DNA breaks [[A25]]
+[<xref ref-type="bibr" rid="B2">2</xref>]. Once activated, PARP1 may help repair single strand DNA breaks, preventing their conversion to double-stranded breaks [[A26]]
+[<xref ref-type="bibr" rid="B68">68</xref>]. In addition, PARP1 is involved in DNA repair through its associations with base excision repair (BER) enzymes such as polymerase β, XRCC1 and DNA ligase III by helping these proteins localize to sites of DNA damage [[A27]]
+[<xref ref-type="bibr" rid="B69">69</xref>].</p>
+          <p>Two early responders of DNA damage linked to SIRT1 and PARP1 regulation are ATM (ataxia telangiectasia, mutated) and CHK2 (checkpoint kinase 2)
+[<xref ref-type="bibr" rid="B70">70</xref>]. The activation of ATM by DNA breaks requires the activation of the MRE11-RAD50-NBS1 (MRN) complex [[A28-A30]]. It has been shown that PARP1 binds to ATM, an interaction that is stimulated by DNA damage, and that the automodification of PARP1 leads to ATM activation [[A31]]
+[<xref ref-type="bibr" rid="B67">67</xref>].</p>
+          <p>An extended feedback loop has been proposed by Gorospe and de Cabo involving SIRT1 and several key DNA damage repair proteins
+[<xref ref-type="bibr" rid="B70">70</xref>]. In this loop, NBS1 is phosphorylated by ATM in response to genotoxic stress at S343 for the activation of NBS1; to be phosphorylated, it is necessary for NBS1 to be in a hypoacetylated state, which SIRT1 helps to maintain by deacetylating NBS1 [[A32-A33]]
+[<xref ref-type="bibr" rid="B71">71</xref>,<xref ref-type="bibr" rid="B72">72</xref>]. CHK2 is activated when T68 is phosphorylated by ATM. CHK2 can then phosphorylate HuR at several sites causing it to dissociate from SIRT1 mRNA, and thereby reduce the half-life of the SIRT1 mRNA [[A34]]
+[<xref ref-type="bibr" rid="B73">73</xref>]. It has been suggested that in repairable DNA damage situations SIRT1 levels are elevated leading to a survival response, but during lethal DNA damage SIRT1 levels can be attenuated by CHK2 through the phosphorylation of HuR that can ultimately result in cell death
+[<xref ref-type="bibr" rid="B70">70</xref>].</p>
+          <p>SIRT1 is also regulated by c-MYC and E2F1, two proteins involved in cell proliferation, differentiation and apoptosis, through negative feedback loops shown in Figure 
+<xref ref-type="fig" rid="F5">5</xref>. E2F1, a transcription factor, induces the transcription of SIRT1 [[A35]]. Conversely, E2F1 has been suggested to be a target for SIRT1 deacetylation, which inhibits E2F1 activity [[A36-A37]]
+[<xref ref-type="bibr" rid="B74">74</xref>]. Additionally, the transcriptional activity of E2F1 is inhibited by Retinoblastoma (Rb), which is another substrate of SIRT1 deacetylation; acetylation of Rb has been shown to regulate the binding of Rb to E2F1 [[A38]]
+[<xref ref-type="bibr" rid="B75">75</xref>,<xref ref-type="bibr" rid="B76">76</xref>]. Two studies have examined the interactions between SIRT1 and c-MYC producing contradictory results. In one publication, c-MYC over-expression leads to an increase in SIRT1 expression and then deacetylation of c-MYC by SIRT1 leads to the destabilization of c-MYC [[A39]]
+[<xref ref-type="bibr" rid="B77">77</xref>]. In the second publication, neither the induction of SIRT1 expression nor the destabilization of c-MYC was seen following c-MYC activation. Instead, a stabilizing effect on c-MYC due to deacetylation by SIRT1 was found. Also in the second study, Menssen et al. found that c-MYC can induce the transcription of NAMPT and help sequester DBC1, an inhibitor of SIRT1 [[A40]]
+[<xref ref-type="bibr" rid="B78">78</xref>]. Another line of evidence suggesting that SIRT1 may affect NAMPT through a second mechanism involving the circadian clock will be discussed later. There is evidence that PARP1 binds to E2F1 stimulating E2F1-dependent transcription of c-MYC [[A41]]
+[<xref ref-type="bibr" rid="B79">79</xref>]. This presents the possibility that both SIRT1 and PARP1 may be capable of influencing the regulation of NAMPT to affect NAD + levels through c-MYC.</p>
+          <fig id="F5" position="float">
+            <label>Figure 5</label>
+            <caption>
+              <p><bold>Interactions between SIRT1 and transcription factors c-MYC and E2F1.</bold> Solid lines between SIRT1 and c-MYC indicated are interactions from Yuan, Minter-Dykhouse et al. 2009 forming a negative feedback loop, while dashed lines are findings related to SIRT1 and c-MYC from Menssen, Hydbring et al. 2012.</p>
+            </caption>
+            <graphic xlink:href="2041-9414-4-6-5"/>
+          </fig>
+          <p>Another co-regulated protein is NF-κB, a regulator of cellular response, including inflammation, to stress. In the case of NF-κB, the effects of SIRT1 and PARP1 are opposing. SIRT1 can deacetylate the RelA/p65 subunit of NF-κB at K310 to inhibit NF-κB transactivation activity [[A42]]
+[<xref ref-type="bibr" rid="B80">80</xref>]. PARP1 is an activator of NF-κB through its direct binding to NF-κB; acetylation of PARP1 by p300/CBP is required for the binding of PARP1 to NF-κB [[A43]]
+[<xref ref-type="bibr" rid="B39">39</xref>].</p>
+          <p>Given the importance of p53 to apoptotic response, a number of studies have focused on the regulation of p53 by SIRT1. p53 acts as a transcription factor that induces apoptosis and is inhibited by SIRT1 deacetylation [[A44]]
+[<xref ref-type="bibr" rid="B81">81</xref>,<xref ref-type="bibr" rid="B82">82</xref>]. SIRT1 has the capability of deacetylating p53 at several sites in mouse embryonic fibroblasts (MEFs) and SIRT1-deficient cells possess hyperacetylated p53; the precise role of p53 acetylation is unclear [[A45]]
+[<xref ref-type="bibr" rid="B83">83</xref>-<xref ref-type="bibr" rid="B85">85</xref>]. Several proteins help to modify the interactions of SIRT1 with p53, including p53 (itself), DBC1, AROS, and HIC1, suggesting that it is a cellular imperative to control the inhibition of p53 by SIRT1 under certain conditions. p53 can repress SIRT1 expression during nutrient abundance via p53-binding sites on the SIRT1 promoter. This effect is countered by the transcription factor FOXO3A, which interacts with p53 in an inhibitory fashion during nutrient deprivation [[A46-A47]]
+[<xref ref-type="bibr" rid="B86">86</xref>,<xref ref-type="bibr" rid="B87">87</xref>]. Hypermethylated in cancer-1 (HIC1) is a transcriptional repressor of the SIRT1 promoter [[A48]] that helps prevent age-dependent cancers in mice. If HIC1 is inhibited, SIRT1 expression increases, allowing for more efficient inactivation of p53; p53 over-expression leads to the transactivation of HIC1, thus creating a negative feedback loop
+[<xref ref-type="bibr" rid="B88">88</xref>].</p>
+          <p>Micro-RNAs have also been shown to downregulate SIRT1-dependent deacetylation of p53. p53 can stimulate the expression of miRNA-34 [[A49]], which subsequently drives down the expression of SIRT1 lowering SIRT1 availability to inhibit p53. Over 15 micro-RNAs affect the expression of SIRT1 either directly or by decreasing the expression of HuR, which stabilizes SIRT1 mRNA [[A50]]
+[<xref ref-type="bibr" rid="B89">89</xref>,<xref ref-type="bibr" rid="B90">90</xref>].</p>
+          <p>Given the well-studied nature of p53 as a SIRT1 substrate, p53 has been used to characterize SIRT1 inhibitors and activators. In humans, deleted in breast cancer 1 (DBC1) acts as an inhibitor of SIRT1 (an inhibitory effect increased by the phosphorylation of DBC1) and whose effect has been shown to lead to p53 hypoacetylation [[A51-A52]]
+[<xref ref-type="bibr" rid="B29">29</xref>,<xref ref-type="bibr" rid="B91">91</xref>-<xref ref-type="bibr" rid="B93">93</xref>]. Active Regulator of SIRT1 (AROS) has been shown to bind SIRT1 and help enhance the deacetylation of p53 by SIRT1 [[A53]]
+[<xref ref-type="bibr" rid="B94">94</xref>]. Further studies are needed to understand if the effects on p53 acetylation states are specific to the activities of DBC1 and AROS on SIRT1 or if other substrates of these two proteins are involved.</p>
+          <p>Much less is known about the interaction between PARP1 and p53. PARP1 helps p53 accumulate in the nucleus by (ADP-ribosyl)ating p53, which prevents p53 nuclear export
+[<xref ref-type="bibr" rid="B95">95</xref>], and there is evidence to suggest that SIRT1 deacetylation activity is capable of blocking p53 nuclear translocation
+[<xref ref-type="bibr" rid="B96">96</xref>].</p>
+        </sec>
+        <sec>
+          <title>Cell death</title>
+          <p>In addition to the role that SIRT1 plays in the inhibition of p53, SIRT1 is capable of deacetylating Ku70 at K539 and K542; the acetylation of Ku70 leads to the dissociation of the Ku70 and Bax helping to trigger apoptosis; Bax is a pro-apoptotic factor that is sequestered by Ku70 [[A54-A55]]
+[<xref ref-type="bibr" rid="B97">97</xref>]. NBS1, which we have discussed here beforehand as being activated via deacetylation by SIRT1, has also been shown to help control the interaction between Ku70 and Bax by stimulating the acetylation of Ku70 [[A56]]
+[<xref ref-type="bibr" rid="B98">98</xref>]. The exact conditions leading to a differential role of SIRT1 on the Ku70 and Bax complex remains to be uncovered.</p>
+          <p>PARP1 plays a role in cell death pathways (apoptosis or necrosis) in the course of responding to DNA damage. ATP is required for optimal caspase activation, and the depletion of ATP can direct cells between apoptotic and necrotic pathways
+[<xref ref-type="bibr" rid="B99">99</xref>]. During normal apoptosis, PARP1 is cleaved by caspases; the role of these cleaved fragments play is not fully understood [[A57]]. PARP1 cleavage helps prevent energy depletion (NAD + and ATP) in response to severe DNA damage; the extreme loss of NAD + triggers necrosis by reducing cellular ability to synthesize ATP [[A58]]
+[<xref ref-type="bibr" rid="B100">100</xref>]. Cells with severe DNA damage die from necrosis because they are not able to switch away from the necrotic pathway since the kinetics of NAD + depletion are faster than those of PARP1 cleavage
+[<xref ref-type="bibr" rid="B2">2</xref>]. Rapid depletion of NAD + levels by PARP1 reduces SIRT1 activity and inhibits the capability of SIRT1 to deacetylate its targets respond to genotoxic stress
+[<xref ref-type="bibr" rid="B101">101</xref>]. PARP1 has also been implicated in caspase-independent apoptosis, where its activation leads to apoptosis-inducing factor (AIF) release from the mitochondria, which induces nuclear chromatin fragmentation [[A59]]
+[<xref ref-type="bibr" rid="B102">102</xref>].</p>
+        </sec>
+        <sec>
+          <title>Circadian rhythms</title>
+          <p>Recent SIRT1 and PARP1 research has uncovered roles for the two proteins in circadian rhythms creating the possibility for novel interconnections between metabolism, DNA repair, and circadian rhythms (Figure 
+<xref ref-type="fig" rid="F6">6</xref>). The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription [[A60-A62]]. Several studies have shown that disruptions in core circadian interactions can lead to alterations in DDR; reviewed in
+[<xref ref-type="bibr" rid="B103">103</xref>].</p>
+          <fig id="F6" position="float">
+            <label>Figure 6</label>
+            <caption>
+              <p>Interactions of SIRT1 and PARP1 with circadian clock components.</p>
+            </caption>
+            <graphic xlink:href="2041-9414-4-6-6"/>
+          </fig>
+          <p>SIRT1 deacetylates BMAL1 at K537 destabilizing the interaction between CRY and BMAL1 [[A63]]
+[<xref ref-type="bibr" rid="B104">104</xref>,<xref ref-type="bibr" rid="B105">105</xref>]. CLOCK possesses acetyltransferase activity that regulates the transcriptional activity of CLOCK/BMAL1
+[<xref ref-type="bibr" rid="B106">106</xref>] and is capable of acetylating some of the same locations that SIRT1 deacetylates: H3K9, H3K14, and BMAL1 at K537 [[A64]]
+[<xref ref-type="bibr" rid="B57">57</xref>,<xref ref-type="bibr" rid="B105">105</xref>]. SIRT1 has also been shown to deacetylate PER2 destabilizing the protein [[A65]]; it has been hypothesized that acetylation of PER2 at lysine residues prevents their ubiquitination
+[<xref ref-type="bibr" rid="B107">107</xref>]. This presents a dual control mechanism for SIRT1 in the circadian clock where it is capable of balancing transcription through chromatin condensation, but also by disrupting the ability for CRY and PER2 to repress CLOCK/BMAL1 activity. SIRT1 is involved in NAMPT transcriptional regulation, which is under circadian control causing NAD + levels to oscillate as a consequence of NAMPT level oscillation
+[<xref ref-type="bibr" rid="B48">48</xref>,<xref ref-type="bibr" rid="B108">108</xref>]. Additionally, it has been shown that PARP1 has rhythmic activity influenced by feeding patterns though further work is necessary to understand the underlying molecular mechanism. PARP1 is capable of ADP-ribosylating CLOCK in a circadian manner disrupting the association between the BMAL1/CLOCK heterodimer and its targets [[A66]]
+[<xref ref-type="bibr" rid="B109">109</xref>]. It remains to be determined whether a regulatory effect exists between SIRT1 or PARP1 and the circadian components during DNA damage.</p>
+        </sec>
+        <sec>
+          <title>Interactions with other family members</title>
+          <p>While the focus of this review has been on the inter-relationships that exist between SIRT1 and PARP1, there is growing evidence that SIRT1 has the capability of interacting with other members of the PARP family of proteins and similarly that PARP1 is capable of interacting with multiple sirtuins. Here we present three cases of these interactions; these interactions range include both direct modifications, as well as transcriptional regulation. First, SIRT6, one of the nuclear sirtuins, plays a role in promoting DNA damage repair by binding and activating PARP1 by mono-ADP-ribosylating PARP1 triggering its auto-ADP-ribosylation activity [[A67]]
+[<xref ref-type="bibr" rid="B110">110</xref>]. Next, the second PARP family member, PARP2, has been shown to inhibit the transcription of SIRT1; the deletion of PARP2 increases overall levels of SIRT1 activity without having to target NAD + levels directly [[A68]]
+[<xref ref-type="bibr" rid="B46">46</xref>]. This finding indicates that inhibitors of PARP proteins may be capable of increasing SIRT1 activity not only via the inhibition of NAD + consumption by PARP family members, but also through the removal of transcriptional inhibition. Lastly, shown recently is that PARP1 increases levels of mitochondrial SIRT3 and that SIRT3 can continue to function under stress conditions because mitochondrial NAD + levels are maintained in the conditions produced by either treatment with methylnitronitrosoguanidine (MNNG), a carcinogen, or N-methyl-D-aspartate (NMDA), a neuronal stressor, even as cytosolic levels of NAD + are depleted by PARP1
+[<xref ref-type="bibr" rid="B111">111</xref>,<xref ref-type="bibr" rid="B112">112</xref>]. This study by Kim et al., did not observe a similar change in SIRT1 protein levels or the expression levels of the other mitochondrial sirtuins, SIRT4 and SIRT5.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions">
+      <title>Conclusions</title>
+      <p>Cells respond to DNA damage through coordinated pathways that arrest the cell cycle and repair the damage, and in the presence of severe damage trigger cell death. Both SIRT1 and PARP1 play an intimate role in the regulation of genomic stability, and continued work is necessary for the understanding of the specific contexts in which modulators of SIRT1 and PARP1 activity may be appropriate as therapeutics for cancer and metabolic disorders. The regulation of SIRT1 and PARP1 is controlled by a variety of stimuli, including metabolic, circadian, and genotoxic. Understanding how each of these stimuli affects the regulatory network of these two proteins is vital.</p>
+      <p>The work of the past several years has trended towards an understanding of the diverse regulatory network surrounding these two proteins, the effects of local levels of their common substrate, NAD+, and the co-regulation of and by the two proteins. There continue to be several unexplored areas. For example, understanding the nature of competitive regulation of acetylation and PAR at a single substrate residue on a single molecule, since both can target lysine residues, remains an open area of research. Another interesting avenue of research remaining to be thoroughly explored is the alteration of the reviewed pathways as an organism ages. Studies have shown age-dependent increases in DNA damage can lead to NAD + depletion
+[<xref ref-type="bibr" rid="B113">113</xref>,<xref ref-type="bibr" rid="B114">114</xref>]. In human tissue samples, Massudi et al. found an age-related positive correlation in PARP1 activity in males and negative correlations with SIRT1 activity in males and NAD + levels in both males and females that starts to shed light on the role of these two proteins in the presence of accumulating DNA damage with age
+[<xref ref-type="bibr" rid="B114">114</xref>]. In a related study, Chang et al. showed a reduction in SIRT1 levels over time resulting in alterations in circadian oscillations in mice as they age
+[<xref ref-type="bibr" rid="B115">115</xref>]. Studies such as these suggest that the regulatory network surrounding SIRT1 and PARP1 may undergo large-scale changes over an organism’s lifespan; currently, we do not know the extent of these changes. Additionally, there is a deficit in our knowledge with respect to the influence that DNA damage response may have on circadian regulation and vice versa and the roles that SIRT1 and PARP1 may play. And while this review has focused on evidence of the interactions between the better studied members of their respective protein families, SIRT1 and PARP1, additional work is necessary in our understanding of the roles of the other members of the two protein families and their unique properties and interactions that may play integral roles in the progression of DDR, as well as other processes.</p>
+    </sec>
+    <sec>
+      <title>Competing interests</title>
+      <p>The authors declare that they have no competing interests.</p>
+    </sec>
+    <sec>
+      <title>Authors' contributions</title>
+      <p>AL wrote the manuscript and drew and annotated the supplemental MIM. MIA and KWK edited the manuscript and MIM. All authors have read and approved the final manuscript.</p>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="S1">
+        <caption>
+          <title>Additional file 1</title>
+          <p><bold>SIRT1/PARP1 MIM GPML (GenMAPP Pathway Markup Language) File.</bold> The SIRT1/PARP1 MIM as a machine-readable file that can be read and searched using PathVisio-MIM (
+<ext-link ext-link-type="uri" xlink:href="http://discover.nci.nih.gov/mim/mim_pathvisio.html">http://discover.nci.nih.gov/mim/mim_pathvisio.html</ext-link>).</p>
+        </caption>
+        <media xlink:href="2041-9414-4-6-S1.zip">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="S2">
+        <caption>
+          <title>Additional file 2</title>
+          <p><bold>SIRT1/PARP1 MIM Annotations Excel File.</bold> Table containing annotations for all interactions shown in the SIRT1/PARP1 MIM.</p>
+        </caption>
+        <media xlink:href="2041-9414-4-6-S2.xlsx">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <sec>
+      <title>Acknowledgements</title>
+      <p>We would like to acknowledge helpful discussions with Paolo Sassone-Corsi and Myriam Gorospe. This project was supported by the Ford Foundation and the Intramural Research Program of the NIH, Center for Cancer Research, National Cancer Institute.</p>
+    </sec>
+    <ref-list>
+      <ref id="B1">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Blander</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Guarente</surname>
+            <given-names>L</given-names>
+          </name>
+          <article-title>The Sir2 family of protein deacetylases</article-title>
+          <source>Annu Rev Plant Physiol Plant Mol Biol</source>
+          <year>2004</year>
+          <volume>4</volume>
+          <fpage>417</fpage>
+          <lpage>435</lpage>
+        </mixed-citation>
+      </ref>
+      <ref id="B2">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>D'Amours</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Desnoyers</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>D'Silva</surname>
+            <given-names>I</given-names>
+          </name>
+          <name>
+            <surname>Poirier</surname>
+            <given-names>GG</given-names>
+          </name>
+          <article-title>Poly(ADP-ribosyl)ation reactions in the regulation of nuclear functions</article-title>
+          <source>Biochem J</source>
+          <year>1999</year>
+          <volume>4</volume>
+          <fpage>249</fpage>
+          <lpage>268</lpage>
+          <pub-id pub-id-type="doi">10.1042/0264-6021:3420249</pub-id>
+          <?supplied-pmid 10455009?>
+          <pub-id pub-id-type="pmid">10455009</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B3">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Rouleau</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Patel</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Hendzel</surname>
+            <given-names>MJ</given-names>
+          </name>
+          <name>
+            <surname>Kaufmann</surname>
+            <given-names>SH</given-names>
+          </name>
+          <name>
+            <surname>Poirier</surname>
+            <given-names>GG</given-names>
+          </name>
+          <article-title>PARP inhibition: PARP1 and beyond</article-title>
+          <source>Nat Rev Cancer</source>
+          <year>2010</year>
+          <volume>4</volume>
+          <fpage>293</fpage>
+          <lpage>301</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrc2812</pub-id>
+          <?supplied-pmid 20200537?>
+          <pub-id pub-id-type="pmid">20200537</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B4">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Villalba</surname>
+            <given-names>JM</given-names>
+          </name>
+          <name>
+            <surname>de Cabo</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Alcain</surname>
+            <given-names>FJ</given-names>
+          </name>
+          <article-title>A patent review of sirtuin activators: an update</article-title>
+          <source>Expert Opin Ther Pat</source>
+          <year>2012</year>
+          <volume>4</volume>
+          <fpage>355</fpage>
+          <lpage>367</lpage>
+          <pub-id pub-id-type="doi">10.1517/13543776.2012.669374</pub-id>
+          <?supplied-pmid 22475539?>
+          <pub-id pub-id-type="pmid">22475539</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B5">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Canto</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Sauve</surname>
+            <given-names>AA</given-names>
+          </name>
+          <name>
+            <surname>Bai</surname>
+            <given-names>P</given-names>
+          </name>
+          <article-title>Crosstalk between poly(ADP-ribose) polymerase and sirtuin enzymes</article-title>
+          <source>Mol Aspects Med</source>
+          <year>2013</year>
+          <volume>4</volume>
+          <issue>6</issue>
+          <fpage>1168</fpage>
+          <lpage>1201</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.mam.2013.01.004</pub-id>
+          <?supplied-pmid 23357756?>
+          <pub-id pub-id-type="pmid">23357756</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B6">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Luna</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Karac</surname>
+            <given-names>EI</given-names>
+          </name>
+          <name>
+            <surname>Sunshine</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Chang</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Nussinov</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Aladjem</surname>
+            <given-names>MI</given-names>
+          </name>
+          <name>
+            <surname>Kohn</surname>
+            <given-names>KW</given-names>
+          </name>
+          <article-title>A formal MIM specification and tools for the common exchange of MIM diagrams: an XML-based format, an API, and a validation method</article-title>
+          <source>BMC Bioinformatics</source>
+          <year>2011</year>
+          <volume>4</volume>
+          <fpage>167</fpage>
+          <pub-id pub-id-type="doi">10.1186/1471-2105-12-167</pub-id>
+          <?supplied-pmid 21586134?>
+          <pub-id pub-id-type="pmid">21586134</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B7">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Luna</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Sunshine</surname>
+            <given-names>ML</given-names>
+          </name>
+          <name>
+            <surname>van Iersel</surname>
+            <given-names>MP</given-names>
+          </name>
+          <name>
+            <surname>Aladjem</surname>
+            <given-names>MI</given-names>
+          </name>
+          <name>
+            <surname>Kohn</surname>
+            <given-names>KW</given-names>
+          </name>
+          <article-title>PathVisio-MIM: PathVisio plugin for creating and editing Molecular Interaction Maps (MIMs)</article-title>
+          <source>Bioinformatics</source>
+          <year>2011</year>
+          <volume>4</volume>
+          <issue>15</issue>
+          <fpage>2165</fpage>
+          <lpage>2166</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btr336</pub-id>
+          <?supplied-pmid 21636591?>
+          <pub-id pub-id-type="pmid">21636591</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B8">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Michishita</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Park</surname>
+            <given-names>JY</given-names>
+          </name>
+          <name>
+            <surname>Burneskis</surname>
+            <given-names>JM</given-names>
+          </name>
+          <name>
+            <surname>Barrett</surname>
+            <given-names>JC</given-names>
+          </name>
+          <name>
+            <surname>Horikawa</surname>
+            <given-names>I</given-names>
+          </name>
+          <article-title>Evolutionarily conserved and nonconserved cellular localizations and functions of human SIRT proteins</article-title>
+          <source>Mol Bio Cell</source>
+          <year>2005</year>
+          <volume>4</volume>
+          <issue>10</issue>
+          <fpage>4623</fpage>
+          <lpage>4635</lpage>
+          <pub-id pub-id-type="pmid">16079181</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B9">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>North</surname>
+            <given-names>BJ</given-names>
+          </name>
+          <name>
+            <surname>Marshall</surname>
+            <given-names>BL</given-names>
+          </name>
+          <name>
+            <surname>Borra</surname>
+            <given-names>MT</given-names>
+          </name>
+          <name>
+            <surname>Denu</surname>
+            <given-names>JM</given-names>
+          </name>
+          <name>
+            <surname>Verdin</surname>
+            <given-names>E</given-names>
+          </name>
+          <article-title>The human Sir2 ortholog, SIRT2, is an NAD + -dependent tubulin deacetylase</article-title>
+          <source>Mol Cell</source>
+          <year>2003</year>
+          <volume>4</volume>
+          <issue>2</issue>
+          <fpage>437</fpage>
+          <lpage>444</lpage>
+          <pub-id pub-id-type="doi">10.1016/S1097-2765(03)00038-8</pub-id>
+          <?supplied-pmid 12620231?>
+          <pub-id pub-id-type="pmid">12620231</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B10">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Vaziri</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Dessain</surname>
+            <given-names>SK</given-names>
+          </name>
+          <name>
+            <surname>Ng Eaton</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Imai</surname>
+            <given-names>SI</given-names>
+          </name>
+          <name>
+            <surname>Frye</surname>
+            <given-names>RA</given-names>
+          </name>
+          <name>
+            <surname>Pandita</surname>
+            <given-names>TK</given-names>
+          </name>
+          <name>
+            <surname>Guarente</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Weinberg</surname>
+            <given-names>RA</given-names>
+          </name>
+          <article-title>hSIR2(SIRT1) functions as an NAD-dependent p53 deacetylase</article-title>
+          <source>Cell</source>
+          <year>2001</year>
+          <volume>4</volume>
+          <issue>2</issue>
+          <fpage>149</fpage>
+          <lpage>159</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0092-8674(01)00527-X</pub-id>
+          <?supplied-pmid 11672523?>
+          <pub-id pub-id-type="pmid">11672523</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B11">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Haigis</surname>
+            <given-names>MC</given-names>
+          </name>
+          <name>
+            <surname>Mostoslavsky</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Haigis</surname>
+            <given-names>KM</given-names>
+          </name>
+          <name>
+            <surname>Fahie</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Christodoulou</surname>
+            <given-names>DC</given-names>
+          </name>
+          <name>
+            <surname>Murphy</surname>
+            <given-names>AJ</given-names>
+          </name>
+          <name>
+            <surname>Valenzuela</surname>
+            <given-names>DM</given-names>
+          </name>
+          <name>
+            <surname>Yancopoulos</surname>
+            <given-names>GD</given-names>
+          </name>
+          <name>
+            <surname>Karow</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Blander</surname>
+            <given-names>G</given-names>
+          </name>
+          <etal/>
+          <article-title>SIRT4 inhibits glutamate dehydrogenase and opposes the effects of calorie restriction in pancreatic beta cells</article-title>
+          <source>Cell</source>
+          <year>2006</year>
+          <volume>4</volume>
+          <issue>5</issue>
+          <fpage>941</fpage>
+          <lpage>954</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2006.06.057</pub-id>
+          <?supplied-pmid 16959573?>
+          <pub-id pub-id-type="pmid">16959573</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B12">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Liszt</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Ford</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Kurtev</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Guarente</surname>
+            <given-names>L</given-names>
+          </name>
+          <article-title>Mouse Sir2 homolog SIRT6 is a nuclear ADP-ribosyltransferase</article-title>
+          <source>J Biol Chem</source>
+          <year>2005</year>
+          <volume>4</volume>
+          <issue>22</issue>
+          <fpage>21313</fpage>
+          <lpage>21320</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M413296200</pub-id>
+          <?supplied-pmid 15795229?>
+          <pub-id pub-id-type="pmid">15795229</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B13">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Shi</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Wang</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Stieren</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Tong</surname>
+            <given-names>Q</given-names>
+          </name>
+          <article-title>SIRT3, a mitochondrial sirtuin deacetylase, regulates mitochondrial function and thermogenesis in brown adipocytes</article-title>
+          <source>J Biol Chem</source>
+          <year>2005</year>
+          <volume>4</volume>
+          <issue>14</issue>
+          <fpage>13560</fpage>
+          <lpage>13567</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M414670200</pub-id>
+          <?supplied-pmid 15653680?>
+          <pub-id pub-id-type="pmid">15653680</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B14">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Vakhrusheva</surname>
+            <given-names>O</given-names>
+          </name>
+          <name>
+            <surname>Smolka</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Gajawada</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Kostin</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Boettger</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Kubin</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Braun</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Bober</surname>
+            <given-names>E</given-names>
+          </name>
+          <article-title>Sirt7 increases stress resistance of cardiomyocytes and prevents apoptosis and inflammatory cardiomyopathy in mice</article-title>
+          <source>Circ Res</source>
+          <year>2008</year>
+          <volume>4</volume>
+          <issue>6</issue>
+          <fpage>703</fpage>
+          <lpage>710</lpage>
+          <pub-id pub-id-type="doi">10.1161/CIRCRESAHA.107.164558</pub-id>
+          <?supplied-pmid 18239138?>
+          <pub-id pub-id-type="pmid">18239138</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B15">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Saunders</surname>
+            <given-names>LR</given-names>
+          </name>
+          <name>
+            <surname>Verdin</surname>
+            <given-names>E</given-names>
+          </name>
+          <article-title>Sirtuins: critical regulators at the crossroads between cancer and aging</article-title>
+          <source>Oncogene</source>
+          <year>2007</year>
+          <volume>4</volume>
+          <issue>37</issue>
+          <fpage>5489</fpage>
+          <lpage>5504</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.onc.1210616</pub-id>
+          <?supplied-pmid 17694089?>
+          <pub-id pub-id-type="pmid">17694089</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B16">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Tanny</surname>
+            <given-names>JC</given-names>
+          </name>
+          <name>
+            <surname>Dowd</surname>
+            <given-names>GJ</given-names>
+          </name>
+          <name>
+            <surname>Huang</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Hilz</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Moazed</surname>
+            <given-names>D</given-names>
+          </name>
+          <article-title>An enzymatic activity in the yeast Sir2 protein that is essential for gene silencing</article-title>
+          <source>Cell</source>
+          <year>1999</year>
+          <volume>4</volume>
+          <issue>7</issue>
+          <fpage>735</fpage>
+          <lpage>745</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0092-8674(00)81671-2</pub-id>
+          <?supplied-pmid 10619427?>
+          <pub-id pub-id-type="pmid">10619427</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B17">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Rahman</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Islam</surname>
+            <given-names>R</given-names>
+          </name>
+          <article-title>Mammalian Sirt1: insights on its biological functions</article-title>
+          <source>Cell Commun Signal</source>
+          <year>2011</year>
+          <volume>4</volume>
+          <fpage>11</fpage>
+          <pub-id pub-id-type="doi">10.1186/1478-811X-9-11</pub-id>
+          <?supplied-pmid 21549004?>
+          <pub-id pub-id-type="pmid">21549004</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B18">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Mendoza-Alvarez</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Alvarez-Gonzalez</surname>
+            <given-names>R</given-names>
+          </name>
+          <article-title>Poly(ADP-ribose) polymerase is a catalytic dimer and the automodification reaction is intermolecular</article-title>
+          <source>J Biol Chem</source>
+          <year>1993</year>
+          <volume>4</volume>
+          <fpage>22575</fpage>
+          <lpage>22580</lpage>
+          <?supplied-pmid 8226768?>
+          <pub-id pub-id-type="pmid">8226768</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B19">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Ame</surname>
+            <given-names>JC</given-names>
+          </name>
+          <name>
+            <surname>Spenlehauer</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>de Murcia</surname>
+            <given-names>G</given-names>
+          </name>
+          <article-title>The PARP superfamily</article-title>
+          <source>Bioessays</source>
+          <year>2004</year>
+          <volume>4</volume>
+          <issue>8</issue>
+          <fpage>882</fpage>
+          <lpage>893</lpage>
+          <pub-id pub-id-type="doi">10.1002/bies.20085</pub-id>
+          <?supplied-pmid 15273990?>
+          <pub-id pub-id-type="pmid">15273990</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B20">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Hassa</surname>
+            <given-names>PO</given-names>
+          </name>
+          <name>
+            <surname>Haenni</surname>
+            <given-names>SS</given-names>
+          </name>
+          <name>
+            <surname>Elser</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Hottiger</surname>
+            <given-names>MO</given-names>
+          </name>
+          <article-title>Nuclear ADP-ribosylation reactions in mammalian cells: where are we today and where are we going?</article-title>
+          <source>Microbiol Mol Biology R</source>
+          <year>2006</year>
+          <volume>4</volume>
+          <fpage>789</fpage>
+          <lpage>829</lpage>
+          <pub-id pub-id-type="doi">10.1128/MMBR.00040-05</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B21">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Messner</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Altmeyer</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Zhao</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Pozivil</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Roschitzki</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Gehrig</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Rutishauser</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Huang</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Caflisch</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Hottiger</surname>
+            <given-names>MO</given-names>
+          </name>
+          <article-title>PARP1 ADP-ribosylates lysine residues of the core histone tails</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2010</year>
+          <volume>4</volume>
+          <issue>19</issue>
+          <fpage>6350</fpage>
+          <lpage>6362</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkq463</pub-id>
+          <?supplied-pmid 20525793?>
+          <pub-id pub-id-type="pmid">20525793</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B22">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Luo</surname>
+            <given-names>X</given-names>
+          </name>
+          <name>
+            <surname>Kraus</surname>
+            <given-names>WL</given-names>
+          </name>
+          <article-title>On PAR with PARP: cellular stress signaling through poly(ADP-ribose) and PARP-1</article-title>
+          <source>Genes Dev</source>
+          <year>2012</year>
+          <volume>4</volume>
+          <issue>5</issue>
+          <fpage>417</fpage>
+          <lpage>432</lpage>
+          <pub-id pub-id-type="doi">10.1101/gad.183509.111</pub-id>
+          <?supplied-pmid 22391446?>
+          <pub-id pub-id-type="pmid">22391446</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B23">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Flick</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Lüscher</surname>
+            <given-names>B</given-names>
+          </name>
+          <article-title>Regulation of sirtuin function by posttranslational modifications</article-title>
+          <source>Frontiers Pharm</source>
+          <year>2012</year>
+          <volume>4</volume>
+          <fpage>29</fpage>
+        </mixed-citation>
+      </ref>
+      <ref id="B24">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Nasrin</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Kaushik</surname>
+            <given-names>VK</given-names>
+          </name>
+          <name>
+            <surname>Fortier</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Wall</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Pearson</surname>
+            <given-names>KJ</given-names>
+          </name>
+          <name>
+            <surname>de Cabo</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Bordone</surname>
+            <given-names>L</given-names>
+          </name>
+          <article-title>JNK1 phosphorylates SIRT1 and promotes its enzymatic activity</article-title>
+          <source>PloS ONE</source>
+          <year>2009</year>
+          <volume>4</volume>
+          <issue>12</issue>
+          <fpage>e8414</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0008414</pub-id>
+          <?supplied-pmid 20027304?>
+          <pub-id pub-id-type="pmid">20027304</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B25">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Salazar</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Brummer</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Alberghina</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Hofer</surname>
+            <given-names>T</given-names>
+          </name>
+          <article-title>Timing control in regulatory networks by multisite protein modifications</article-title>
+          <source>Trends Cell Biol</source>
+          <year>2010</year>
+          <volume>4</volume>
+          <issue>11</issue>
+          <fpage>634</fpage>
+          <lpage>641</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tcb.2010.08.012</pub-id>
+          <?supplied-pmid 20869247?>
+          <pub-id pub-id-type="pmid">20869247</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B26">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Back</surname>
+            <given-names>JH</given-names>
+          </name>
+          <name>
+            <surname>Rezvani</surname>
+            <given-names>HR</given-names>
+          </name>
+          <name>
+            <surname>Zhu</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Guyonnet-Duperat</surname>
+            <given-names>V</given-names>
+          </name>
+          <name>
+            <surname>Athar</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Ratner</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Kim</surname>
+            <given-names>AL</given-names>
+          </name>
+          <article-title>Cancer cell survival following DNA damage-mediated premature senescence is regulated by mammalian target of rapamycin (mTOR)-dependent Inhibition of sirtuin 1</article-title>
+          <source>J Biol Chem</source>
+          <year>2011</year>
+          <volume>4</volume>
+          <issue>21</issue>
+          <fpage>19100</fpage>
+          <lpage>19108</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M111.240598</pub-id>
+          <?supplied-pmid 21471201?>
+          <pub-id pub-id-type="pmid">21471201</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B27">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Kang</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Jung</surname>
+            <given-names>JW</given-names>
+          </name>
+          <name>
+            <surname>Kim</surname>
+            <given-names>MK</given-names>
+          </name>
+          <name>
+            <surname>Chung</surname>
+            <given-names>JH</given-names>
+          </name>
+          <article-title>CK2 is the regulator of SIRT1 substrate-binding affinity, deacetylase activity and cellular response to DNA-damage</article-title>
+          <source>PLoS ONE</source>
+          <year>2009</year>
+          <volume>4</volume>
+          <issue>8</issue>
+          <fpage>e6611</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0006611</pub-id>
+          <?supplied-pmid 19680552?>
+          <pub-id pub-id-type="pmid">19680552</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B28">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Zschoernig</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Mahlknecht</surname>
+            <given-names>U</given-names>
+          </name>
+          <article-title>Carboxy-terminal phosphorylation of SIRT1 by protein kinase CK2</article-title>
+          <source>Biochem Biophys Res Commun</source>
+          <year>2009</year>
+          <volume>4</volume>
+          <issue>3</issue>
+          <fpage>372</fpage>
+          <lpage>377</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbrc.2009.02.085</pub-id>
+          <?supplied-pmid 19236849?>
+          <pub-id pub-id-type="pmid">19236849</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B29">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Kang</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Suh</surname>
+            <given-names>JY</given-names>
+          </name>
+          <name>
+            <surname>Jung</surname>
+            <given-names>YS</given-names>
+          </name>
+          <name>
+            <surname>Jung</surname>
+            <given-names>JW</given-names>
+          </name>
+          <name>
+            <surname>Kim</surname>
+            <given-names>MK</given-names>
+          </name>
+          <name>
+            <surname>Chung</surname>
+            <given-names>JH</given-names>
+          </name>
+          <article-title>Peptide switch is essential for Sirt1 deacetylase activity</article-title>
+          <source>Mol Cell</source>
+          <year>2011</year>
+          <volume>4</volume>
+          <issue>2</issue>
+          <fpage>203</fpage>
+          <lpage>213</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2011.07.038</pub-id>
+          <?supplied-pmid 22017869?>
+          <pub-id pub-id-type="pmid">22017869</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B30">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Sasaki</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Maier</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Koclega</surname>
+            <given-names>KD</given-names>
+          </name>
+          <name>
+            <surname>Chruszcz</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Gluba</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Stukenberg</surname>
+            <given-names>PT</given-names>
+          </name>
+          <name>
+            <surname>Minor</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Scrable</surname>
+            <given-names>H</given-names>
+          </name>
+          <article-title>Phosphorylation regulates SIRT1 function</article-title>
+          <source>PloS ONE</source>
+          <year>2008</year>
+          <volume>4</volume>
+          <fpage>e4020</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0004020</pub-id>
+          <?supplied-pmid 19107194?>
+          <pub-id pub-id-type="pmid">19107194</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B31">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Guo</surname>
+            <given-names>X</given-names>
+          </name>
+          <name>
+            <surname>Williams</surname>
+            <given-names>JG</given-names>
+          </name>
+          <name>
+            <surname>Schug</surname>
+            <given-names>TT</given-names>
+          </name>
+          <name>
+            <surname>Li</surname>
+            <given-names>X</given-names>
+          </name>
+          <article-title>DYRK1A and DYRK3 promote cell survival through phosphorylation and activation of SIRT1</article-title>
+          <source>J Biol Chem</source>
+          <year>2010</year>
+          <volume>4</volume>
+          <issue>17</issue>
+          <fpage>13223</fpage>
+          <lpage>13232</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M110.102574</pub-id>
+          <?supplied-pmid 20167603?>
+          <pub-id pub-id-type="pmid">20167603</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B32">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Lee</surname>
+            <given-names>CW</given-names>
+          </name>
+          <name>
+            <surname>Wong</surname>
+            <given-names>LL</given-names>
+          </name>
+          <name>
+            <surname>Tse</surname>
+            <given-names>EY</given-names>
+          </name>
+          <name>
+            <surname>Liu</surname>
+            <given-names>HF</given-names>
+          </name>
+          <name>
+            <surname>Leong</surname>
+            <given-names>VY</given-names>
+          </name>
+          <name>
+            <surname>Lee</surname>
+            <given-names>JM</given-names>
+          </name>
+          <name>
+            <surname>Hardie</surname>
+            <given-names>DG</given-names>
+          </name>
+          <name>
+            <surname>Ng</surname>
+            <given-names>IO</given-names>
+          </name>
+          <name>
+            <surname>Ching</surname>
+            <given-names>YP</given-names>
+          </name>
+          <article-title>AMPK promotes p53 acetylation via phosphorylation and inactivation of SIRT1 in liver cancer cells</article-title>
+          <source>Cancer Res</source>
+          <year>2012</year>
+          <volume>4</volume>
+          <issue>17</issue>
+          <fpage>4394</fpage>
+          <lpage>4404</lpage>
+          <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-12-0429</pub-id>
+          <?supplied-pmid 22728651?>
+          <pub-id pub-id-type="pmid">22728651</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B33">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Liu</surname>
+            <given-names>X</given-names>
+          </name>
+          <name>
+            <surname>Wang</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Zhao</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Tu</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Zheng</surname>
+            <given-names>Z</given-names>
+          </name>
+          <name>
+            <surname>Wang</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Wang</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Gu</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Roeder</surname>
+            <given-names>RG</given-names>
+          </name>
+          <name>
+            <surname>Zhu</surname>
+            <given-names>WG</given-names>
+          </name>
+          <article-title>Methyltransferase Set7/9 regulates p53 activity by interacting with Sirtuin 1 (SIRT1)</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>2011</year>
+          <volume>4</volume>
+          <issue>5</issue>
+          <fpage>1925</fpage>
+          <lpage>1930</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1019619108</pub-id>
+          <?supplied-pmid 21245319?>
+          <pub-id pub-id-type="pmid">21245319</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B34">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Yang</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Fu</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Chen</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Olashaw</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Zhang</surname>
+            <given-names>X</given-names>
+          </name>
+          <name>
+            <surname>Nicosia</surname>
+            <given-names>SV</given-names>
+          </name>
+          <name>
+            <surname>Bhalla</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Bai</surname>
+            <given-names>W</given-names>
+          </name>
+          <article-title>SIRT1 sumoylation regulates its deacetylase activity and cellular response to genotoxic stress</article-title>
+          <source>Nat Cell Biol</source>
+          <year>2007</year>
+          <volume>4</volume>
+          <fpage>1253</fpage>
+          <lpage>1262</lpage>
+          <pub-id pub-id-type="doi">10.1038/ncb1645</pub-id>
+          <?supplied-pmid 17934453?>
+          <pub-id pub-id-type="pmid">17934453</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B35">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Kornberg</surname>
+            <given-names>MD</given-names>
+          </name>
+          <name>
+            <surname>Sen</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Hara</surname>
+            <given-names>MR</given-names>
+          </name>
+          <name>
+            <surname>Juluri</surname>
+            <given-names>KR</given-names>
+          </name>
+          <name>
+            <surname>Nguyen</surname>
+            <given-names>JV</given-names>
+          </name>
+          <name>
+            <surname>Snowman</surname>
+            <given-names>AM</given-names>
+          </name>
+          <name>
+            <surname>Law</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Hester</surname>
+            <given-names>LD</given-names>
+          </name>
+          <name>
+            <surname>Snyder</surname>
+            <given-names>SH</given-names>
+          </name>
+          <article-title>GAPDH mediates nitrosylation of nuclear proteins</article-title>
+          <source>Nat Cell Biol</source>
+          <year>2010</year>
+          <volume>4</volume>
+          <issue>11</issue>
+          <fpage>1094</fpage>
+          <lpage>1100</lpage>
+          <pub-id pub-id-type="doi">10.1038/ncb2114</pub-id>
+          <?supplied-pmid 20972425?>
+          <pub-id pub-id-type="pmid">20972425</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B36">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Ruscetti</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Lehnert</surname>
+            <given-names>BE</given-names>
+          </name>
+          <name>
+            <surname>Halbrook</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Le Trong</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Hoekstra</surname>
+            <given-names>MF</given-names>
+          </name>
+          <name>
+            <surname>Chen</surname>
+            <given-names>DJ</given-names>
+          </name>
+          <name>
+            <surname>Peterson</surname>
+            <given-names>SR</given-names>
+          </name>
+          <article-title>Stimulation of the DNA-dependent protein kinase by poly(ADP-ribose) polymerase</article-title>
+          <source>J Biol Chem</source>
+          <year>1998</year>
+          <volume>4</volume>
+          <issue>23</issue>
+          <fpage>14461</fpage>
+          <lpage>14467</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.273.23.14461</pub-id>
+          <?supplied-pmid 9603959?>
+          <pub-id pub-id-type="pmid">9603959</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B37">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Walker</surname>
+            <given-names>JW</given-names>
+          </name>
+          <name>
+            <surname>Jijon</surname>
+            <given-names>HB</given-names>
+          </name>
+          <name>
+            <surname>Madsen</surname>
+            <given-names>KL</given-names>
+          </name>
+          <article-title>AMP-activated protein kinase is a positive regulator of poly(ADP-ribose) polymerase</article-title>
+          <source>Biochem Biophys Res Commun</source>
+          <year>2006</year>
+          <volume>4</volume>
+          <issue>1</issue>
+          <fpage>336</fpage>
+          <lpage>341</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.bbrc.2006.01.145</pub-id>
+          <?supplied-pmid 16480959?>
+          <pub-id pub-id-type="pmid">16480959</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B38">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Kauppinen</surname>
+            <given-names>TM</given-names>
+          </name>
+          <name>
+            <surname>Chan</surname>
+            <given-names>WY</given-names>
+          </name>
+          <name>
+            <surname>Suh</surname>
+            <given-names>SW</given-names>
+          </name>
+          <name>
+            <surname>Wiggins</surname>
+            <given-names>AK</given-names>
+          </name>
+          <name>
+            <surname>Huang</surname>
+            <given-names>EJ</given-names>
+          </name>
+          <name>
+            <surname>Swanson</surname>
+            <given-names>R</given-names>
+          </name>
+          <article-title>Direct phosphorylation and regulation of poly(ADP-ribose) polymerase-1 by extracellular signal-regulated kinases 1/2</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>2006</year>
+          <volume>4</volume>
+          <fpage>7136</fpage>
+          <lpage>7141</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0508606103</pub-id>
+          <?supplied-pmid 16627622?>
+          <pub-id pub-id-type="pmid">16627622</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B39">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Hassa</surname>
+            <given-names>PO</given-names>
+          </name>
+          <name>
+            <surname>Haenni</surname>
+            <given-names>SS</given-names>
+          </name>
+          <name>
+            <surname>Buerki</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Meier</surname>
+            <given-names>NI</given-names>
+          </name>
+          <name>
+            <surname>Lane</surname>
+            <given-names>WS</given-names>
+          </name>
+          <name>
+            <surname>Owen</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Gersbach</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Imhof</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Hottiger</surname>
+            <given-names>MO</given-names>
+          </name>
+          <article-title>Acetylation of poly(ADP-ribose) polymerase-1 by p300/CREB-binding protein regulates coactivation of NF-kappaB-dependent transcription</article-title>
+          <source>J Biol Chem</source>
+          <year>2005</year>
+          <volume>4</volume>
+          <fpage>40450</fpage>
+          <lpage>40464</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M507553200</pub-id>
+          <?supplied-pmid 16204234?>
+          <pub-id pub-id-type="pmid">16204234</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B40">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Messner</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Schuermann</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Altmeyer</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Kassner</surname>
+            <given-names>I</given-names>
+          </name>
+          <name>
+            <surname>Schmidt</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Schär</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Müller</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Hottiger</surname>
+            <given-names>MO</given-names>
+          </name>
+          <article-title>Sumoylation of poly(ADP-ribose) polymerase 1 inhibits its acetylation and restrains transcriptional coactivator function</article-title>
+          <source>FASEB</source>
+          <year>2009</year>
+          <volume>4</volume>
+          <fpage>3978</fpage>
+          <lpage>3989</lpage>
+          <pub-id pub-id-type="doi">10.1096/fj.09-137695</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B41">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>J</given-names>
+          </name>
+          <article-title>Are poly(ADP-ribosyl)ation by PARP-1 and deacetylation by Sir2 linked?</article-title>
+          <source>Bioessays</source>
+          <year>2003</year>
+          <volume>4</volume>
+          <fpage>808</fpage>
+          <lpage>814</lpage>
+          <pub-id pub-id-type="doi">10.1002/bies.10317</pub-id>
+          <?supplied-pmid 12879452?>
+          <pub-id pub-id-type="pmid">12879452</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B42">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Pillai</surname>
+            <given-names>JB</given-names>
+          </name>
+          <name>
+            <surname>Isbatan</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Imai</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Gupta</surname>
+            <given-names>MP</given-names>
+          </name>
+          <article-title>Poly(ADP-ribose) polymerase-1-dependent cardiac myocyte cell death during heart failure is mediated by NAD + depletion and reduced Sir2alpha deacetylase activity</article-title>
+          <source>J Biol Chem</source>
+          <year>2005</year>
+          <volume>4</volume>
+          <issue>52</issue>
+          <fpage>43121</fpage>
+          <lpage>43130</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M506162200</pub-id>
+          <?supplied-pmid 16207712?>
+          <pub-id pub-id-type="pmid">16207712</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B43">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Kolthur Seetharam</surname>
+            <given-names>U</given-names>
+          </name>
+          <name>
+            <surname>Dantzer</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Mcburney</surname>
+            <given-names>MW</given-names>
+          </name>
+          <name>
+            <surname>Murcia</surname>
+            <given-names>GD</given-names>
+          </name>
+          <name>
+            <surname>Sassone-corsi</surname>
+            <given-names>P</given-names>
+          </name>
+          <article-title>Control of AIF-mediated cell death by the functional interplay of SIRT1 and PARP-1 in response to DNA damage</article-title>
+          <source>Cell Cycle</source>
+          <year>2006</year>
+          <volume>4</volume>
+          <issue>8</issue>
+          <fpage>873</fpage>
+          <lpage>877</lpage>
+          <pub-id pub-id-type="doi">10.4161/cc.5.8.2690</pub-id>
+          <?supplied-pmid 16628003?>
+          <pub-id pub-id-type="pmid">16628003</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B44">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Rajamohan</surname>
+            <given-names>SB</given-names>
+          </name>
+          <name>
+            <surname>Pillai</surname>
+            <given-names>VB</given-names>
+          </name>
+          <name>
+            <surname>Gupta</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Sundaresan</surname>
+            <given-names>NR</given-names>
+          </name>
+          <name>
+            <surname>Birukov</surname>
+            <given-names>KG</given-names>
+          </name>
+          <name>
+            <surname>Samant</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Hottiger</surname>
+            <given-names>MO</given-names>
+          </name>
+          <name>
+            <surname>Gupta</surname>
+            <given-names>MP</given-names>
+          </name>
+          <article-title>SIRT1 promotes cell survival under stress by deacetylation-dependent deactivation of poly(ADP-ribose) polymerase 1</article-title>
+          <source>Mol Cell Biol</source>
+          <year>2009</year>
+          <volume>4</volume>
+          <fpage>4116</fpage>
+          <lpage>4129</lpage>
+          <pub-id pub-id-type="doi">10.1128/MCB.00121-09</pub-id>
+          <?supplied-pmid 19470756?>
+          <pub-id pub-id-type="pmid">19470756</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B45">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Bai</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Canto</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Oudart</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Brunyanszki</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Cen</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Thomas</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Yamamoto</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Huber</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Kiss</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Houtkooper</surname>
+            <given-names>RH</given-names>
+          </name>
+          <etal/>
+          <article-title>PARP-1 inhibition increases mitochondrial metabolism through SIRT1 activation</article-title>
+          <source>Cell Metab</source>
+          <year>2011</year>
+          <volume>4</volume>
+          <issue>4</issue>
+          <fpage>461</fpage>
+          <lpage>468</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cmet.2011.03.004</pub-id>
+          <?supplied-pmid 21459330?>
+          <pub-id pub-id-type="pmid">21459330</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B46">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Bai</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Canto</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Brunyanszki</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Huber</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Szanto</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Cen</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Yamamoto</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Houten</surname>
+            <given-names>SM</given-names>
+          </name>
+          <name>
+            <surname>Kiss</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Oudart</surname>
+            <given-names>H</given-names>
+          </name>
+          <etal/>
+          <article-title>PARP-2 regulates SIRT1 expression and whole-body energy expenditure</article-title>
+          <source>Cell Metab</source>
+          <year>2011</year>
+          <volume>4</volume>
+          <issue>4</issue>
+          <fpage>450</fpage>
+          <lpage>460</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cmet.2011.03.013</pub-id>
+          <?supplied-pmid 21459329?>
+          <pub-id pub-id-type="pmid">21459329</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B47">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Pittelli</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Formentini</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Faraco</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Lapucci</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Rapizzi</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Cialdai</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Romano</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Moneti</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Moroni</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Chiarugi</surname>
+            <given-names>A</given-names>
+          </name>
+          <article-title>Inhibition of nicotinamide phosphoribosyltransferase: cellular bioenergetics reveals a mitochondrial insensitive NAD pool</article-title>
+          <source>J Biol Chem</source>
+          <year>2010</year>
+          <volume>4</volume>
+          <fpage>34106</fpage>
+          <lpage>34114</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M110.136739</pub-id>
+          <?supplied-pmid 20724478?>
+          <pub-id pub-id-type="pmid">20724478</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B48">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Nakahata</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Sahar</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Astarita</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Kaluzova</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Sassone Corsi</surname>
+            <given-names>P</given-names>
+          </name>
+          <article-title>Circadian control of the NAD + salvage pathway by CLOCK-SIRT1</article-title>
+          <source>Science</source>
+          <year>2009</year>
+          <volume>4</volume>
+          <fpage>654</fpage>
+          <lpage>657</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1170803</pub-id>
+          <?supplied-pmid 19286518?>
+          <pub-id pub-id-type="pmid">19286518</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B49">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Araki</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Sasaki</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Milbrandt</surname>
+            <given-names>J</given-names>
+          </name>
+          <article-title>Increased nuclear NAD biosynthesis and SIRT1 activation prevent axonal degeneration</article-title>
+          <source>Science</source>
+          <year>2004</year>
+          <volume>4</volume>
+          <fpage>1010</fpage>
+          <lpage>1013</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1098014</pub-id>
+          <?supplied-pmid 15310905?>
+          <pub-id pub-id-type="pmid">15310905</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B50">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Berrocal</surname>
+            <given-names>JG</given-names>
+          </name>
+          <name>
+            <surname>Yao</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Dumond</surname>
+            <given-names>ME</given-names>
+          </name>
+          <name>
+            <surname>Krishnakumar</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Ruhl</surname>
+            <given-names>DD</given-names>
+          </name>
+          <name>
+            <surname>Ryu</surname>
+            <given-names>KW</given-names>
+          </name>
+          <name>
+            <surname>Gamble</surname>
+            <given-names>MJ</given-names>
+          </name>
+          <name>
+            <surname>Kraus</surname>
+            <given-names>WL</given-names>
+          </name>
+          <article-title>Regulation of poly (ADP-ribose) polymerase-1-dependent gene expression through promoter-directed recruitment of a nuclear NAD + synthase</article-title>
+          <source>J Biol Chem</source>
+          <year>2012</year>
+          <volume>4</volume>
+          <issue>15</issue>
+          <fpage>12405</fpage>
+          <lpage>12416</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M111.304469</pub-id>
+          <?supplied-pmid 22334709?>
+          <pub-id pub-id-type="pmid">22334709</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B51">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>H-S</given-names>
+          </name>
+          <name>
+            <surname>Sang</surname>
+            <given-names>W-W</given-names>
+          </name>
+          <name>
+            <surname>Wang</surname>
+            <given-names>Y-O</given-names>
+          </name>
+          <name>
+            <surname>Liu</surname>
+            <given-names>W</given-names>
+          </name>
+          <article-title>Nicotinamide phosphoribosyltransferase/sirtuin 1 pathway is involved in human immunodeficiency virus type 1 Tat-mediated long terminal repeat transactivation</article-title>
+          <source>J Cell Biochem</source>
+          <year>2010</year>
+          <volume>4</volume>
+          <fpage>1464</fpage>
+          <lpage>1470</lpage>
+          <pub-id pub-id-type="doi">10.1002/jcb.22704</pub-id>
+          <?supplied-pmid 20506278?>
+          <pub-id pub-id-type="pmid">20506278</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B52">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Berger</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Lau</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Ziegler</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>Regulation of poly(ADP-ribose) polymerase 1 activity by the phosphorylation state of the nuclear NAD biosynthetic enzyme NMN adenylyl transferase 1</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>2007</year>
+          <volume>4</volume>
+          <fpage>3765</fpage>
+          <lpage>3770</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0609211104</pub-id>
+          <?supplied-pmid 17360427?>
+          <pub-id pub-id-type="pmid">17360427</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B53">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Berrocal</surname>
+            <given-names>JG</given-names>
+          </name>
+          <name>
+            <surname>Frizzell</surname>
+            <given-names>KM</given-names>
+          </name>
+          <name>
+            <surname>Gamble</surname>
+            <given-names>MJ</given-names>
+          </name>
+          <name>
+            <surname>DuMond</surname>
+            <given-names>ME</given-names>
+          </name>
+          <name>
+            <surname>Krishnakumar</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Yang</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Sauve</surname>
+            <given-names>AA</given-names>
+          </name>
+          <name>
+            <surname>Kraus</surname>
+            <given-names>WL</given-names>
+          </name>
+          <article-title>Enzymes in the NAD + salvage pathway regulate SIRT1 activity at target gene promoters</article-title>
+          <source>J Biol Chem</source>
+          <year>2009</year>
+          <volume>4</volume>
+          <fpage>20408</fpage>
+          <lpage>20417</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M109.016469</pub-id>
+          <?supplied-pmid 19478080?>
+          <pub-id pub-id-type="pmid">19478080</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B54">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Kruszewski</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Szumiel</surname>
+            <given-names>I</given-names>
+          </name>
+          <article-title>Sirtuins (histone deacetylases III) in the cellular response to DNA damage–facts and hypotheses</article-title>
+          <source>DNA Repair (Amst)</source>
+          <year>2005</year>
+          <volume>4</volume>
+          <fpage>1306</fpage>
+          <lpage>1313</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.dnarep.2005.06.013</pub-id>
+          <?supplied-pmid 16084131?>
+          <pub-id pub-id-type="pmid">16084131</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B55">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Harper</surname>
+            <given-names>JW</given-names>
+          </name>
+          <name>
+            <surname>Elledge</surname>
+            <given-names>SJ</given-names>
+          </name>
+          <article-title>The DNA damage response: ten years after</article-title>
+          <source>Mol Cell</source>
+          <year>2007</year>
+          <volume>4</volume>
+          <issue>5</issue>
+          <fpage>739</fpage>
+          <lpage>745</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2007.11.015</pub-id>
+          <?supplied-pmid 18082599?>
+          <pub-id pub-id-type="pmid">18082599</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B56">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Vaquero</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Scher</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Lee</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Erdjument-Bromage</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Tempst</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Reinberg</surname>
+            <given-names>D</given-names>
+          </name>
+          <article-title>Human SirT1 interacts with histone H1 and promotes formation of facultative heterochromatin</article-title>
+          <source>Mol Cell</source>
+          <year>2004</year>
+          <volume>4</volume>
+          <fpage>93</fpage>
+          <lpage>105</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2004.08.031</pub-id>
+          <?supplied-pmid 15469825?>
+          <pub-id pub-id-type="pmid">15469825</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B57">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Imai</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Armstrong</surname>
+            <given-names>CM</given-names>
+          </name>
+          <name>
+            <surname>Kaeberlein</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Guarente</surname>
+            <given-names>L</given-names>
+          </name>
+          <article-title>Transcriptional silencing and longevity protein Sir2 is an NAD-dependent histone deacetylase</article-title>
+          <source>Nature</source>
+          <year>2000</year>
+          <volume>4</volume>
+          <fpage>795</fpage>
+          <lpage>800</lpage>
+          <pub-id pub-id-type="doi">10.1038/35001622</pub-id>
+          <?supplied-pmid 10693811?>
+          <pub-id pub-id-type="pmid">10693811</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B58">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Krishnakumar</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Kraus</surname>
+            <given-names>WL</given-names>
+          </name>
+          <article-title>The PARP side of the nucleus: molecular actions, physiological outcomes, and clinical targets</article-title>
+          <source>Mol Cell</source>
+          <year>2010</year>
+          <volume>4</volume>
+          <issue>1</issue>
+          <fpage>8</fpage>
+          <lpage>24</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2010.06.017</pub-id>
+          <?supplied-pmid 20603072?>
+          <pub-id pub-id-type="pmid">20603072</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B59">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Krishnakumar</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Gamble</surname>
+            <given-names>MJ</given-names>
+          </name>
+          <name>
+            <surname>Frizzell</surname>
+            <given-names>KM</given-names>
+          </name>
+          <name>
+            <surname>Berrocal</surname>
+            <given-names>JG</given-names>
+          </name>
+          <name>
+            <surname>Kininis</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Kraus</surname>
+            <given-names>WL</given-names>
+          </name>
+          <article-title>Reciprocal binding of PARP-1 and histone H1 at promoters specifies transcriptional outcomes</article-title>
+          <source>Science</source>
+          <year>2008</year>
+          <volume>4</volume>
+          <issue>5864</issue>
+          <fpage>819</fpage>
+          <lpage>821</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1149250</pub-id>
+          <?supplied-pmid 18258916?>
+          <pub-id pub-id-type="pmid">18258916</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B60">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Wang</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Chen</surname>
+            <given-names>J</given-names>
+          </name>
+          <article-title>SIRT1 regulates autoacetylation and histone acetyltransferase activity of TIP60</article-title>
+          <source>J Biol Chem</source>
+          <year>2010</year>
+          <volume>4</volume>
+          <issue>15</issue>
+          <fpage>11458</fpage>
+          <lpage>11464</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M109.087585</pub-id>
+          <?supplied-pmid 20100829?>
+          <pub-id pub-id-type="pmid">20100829</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B61">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Peng</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Ling</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Yuan</surname>
+            <given-names>Z</given-names>
+          </name>
+          <name>
+            <surname>Fang</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Bloom</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Fukasawa</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Koomen</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Chen</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Lane</surname>
+            <given-names>WS</given-names>
+          </name>
+          <name>
+            <surname>Seto</surname>
+            <given-names>E</given-names>
+          </name>
+          <article-title>SIRT1 negatively regulates the activities, functions, and protein levels of hMOF and TIP60</article-title>
+          <source>Mol Cell Biol</source>
+          <year>2012</year>
+          <volume>4</volume>
+          <issue>14</issue>
+          <fpage>2823</fpage>
+          <lpage>2836</lpage>
+          <pub-id pub-id-type="doi">10.1128/MCB.00496-12</pub-id>
+          <?supplied-pmid 22586264?>
+          <pub-id pub-id-type="pmid">22586264</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B62">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Tang</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Cho</surname>
+            <given-names>NW</given-names>
+          </name>
+          <name>
+            <surname>Cui</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Manion</surname>
+            <given-names>EM</given-names>
+          </name>
+          <name>
+            <surname>Shanbhag</surname>
+            <given-names>NM</given-names>
+          </name>
+          <name>
+            <surname>Botuyan</surname>
+            <given-names>MV</given-names>
+          </name>
+          <name>
+            <surname>Mer</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Greenberg</surname>
+            <given-names>RA</given-names>
+          </name>
+          <article-title>Acetylation limits 53BP1 association with damaged chromatin to promote homologous recombination</article-title>
+          <source>Nat Struct Mol Biol</source>
+          <year>2013</year>
+          <volume>4</volume>
+          <issue>3</issue>
+          <fpage>317</fpage>
+          <lpage>325</lpage>
+          <pub-id pub-id-type="doi">10.1038/nsmb.2499</pub-id>
+          <?supplied-pmid 23377543?>
+          <pub-id pub-id-type="pmid">23377543</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B63">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Sharma</surname>
+            <given-names>GG</given-names>
+          </name>
+          <name>
+            <surname>So</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Gupta</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Kumar</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Cayrou</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Avvakumov</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Bhadra</surname>
+            <given-names>U</given-names>
+          </name>
+          <name>
+            <surname>Pandita</surname>
+            <given-names>RK</given-names>
+          </name>
+          <name>
+            <surname>Porteus</surname>
+            <given-names>MH</given-names>
+          </name>
+          <name>
+            <surname>Chen</surname>
+            <given-names>DJ</given-names>
+          </name>
+          <etal/>
+          <article-title>MOF and histone H4 acetylation at lysine 16 are critical for DNA damage response and double-strand break repair</article-title>
+          <source>Mol Cell Biol</source>
+          <year>2010</year>
+          <volume>4</volume>
+          <issue>14</issue>
+          <fpage>3582</fpage>
+          <lpage>3595</lpage>
+          <pub-id pub-id-type="doi">10.1128/MCB.01476-09</pub-id>
+          <?supplied-pmid 20479123?>
+          <pub-id pub-id-type="pmid">20479123</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B64">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Hsiao</surname>
+            <given-names>KY</given-names>
+          </name>
+          <name>
+            <surname>Mizzen</surname>
+            <given-names>CA</given-names>
+          </name>
+          <article-title>Histone H4 deacetylation facilitates 53BP1 DNA damage signaling and double-strand break repair</article-title>
+          <source>J Mol Cell Biol</source>
+          <year>2013</year>
+          <volume>4</volume>
+          <issue>3</issue>
+          <fpage>157</fpage>
+          <lpage>165</lpage>
+          <pub-id pub-id-type="doi">10.1093/jmcb/mjs066</pub-id>
+          <?supplied-pmid 23329852?>
+          <pub-id pub-id-type="pmid">23329852</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B65">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Oberdoerffer</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Michan</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>McVay</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Mostoslavsky</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Vann</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Park</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Hartlerode</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Stegmuller</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Hafner</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Loerch</surname>
+            <given-names>P</given-names>
+          </name>
+          <etal/>
+          <article-title>SIRT1 redistribution on chromatin promotes genomic stability but alters gene expression during aging</article-title>
+          <source>Cell</source>
+          <year>2008</year>
+          <volume>4</volume>
+          <fpage>907</fpage>
+          <lpage>918</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2008.10.025</pub-id>
+          <?supplied-pmid 19041753?>
+          <pub-id pub-id-type="pmid">19041753</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B66">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Matsushita</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Takami</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Kimura</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Tachiiri</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Ishiai</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Nakayama</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Takata</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>Role of NAD-dependent deacetylases SIRT1 and SIRT2 in radiation and cisplatin-induced cell death in vertebrate cells</article-title>
+          <source>Genes Cells</source>
+          <year>2005</year>
+          <volume>4</volume>
+          <issue>4</issue>
+          <fpage>321</fpage>
+          <lpage>332</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1365-2443.2005.00836.x</pub-id>
+          <?supplied-pmid 15773895?>
+          <pub-id pub-id-type="pmid">15773895</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B67">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Aguilar Quesada</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Munoz Gamez</surname>
+            <given-names>JA</given-names>
+          </name>
+          <name>
+            <surname>Martin Oliva</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Peralta</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Valenzuela</surname>
+            <given-names>MT</given-names>
+          </name>
+          <name>
+            <surname>Matinez Romero</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Quiles Perez</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Menissier De Murcia</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>De Murcia</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Ruiz De Almodovar</surname>
+            <given-names>M</given-names>
+          </name>
+          <etal/>
+          <article-title>Interaction between ATM and PARP-1 in response to DNA damage and sensitization of ATM deficient cells through PARP inhibition</article-title>
+          <source>BMC Mol Biol</source>
+          <year>2007</year>
+          <volume>4</volume>
+          <fpage>29</fpage>
+          <pub-id pub-id-type="doi">10.1186/1471-2199-8-29</pub-id>
+          <?supplied-pmid 17459151?>
+          <pub-id pub-id-type="pmid">17459151</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B68">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Woodhouse</surname>
+            <given-names>BC</given-names>
+          </name>
+          <name>
+            <surname>Dianova</surname>
+            <given-names>II</given-names>
+          </name>
+          <name>
+            <surname>Parsons</surname>
+            <given-names>JL</given-names>
+          </name>
+          <name>
+            <surname>Dianov</surname>
+            <given-names>GL</given-names>
+          </name>
+          <article-title>Poly(ADP-ribose) polymerase-1 modulates DNA repair capacity and prevents formation of DNA double strand breaks</article-title>
+          <source>DNA Repair</source>
+          <year>2008</year>
+          <volume>4</volume>
+          <fpage>932</fpage>
+          <lpage>940</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.dnarep.2008.03.017</pub-id>
+          <?supplied-pmid 18472309?>
+          <pub-id pub-id-type="pmid">18472309</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B69">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>de Murcia</surname>
+            <given-names>JM</given-names>
+          </name>
+          <name>
+            <surname>Niedergang</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Trucco</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Ricoul</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Dutrillaux</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Mark</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Oliver</surname>
+            <given-names>FJ</given-names>
+          </name>
+          <name>
+            <surname>Masson</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Dierich</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>LeMeur</surname>
+            <given-names>M</given-names>
+          </name>
+          <etal/>
+          <article-title>Requirement of poly(ADP-ribose) polymerase in recovery from DNA damage in mice and in cells</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>1997</year>
+          <volume>4</volume>
+          <issue>14</issue>
+          <fpage>7303</fpage>
+          <lpage>7307</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.94.14.7303</pub-id>
+          <?supplied-pmid 9207086?>
+          <pub-id pub-id-type="pmid">9207086</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B70">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Gorospe</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>de Cabo</surname>
+            <given-names>R</given-names>
+          </name>
+          <article-title>AsSIRTing the DNA damage response</article-title>
+          <source>Trends Cell Biol</source>
+          <year>2008</year>
+          <volume>4</volume>
+          <fpage>77</fpage>
+          <lpage>83</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tcb.2007.11.007</pub-id>
+          <?supplied-pmid 18215521?>
+          <pub-id pub-id-type="pmid">18215521</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B71">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Yuan</surname>
+            <given-names>Z</given-names>
+          </name>
+          <name>
+            <surname>Seto</surname>
+            <given-names>E</given-names>
+          </name>
+          <article-title>A functional link between SIRT1 deacetylase and NBS1 in DNA damage response</article-title>
+          <source>Cell Cycle</source>
+          <year>2007</year>
+          <volume>4</volume>
+          <fpage>2869</fpage>
+          <lpage>2871</lpage>
+          <pub-id pub-id-type="doi">10.4161/cc.6.23.5026</pub-id>
+          <?supplied-pmid 18156798?>
+          <pub-id pub-id-type="pmid">18156798</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B72">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Yuan</surname>
+            <given-names>Z</given-names>
+          </name>
+          <name>
+            <surname>Zhang</surname>
+            <given-names>X</given-names>
+          </name>
+          <name>
+            <surname>Sengupta</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Lane</surname>
+            <given-names>WS</given-names>
+          </name>
+          <name>
+            <surname>Seto</surname>
+            <given-names>E</given-names>
+          </name>
+          <article-title>SIRT1 regulates the function of the Nijmegen breakage syndrome protein</article-title>
+          <source>Mol Cell</source>
+          <year>2007</year>
+          <volume>4</volume>
+          <issue>1</issue>
+          <fpage>149</fpage>
+          <lpage>162</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2007.05.029</pub-id>
+          <?supplied-pmid 17612497?>
+          <pub-id pub-id-type="pmid">17612497</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B73">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Abdelmohsen</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Pullmann</surname>
+            <given-names>R</given-names>
+            <suffix>Jr</suffix>
+          </name>
+          <name>
+            <surname>Lal</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Kim</surname>
+            <given-names>HH</given-names>
+          </name>
+          <name>
+            <surname>Galban</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Yang</surname>
+            <given-names>X</given-names>
+          </name>
+          <name>
+            <surname>Blethrow</surname>
+            <given-names>JD</given-names>
+          </name>
+          <name>
+            <surname>Walker</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Shubert</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Gillespie</surname>
+            <given-names>DA</given-names>
+          </name>
+          <etal/>
+          <article-title>Phosphorylation of HuR by Chk2 regulates SIRT1 expression</article-title>
+          <source>Mol Cell</source>
+          <year>2007</year>
+          <volume>4</volume>
+          <issue>4</issue>
+          <fpage>543</fpage>
+          <lpage>557</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2007.01.011</pub-id>
+          <?supplied-pmid 17317627?>
+          <pub-id pub-id-type="pmid">17317627</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B74">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Wang</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Chen</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Hou</surname>
+            <given-names>X</given-names>
+          </name>
+          <name>
+            <surname>Li</surname>
+            <given-names>Z</given-names>
+          </name>
+          <name>
+            <surname>Kabra</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Ma</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Nemoto</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Finkel</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Gu</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Cress</surname>
+            <given-names>WD</given-names>
+          </name>
+          <etal/>
+          <article-title>Interactions between E2F1 and SirT1 regulate apoptotic response to DNA damage</article-title>
+          <source>Nat Cell Biol</source>
+          <year>2006</year>
+          <volume>4</volume>
+          <fpage>1025</fpage>
+          <lpage>1031</lpage>
+          <pub-id pub-id-type="doi">10.1038/ncb1468</pub-id>
+          <?supplied-pmid 16892051?>
+          <pub-id pub-id-type="pmid">16892051</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B75">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Wong</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Weber</surname>
+            <given-names>JD</given-names>
+          </name>
+          <article-title>Deacetylation of the retinoblastoma tumour suppressor protein by SIRT1</article-title>
+          <source>Biochem J</source>
+          <year>2007</year>
+          <volume>4</volume>
+          <issue>3</issue>
+          <fpage>451</fpage>
+          <lpage>460</lpage>
+          <pub-id pub-id-type="doi">10.1042/BJ20070151</pub-id>
+          <?supplied-pmid 17620057?>
+          <pub-id pub-id-type="pmid">17620057</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B76">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Markham</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Munro</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Soloway</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>O'Connor</surname>
+            <given-names>DP</given-names>
+          </name>
+          <name>
+            <surname>La Thangue</surname>
+            <given-names>NB</given-names>
+          </name>
+          <article-title>DNA-damage-responsive acetylation of pRb regulates binding to E2F-1</article-title>
+          <source>EMBO Rep</source>
+          <year>2006</year>
+          <volume>4</volume>
+          <issue>2</issue>
+          <fpage>192</fpage>
+          <lpage>198</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.embor.7400591</pub-id>
+          <?supplied-pmid 16374512?>
+          <pub-id pub-id-type="pmid">16374512</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B77">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Yuan</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Minter-Dykhouse</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Lou</surname>
+            <given-names>Z</given-names>
+          </name>
+          <article-title>A c-Myc-SIRT1 feedback loop regulates cell growth and transformation</article-title>
+          <source>J Cell Biol</source>
+          <year>2009</year>
+          <volume>4</volume>
+          <fpage>203</fpage>
+          <lpage>211</lpage>
+          <pub-id pub-id-type="doi">10.1083/jcb.200809167</pub-id>
+          <?supplied-pmid 19364925?>
+          <pub-id pub-id-type="pmid">19364925</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B78">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Menssen</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Hydbring</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Kapelle</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Vervoorts</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Diebold</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Luscher</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Larsson</surname>
+            <given-names>LG</given-names>
+          </name>
+          <name>
+            <surname>Hermeking</surname>
+            <given-names>H</given-names>
+          </name>
+          <article-title>The c-MYC oncoprotein, the NAMPT enzyme, the SIRT1-inhibitor DBC1, and the SIRT1 deacetylase form a positive feedback loop</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>2012</year>
+          <volume>4</volume>
+          <issue>4</issue>
+          <fpage>E187</fpage>
+          <lpage>E196</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1105304109</pub-id>
+          <?supplied-pmid 22190494?>
+          <pub-id pub-id-type="pmid">22190494</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B79">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Simbulan-Rosenthal</surname>
+            <given-names>CM</given-names>
+          </name>
+          <name>
+            <surname>Rosenthal</surname>
+            <given-names>DS</given-names>
+          </name>
+          <name>
+            <surname>Luo</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Samara</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Espinoza</surname>
+            <given-names>LA</given-names>
+          </name>
+          <name>
+            <surname>Hassa</surname>
+            <given-names>PO</given-names>
+          </name>
+          <name>
+            <surname>Hottiger</surname>
+            <given-names>MO</given-names>
+          </name>
+          <name>
+            <surname>Smulson</surname>
+            <given-names>ME</given-names>
+          </name>
+          <article-title>PARP-1 binds E2F-1 independently of its DNA binding and catalytic domains, and acts as a novel coactivator of E2F-1-mediated transcription during re-entry of quiescent cells into S phase</article-title>
+          <source>Oncogene</source>
+          <year>2003</year>
+          <volume>4</volume>
+          <issue>52</issue>
+          <fpage>8460</fpage>
+          <lpage>8471</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.onc.1206897</pub-id>
+          <?supplied-pmid 14627987?>
+          <pub-id pub-id-type="pmid">14627987</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B80">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Yeung</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Hoberg</surname>
+            <given-names>JE</given-names>
+          </name>
+          <name>
+            <surname>Ramsey</surname>
+            <given-names>CS</given-names>
+          </name>
+          <name>
+            <surname>Keller</surname>
+            <given-names>MD</given-names>
+          </name>
+          <name>
+            <surname>Jones</surname>
+            <given-names>DR</given-names>
+          </name>
+          <name>
+            <surname>Frye</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Mayo</surname>
+            <given-names>MW</given-names>
+          </name>
+          <article-title>Modulation of NF-kappaB-dependent transcription and cell survival by the SIRT1 deacetylase</article-title>
+          <source>EMBO J</source>
+          <year>2004</year>
+          <volume>4</volume>
+          <fpage>2369</fpage>
+          <lpage>2380</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.emboj.7600244</pub-id>
+          <?supplied-pmid 15152190?>
+          <pub-id pub-id-type="pmid">15152190</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B81">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Levine</surname>
+            <given-names>AJ</given-names>
+          </name>
+          <name>
+            <surname>Oren</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>The first 30 years of p53: growing ever more complex</article-title>
+          <source>Nat Rev Cancer</source>
+          <year>2009</year>
+          <volume>4</volume>
+          <issue>10</issue>
+          <fpage>749</fpage>
+          <lpage>758</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrc2723</pub-id>
+          <?supplied-pmid 19776744?>
+          <pub-id pub-id-type="pmid">19776744</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B82">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Liang</surname>
+            <given-names>X-J</given-names>
+          </name>
+          <name>
+            <surname>Finkel</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Shen</surname>
+            <given-names>D-W</given-names>
+          </name>
+          <name>
+            <surname>Yin</surname>
+            <given-names>J-J</given-names>
+          </name>
+          <name>
+            <surname>Aszalos</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Gottesman</surname>
+            <given-names>MM</given-names>
+          </name>
+          <article-title>SIRT1 contributes in part to cisplatin resistance in cancer cells by altering mitochondrial metabolism</article-title>
+          <source>Mol Cancer Res</source>
+          <year>2008</year>
+          <volume>4</volume>
+          <fpage>1499</fpage>
+          <lpage>1506</lpage>
+          <pub-id pub-id-type="doi">10.1158/1541-7786.MCR-07-2130</pub-id>
+          <?supplied-pmid 18723829?>
+          <pub-id pub-id-type="pmid">18723829</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B83">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Brooks</surname>
+            <given-names>CL</given-names>
+          </name>
+          <name>
+            <surname>Gu</surname>
+            <given-names>W</given-names>
+          </name>
+          <article-title>How does SIRT1 affect metabolism, senescence and cancer?</article-title>
+          <source>Nat Rev Cancer</source>
+          <year>2009</year>
+          <volume>4</volume>
+          <fpage>123</fpage>
+          <lpage>128</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrc2562</pub-id>
+          <?supplied-pmid 19132007?>
+          <pub-id pub-id-type="pmid">19132007</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B84">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Luo</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Nikolaev</surname>
+            <given-names>AY</given-names>
+          </name>
+          <name>
+            <surname>Imai</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Chen</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Su</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Shiloh</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Guarente</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Gu</surname>
+            <given-names>W</given-names>
+          </name>
+          <article-title>Negative control of p53 by Sir2alpha promotes cell survival under stress</article-title>
+          <source>Cell</source>
+          <year>2001</year>
+          <volume>4</volume>
+          <fpage>137</fpage>
+          <lpage>148</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0092-8674(01)00524-4</pub-id>
+          <?supplied-pmid 11672522?>
+          <pub-id pub-id-type="pmid">11672522</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B85">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Solomon</surname>
+            <given-names>JM</given-names>
+          </name>
+          <name>
+            <surname>Pasupuleti</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Xu</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>McDonagh</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Curtis</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>DiStefano</surname>
+            <given-names>PS</given-names>
+          </name>
+          <name>
+            <surname>Huber</surname>
+            <given-names>LJ</given-names>
+          </name>
+          <article-title>Inhibition of SIRT1 catalytic activity increases p53 acetylation but does not alter cell survival following DNA damage</article-title>
+          <source>Mol Cell Biol</source>
+          <year>2006</year>
+          <volume>4</volume>
+          <issue>1</issue>
+          <fpage>28</fpage>
+          <lpage>38</lpage>
+          <pub-id pub-id-type="doi">10.1128/MCB.26.1.28-38.2006</pub-id>
+          <?supplied-pmid 16354677?>
+          <pub-id pub-id-type="pmid">16354677</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B86">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Shang</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Zhou</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Xia</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Wang</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Gao</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Chen</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Liu</surname>
+            <given-names>Q</given-names>
+          </name>
+          <name>
+            <surname>Shao</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Gong</surname>
+            <given-names>Y</given-names>
+          </name>
+          <article-title>Serum withdrawal up-regulates human SIRT1 gene expression in a p53-dependent manner</article-title>
+          <source>J Cell Mol Med</source>
+          <year>2009</year>
+          <volume>4</volume>
+          <issue>10</issue>
+          <fpage>4176</fpage>
+          <lpage>4184</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1582-4934.2008.00468.x</pub-id>
+          <?supplied-pmid 19267881?>
+          <pub-id pub-id-type="pmid">19267881</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B87">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Nemoto</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Fergusson</surname>
+            <given-names>MM</given-names>
+          </name>
+          <name>
+            <surname>Finkel</surname>
+            <given-names>T</given-names>
+          </name>
+          <article-title>Nutrient availability regulates SIRT1 through a forkhead-dependent pathway</article-title>
+          <source>Science</source>
+          <year>2004</year>
+          <volume>4</volume>
+          <issue>5704</issue>
+          <fpage>2105</fpage>
+          <lpage>2108</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1101731</pub-id>
+          <?supplied-pmid 15604409?>
+          <pub-id pub-id-type="pmid">15604409</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B88">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Chen</surname>
+            <given-names>WY</given-names>
+          </name>
+          <name>
+            <surname>Wang</surname>
+            <given-names>DH</given-names>
+          </name>
+          <name>
+            <surname>Yen</surname>
+            <given-names>RC</given-names>
+          </name>
+          <name>
+            <surname>Luo</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Gu</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Baylin</surname>
+            <given-names>SB</given-names>
+          </name>
+          <article-title>Tumor suppressor HIC1 directly regulates SIRT1 to modulate p53-dependent DNA-damage responses</article-title>
+          <source>Cell</source>
+          <year>2005</year>
+          <volume>4</volume>
+          <issue>3</issue>
+          <fpage>437</fpage>
+          <lpage>448</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2005.08.011</pub-id>
+          <?supplied-pmid 16269335?>
+          <pub-id pub-id-type="pmid">16269335</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B89">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Yamakuchi</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Lowenstein</surname>
+            <given-names>CJ</given-names>
+          </name>
+          <article-title>MiR-34, SIRT1 and p53: the feedback loop</article-title>
+          <source>Cell Cycle</source>
+          <year>2009</year>
+          <volume>4</volume>
+          <fpage>712</fpage>
+          <lpage>715</lpage>
+          <pub-id pub-id-type="doi">10.4161/cc.8.5.7753</pub-id>
+          <?supplied-pmid 19221490?>
+          <pub-id pub-id-type="pmid">19221490</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B90">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Yamakuchi</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>MicroRNA Regulation of SIRT1</article-title>
+          <source>Frontiers Physiol</source>
+          <year>2012</year>
+          <volume>4</volume>
+          <fpage>68</fpage>
+        </mixed-citation>
+      </ref>
+      <ref id="B91">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Zhao</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Kruse</surname>
+            <given-names>J-P</given-names>
+          </name>
+          <name>
+            <surname>Tang</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Jung</surname>
+            <given-names>SY</given-names>
+          </name>
+          <name>
+            <surname>Qin</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Gu</surname>
+            <given-names>W</given-names>
+          </name>
+          <article-title>Negative regulation of the deacetylase SIRT1 by DBC1</article-title>
+          <source>Nature</source>
+          <year>2008</year>
+          <volume>4</volume>
+          <fpage>587</fpage>
+          <lpage>590</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature06515</pub-id>
+          <?supplied-pmid 18235502?>
+          <pub-id pub-id-type="pmid">18235502</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B92">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Yuan</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Luo</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Liu</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Lou</surname>
+            <given-names>Z</given-names>
+          </name>
+          <article-title>Regulation of SIRT1 activity by genotoxic stress</article-title>
+          <source>Genes Dev</source>
+          <year>2012</year>
+          <volume>4</volume>
+          <fpage>791</fpage>
+          <pub-id pub-id-type="doi">10.1101/gad.188482.112</pub-id>
+          <?supplied-pmid 22465953?>
+          <pub-id pub-id-type="pmid">22465953</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B93">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Kim</surname>
+            <given-names>J-E</given-names>
+          </name>
+          <name>
+            <surname>Chen</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Lou</surname>
+            <given-names>Z</given-names>
+          </name>
+          <article-title>DBC1 is a negative regulator of SIRT1</article-title>
+          <source>Nature</source>
+          <year>2008</year>
+          <volume>4</volume>
+          <fpage>583</fpage>
+          <lpage>586</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature06500</pub-id>
+          <?supplied-pmid 18235501?>
+          <pub-id pub-id-type="pmid">18235501</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B94">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Kim</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Kho</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Kang</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Um</surname>
+            <given-names>S</given-names>
+          </name>
+          <article-title>Active regulator of SIRT1 cooperates with SIRT1 and facilitates suppression of p53 activity</article-title>
+          <source>Mol Cell</source>
+          <year>2007</year>
+          <volume>4</volume>
+          <fpage>277</fpage>
+          <lpage>290</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2007.08.030</pub-id>
+          <?supplied-pmid 17964266?>
+          <pub-id pub-id-type="pmid">17964266</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B95">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Kanai</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Hanashiro</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Kim</surname>
+            <given-names>SH</given-names>
+          </name>
+          <name>
+            <surname>Hanai</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Boulares</surname>
+            <given-names>AH</given-names>
+          </name>
+          <name>
+            <surname>Miwa</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Fukasawa</surname>
+            <given-names>K</given-names>
+          </name>
+          <article-title>Inhibition of Crm1-p53 interaction and nuclear export of p53 by poly(ADP-ribosyl)ation</article-title>
+          <source>Nat Cell Biol</source>
+          <year>2007</year>
+          <volume>4</volume>
+          <fpage>1175</fpage>
+          <lpage>1183</lpage>
+          <pub-id pub-id-type="doi">10.1038/ncb1638</pub-id>
+          <?supplied-pmid 17891139?>
+          <pub-id pub-id-type="pmid">17891139</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B96">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Han</surname>
+            <given-names>MK</given-names>
+          </name>
+          <name>
+            <surname>Song</surname>
+            <given-names>EK</given-names>
+          </name>
+          <name>
+            <surname>Guo</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Ou</surname>
+            <given-names>X</given-names>
+          </name>
+          <name>
+            <surname>Mantel</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Broxmeyer</surname>
+            <given-names>HE</given-names>
+          </name>
+          <article-title>SIRT1 regulates apoptosis and Nanog expression in mouse embryonic stem cells by controlling p53 subcellular localization</article-title>
+          <source>Cell Stem Cell</source>
+          <year>2008</year>
+          <volume>4</volume>
+          <issue>3</issue>
+          <fpage>241</fpage>
+          <lpage>251</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.stem.2008.01.002</pub-id>
+          <?supplied-pmid 18371449?>
+          <pub-id pub-id-type="pmid">18371449</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B97">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Cohen</surname>
+            <given-names>HY</given-names>
+          </name>
+          <name>
+            <surname>Miller</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Bitterman</surname>
+            <given-names>KJ</given-names>
+          </name>
+          <name>
+            <surname>Wall</surname>
+            <given-names>NR</given-names>
+          </name>
+          <name>
+            <surname>Hekking</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Kessler</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Howitz</surname>
+            <given-names>KT</given-names>
+          </name>
+          <name>
+            <surname>Gorospe</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>de Cabo</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Sinclair</surname>
+            <given-names>DA</given-names>
+          </name>
+          <article-title>Calorie restriction promotes mammalian cell survival by inducing the SIRT1 deacetylase</article-title>
+          <source>Science</source>
+          <year>2004</year>
+          <volume>4</volume>
+          <fpage>390</fpage>
+          <lpage>392</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1099196</pub-id>
+          <?supplied-pmid 15205477?>
+          <pub-id pub-id-type="pmid">15205477</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B98">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Iijima</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Muranaka</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Kobayashi</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Sakamoto</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Komatsu</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Matsuura</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Kubota</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Tauchi</surname>
+            <given-names>H</given-names>
+          </name>
+          <article-title>NBS1 regulates a novel apoptotic pathway through Bax activation</article-title>
+          <source>DNA Repair</source>
+          <year>2008</year>
+          <volume>4</volume>
+          <fpage>1705</fpage>
+          <lpage>1716</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.dnarep.2008.06.013</pub-id>
+          <?supplied-pmid 18644472?>
+          <pub-id pub-id-type="pmid">18644472</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B99">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Leist</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Single</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Castoldi</surname>
+            <given-names>AF</given-names>
+          </name>
+          <name>
+            <surname>Kuhnle</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Nicotera</surname>
+            <given-names>P</given-names>
+          </name>
+          <article-title>Intracellular adenosine triphosphate (ATP) concentration: a switch in the decision between apoptosis and necrosis</article-title>
+          <source>J Exp Med</source>
+          <year>1997</year>
+          <volume>4</volume>
+          <issue>8</issue>
+          <fpage>1481</fpage>
+          <lpage>1486</lpage>
+          <pub-id pub-id-type="doi">10.1084/jem.185.8.1481</pub-id>
+          <?supplied-pmid 9126928?>
+          <pub-id pub-id-type="pmid">9126928</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B100">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Koh</surname>
+            <given-names>DW</given-names>
+          </name>
+          <name>
+            <surname>Dawson</surname>
+            <given-names>TM</given-names>
+          </name>
+          <name>
+            <surname>Dawson</surname>
+            <given-names>VL</given-names>
+          </name>
+          <article-title>Mediation of cell death by poly(ADP-ribose) polymerase-1</article-title>
+          <source>Pharmacol Res</source>
+          <year>2005</year>
+          <volume>4</volume>
+          <fpage>5</fpage>
+          <lpage>14</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.phrs.2005.02.011</pub-id>
+          <?supplied-pmid 15911329?>
+          <pub-id pub-id-type="pmid">15911329</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B101">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Furukawa</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Tada-Oikawa</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Kawanishi</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Oikawa</surname>
+            <given-names>S</given-names>
+          </name>
+          <article-title>H2O2 accelerates cellular senescence by accumulation of acetylated p53 via decrease in the function of SIRT1 by NAD + depletion</article-title>
+          <source>Cell Physiol Biochem</source>
+          <year>2007</year>
+          <volume>4</volume>
+          <issue>1–4</issue>
+          <fpage>45</fpage>
+          <lpage>54</lpage>
+          <?supplied-pmid 17595514?>
+          <pub-id pub-id-type="pmid">17595514</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B102">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Kim</surname>
+            <given-names>NS</given-names>
+          </name>
+          <name>
+            <surname>Haince</surname>
+            <given-names>JF</given-names>
+          </name>
+          <name>
+            <surname>Kang</surname>
+            <given-names>HC</given-names>
+          </name>
+          <name>
+            <surname>David</surname>
+            <given-names>KK</given-names>
+          </name>
+          <name>
+            <surname>Andrabi</surname>
+            <given-names>SA</given-names>
+          </name>
+          <name>
+            <surname>Poirier</surname>
+            <given-names>GG</given-names>
+          </name>
+          <name>
+            <surname>Dawson</surname>
+            <given-names>VL</given-names>
+          </name>
+          <name>
+            <surname>Dawson</surname>
+            <given-names>TM</given-names>
+          </name>
+          <article-title>Poly(ADP-ribose) (PAR) binding to apoptosis-inducing factor is critical for PAR polymerase-1-dependent cell death (parthanatos)</article-title>
+          <source>Sci Signal</source>
+          <year>2011</year>
+          <volume>4</volume>
+          <issue>167</issue>
+          <fpage>ra20</fpage>
+          <?supplied-pmid 21467298?>
+          <pub-id pub-id-type="pmid">21467298</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B103">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Rana</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Mahmood</surname>
+            <given-names>S</given-names>
+          </name>
+          <article-title>Circadian rhythm and its role in malignancy</article-title>
+          <source>J Circadian Rhythms</source>
+          <year>2010</year>
+          <volume>4</volume>
+          <fpage>3</fpage>
+          <pub-id pub-id-type="doi">10.1186/1740-3391-8-3</pub-id>
+          <?supplied-pmid 20353609?>
+          <pub-id pub-id-type="pmid">20353609</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B104">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Hirayama</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Sahar</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Grimaldi</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Tamaru</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Takamatsu</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Nakahata</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Sassone-Corsi</surname>
+            <given-names>P</given-names>
+          </name>
+          <article-title>CLOCK-mediated acetylation of BMAL1 controls circadian function</article-title>
+          <source>Nature</source>
+          <year>2007</year>
+          <volume>4</volume>
+          <fpage>1086</fpage>
+          <lpage>1090</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature06394</pub-id>
+          <?supplied-pmid 18075593?>
+          <pub-id pub-id-type="pmid">18075593</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B105">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Nakahata</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Kaluzova</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Grimaldi</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Sahar</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Hirayama</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Chen</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Guarente</surname>
+            <given-names>LP</given-names>
+          </name>
+          <name>
+            <surname>Sassone-Corsi</surname>
+            <given-names>P</given-names>
+          </name>
+          <article-title>The NAD + -dependent deacetylase SIRT1 modulates CLOCK-mediated chromatin remodeling and circadian control</article-title>
+          <source>Cell</source>
+          <year>2008</year>
+          <volume>4</volume>
+          <fpage>329</fpage>
+          <lpage>340</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2008.07.002</pub-id>
+          <?supplied-pmid 18662547?>
+          <pub-id pub-id-type="pmid">18662547</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B106">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Doi</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Hirayama</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Sassone-Corsi</surname>
+            <given-names>P</given-names>
+          </name>
+          <article-title>Circadian regulator CLOCK is a histone acetyltransferase</article-title>
+          <source>Cell</source>
+          <year>2006</year>
+          <volume>4</volume>
+          <fpage>497</fpage>
+          <lpage>508</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2006.03.033</pub-id>
+          <?supplied-pmid 16678094?>
+          <pub-id pub-id-type="pmid">16678094</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B107">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Asher</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Gatfield</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Stratmann</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Reinke</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Dibner</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Kreppel</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Mostoslavsky</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Alt</surname>
+            <given-names>FW</given-names>
+          </name>
+          <name>
+            <surname>Schibler</surname>
+            <given-names>U</given-names>
+          </name>
+          <article-title>SIRT1 regulates circadian clock gene expression through PER2 deacetylation</article-title>
+          <source>Cell</source>
+          <year>2008</year>
+          <volume>4</volume>
+          <fpage>317</fpage>
+          <lpage>328</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2008.06.050</pub-id>
+          <?supplied-pmid 18662546?>
+          <pub-id pub-id-type="pmid">18662546</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B108">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Ramsey</surname>
+            <given-names>KM</given-names>
+          </name>
+          <name>
+            <surname>Yoshino</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Brace</surname>
+            <given-names>CS</given-names>
+          </name>
+          <name>
+            <surname>Abrassart</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Kobayashi</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Marcheva</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Hong</surname>
+            <given-names>H-K</given-names>
+          </name>
+          <name>
+            <surname>Chong</surname>
+            <given-names>JL</given-names>
+          </name>
+          <name>
+            <surname>Buhr</surname>
+            <given-names>ED</given-names>
+          </name>
+          <name>
+            <surname>Lee</surname>
+            <given-names>C</given-names>
+          </name>
+          <etal/>
+          <article-title>Circadian clock feedback cycle through NAMPT-mediated NAD + biosynthesis</article-title>
+          <source>Science</source>
+          <year>2009</year>
+          <volume>4</volume>
+          <fpage>651</fpage>
+          <lpage>654</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1171641</pub-id>
+          <?supplied-pmid 19299583?>
+          <pub-id pub-id-type="pmid">19299583</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B109">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Asher</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Reinke</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Altmeyer</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Gutierrez-Arcelus</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Hottiger</surname>
+            <given-names>MO</given-names>
+          </name>
+          <name>
+            <surname>Schibler</surname>
+            <given-names>U</given-names>
+          </name>
+          <article-title>Poly(ADP-ribose) polymerase 1 participates in the phase entrainment of circadian clocks to feeding</article-title>
+          <source>Cell</source>
+          <year>2010</year>
+          <volume>4</volume>
+          <fpage>943</fpage>
+          <lpage>953</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2010.08.016</pub-id>
+          <?supplied-pmid 20832105?>
+          <pub-id pub-id-type="pmid">20832105</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B110">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Mao</surname>
+            <given-names>Z</given-names>
+          </name>
+          <name>
+            <surname>Hine</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Tian</surname>
+            <given-names>X</given-names>
+          </name>
+          <name>
+            <surname>Van Meter</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Au</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Vaidya</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Seluanov</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Gorbunova</surname>
+            <given-names>V</given-names>
+          </name>
+          <article-title>SIRT6 promotes DNA repair under stress by activating PARP1</article-title>
+          <source>Science</source>
+          <year>2011</year>
+          <volume>4</volume>
+          <fpage>1443</fpage>
+          <lpage>1446</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1202723</pub-id>
+          <?supplied-pmid 21680843?>
+          <pub-id pub-id-type="pmid">21680843</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B111">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Kim</surname>
+            <given-names>SH</given-names>
+          </name>
+          <name>
+            <surname>Lu</surname>
+            <given-names>HF</given-names>
+          </name>
+          <name>
+            <surname>Alano</surname>
+            <given-names>CC</given-names>
+          </name>
+          <article-title>Neuronal Sirt3 protects against excitotoxic injury in mouse cortical neuron culture</article-title>
+          <source>PLoS ONE</source>
+          <year>2011</year>
+          <volume>4</volume>
+          <issue>3</issue>
+          <fpage>e14731</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0014731</pub-id>
+          <?supplied-pmid 21390294?>
+          <pub-id pub-id-type="pmid">21390294</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B112">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Alano</surname>
+            <given-names>CC</given-names>
+          </name>
+          <name>
+            <surname>Tran</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Tao</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Ying</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Karliner</surname>
+            <given-names>JS</given-names>
+          </name>
+          <name>
+            <surname>Swanson</surname>
+            <given-names>RA</given-names>
+          </name>
+          <article-title>Differences among cell types in NAD(+) compartmentalization: a comparison of neurons, astrocytes, and cardiac myocytes</article-title>
+          <source>J Neurosci Res</source>
+          <year>2007</year>
+          <volume>4</volume>
+          <issue>15</issue>
+          <fpage>3378</fpage>
+          <lpage>3385</lpage>
+          <pub-id pub-id-type="doi">10.1002/jnr.21479</pub-id>
+          <?supplied-pmid 17853438?>
+          <pub-id pub-id-type="pmid">17853438</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B113">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Braidy</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Guillemin</surname>
+            <given-names>GJ</given-names>
+          </name>
+          <name>
+            <surname>Mansour</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Chan-Ling</surname>
+            <given-names>T</given-names>
+          </name>
+          <name>
+            <surname>Poljak</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Grant</surname>
+            <given-names>R</given-names>
+          </name>
+          <article-title>Age related changes in NAD + metabolism oxidative stress and Sirt1 activity in wistar rats</article-title>
+          <source>PloS ONE</source>
+          <year>2011</year>
+          <volume>4</volume>
+          <issue>4</issue>
+          <fpage>e19194</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0019194</pub-id>
+          <?supplied-pmid 21541336?>
+          <pub-id pub-id-type="pmid">21541336</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B114">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Massudi</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Grant</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Braidy</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Guest</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Farnsworth</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Guillemin</surname>
+            <given-names>GJ</given-names>
+          </name>
+          <article-title>Age-associated changes in oxidative stress and NAD(+) metabolism in human tissue</article-title>
+          <source>PloS ONE</source>
+          <year>2012</year>
+          <volume>4</volume>
+          <issue>7</issue>
+          <fpage>e42357</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0042357</pub-id>
+          <?supplied-pmid 22848760?>
+          <pub-id pub-id-type="pmid">22848760</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B115">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Chang</surname>
+            <given-names>HC</given-names>
+          </name>
+          <name>
+            <surname>Guarente</surname>
+            <given-names>L</given-names>
+          </name>
+          <article-title>SIRT1 mediates central circadian control in the SCN by a mechanism that decays with aging</article-title>
+          <source>Cell</source>
+          <year>2013</year>
+          <volume>4</volume>
+          <issue>7</issue>
+          <fpage>1448</fpage>
+          <lpage>1460</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2013.05.027</pub-id>
+          <?supplied-pmid 23791176?>
+          <pub-id pub-id-type="pmid">23791176</pub-id>
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

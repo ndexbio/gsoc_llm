@@ -39,13 +39,13 @@ def ground_genes(genes):
     return grounded_genes
 
 
-interactions = load_json_data('/Users/favourjames/Downloads/gsoc_llm/results/pmc333362/output_4.json')
+interactions = load_json_data('/Users/favourjames/Downloads/gsoc_llm/results/pmc6044858/sentence_output.json')
 
 genes = extract_genes(interactions)
 
 grounded_genes = ground_genes(genes)
 
-#Save the grounded genes
-json_output = json.dumps(grounded_genes, indent=4)
-with open('results/pmc333362/grounded_genes', 'w') as file:
-    file.write(json_output)
+# #Save the grounded genes
+# json_output = json.dumps(grounded_genes, indent=4)
+# with open('results/pmc333362/grounded_genes', 'w') as file:
+#     file.write(json_output)
