@@ -73,8 +73,8 @@ print(f"Time taken: {elapsed_time:.2f} seconds ({elapsed_minutes:.2f} minutes)")
 #     json.dump(llm_results, llm_file, indent=4)
 
 # Save the INDRA REACH results to a JSON file
-# with open('indra_reach_results.json', 'w') as indra_file:
-#     json.dump(indra_reach_results, indra_file, indent=4)
+# with open('indra_results.json', 'w') as indra_file:
+#     json.dump(indra_results, indra_file, indent=4)
 
 
 #function to create sub-interaction type-obj
@@ -108,6 +108,14 @@ def create_combined_results(results):
 llm_combined_results = create_combined_results(llm_results["LLM_extractions"])
 indra_combined_results = create_combined_results(indra_reach_results["INDRA_REACH_extractions"])
 
+# Save the LLM results to a JSON file
+with open('results/pmc3898398/llm_combined_results.json', 'w') as llm_file:
+    json.dump(llm_combined_results, llm_file, indent=4)
+
+# Save the INDRA REACH results to a JSON file
+with open('results/pmc3898398/indra_combined_results.json', 'w') as indra_file:
+    json.dump(indra_combined_results, indra_file, indent=4)
+
 
 def combine_llm_and_indra_results(llm_filepath, indra_filepath):
     llm_results = load_json_data(llm_filepath)
@@ -133,3 +141,10 @@ def combine_llm_and_indra_results(llm_filepath, indra_filepath):
         }
         combined_data.append(combined_entry)
     return combined_data
+
+
+combined_data = combine_llm_and_indra_results('results/pmc3898398/llm_combined_results.json', 
+                                              'results/pmc3898398/indra_combined_results.json')
+
+with open('results/pmc3898398/combined_output.json', 'w') as outfile:
+    json.dump(combined_data, outfile, indent=4)
