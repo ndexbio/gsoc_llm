@@ -12,7 +12,7 @@ def load_json_data(filepath):
     return data
 
 
-file_path = '/Users/favourjames/Downloads/gsoc_llm/results/pmc3898398/indra_results.json'
+file_path = 'results/pmc3898398/indra_results.json'
 indra_data = load_json_data(file_path)
 
 
@@ -110,21 +110,6 @@ def create_combined_results(results):
 
 llm_combined_results = create_combined_results(llm_results["LLM_extractions"])
 indra_combined_results = create_combined_results(indra_reach_results["INDRA_REACH_extractions"])
-
-
-def combine_llm_and_indra_results(llm_filepath, indra_filepath):
-    llm_results = load_json_data(llm_filepath)
-    indra_results = load_json_data(indra_filepath)  
-    combined_data = []
-    for llm_result, indra_result in zip(llm_results, indra_results):
-        combined_entry = {
-            "sentence": llm_result["Sentence"],
-            "llm": llm_result["Combined_Results"],
-            "indra": indra_result["Combined_Results"]
-        }
-        combined_data.append(combined_entry)
-    return combined_data
-
 
 
 def combine_llm_and_indra_results(llm_filepath, indra_filepath):
