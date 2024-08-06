@@ -3,6 +3,7 @@ This project proposes the development of a Python web application that utilizes 
 
 # Prerequisites
 Python (version 3.6 or higher)
+
 pip (Python package installer)
 
 ## Setting up
