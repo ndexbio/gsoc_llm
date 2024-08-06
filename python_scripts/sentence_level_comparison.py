@@ -1,12 +1,9 @@
-# import json
+import json
 from get_interactions import extraction_chain
-from indra.sources import reach
-# from grounding_genes import ground_genes
 import time
 
 
 def load_json_data(filepath):
-    import json
     with open(filepath, 'r') as file:
         data = json.load(file)
     return data
@@ -54,22 +51,22 @@ print(f"Time taken: {elapsed_time:.2f} seconds ({elapsed_minutes:.2f} minutes)")
 # print(f"Index: {index}, Sentence: '{sentence}', Results: {results}")
 
 #perform extraction using indra reach
-indra_reach_results["INDRA_REACH_extractions"] = []
-start_time = time.time()
-for index in selected_keys:
-    sentence = sentences[index]
-    reach_processor = reach.api.process_text(sentence)
-    stmts = reach_processor.statements
-    statements_json = [stmt.to_json() for stmt in stmts]
-    indra_reach_results["INDRA_REACH_extractions"].append({
-        "Index": index,
-        "Sentence": sentence,
-        "Results": statements_json
-    })
-end_time = time.time()
-elapsed_time = end_time - start_time
-elapsed_minutes = elapsed_time / 60
-print(f"Time taken for indra processing: {elapsed_time:.2f} seconds ({elapsed_minutes:.2f} minutes)")
+# indra_reach_results["INDRA_REACH_extractions"] = []
+# start_time = time.time()
+# for index in selected_keys:
+#     sentence = sentences[index]
+#     reach_processor = reach.api.process_text(sentence)
+#     stmts = reach_processor.statements
+#     statements_json = [stmt.to_json() for stmt in stmts]
+#     indra_reach_results["INDRA_REACH_extractions"].append({
+#         "Index": index,
+#         "Sentence": sentence,
+#         "Results": statements_json
+#     })
+# end_time = time.time()
+# elapsed_time = end_time - start_time
+# elapsed_minutes = elapsed_time / 60
+# print(f"Time taken for indra processing: {elapsed_time:.2f} seconds ({elapsed_minutes:.2f} minutes)")
 
 # Save the LLM results to a JSON file
 # with open('llm_results.json', 'w') as llm_file:
