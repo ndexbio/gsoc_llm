@@ -145,6 +145,3 @@ def combine_llm_and_indra_results(llm_filepath, indra_filepath):
 
 combined_data = combine_llm_and_indra_results('results/pmc3898398/llm_combined_results.json', 
                                               'results/pmc3898398/indra_combined_results.json')
-
-with open('results/pmc3898398/combined_output.json', 'w') as outfile:
-    json.dump(combined_data, outfile, indent=4)
