@@ -5,25 +5,31 @@ from model import extraction_model
 warnings.filterwarnings("ignore")
 
 
-def get_prompt(identifier):
-    with open('papers/prompt_file.txt', 'r') as file:
-        lines = file.readlines()
-        prompt = []
-        capture = False
-        for line in lines:
-            if line.strip().startswith('#') and identifier in line:
-                capture = True
-                continue
-            if capture:
-                if line.strip().startswith('#') and len(prompt) > 0:
-                    break
-                prompt.append(line)
-        return ''.join(prompt)
+def get_prompt(identifier, filepath):
+    with open(filepath, 'rb') as file:
+        content = file.read()
+    # Check for BOM and remove it
+    if content.startswith(b'\xef\xbb\xbf'):
+        content = content[3:]
+
+    lines = content.decode('utf-8').splitlines()
+    prompt = []
+    capture = False
+    for line in lines:
+        if line.strip().startswith('#') and identifier in line:
+            capture = True
+            continue
+        if capture:
+            if line.strip().startswith('#') and len(prompt) > 0:
+                break
+            prompt.append(line)
+    return ''.join(prompt)
 
 
 # Usage
+filepath = 'papers/prompt_file_v2.txt'
 prompt_identifier = 'general prompt'
-prompt = get_prompt(prompt_identifier)
+prompt = get_prompt(prompt_identifier, filepath)
 # print(prompt)
 
 

@@ -25,8 +25,8 @@ delay = 60.0 / rate_limit_per_minute
 
 class Interaction(BaseModel):
     """Information about molecular interactions mentioned."""
-    subject: str = Field(..., description="Entity that is the first involved in the interaction")
-    object: str = Field(..., description="Entity that is the second involved in the interaction")
+    subject: str = Field(..., description="Biological Entity that is the first involved in the interaction")
+    object: str = Field(..., description="Biological Entity that is the second involved in the interaction")
     interaction_type: str = Field(..., description="This shows the activity or type of interaction going on between the\
         subject and the object")
     text: str = Field(..., description="The exact sentence from which the interacting subject and object is taken from")

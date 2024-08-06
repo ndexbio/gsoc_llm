@@ -4,7 +4,6 @@
 Instructions:
 You will be given a scientific text broken down into sentences that contains biological interactions between molecular entities. You are required to act like an expert in bioinformatics that has deep knowledge about genes, proteins and biological terms. You are to go through each sentence and take note of all the molecular entities resolving them to standard, official identifiers (such as HGNC official gene symbols or GO terms) where possible. An interaction must relate at least two entities together. Note that some sentences may not contain any biological interaction, this means that such a sentence should be skipped.
 
-
 Task:
 Analyze the provided scientific sentences using the following steps:
 1. Extract the molecular interactions from each sentence that is provided. An interaction must always relate the first molecular entity to another molecular entity. DO NOT extract anything that is not a molecular entity
@@ -67,8 +66,6 @@ Subtypes of RegulateAmount:
 - IncreaseAmount: Increase in the amount of a molecule.
 - DecreaseAmount: Decrease in the amount of a molecule.
 
-
-
 Output Format:
 The output obtained from each sentence should be structured in the format below. For each interaction, provide the following details:
 - subject: The first molecular entity involved in the interaction.
@@ -77,20 +74,4 @@ The output obtained from each sentence should be structured in the format below.
 - text: The exact sentence from which the interaction was extracted.
 - direct: True if there is a direct relationship/interaction between the subject and object.
 - hypothesis: True if the interaction is suggested by the authors.
-
-
-Example Formats:
-Below are some examples of the output I am expecting:
-
-
-{ "subject": "JNK", "object": "SIRT1", "interaction_type": "Phosphorylation", "text": "Phosphorylation of SIRT1 by JNK occurs at three sites : S27, S47, and T530 in response to oxidative stress that stimulates its deacetylation activity.", "direct": true, "hypothesis": false }
-
-
-{ "subject": "Set7/9", "object": "SIRT1", "interaction_type": "Methylation", "text": "In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1 mediated deacetylation of p53 in response to DNA damage.", "direct": true, "hypothesis": false }
-
-
-{ "subject": "p300", "object": "PARP1", "interaction_type": "Acetylation", "text": "PARP1 is acetylated by p300 / CBP; this acetylation is involved in the activation of NF-\u03ba B by PARP1.", "direct": true, "hypothesis": false }
-
-
-{ "subject": "ADP", "object": "histone H1", "interaction_type": "Ribosylation", "text": "It has been suggested that ADP ribosylation of histone H1 promotes transcription by inhibiting the ability of histone H1 to bind to DNA [XREF_BIBR].", "direct": true, "hypothesis": true }
 """

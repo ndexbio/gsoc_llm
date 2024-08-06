@@ -1,0 +1,10 @@
+indra==1.22.0
+langchain==0.2.12
+langchain_core==0.2.28
+langchain_openai==0.1.20
+libdeeplake==0.0.92
+lxml==4.9.2
+pydantic==2.8.2
+python-dotenv==1.0.1
+Requests==2.32.3
+spacy==3.7.4
