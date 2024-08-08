@@ -31,7 +31,7 @@ def ground_genes(genes):
         if response.status_code == 200:
             results = response.json()
             if results:
-                grounded_genes[gene] = results[0]['term']['id'] + '@' + results[0]['term']['db']
+                grounded_genes[gene] = results[0]['term']['entry_name']
             else:
                 grounded_genes[gene] = None
         else:

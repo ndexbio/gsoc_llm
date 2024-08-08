@@ -28,7 +28,7 @@ def extract_sentences(data):
 
 sentences = extract_sentences(indra_data)
 #get 50 random sentences for comparison prototype
-selected_keys = sorted(sentences.keys())[:50]
+selected_keys = sorted(sentences.keys())[:]
 
 # Initialize dictionaries to store the results
 llm_results = {}
@@ -88,6 +88,7 @@ llm_combined_results = create_combined_results(llm_results["LLM_extractions"])
 with open('results/pmc3898398/llm_combined_results.json', 'w') as outfile:
     json.dump(llm_combined_results, outfile, indent=4)
 
+
 #function to save both indra outputs and llm outputs in one file
 def combine_llm_and_indra_results(llm_filepath, indra_filepath):
     llm_results = load_json_data(llm_filepath)
@@ -118,27 +119,33 @@ def combine_llm_and_indra_results(llm_filepath, indra_filepath):
 combined_data = combine_llm_and_indra_results('results/pmc3898398/llm_combined_results.json', 
                                               'results/pmc3898398/indra_combined_results.json')
 
+with open('results/pmc3898398/combined_output.json', 'w') as outfile:
+    json.dump(combined_data, outfile, indent=4)
+
 
 # Define the function to ground genes in combined results
-def ground_genes_in_combined_results(combined_results):
-    for entry in combined_results:
-        interactions = entry["Combined_Results"]
-        genes = set()
-        for interaction in interactions:
-            parts = interaction.split()
-            if len(parts) == 3:
-                genes.add(parts[0])
-                genes.add(parts[2])
-        grounded_genes = ground_genes(list(genes))
-        grounded_interactions = []
-        for interaction in interactions:
-            parts = interaction.split()
-            if len(parts) == 3:
-                grounded_subject = grounded_genes.get(parts[0], parts[0])
-                grounded_object = grounded_genes.get(parts[2], parts[2])
-                grounded_interactions.append(f"{grounded_subject} {parts[1]} {grounded_object}")
-        entry["Combined_Results"] = grounded_interactions
-    return combined_results
+# def ground_genes_in_combined_results(combined_results):
+#     for entry in combined_results:
+#         interactions = entry["Combined_Results"]
+#         genes = set()
+#         for interaction in interactions:
+#             parts = interaction.split()
+#             if len(parts) == 3:
+#                 genes.add(parts[0])
+#                 genes.add(parts[2])
+#         grounded_genes = ground_genes(list(genes))
+#         grounded_interactions = []
+#         for interaction in interactions:
+#             parts = interaction.split()
+#             if len(parts) == 3:
+#                 grounded_subject = grounded_genes.get(parts[0], parts[0])
+#                 grounded_object = grounded_genes.get(parts[2], parts[2])
+#                 grounded_interactions.append(f"{grounded_subject} {parts[1]} {grounded_object}")
+#         entry["Combined_Results"] = grounded_interactions
+#     return combined_results
 
 
-grounded_llm_combined_results = ground_genes_in_combined_results(llm_combined_results)
+# # grounded_llm_combined_results = ground_genes_in_combined_results(llm_combined_results)
+
+# with open('results/pmc3898398/grounded_llm_results.json', 'w') as outfile:
+#     json.dump(grounded_llm_combined_results, outfile, indent=4)

@@ -67,7 +67,7 @@ def jaccard_similarity(text1, text2):
 llm_predictions = []
 indra_observations = []
 
-llm_combined_results = load_json_data('results/pmc3898398/llm_combined_results.json')
+llm_combined_results = load_json_data('results/pmc3898398/grounded_llm_results.json')
 indra_combined_results = load_json_data('results/pmc3898398/indra_combined_results.json')
 for llm_result, indra_result in zip(llm_combined_results, indra_combined_results):
     llm_predictions.extend(llm_result["Combined_Results"])
