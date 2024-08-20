@@ -4,8 +4,6 @@ This project proposes the development of a Python web application that utilizes 
 2. Benchmarking of results gotten from LLM with results gotten from other sources to evaluate the performance of the LLM.
 3. Seamless integration with the NDEx API for data management and graph visualization using Cytoscape.
 
-# Current Project Stage
-
 ## Prerequisites
 Python (version 3.6 or higher)
 
@@ -23,11 +21,19 @@ Python (version 3.6 or higher)
 3. Install dependencies using: ``` pip install -r requirements.txt ```
 
    
-## Extraction Task
+## Extraction and Evaluation Task
 To perform the task of extracting interactions from any scientific paper, in this case, the scientific paper with PMCID `pmc3898398`, follow the steps listed below:
 
 1. Run the first script to prepare the model: `python python_scripts/model.py`
 2. Next, run the interaction extraction script: `python python_scripts/get_interactions.py`
 3. Then, run the sentence_level comparison script: `python_scripts/sentence_level_comparison.py`
 5. Finally, to perform evaluation using indra, run the evaluation code script: `python_scripts/evaluation_code.py`
+
+# Work Done
+
+# Project Current State
+
+# Future Tasks
+
+# References
 
