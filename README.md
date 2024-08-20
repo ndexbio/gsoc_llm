@@ -5,17 +5,18 @@ This project proposes the development of a Python web application that utilizes 
 Python (version 3.6 or higher)
 
 ## Installation
-1. Create and Activate a Virtual Environment: It is good practice to do this to avoid installing dependencies globally and keep your system clean:
-   
-   Using Conda: `conda create -n myenv python==3.11` and activate it with `conda activate myenv`.
-   Using venv: `python3.8 -m venv myenv`, activate with `source myenv/bin/activate` on MacOS/Linux and `myenv\Scripts\activate` on Windows.
-   
-2. Install dependencies using: ```pip install -r requirements.txt```
+1. Clone this repo using:
+   ```
+   git clone (https://github.com/ndexbio/gsoc_llm) <folder_name>
+   cd /<folder_name>
+   ```
+3. Install dependencies using: ```pip install -r requirements.txt```
    
 ## Extraction Task
 To perform the task of extracting interactions from the scientific paper, follow the steps listed below:
 
-1. Run this script: python_scripts/model.py
-2. Next, run this script: python_scripts/get_interactions.py
-3. Then, run this script: python_scripts/sentence_level_comparison.py
+1. Run the first script to prepare the model
+  
+3. Next, run this script: python_scripts/get_interactions.py
+4. Then, run this script: python_scripts/sentence_level_comparison.py
 
