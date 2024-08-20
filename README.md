@@ -8,8 +8,7 @@ Python (version 3.6 or higher)
 1. Create and Activate a Virtual Environment: It is good practice to do this to avoid installing dependencies globally and keep your system clean:
    
    Using Conda: `conda create -n myenv python==3.11` and activate it with `conda activate myenv`
-   
-   Using venv: `python3.8 -m venv myenv`, activate with `python3.8 -m venv myenv` on MacOS/Linux and `myenv\Scripts\activate` on Windows
+   Using venv: `python3.8 -m venv myenv`, activate with `source myenv/bin/activate` on MacOS/Linux and `myenv\Scripts\activate` on Windows
    
 2. Install dependencies using: `pip install -r requirements.txt`
    
