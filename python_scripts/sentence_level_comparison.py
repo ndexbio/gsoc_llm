@@ -1,7 +1,8 @@
 import json
 from get_interactions import extraction_chain
+from indra.sources import reach
 import time
-from grounding_genes import ground_genes
+# from grounding_genes import ground_genes
 
 
 def load_json_data(filepath):
@@ -50,8 +51,29 @@ elapsed_time = end_time - start_time
 elapsed_minutes = elapsed_time / 60
 print(f"Time taken: {elapsed_time:.2f} seconds ({elapsed_minutes:.2f} minutes)")
 
-with open('results/pmc3898398/llm_results.json', 'w') as llm_file:
+with open('results/llm_results.json', 'w') as llm_file:
     json.dump(llm_results, llm_file, indent=4)
+
+# perform extraction using indra reach
+indra_reach_results["INDRA_REACH_extractions"] = []
+start_time = time.time()
+for index in selected_keys:
+    sentence = sentences[index]
+    reach_processor = reach.api.process_text(sentence)
+    stmts = reach_processor.statements
+    statements_json = [stmt.to_json() for stmt in stmts]
+    indra_reach_results["INDRA_REACH_extractions"].append({
+        "Index": index,
+        "Sentence": sentence,
+        "Results": statements_json
+    })
+end_time = time.time()
+elapsed_time = end_time - start_time
+elapsed_minutes = elapsed_time / 60
+print(f"Time taken for indra processing: {elapsed_time:.2f} seconds ({elapsed_minutes:.2f} minutes)")
+
+with open('results/indra_results.json', 'w') as indra_file:
+    json.dump(indra_reach_results, indra_file, indent=4)
 
 
 #function to create sub-interaction type-obj
@@ -83,9 +105,13 @@ def create_combined_results(results):
 
 
 llm_combined_results = create_combined_results(llm_results["LLM_extractions"])
+indra_combined_results = create_combined_results(indra_reach_results["INDRA_REACH_extractions"])
 
-# Save the LLM results to a JSON file
-with open('results/pmc3898398/llm_combined_results.json', 'w') as outfile:
+# Save the results to different JSON files
+with open('indra_combined_results.json', 'w') as indra_file:
+    json.dump(indra_combined_results, indra_file, indent=4)
+
+with open('llm_combined_results.json', 'w') as outfile:
     json.dump(llm_combined_results, outfile, indent=4)
 
 
@@ -119,14 +145,16 @@ def combine_llm_and_indra_results(llm_filepath, indra_filepath):
 combined_data = combine_llm_and_indra_results('results/pmc3898398/llm_combined_results.json', 
                                               'results/pmc3898398/indra_combined_results.json')
 
-with open('results/pmc3898398/combined_output.json', 'w') as outfile:
-    json.dump(combined_data, outfile, indent=4)
+# with open('results/pmc3898398/combined_output.json', 'w') as outfile:
+#     json.dump(combined_data, outfile, indent=4)
 
 
 # Define the function to ground genes in combined results
 # def ground_genes_in_combined_results(combined_results):
 #     for entry in combined_results:
 #         interactions = entry["Combined_Results"]
+#         if not interactions:  # Check if interactions list is empty
+#         continue
 #         genes = set()
 #         for interaction in interactions:
 #             parts = interaction.split()
@@ -145,7 +173,7 @@ with open('results/pmc3898398/combined_output.json', 'w') as outfile:
 #     return combined_results
 
 
-# # grounded_llm_combined_results = ground_genes_in_combined_results(llm_combined_results)
+# grounded_llm_combined_results = ground_genes_in_combined_results(llm_combined_results)
 
 # with open('results/pmc3898398/grounded_llm_results.json', 'w') as outfile:
 #     json.dump(grounded_llm_combined_results, outfile, indent=4)

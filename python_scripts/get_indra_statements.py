@@ -40,6 +40,6 @@ if __name__ == "__main__":
 #     json.dump(indra_results, indra_file, indent=4)
 
 # indra_combined_results = create_combined_results(indra_reach_results["INDRA_REACH_extractions"])
-# Save the INDRA REACH results to a JSON file
+
 # with open('results/pmc3898398/indra_combined_results.json', 'w') as indra_file:
 #     json.dump(indra_combined_results, indra_file, indent=4)

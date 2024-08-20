@@ -27,7 +27,7 @@ def get_prompt(identifier, filepath):
 
 
 # Usage
-filepath = 'papers/prompt_file_v2.txt'
+filepath = 'papers/prompt_file_v3.txt'
 prompt_identifier = 'general prompt'
 prompt = get_prompt(prompt_identifier, filepath)
 # print(prompt)

@@ -60,8 +60,8 @@
         "Index": "16",
         "Sentence": "PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1 's auto-modification domain.",
         "Combined_Results": [
-            "SUMO1 Sumoylation PARP1",
-            "SUMO3 Sumoylation PARP1"
+            "PARP1 Sumoylation SUMO3",
+            "PARP1 Sumoylation SUMO1"
         ]
     },
     {
@@ -83,7 +83,7 @@
         "Index": "19",
         "Sentence": "It has been suggested that ADP ribosylation of histone H1 promotes transcription by inhibiting the ability of histone H1 to bind to DNA [XREF_BIBR].",
         "Combined_Results": [
-            "ADP Ribosylation H1-0"
+            "ADP Ribosylation histone H1"
         ]
     },
     {
@@ -97,14 +97,15 @@
         "Index": "20",
         "Sentence": "Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP ribosylation of histone H4 [[A22]] [XREF_BIBR].",
         "Combined_Results": [
-            "H4 Inhibition H4"
+            "acetylation of H4K16 Inhibition ADP ribosylation of histone H4"
         ]
     },
     {
         "Index": "21",
         "Sentence": "Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP ribosylation of histone H4 [[A22]] [XREF_BIBR].",
         "Combined_Results": [
-            "acetylation Inhibition histone H4"
+            "H4 Acetylation H4",
+            "H4 Ribosylation H4"
         ]
     },
     {
@@ -119,9 +120,7 @@
         "Sentence": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4 [[A23]].",
         "Combined_Results": [
             "SIRT1 Deacetylation MOF",
-            "SIRT1 Deacetylation TIP60",
-            "TIP60 Acetylation histone H4",
-            "MOF Acetylation histone H4"
+            "SIRT1 Deacetylation TIP60"
         ]
     },
     {
@@ -144,8 +143,8 @@
         "Index": "26",
         "Sentence": "TIP60 dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non homologous end joining [[A24]] [XREF_BIBR, XREF_BIBR].",
         "Combined_Results": [
-            "H4 Inhibition 53BP1",
-            "TIP60 Acetylation H4"
+            "H4K16 Inhibition 53BP1",
+            "TIP60 Acetylation H4K16"
         ]
     },
     {
@@ -205,14 +204,14 @@
         "Sentence": "PARP1 is an activator of NF-\u03ba B through its direct binding to NF-\u03ba B; acetylation of PARP1 by p300 / CBP is required for the binding of PARP1 to NF-\u03ba B [[A43]] [XREF_BIBR].",
         "Combined_Results": [
             "EP300 Acetylation PARP1",
-            "PARP1 Complex NFKB1"
+            "PARP1 Complex NF-\u03baB"
         ]
     },
     {
         "Index": "34",
         "Sentence": "Micro-RNAs have also been shown to downregulate SIRT1 dependent deacetylation of p53.",
         "Combined_Results": [
-            "Micro-RNAs RegulateActivity SIRT1"
+            "micro-RNAs RegulateActivity SIRT1"
         ]
     },
     {
@@ -276,8 +275,8 @@
         "Index": "42",
         "Sentence": "TIP60 dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non homologous end joining [[A24]] [XREF_BIBR, XREF_BIBR].",
         "Combined_Results": [
-            "TIP60 Acetylation H4",
-            "H4K16ac Inhibition 53BP1"
+            "H4K16 Inhibition 53BP1",
+            "TIP60 Acetylation H4K16"
         ]
     },
     {
@@ -292,9 +291,9 @@
         "Index": "44",
         "Sentence": "Additionally, the transcriptional activity of E2F1 is inhibited by Retinoblastoma (Rb), which is another substrate of SIRT1 deacetylation; acetylation of Rb has been shown to regulate the binding of Rb to E2F1 [[A38]] [XREF_BIBR, XREF_BIBR].",
         "Combined_Results": [
-            "RB1 Complex E2F1",
             "SIRT1 Deacetylation RB1",
-            "E2F1 Inhibition RB1"
+            "E2F1 Inhibition RB1",
+            "RB1 Acetylation E2F1"
         ]
     },
     {

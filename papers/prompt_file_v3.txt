@@ -12,7 +12,6 @@ Analyze the provided scientific sentences using the following steps:
 1. Find all the entities and normalize all genes/proteins to HGNC official gene symbols in the sentences provided. 
 2. Find the interactions between the genes. An interaction must always relate the first molecular entity to another molecular entity. The subject should be the first molecular entity interacting with the second molecular entity, which is the object.
 3. State the relationships between entities in knowledge graph format, using the INDRA vocabulary where appropriate. The indra vocabulary is specified in the heading interaction types below the last step.
-4. Remove any duplicate interactions to ensure that each interaction is unique.
 Interaction types:
 These are the relationships that can be used in an interaction
 Biological Domain:

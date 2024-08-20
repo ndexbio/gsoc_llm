@@ -125,16 +125,16 @@
             "Sentence": "PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1 's auto-modification domain.",
             "Results": [
                 {
-                    "subject": "SUMO1",
-                    "object": "PARP1",
+                    "subject": "PARP1",
+                    "object": "SUMO1",
                     "interaction_type": "Sumoylation",
                     "text": "PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1 's auto-modification domain.",
                     "direct": true,
                     "hypothesis": false
                 },
                 {
-                    "subject": "SUMO3",
-                    "object": "PARP1",
+                    "subject": "PARP1",
+                    "object": "SUMO3",
                     "interaction_type": "Sumoylation",
                     "text": "PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1 's auto-modification domain.",
                     "direct": true,
@@ -184,7 +184,7 @@
             "Results": [
                 {
                     "subject": "ADP",
-                    "object": "H1-0",
+                    "object": "histone H1",
                     "interaction_type": "Ribosylation",
                     "text": "It has been suggested that ADP ribosylation of histone H1 promotes transcription by inhibiting the ability of histone H1 to bind to DNA.",
                     "direct": true,
@@ -211,8 +211,8 @@
             "Sentence": "Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP ribosylation of histone H4 [[A22]] [XREF_BIBR].",
             "Results": [
                 {
-                    "subject": "H4",
-                    "object": "H4",
+                    "subject": "acetylation of H4K16",
+                    "object": "ADP ribosylation of histone H4",
                     "interaction_type": "Inhibition",
                     "text": "Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP ribosylation of histone H4.",
                     "direct": true,
@@ -225,10 +225,18 @@
             "Sentence": "Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP ribosylation of histone H4 [[A22]] [XREF_BIBR].",
             "Results": [
                 {
-                    "subject": "acetylation",
-                    "object": "histone H4",
-                    "interaction_type": "Inhibition",
-                    "text": "Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP ribosylation of histone H4.",
+                    "subject": "H4",
+                    "object": "H4",
+                    "interaction_type": "Acetylation",
+                    "text": "Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP ribosylation of histone H4 [[A22]] [XREF_BIBR].",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "H4",
+                    "object": "H4",
+                    "interaction_type": "Ribosylation",
+                    "text": "Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP ribosylation of histone H4 [[A22]] [XREF_BIBR].",
                     "direct": true,
                     "hypothesis": false
                 }
@@ -264,22 +272,6 @@
                     "subject": "SIRT1",
                     "object": "MOF",
                     "interaction_type": "Deacetylation",
-                    "text": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4.",
-                    "direct": true,
-                    "hypothesis": false
-                },
-                {
-                    "subject": "TIP60",
-                    "object": "histone H4",
-                    "interaction_type": "Acetylation",
-                    "text": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4.",
-                    "direct": true,
-                    "hypothesis": false
-                },
-                {
-                    "subject": "MOF",
-                    "object": "histone H4",
-                    "interaction_type": "Acetylation",
                     "text": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4.",
                     "direct": true,
                     "hypothesis": false
@@ -336,14 +328,14 @@
             "Results": [
                 {
                     "subject": "TIP60",
-                    "object": "H4",
+                    "object": "H4K16",
                     "interaction_type": "Acetylation",
                     "text": "TIP60 dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non homologous end joining.",
                     "direct": true,
                     "hypothesis": false
                 },
                 {
-                    "subject": "H4",
+                    "subject": "H4K16",
                     "object": "53BP1",
                     "interaction_type": "Inhibition",
                     "text": "TIP60 dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non homologous end joining.",
@@ -360,7 +352,7 @@
                     "subject": "ATM",
                     "object": "NBS1",
                     "interaction_type": "Phosphorylation",
-                    "text": "In this loop, NBS1 is phosphorylated by ATM in response to genotoxic stress at S343 for the activation of NBS1; to be phosphorylated, it is necessary for NBS1 to be in a hypoacetylated state, which SIRT1 helps to maintain by deacetylating NBS1 [[A32-A33]] [XREF_BIBR, XREF_BIBR].",
+                    "text": "In this loop, NBS1 is phosphorylated by ATM in response to genotoxic stress at S343 for the activation of NBS1; to be phosphorylated, it is necessary for NBS1 to be in a hypoacetylated state, which SIRT1 helps to maintain by deacetylating NBS1.",
                     "direct": true,
                     "hypothesis": false
                 },
@@ -368,7 +360,7 @@
                     "subject": "SIRT1",
                     "object": "NBS1",
                     "interaction_type": "Deacetylation",
-                    "text": "In this loop, NBS1 is phosphorylated by ATM in response to genotoxic stress at S343 for the activation of NBS1; to be phosphorylated, it is necessary for NBS1 to be in a hypoacetylated state, which SIRT1 helps to maintain by deacetylating NBS1 [[A32-A33]] [XREF_BIBR, XREF_BIBR].",
+                    "text": "In this loop, NBS1 is phosphorylated by ATM in response to genotoxic stress at S343 for the activation of NBS1; to be phosphorylated, it is necessary for NBS1 to be in a hypoacetylated state, which SIRT1 helps to maintain by deacetylating NBS1.",
                     "direct": true,
                     "hypothesis": false
                 }
@@ -396,7 +388,7 @@
                     "subject": "MYC",
                     "object": "SIRT1",
                     "interaction_type": "IncreaseAmount",
-                    "text": "In one publication, c-MYC over-expression leads to an increase in SIRT1 expression and then deacetylation of c-MYC by SIRT1 leads to the destabilization of c-MYC.",
+                    "text": "c-MYC over-expression leads to an increase in SIRT1 expression",
                     "direct": false,
                     "hypothesis": false
                 },
@@ -404,7 +396,7 @@
                     "subject": "SIRT1",
                     "object": "MYC",
                     "interaction_type": "Deacetylation",
-                    "text": "In one publication, c-MYC over-expression leads to an increase in SIRT1 expression and then deacetylation of c-MYC by SIRT1 leads to the destabilization of c-MYC.",
+                    "text": "deacetylation of c-MYC by SIRT1 leads to the destabilization of c-MYC",
                     "direct": true,
                     "hypothesis": false
                 }
@@ -446,7 +438,7 @@
                     "subject": "SIRT1",
                     "object": "RELA",
                     "interaction_type": "Deacetylation",
-                    "text": "SIRT1 can deacetylate the RelA / p65 subunit of NF-\u03ba B at K310 to inhibit NF-\u03ba B transactivation activity.",
+                    "text": "SIRT1 can deacetylate the RelA / p65 subunit of NF-\u03ba B at K310 to inhibit NF-\u03ba B transactivation activity [[A42]] [XREF_BIBR].",
                     "direct": true,
                     "hypothesis": false
                 }
@@ -480,9 +472,9 @@
             "Results": [
                 {
                     "subject": "PARP1",
-                    "object": "NFKB1",
+                    "object": "NF-\u03baB",
                     "interaction_type": "Complex",
-                    "text": "PARP1 is an activator of NF-\u03ba B through its direct binding to NF-\u03ba B; acetylation of PARP1 by p300 / CBP is required for the binding of PARP1 to NF-\u03ba B.",
+                    "text": "PARP1 is an activator of NF-\u03ba B through its direct binding to NF-\u03ba B; acetylation of PARP1 by p300 / CBP is required for the binding of PARP1 to NF-\u03ba B [[A43]] [XREF_BIBR].",
                     "direct": true,
                     "hypothesis": false
                 },
@@ -490,7 +482,7 @@
                     "subject": "EP300",
                     "object": "PARP1",
                     "interaction_type": "Acetylation",
-                    "text": "PARP1 is an activator of NF-\u03ba B through its direct binding to NF-\u03ba B; acetylation of PARP1 by p300 / CBP is required for the binding of PARP1 to NF-\u03ba B.",
+                    "text": "PARP1 is an activator of NF-\u03ba B through its direct binding to NF-\u03ba B; acetylation of PARP1 by p300 / CBP is required for the binding of PARP1 to NF-\u03ba B [[A43]] [XREF_BIBR].",
                     "direct": true,
                     "hypothesis": false
                 }
@@ -501,7 +493,7 @@
             "Sentence": "Micro-RNAs have also been shown to downregulate SIRT1 dependent deacetylation of p53.",
             "Results": [
                 {
-                    "subject": "Micro-RNAs",
+                    "subject": "micro-RNAs",
                     "object": "SIRT1",
                     "interaction_type": "RegulateActivity",
                     "text": "Micro-RNAs have also been shown to downregulate SIRT1 dependent deacetylation of p53.",
@@ -643,14 +635,14 @@
             "Results": [
                 {
                     "subject": "TIP60",
-                    "object": "H4",
+                    "object": "H4K16",
                     "interaction_type": "Acetylation",
                     "text": "TIP60 dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non homologous end joining.",
                     "direct": true,
                     "hypothesis": false
                 },
                 {
-                    "subject": "H4K16ac",
+                    "subject": "H4K16",
                     "object": "53BP1",
                     "interaction_type": "Inhibition",
                     "text": "TIP60 dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non homologous end joining.",
@@ -676,7 +668,7 @@
                     "object": "ATM",
                     "interaction_type": "Activation",
                     "text": "It has been shown that PARP1 binds to ATM, an interaction that is stimulated by DNA damage, and that the automodification of PARP1 leads to ATM activation.",
-                    "direct": false,
+                    "direct": true,
                     "hypothesis": false
                 }
             ]
@@ -704,7 +696,7 @@
                 {
                     "subject": "RB1",
                     "object": "E2F1",
-                    "interaction_type": "Complex",
+                    "interaction_type": "Acetylation",
                     "text": "Additionally, the transcriptional activity of E2F1 is inhibited by Retinoblastoma (Rb), which is another substrate of SIRT1 deacetylation; acetylation of Rb has been shown to regulate the binding of Rb to E2F1.",
                     "direct": true,
                     "hypothesis": false
@@ -807,7 +799,7 @@
                     "object": "CRY1",
                     "interaction_type": "RegulateAmount",
                     "text": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription.",
-                    "direct": false,
+                    "direct": true,
                     "hypothesis": false
                 },
                 {
@@ -815,7 +807,7 @@
                     "object": "CRY2",
                     "interaction_type": "RegulateAmount",
                     "text": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription.",
-                    "direct": false,
+                    "direct": true,
                     "hypothesis": false
                 },
                 {
@@ -823,7 +815,7 @@
                     "object": "PER1",
                     "interaction_type": "RegulateAmount",
                     "text": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription.",
-                    "direct": false,
+                    "direct": true,
                     "hypothesis": false
                 },
                 {
@@ -831,7 +823,7 @@
                     "object": "PER2",
                     "interaction_type": "RegulateAmount",
                     "text": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription.",
-                    "direct": false,
+                    "direct": true,
                     "hypothesis": false
                 },
                 {
@@ -839,7 +831,7 @@
                     "object": "PER3",
                     "interaction_type": "RegulateAmount",
                     "text": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription.",
-                    "direct": false,
+                    "direct": true,
                     "hypothesis": false
                 },
                 {
@@ -847,7 +839,7 @@
                     "object": "CRY1",
                     "interaction_type": "RegulateAmount",
                     "text": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription.",
-                    "direct": false,
+                    "direct": true,
                     "hypothesis": false
                 },
                 {
@@ -855,7 +847,7 @@
                     "object": "CRY2",
                     "interaction_type": "RegulateAmount",
                     "text": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription.",
-                    "direct": false,
+                    "direct": true,
                     "hypothesis": false
                 },
                 {
@@ -863,7 +855,7 @@
                     "object": "PER1",
                     "interaction_type": "RegulateAmount",
                     "text": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription.",
-                    "direct": false,
+                    "direct": true,
                     "hypothesis": false
                 },
                 {
@@ -871,7 +863,7 @@
                     "object": "PER2",
                     "interaction_type": "RegulateAmount",
                     "text": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription.",
-                    "direct": false,
+                    "direct": true,
                     "hypothesis": false
                 },
                 {
@@ -879,7 +871,7 @@
                     "object": "PER3",
                     "interaction_type": "RegulateAmount",
                     "text": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription.",
-                    "direct": false,
+                    "direct": true,
                     "hypothesis": false
                 },
                 {
@@ -887,7 +879,7 @@
                     "object": "CLOCK",
                     "interaction_type": "Inhibition",
                     "text": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription.",
-                    "direct": false,
+                    "direct": true,
                     "hypothesis": false
                 },
                 {
@@ -895,7 +887,7 @@
                     "object": "CLOCK",
                     "interaction_type": "Inhibition",
                     "text": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription.",
-                    "direct": false,
+                    "direct": true,
                     "hypothesis": false
                 },
                 {
@@ -903,7 +895,7 @@
                     "object": "CLOCK",
                     "interaction_type": "Inhibition",
                     "text": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription.",
-                    "direct": false,
+                    "direct": true,
                     "hypothesis": false
                 },
                 {
@@ -911,7 +903,7 @@
                     "object": "CLOCK",
                     "interaction_type": "Inhibition",
                     "text": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription.",
-                    "direct": false,
+                    "direct": true,
                     "hypothesis": false
                 },
                 {
@@ -919,7 +911,7 @@
                     "object": "CLOCK",
                     "interaction_type": "Inhibition",
                     "text": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription.",
-                    "direct": false,
+                    "direct": true,
                     "hypothesis": false
                 },
                 {
@@ -927,7 +919,7 @@
                     "object": "BMAL1",
                     "interaction_type": "Inhibition",
                     "text": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription.",
-                    "direct": false,
+                    "direct": true,
                     "hypothesis": false
                 },
                 {
@@ -935,7 +927,7 @@
                     "object": "BMAL1",
                     "interaction_type": "Inhibition",
                     "text": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription.",
-                    "direct": false,
+                    "direct": true,
                     "hypothesis": false
                 },
                 {
@@ -943,7 +935,7 @@
                     "object": "BMAL1",
                     "interaction_type": "Inhibition",
                     "text": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription.",
-                    "direct": false,
+                    "direct": true,
                     "hypothesis": false
                 },
                 {
@@ -951,7 +943,7 @@
                     "object": "BMAL1",
                     "interaction_type": "Inhibition",
                     "text": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription.",
-                    "direct": false,
+                    "direct": true,
                     "hypothesis": false
                 },
                 {
@@ -959,7 +951,7 @@
                     "object": "BMAL1",
                     "interaction_type": "Inhibition",
                     "text": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription.",
-                    "direct": false,
+                    "direct": true,
                     "hypothesis": false
                 }
             ]
