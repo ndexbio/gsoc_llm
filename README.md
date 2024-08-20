@@ -17,7 +17,7 @@ Python (version 3.6 or higher)
    conda create -n myenv python=3.8.0
    conda activate myenv
    ```
-3. Install dependencies using: ```pip install -r requirements.txt```
+3. Install dependencies using: ``` pip install -r requirements.txt ```
 
    
 ## Extraction Task
