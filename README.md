@@ -30,6 +30,7 @@ To perform the task of extracting interactions from any scientific paper, in thi
 5. Finally, to perform evaluation using indra, run the evaluation code script: `python_scripts/evaluation_code.py`
 
 # Work Done
+1. A model was created 
 
 # Project Current State
 
