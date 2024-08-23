@@ -119,19 +119,19 @@ To perform the task of extracting interactions from any scientific paper, in thi
 
 # Challenges and Lessons Learned
 ## Lessons Learned
-- Developed skills in crafting well-detailed, efficient, and specific prompts for LLMs, optimizing the interaction and response accuracy of the models.
+1. Advanced Prompt Engineering: Gained expertise in crafting detailed, efficient, and specific prompts for Large Language Models (LLMs) to optimize model interaction and enhance response accuracy.
 
-- Learnt how to interact with OpenAI API and Indra Reach API.
-  
-- I learnt how to create use pydantic functions to define model schemas and convert them to acceptable format using Langchain
-  
-- I learnt how to use Langchain to build extraction chains, in order to make chain calls and also how to use it to interact with APIs
-  
-- I learnt about modularity and organisation of files on GitHub
-  
-- I learnt about the different interaction types that are possible between genes based on indra
-  
-- I learnt about what grounding of genes and how to ensure your genes are grounded
+2. API Integration and Usage: Developed proficiency in interfacing with the OpenAI API and INDRA Reach API, including making effective API calls and handling the responses for extracting biological interactions.
+
+3. Schema Definition with Pydantic: Learned to utilize Pydantic functions to define robust model schemas, ensuring data validation and transformation into acceptable formats, particularly when integrating with LangChain for seamless data processing and model interaction.
+
+4. Building Extraction Chains with LangChain: Mastered the use of LangChain to construct extraction chains, enabling complex multi-step reasoning processes and chained API calls. This included leveraging LangChain's capabilities to orchestrate API interactions for enriched data extraction workflows.
+
+5. Modular Code Organization and GitHub Best Practices: Enhanced understanding of modularity and file organization within a GitHub repository to ensure maintainability, readability, and scalability of the project codebase.
+
+6. Biological Interaction Types and Gene Grounding: Acquired knowledge on the various types of molecular interactions that occur between genes, as characterized by INDRA, and the importance of gene grounding. Learned techniques for ensuring accurate grounding of genes to improve data reliability and consistency.
+
+7. Enhanced Understanding of Gene Grounding: Explored the concept of gene grounding in detail, focusing on techniques to ensure correct mapping and standardization of gene names across different databases and ontologies, crucial for accurate biological data interpretation.
   
 ## Challenges Faced
 1. Downloading and installing the Indra Reach API locally
