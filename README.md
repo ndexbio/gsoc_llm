@@ -118,7 +118,47 @@ To perform the task of extracting interactions from any scientific paper, in thi
 - Perform prompt engineering techniques to get the most efficient prompt
 
 # Challenges and Lessons Learned
+## Lessons Learned
+- Developed skills in crafting well-detailed, efficient, and specific prompts for LLMs, optimizing the interaction and response accuracy of the models.
+
+- Learnt how to interact with OpenAI API and Indra Reach API.
+  
+- I learnt how to create use pydantic functions to define model schemas and convert them to acceptable format using Langchain
+  
+- I learnt how to use Langchain to build extraction chains, in order to make chain calls and also how to use it to interact with APIs
+  
+- I learnt about modularity and organisation of files on GitHub
+  
+- I learnt about the different interaction types that are possible between genes based on indra
+  
+- I learnt about what grounding of genes and how to ensure your genes are grounded
+  
+## Challenges Faced
+1. Downloading and installing the Indra Reach API locally
+   
+   a. First, tried the docker way but got issues with using docker
+   
+   b. Tried using NRNB cluster to use the sbt method as described on the Reach documentation but it also did not work out
+   
+   c. Ended up using the sbt download method on my local system
+   
+2. Faced challenges when trying to perform comparison between the results gotten from indra and the one from the LLM
+   
+   a. This could not be done with the results gotten by chunking_level extractions
+   
+   b. I tried to convert the whole document to sentence first, before parsing it to the llm, then comparing the results gotten from the llm and the indra. However, since comparison of       text is done word by word, this approach did not work because it was not the same sentence that was sent, so the arrangement of the results gotten from the indra and the llm           differed. This made it extremely difficult to perform comparison
+   
+   c. To solve this issue, my mentors suggested making performing sentence_level extractions, such that I would take note of the sentences being parsed and ensure it is arranged accordingly in a list, then send the sentence one by one to the llm. After which, I send the same list of sentences to the indra. This way, the index of each of the sentence was noted, and we could know which sentence was processed and see the interactions gotten from the llm and the indra.
+   
+   d. Further processing included converting the structures of the output, joining the output together to observe the different results gotten in one file, before proceeding to perform evaluation. This also makes it easier for the results to be compared manually.
+
 
 
 # References
+https://cookbook.openai.com/
+https://indra.readthedocs.io/en/latest/modules/sources/reach/index.html
+https://platform.openai.com/docs/guides/prompt-engineering
+https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview
+https://www.deeplearning.ai/short-courses/functions-tools-agents-langchain/
+https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/
 
