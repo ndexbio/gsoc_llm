@@ -36,5 +36,7 @@ To perform the task of extracting interactions from any scientific paper, in thi
 
 # Future Tasks
 
+# Challenges and Lessons Learned
+
 # References
 
