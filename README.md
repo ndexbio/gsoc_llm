@@ -122,22 +122,20 @@ To perform the task of extracting interactions from any scientific paper, in thi
 3. Best Performing prompt at the moment is: `papers/prompt_file_v3.txt`
 
 4. Some examples of the interactions gotten are shown below:
-   - Same interactions gotten for both indra and llm:
+   - Examples that show same interactions gotten for both indra and llm:
      <img width="881" alt="Screenshot 2024-08-24 at 00 30 46" src="https://github.com/user-attachments/assets/06115bf8-9047-49cf-8782-1089cd4bc307">
      <img width="875" alt="Screenshot 2024-08-24 at 00 31 04" src="https://github.com/user-attachments/assets/fb2c1bb0-7a3b-45ab-bc24-5b9082e80a7a">
-   - Different interactions extracted from the same sentence where the LLM was more correct than the Indra Reach. In the example below, the LLM extracted several plausible biological interactions (such as "CLOCK RegulateAmount PER3", "PER1 Inhibition CLOCK", "CRY1 Inhibition BMAL1", etc.) that, while possible within the context of circadian rhythm biology, were not directly mentioned in the provided sentence. These inferred interactions suggest that the LLM is leveraging background biological knowledge to generate possible interactions that could be relevant in a broader biological context.
+   - In the example below, the LLM extracted several plausible biological interactions (such as "CLOCK RegulateAmount PER3", "PER1 Inhibition CLOCK", "CRY1 Inhibition BMAL1", etc.) that, while possible within the context of circadian rhythm biology, were not directly mentioned in the provided sentence. These inferred interactions suggest that the LLM is leveraging background biological knowledge to generate possible interactions that could be relevant in a broader biological context.
      <img width="879" alt="Screenshot 2024-08-24 at 00 35 10" src="https://github.com/user-attachments/assets/71cb0686-d551-4f7c-8342-19e9c0a9f6c1">
    - In the example below, The LLM correctly identifies both interactions mentioned in the sentence: the regulation by p53 of miRNA-34 and the subsequent decrease in SIRT1 expression by miRNA-34. INDRA's output does not capture the interactions described in the sentence. Instead, it suggests a self-inhibitory action by SIRT1 on itself, which is not relevant to the given text.
      <img width="925" alt="Screenshot 2024-08-24 at 00 39 18" src="https://github.com/user-attachments/assets/a30ce00c-014f-4993-b145-2eb4450f3a1c">
-   - Example where the LLM did not extract correct interactions while the Indra reach extracted it correctly:
+   - In the example below, The LLM incorrectly extracted that PARP inhibits SIRT1. The sentence indicates that inhibiting PARP leads to increased SIRT1 activity, not that PARP directly inhibits SIRT1. The INDRA output correctly identifies the inhibition of NAD+ consumption by PARP proteins as described in the sentence.
+     <img width="900" alt="Screenshot 2024-08-24 at 00 46 20" src="https://github.com/user-attachments/assets/0f9af854-f2c3-4f66-8bb6-c51cbd03dad4">
+   - In the example below, both the indra and the llm gave wrong interpretations of the sentence and therefore gave wrong outputs.
+     <img width="900" alt="Screenshot 2024-08-24 at 00 46 20" src="https://github.com/user-attachments/assets/b384937b-8352-4fd8-82e3-d400d31dbe9c">
+
+
      
-    
-     
-
-
-
-   
-
 # Future Tasks
 - Convert extracted interactions to CX2 networks and load the networks to cytoscape for visualisation
   
