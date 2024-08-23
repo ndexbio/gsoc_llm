@@ -25,9 +25,12 @@ Python (version 3.6 or higher)
 To perform the task of extracting interactions from any scientific paper, in this case, the scientific paper with PMCID `pmc3898398`, follow the steps listed below:
 
 1. Run the first script to prepare the model: `python python_scripts/model.py`
+   
 2. Next, run the interaction extraction script: `python python_scripts/get_interactions.py`
+
 3. Then, run the sentence_level comparison script: `python python_scripts/sentence_level_extraction.py`
-5. Finally, to perform evaluation using indra, run the evaluation code script: `python python_scripts/evaluation_code.py`
+
+4. Finally, to perform evaluation using indra, run the evaluation code script: `python python_scripts/evaluation_code.py`
 
 # Work Done
 1. Utilizing Pre-trained Models and APIs:
@@ -56,7 +59,6 @@ To perform the task of extracting interactions from any scientific paper, in thi
 5. Chunking_level Extraction: `python_scripts/chunking_level_extraction.py`
    
    Implemented text chunking strategies to prepare large texts for processing through large language models (LLMs), facilitating the extraction of molecular interactions from segmented
-
    text. This was done using Langchain's textsplitter function.
    
 6. Sentence_level Extraction: `python_scripts/sentence_level_extraction.py`
@@ -78,8 +80,31 @@ To perform the task of extracting interactions from any scientific paper, in thi
    
 8. Utilized Gilda grounding service to ground the genes that are involved in the interactions that were gotten using the LLM. `python_scripts/grounding_genes.py`
 
-
 # Project Current State
+1. Sentence_level extraction and comparison tasks were performed on the paperwith PMCID:pmc3898398
+
+   a. For 50 sentences from the paper, the scores gotten was:
+   ```
+   Final Score:
+   Precision (micro): 46.94%
+      Recall (micro): 48.94%
+         F1 (micro): 47.92%
+   ```
+   b. For all the sentences in the paper, the scores gotten was:
+   ```
+   Final Score:
+   Precision (micro): 25.41%
+      Recall (micro): 31.08%
+         F1 (micro): 27.96%
+   ```
+2. Processing time for the whole paper:
+
+   a. With the Indra reach api: < 6 minutes
+   
+   b. With the OpenAI API: < 5 minutes
+   
+
+   
 
 # Future Tasks
 
