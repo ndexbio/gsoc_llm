@@ -44,3 +44,19 @@ end_time = time.time()
 elapsed_time = end_time - start_time
 elapsed_minutes = elapsed_time / 60
 print(f"Time taken: {elapsed_time:.2f} seconds ({elapsed_minutes:.2f} minutes)")
+
+
+# to process the document by sentences
+# nlp = spacy.load("en_core_web_sm")
+# doc = nlp(text)
+# sentences = []
+# for sent in doc.sents:
+#     if "Supporting information" in sent.text:
+#         break
+#     # sentences += sent.text + " "
+#     sentences.append(sent.text)
+
+# sentences = sentences[:100]
+# prep = RunnableLambda(
+#     lambda x: [{"input": sentence} for sentence in sentences]
+# )
