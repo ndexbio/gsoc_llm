@@ -31,24 +31,34 @@ To perform the task of extracting interactions from any scientific paper, in thi
 
 # Work Done
 1. Utilizing Pre-trained Models and APIs:
+   
    a. Leveraged OpenAI API to develop LLM model for extracting complex biological interactions from scientific texts.
+   
    b. Made use of LangChain to efficiently perform extraction tasks by integrating with advanced OpenAI models including gpt-3.5-turbo, gpt-4, gpt-4o, and gpt-4-Turbo.
+   
    c. Created detailed model schematics using Pydantic functions, enhancing the structure and validation of data models used in the project: `python_scripts/model.py`
+   
 2. Perfromed prompt engineering to get the most efficient prompt. There are 3 versions of the prompt as seen under the `papers` folder
+   
 3. Developed the get interactions script: `python_scripts/get_interactions.py`.
+   
    This script is responsible for reading in the prompt and running the extraction chain. The extraction chain was created using Langchain tools.
-   The extraction chain flows this way:
-   prompt ----> extraction_model ----> Json_output_parser
-5. Interacting with Indra Reach:
+   
+   The extraction chain flows this way: prompt ----> extraction_model ----> Json_output_parser
+4. Interacting with Indra Reach:
+   
    a. Downloaded and installed Indra Reach API locally
+   
    b. Utilized INDRA REACH to retrieve INDRA statements from PMCIDs: `python_scripts/get_indra_statements.py`
+   
    c. Wrote code to get PMCIDs of papers that have PMIDs easily available: `python_scripts/get_pmcid.py`
-6. Chunking_level Extraction: `python_scripts/chunking_level_extraction.py`
+   
+7. Chunking_level Extraction: `python_scripts/chunking_level_extraction.py`
    Implemented text chunking strategies to prepare large texts for processing through large language models (LLMs), facilitating the extraction of molecular interactions from segmented    text. This was done using Langchain's textsplitter function.
-7. Sentence_level Extraction: `python_scripts/sentence_level_extraction.py`
+8. Sentence_level Extraction: `python_scripts/sentence_level_extraction.py`
    a. Applied sentence-level extraction techniques to scientific documents using OpenAI API and INDRA REACH API to obtain precise interaction data. This was done by processing the            statements gotten from indra to get only the sentences.
    b. This ensured that the same set of sentences were passed through the LLM first, then the indra reach api for processing sentence by sentence. Then the sentence, and the results          from each of the API was noted.
-8. Comparison and Evaluations:
+9. Comparison and Evaluations:
    a. Modified the structure of the results gotten from both the indra reach and LLM to prepare it for evaluation as seen in the functions defined in the script,       
       `python_scripts/sentence_level_extraction.py`:
    ```
@@ -57,7 +67,7 @@ To perform the task of extracting interactions from any scientific paper, in thi
    combine_llm_and_indra_results
    ```
    b. Wrote code to compare the extracted interactions from both APIs and used F1_score as the evaluation metric. `python_scripts/evaluation_code.py`
-9. Utilized Gilda grounding service to ground the genes that are involved in the interactions that were gotten using the LLM. `python_scripts/grounding_genes.py`
+10. Utilized Gilda grounding service to ground the genes that are involved in the interactions that were gotten using the LLM. `python_scripts/grounding_genes.py`
 
 
 # Project Current State
