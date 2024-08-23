@@ -102,13 +102,23 @@ To perform the task of extracting interactions from any scientific paper, in thi
    a. With the Indra reach api: < 6 minutes
    
    b. With the OpenAI API: < 5 minutes
-   
 
+3. Best Performing prompt at the moment is: `papers/prompt_file_v3.txt`
    
 
 # Future Tasks
+- Convert extracted interactions to CX2 networks and load the networks to cytoscape for visualisation
+  
+- Upload networks to NDEX from cytoscape
+  
+- Develop a tool(e.g web app) to enable a user upload scientific papers, get the interactions, and automatically upload the networks to NDEX and interact with the knowledgre graphs
+  
+- Testing out the model with other API like Claude 3.5 sonnet
+  
+- Perform prompt engineering techniques to get the most efficient prompt
 
 # Challenges and Lessons Learned
+
 
 # References
 
