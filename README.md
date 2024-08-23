@@ -155,10 +155,10 @@ To perform the task of extracting interactions from any scientific paper, in thi
 
 
 # References
-https://cookbook.openai.com/
-https://indra.readthedocs.io/en/latest/modules/sources/reach/index.html
-https://platform.openai.com/docs/guides/prompt-engineering
-https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview
-https://www.deeplearning.ai/short-courses/functions-tools-agents-langchain/
-https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/
+- https://cookbook.openai.com/
+- https://indra.readthedocs.io/en/latest/modules/sources/reach/index.html
+- https://platform.openai.com/docs/guides/prompt-engineering
+- https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview
+- https://www.deeplearning.ai/short-courses/functions-tools-agents-langchain/
+- https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/
 
