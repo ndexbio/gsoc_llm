@@ -17,7 +17,8 @@
         "Index": "10",
         "Sentence": "In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1 mediated deacetylation of p53 in response to DNA damage [[A9]] [XREF_BIBR].",
         "Combined_Results": [
-            "SETD7 Methylation SIRT1"
+            "SETD7 Methylation SIRT1",
+            "SIRT1 Deacetylation TP53"
         ]
     },
     {
@@ -52,16 +53,16 @@
         "Index": "15",
         "Sentence": "PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1 's auto-modification domain.",
         "Combined_Results": [
-            "SUMO1 Sumoylation PARP1",
-            "SUMO3 Sumoylation PARP1"
+            "SUMO3 Sumoylation PARP1",
+            "SUMO1 Sumoylation PARP1"
         ]
     },
     {
         "Index": "16",
         "Sentence": "PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1 's auto-modification domain.",
         "Combined_Results": [
-            "SUMO1 Sumoylation PARP1",
-            "SUMO3 Sumoylation PARP1"
+            "SUMO3 Sumoylation PARP1",
+            "SUMO1 Sumoylation PARP1"
         ]
     },
     {
@@ -75,16 +76,14 @@
         "Index": "18",
         "Sentence": "Nicotinamide mononucleotide adenylyltransferase 1 (NMNAT1), which catalyzes the conversion of NMN into NAD + in the synthesis of NAD + via the salvage pathway, can bind to (ADP-ribose) polymers in vitro leading to the stimulation of PARP1 activity; this effect is diminished when NMNAT1 is phosphorylated at S136 by protein kinase C (PKC) [[A18]] [XREF_BIBR].",
         "Combined_Results": [
-            "PKC Phosphorylation NMNAT1",
-            "NMNAT1 Complex PARP1"
+            "NMNAT1 Complex PARP1",
+            "PKC Phosphorylation NMNAT1"
         ]
     },
     {
         "Index": "19",
         "Sentence": "It has been suggested that ADP ribosylation of histone H1 promotes transcription by inhibiting the ability of histone H1 to bind to DNA [XREF_BIBR].",
-        "Combined_Results": [
-            "ADP Ribosylation H1-0"
-        ]
+        "Combined_Results": []
     },
     {
         "Index": "2",
@@ -96,9 +95,7 @@
     {
         "Index": "20",
         "Sentence": "Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP ribosylation of histone H4 [[A22]] [XREF_BIBR].",
-        "Combined_Results": [
-            "Histone_H4 Inhibition Histone_H4"
-        ]
+        "Combined_Results": []
     },
     {
         "Index": "21",
@@ -109,38 +106,38 @@
         "Index": "22",
         "Sentence": "Here a potential contradiction in the role of SIRT1 in condensing chromatin arises whereby SIRT1 deacetylation activity could potentially help drive the PARP1 ADP ribosylation activity on H4K16.",
         "Combined_Results": [
-            "SIRT1 RegulateActivity PARP1"
+            "SIRT1 Deacetylation PARP1"
         ]
     },
     {
         "Index": "23",
         "Sentence": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4 [[A23]].",
         "Combined_Results": [
-            "SIRT1 Deacetylation KAT8",
-            "SIRT1 Deacetylation KAT5"
+            "SIRT1 Deacetylation KAT5",
+            "SIRT1 Deacetylation KAT8"
         ]
     },
     {
         "Index": "24",
         "Sentence": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4 [[A23]].",
         "Combined_Results": [
-            "SIRT1 Deacetylation KAT8",
-            "SIRT1 Deacetylation KAT5"
+            "SIRT1 Deacetylation KAT5",
+            "SIRT1 Deacetylation KAT8"
         ]
     },
     {
         "Index": "25",
         "Sentence": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4 [[A23]].",
         "Combined_Results": [
-            "SIRT1 Deacetylation KAT8",
-            "SIRT1 Deacetylation KAT5"
+            "SIRT1 Deacetylation KAT5",
+            "SIRT1 Deacetylation KAT8"
         ]
     },
     {
         "Index": "26",
         "Sentence": "TIP60 dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non homologous end joining [[A24]] [XREF_BIBR, XREF_BIBR].",
         "Combined_Results": [
-            "Histone_H4 Inhibition TP53BP1",
+            "None Inhibition TP53BP1",
             "KAT5 Acetylation Histone_H4"
         ]
     },
@@ -163,8 +160,8 @@
         "Index": "29",
         "Sentence": "In one publication, c-MYC over-expression leads to an increase in SIRT1 expression and then deacetylation of c-MYC by SIRT1 leads to the destabilization of c-MYC [[A39]] [XREF_BIBR].",
         "Combined_Results": [
-            "MYC IncreaseAmount SIRT1",
-            "SIRT1 Deacetylation MYC"
+            "SIRT1 Deacetylation MYC",
+            "MYC IncreaseAmount SIRT1"
         ]
     },
     {
@@ -192,16 +189,16 @@
         "Index": "32",
         "Sentence": "PARP1 is an activator of NF-\u03ba B through its direct binding to NF-\u03ba B; acetylation of PARP1 by p300 / CBP is required for the binding of PARP1 to NF-\u03ba B [[A43]] [XREF_BIBR].",
         "Combined_Results": [
-            "EP300 Acetylation PARP1",
-            "PARP1 Complex NFkappaB"
+            "PARP1 Complex NFKB1",
+            "EP300 Acetylation PARP1"
         ]
     },
     {
         "Index": "33",
         "Sentence": "PARP1 is an activator of NF-\u03ba B through its direct binding to NF-\u03ba B; acetylation of PARP1 by p300 / CBP is required for the binding of PARP1 to NF-\u03ba B [[A43]] [XREF_BIBR].",
         "Combined_Results": [
-            "EP300 Acetylation PARP1",
-            "PARP1 Complex NFKB1"
+            "PARP1 Complex NFKB1",
+            "EP300 Acetylation PARP1"
         ]
     },
     {
@@ -238,8 +235,8 @@
         "Index": "38",
         "Sentence": "SIRT1 has also been shown to deacetylate PER2 destabilizing the protein [[A65]]; it has been hypothesized that acetylation of PER2 at lysine residues prevents their ubiquitination [XREF_BIBR].",
         "Combined_Results": [
-            "SIRT1 Deacetylation PER2",
-            "PER2 Acetylation PER2"
+            "PER2 Acetylation PER2",
+            "SIRT1 Deacetylation PER2"
         ]
     },
     {
@@ -272,7 +269,7 @@
         "Index": "42",
         "Sentence": "TIP60 dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non homologous end joining [[A24]] [XREF_BIBR, XREF_BIBR].",
         "Combined_Results": [
-            "KAT5 Acetylation Histone_H4",
+            "KAT5 Acetylation None",
             "None Inhibition TP53BP1"
         ]
     },
@@ -280,7 +277,6 @@
         "Index": "43",
         "Sentence": "It has been shown that PARP1 binds to ATM, an interaction that is stimulated by DNA damage, and that the automodification of PARP1 leads to ATM activation [[A31]] [XREF_BIBR].",
         "Combined_Results": [
-            "PARP1 Activation ATM",
             "PARP1 Complex ATM"
         ]
     },
@@ -288,15 +284,17 @@
         "Index": "44",
         "Sentence": "Additionally, the transcriptional activity of E2F1 is inhibited by Retinoblastoma (Rb), which is another substrate of SIRT1 deacetylation; acetylation of Rb has been shown to regulate the binding of Rb to E2F1 [[A38]] [XREF_BIBR, XREF_BIBR].",
         "Combined_Results": [
-            "RB1 Complex E2F1",
             "SIRT1 Deacetylation RB1",
-            "E2F1 Inhibition RB1"
+            "E2F1 Inhibition RB1",
+            "RB1 Complex E2F1"
         ]
     },
     {
         "Index": "45",
         "Sentence": "Two studies have examined the interactions between SIRT1 and c-MYC producing contradictory results.",
-        "Combined_Results": []
+        "Combined_Results": [
+            "SIRT1 Complex MYC"
+        ]
     },
     {
         "Index": "46",
@@ -321,8 +319,8 @@
         "Index": "49",
         "Sentence": "NBS1, which we have discussed here beforehand as being activated via deacetylation by SIRT1, has also been shown to help control the interaction between Ku70 and Bax by stimulating the acetylation of Ku70 [[A56]] [XREF_BIBR].",
         "Combined_Results": [
-            "SIRT1 Deacetylation NLRP2",
-            "NLRP2 Acetylation XRCC6"
+            "NLRP2 Acetylation XRCC6",
+            "SIRT1 Deacetylation NLRP2"
         ]
     },
     {
@@ -341,27 +339,27 @@
         "Index": "51",
         "Sentence": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription [[A60-A62]].",
         "Combined_Results": [
-            "CRY1 Inhibition CLOCK",
-            "BMAL1 RegulateAmount PER3",
-            "PER1 Inhibition CLOCK",
             "CLOCK Complex BMAL1",
-            "CRY2 Inhibition BMAL1",
-            "CRY2 Inhibition CLOCK",
-            "BMAL1 RegulateAmount CRY2",
             "BMAL1 RegulateAmount CRY1",
-            "CRY1 Inhibition BMAL1",
-            "PER2 Inhibition CLOCK",
-            "PER3 Inhibition CLOCK",
-            "CLOCK RegulateAmount CRY2",
-            "CLOCK RegulateAmount PER3",
-            "PER2 Inhibition BMAL1",
-            "PER3 Inhibition BMAL1",
-            "BMAL1 RegulateAmount PER2",
-            "CLOCK RegulateAmount PER2",
             "CLOCK RegulateAmount CRY1",
+            "PER3 Inhibition BMAL1",
+            "CLOCK RegulateAmount PER3",
+            "CRY1 Inhibition CLOCK",
+            "CLOCK RegulateAmount CRY2",
+            "BMAL1 RegulateAmount PER3",
             "BMAL1 RegulateAmount PER1",
             "CLOCK RegulateAmount PER1",
-            "PER1 Inhibition BMAL1"
+            "PER1 Inhibition CLOCK",
+            "CRY1 Inhibition BMAL1",
+            "PER2 Inhibition CLOCK",
+            "PER1 Inhibition BMAL1",
+            "BMAL1 RegulateAmount PER2",
+            "CRY2 Inhibition CLOCK",
+            "CLOCK RegulateAmount PER2",
+            "PER3 Inhibition CLOCK",
+            "CRY2 Inhibition BMAL1",
+            "BMAL1 RegulateAmount CRY2",
+            "PER2 Inhibition BMAL1"
         ]
     },
     {
@@ -376,6 +374,366 @@
         "Sentence": "PARP1 is capable of ADP ribosylating CLOCK in a circadian manner disrupting the association between the BMAL1 / CLOCK heterodimer and its targets [[A66]] [XREF_BIBR].",
         "Combined_Results": [
             "PARP1 Ribosylation CLOCK"
+        ]
+    },
+    {
+        "Index": "54",
+        "Sentence": "Phosphorylation at these two sites decreases the activity of SIRT1 and disrupts progress of the cell cycle [XREF_BIBR].",
+        "Combined_Results": [
+            "phosphorylation Inhibition SIRT1"
+        ]
+    },
+    {
+        "Index": "55",
+        "Sentence": "In this study, genotoxic stress promoted the association of SIRT1 with SENP1, which may help to inhibit the ability of SIRT1 to promote survival.",
+        "Combined_Results": [
+            "SIRT1 Complex SENP1"
+        ]
+    },
+    {
+        "Index": "56",
+        "Sentence": "This stimulation of PARP1 by AMPK contrasts with the AMPK mediated inhibition of SIRT1 and suggests one mechanism by which AMPK, a metabolic sensor able to regulate ATP consuming pathways, may be capable of controlling cell survival given the roles of PARP1 and SIRT1 in response to DNA damage.",
+        "Combined_Results": [
+            "AMPK Inhibition SIRT1",
+            "AMPK Activation PARP1"
+        ]
+    },
+    {
+        "Index": "57",
+        "Sentence": "This stimulation of PARP1 by AMPK contrasts with the AMPK mediated inhibition of SIRT1 and suggests one mechanism by which AMPK, a metabolic sensor able to regulate ATP consuming pathways, may be capable of controlling cell survival given the roles of PARP1 and SIRT1 in response to DNA damage.",
+        "Combined_Results": [
+            "AMPK Inhibition SIRT1",
+            "AMPK Activation PARP1"
+        ]
+    },
+    {
+        "Index": "58",
+        "Sentence": "ERK1/2 has also been shown to phosphorylate PARP1 in neuronal cells and to stimulate the activity of PARP1 in response to DNA damage; inhibition of ERK1/2 results in the inhibition of PARP1 mediated cell death [XREF_BIBR].",
+        "Combined_Results": [
+            "MAPK1 Activation PARP1",
+            "MAPK1 Phosphorylation PARP1",
+            "MAPK3 Phosphorylation PARP1",
+            "MAPK3 Activation PARP1"
+        ]
+    },
+    {
+        "Index": "59",
+        "Sentence": "However, SIRT1 is able to negatively regulate the PARP1 promoter, and the SIRT1 promoter has been shown to be under the influence of PARP2 [XREF_BIBR, XREF_BIBR].",
+        "Combined_Results": [
+            "SIRT1 RegulateAmount PARP1",
+            "PARP2 RegulateAmount SIRT1"
+        ]
+    },
+    {
+        "Index": "6",
+        "Sentence": "Kinases DYRK1A and DYRK3 have been shown to phosphorylate human SIRT1 at T522, stimulating the deacetylation of p53 by SIRT1 [[A7]]; phosphorylation at this site increases the rate of product release by SIRT1 [XREF_BIBR].",
+        "Combined_Results": [
+            "DYRK1A Phosphorylation SIRT1",
+            "DYRK3 Phosphorylation SIRT1"
+        ]
+    },
+    {
+        "Index": "60",
+        "Sentence": "It has been suggested by several studies that activation of PARP1 causes a depletion in NAD + levels, which inhibits SIRT1 activity [XREF_BIBR - XREF_BIBR].",
+        "Combined_Results": [
+            "PARP1 Inhibition SIRT1"
+        ]
+    },
+    {
+        "Index": "61",
+        "Sentence": "In a related study, the inhibition of NAMPT by FK866 was shown to produce an effect similar to SIRT1 depletion [XREF_BIBR].",
+        "Combined_Results": []
+    },
+    {
+        "Index": "62",
+        "Sentence": "Both SIRT1 and PARP1 are known to modify histones; deacetylation of histones triggers chromatin compaction and the inhibition of transcription, whereas poly (ADP-ribose) polymers help to relax chromatin.",
+        "Combined_Results": []
+    },
+    {
+        "Index": "63",
+        "Sentence": "It has been suggested that ADP ribosylation of histone H1 promotes transcription by inhibiting the ability of histone H1 to bind to DNA [XREF_BIBR].",
+        "Combined_Results": []
+    },
+    {
+        "Index": "64",
+        "Sentence": "It has been suggested that ADP ribosylation of histone H1 promotes transcription by inhibiting the ability of histone H1 to bind to DNA [XREF_BIBR].",
+        "Combined_Results": []
+    },
+    {
+        "Index": "65",
+        "Sentence": "TIP60 dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non homologous end joining [[A24]] [XREF_BIBR, XREF_BIBR].",
+        "Combined_Results": [
+            "None Inhibition TP53BP1",
+            "KAT5 Acetylation Histone_H4"
+        ]
+    },
+    {
+        "Index": "66",
+        "Sentence": "TIP60 dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non homologous end joining [[A24]] [XREF_BIBR, XREF_BIBR].",
+        "Combined_Results": [
+            "KAT5 Acetylation None",
+            "None Inhibition TP53BP1"
+        ]
+    },
+    {
+        "Index": "67",
+        "Sentence": "Conversely, E2F1 has been suggested to be a target for SIRT1 deacetylation, which inhibits E2F1 activity [[A36-A37]] [XREF_BIBR].",
+        "Combined_Results": [
+            "SIRT1 Deacetylation E2F1"
+        ]
+    },
+    {
+        "Index": "68",
+        "Sentence": "found that c-MYC can induce the transcription of NAMPT and help sequester DBC1, an inhibitor of SIRT1 [[A40]] [XREF_BIBR].",
+        "Combined_Results": [
+            "MYC RegulateAmount NAMPT",
+            "MYC Complex CCAR2"
+        ]
+    },
+    {
+        "Index": "69",
+        "Sentence": "found that c-MYC can induce the transcription of NAMPT and help sequester DBC1, an inhibitor of SIRT1 [[A40]] [XREF_BIBR].",
+        "Combined_Results": [
+            "MYC RegulateAmount NAMPT",
+            "MYC Complex CCAR2"
+        ]
+    },
+    {
+        "Index": "7",
+        "Sentence": "Kinases DYRK1A and DYRK3 have been shown to phosphorylate human SIRT1 at T522, stimulating the deacetylation of p53 by SIRT1 [[A7]]; phosphorylation at this site increases the rate of product release by SIRT1 [XREF_BIBR].",
+        "Combined_Results": [
+            "DYRK1A Phosphorylation SIRT1",
+            "DYRK3 Phosphorylation SIRT1"
+        ]
+    },
+    {
+        "Index": "70",
+        "Sentence": "p53 acts as a transcription factor that induces apoptosis and is inhibited by SIRT1 deacetylation [[A44]] [XREF_BIBR, XREF_BIBR].",
+        "Combined_Results": [
+            "SIRT1 Deacetylation TP53"
+        ]
+    },
+    {
+        "Index": "71",
+        "Sentence": "p53 acts as a transcription factor that induces apoptosis and is inhibited by SIRT1 deacetylation [[A44]] [XREF_BIBR, XREF_BIBR].",
+        "Combined_Results": [
+            "SIRT1 Deacetylation TP53"
+        ]
+    },
+    {
+        "Index": "72",
+        "Sentence": "Several proteins help to modify the interactions of SIRT1 with p53, including p53 (itself), DBC1, AROS, and HIC1, suggesting that it is a cellular imperative to control the inhibition of p53 by SIRT1 under certain conditions.",
+        "Combined_Results": [
+            "SIRT1 Complex RPS19BP1",
+            "SIRT1 Complex HIC1",
+            "SIRT1 Complex TP53",
+            "SIRT1 Complex CCAR2"
+        ]
+    },
+    {
+        "Index": "73",
+        "Sentence": "p53 can stimulate the expression of miRNA-34 [[A49]], which subsequently drives down the expression of SIRT1 lowering SIRT1 availability to inhibit p53.",
+        "Combined_Results": [
+            "TP53 RegulateAmount None",
+            "None DecreaseAmount SIRT1"
+        ]
+    },
+    {
+        "Index": "74",
+        "Sentence": "In addition to the role that SIRT1 plays in the inhibition of p53, SIRT1 is capable of deacetylating Ku70 at K539 and K542; the acetylation of Ku70 leads to the dissociation of the Ku70 and Bax helping to trigger apoptosis; Bax is a pro apoptotic factor that is sequestered by Ku70 [[A54-A55]] [XREF_BIBR].",
+        "Combined_Results": [
+            "XRCC6 Complex BAX",
+            "SIRT1 Deacetylation XRCC6"
+        ]
+    },
+    {
+        "Index": "75",
+        "Sentence": "In addition to the role that SIRT1 plays in the inhibition of p53, SIRT1 is capable of deacetylating Ku70 at K539 and K542; the acetylation of Ku70 leads to the dissociation of the Ku70 and Bax helping to trigger apoptosis; Bax is a pro apoptotic factor that is sequestered by Ku70 [[A54-A55]] [XREF_BIBR].",
+        "Combined_Results": [
+            "XRCC6 Complex BAX",
+            "SIRT1 Deacetylation XRCC6"
+        ]
+    },
+    {
+        "Index": "76",
+        "Sentence": "PARP1 cleavage helps prevent energy depletion (NAD + and ATP) in response to severe DNA damage; the extreme loss of NAD + triggers necrosis by reducing cellular ability to synthesize ATP [[A58]] [XREF_BIBR].",
+        "Combined_Results": []
+    },
+    {
+        "Index": "77",
+        "Sentence": "PARP1 cleavage helps prevent energy depletion (NAD + and ATP) in response to severe DNA damage; the extreme loss of NAD + triggers necrosis by reducing cellular ability to synthesize ATP [[A58]] [XREF_BIBR].",
+        "Combined_Results": []
+    },
+    {
+        "Index": "78",
+        "Sentence": "PARP1 cleavage helps prevent energy depletion (NAD + and ATP) in response to severe DNA damage; the extreme loss of NAD + triggers necrosis by reducing cellular ability to synthesize ATP [[A58]] [XREF_BIBR].",
+        "Combined_Results": []
+    },
+    {
+        "Index": "79",
+        "Sentence": "Rapid depletion of NAD + levels by PARP1 reduces SIRT1 activity and inhibits the capability of SIRT1 to deacetylate its targets respond to genotoxic stress [XREF_BIBR].",
+        "Combined_Results": [
+            "PARP1 RegulateActivity SIRT1"
+        ]
+    },
+    {
+        "Index": "8",
+        "Sentence": "Kinases DYRK1A and DYRK3 have been shown to phosphorylate human SIRT1 at T522, stimulating the deacetylation of p53 by SIRT1 [[A7]]; phosphorylation at this site increases the rate of product release by SIRT1 [XREF_BIBR].",
+        "Combined_Results": [
+            "DYRK1A Phosphorylation SIRT1",
+            "DYRK3 Phosphorylation SIRT1"
+        ]
+    },
+    {
+        "Index": "80",
+        "Sentence": "Rapid depletion of NAD + levels by PARP1 reduces SIRT1 activity and inhibits the capability of SIRT1 to deacetylate its targets respond to genotoxic stress [XREF_BIBR].",
+        "Combined_Results": [
+            "PARP1 RegulateActivity SIRT1"
+        ]
+    },
+    {
+        "Index": "81",
+        "Sentence": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription [[A60-A62]].",
+        "Combined_Results": [
+            "CLOCK Complex BMAL1",
+            "BMAL1 RegulateAmount CRY1",
+            "CLOCK RegulateAmount CRY1",
+            "PER3 Inhibition BMAL1",
+            "CLOCK RegulateAmount PER3",
+            "CRY1 Inhibition CLOCK",
+            "CLOCK RegulateAmount CRY2",
+            "BMAL1 RegulateAmount PER3",
+            "BMAL1 RegulateAmount PER1",
+            "CLOCK RegulateAmount PER1",
+            "PER1 Inhibition CLOCK",
+            "CRY1 Inhibition BMAL1",
+            "PER2 Inhibition CLOCK",
+            "PER1 Inhibition BMAL1",
+            "BMAL1 RegulateAmount PER2",
+            "CRY2 Inhibition CLOCK",
+            "CLOCK RegulateAmount PER2",
+            "PER3 Inhibition CLOCK",
+            "CRY2 Inhibition BMAL1",
+            "BMAL1 RegulateAmount CRY2",
+            "PER2 Inhibition BMAL1"
+        ]
+    },
+    {
+        "Index": "82",
+        "Sentence": "The core circadian machinery involves a transactivating CLOCK / BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK / BMAL1 mediated transcription [[A60-A62]].",
+        "Combined_Results": [
+            "CLOCK Complex BMAL1",
+            "BMAL1 RegulateAmount CRY1",
+            "CLOCK RegulateAmount CRY1",
+            "PER3 Inhibition BMAL1",
+            "CLOCK RegulateAmount PER3",
+            "CRY1 Inhibition CLOCK",
+            "CLOCK RegulateAmount CRY2",
+            "BMAL1 RegulateAmount PER3",
+            "BMAL1 RegulateAmount PER1",
+            "CLOCK RegulateAmount PER1",
+            "PER1 Inhibition CLOCK",
+            "CRY1 Inhibition BMAL1",
+            "PER2 Inhibition CLOCK",
+            "PER1 Inhibition BMAL1",
+            "BMAL1 RegulateAmount PER2",
+            "CRY2 Inhibition CLOCK",
+            "CLOCK RegulateAmount PER2",
+            "PER3 Inhibition CLOCK",
+            "CRY2 Inhibition BMAL1",
+            "BMAL1 RegulateAmount CRY2",
+            "PER2 Inhibition BMAL1"
+        ]
+    },
+    {
+        "Index": "83",
+        "Sentence": "Next, the second PARP family member, PARP2, has been shown to inhibit the transcription of SIRT1; the deletion of PARP2 increases overall levels of SIRT1 activity without having to target NAD + levels directly [[A68]] [XREF_BIBR].",
+        "Combined_Results": [
+            "PARP2 Inhibition SIRT1"
+        ]
+    },
+    {
+        "Index": "84",
+        "Sentence": "This finding indicates that inhibitors of PARP proteins may be capable of increasing SIRT1 activity not only via the inhibition of NAD + consumption by PARP family members, but also through the removal of transcriptional inhibition.",
+        "Combined_Results": [
+            "PARP1 Inhibition SIRT1"
+        ]
+    },
+    {
+        "Index": "85",
+        "Sentence": "Lastly, shown recently is that PARP1 increases levels of mitochondrial SIRT3 and that SIRT3 can continue to function under stress conditions because mitochondrial NAD + levels are maintained in the conditions produced by either treatment with methylnitronitrosoguanidine (MNNG), a carcinogen, or N-methyl-D-aspartate (NMDA), a neuronal stressor, even as cytosolic levels of NAD + are depleted by PARP1 [XREF_BIBR, XREF_BIBR].",
+        "Combined_Results": [
+            "PARP1 IncreaseAmount SIRT3"
+        ]
+    },
+    {
+        "Index": "86",
+        "Sentence": "Studies have shown age dependent increases in DNA damage can lead to NAD + depletion [XREF_BIBR, XREF_BIBR].",
+        "Combined_Results": []
+    },
+    {
+        "Index": "87",
+        "Sentence": "E2F1, a transcription factor, induces the transcription of SIRT1 [[A35]].",
+        "Combined_Results": [
+            "E2F1 RegulateAmount SIRT1"
+        ]
+    },
+    {
+        "Index": "88",
+        "Sentence": "found that c-MYC can induce the transcription of NAMPT and help sequester DBC1, an inhibitor of SIRT1 [[A40]] [XREF_BIBR].",
+        "Combined_Results": [
+            "MYC RegulateAmount NAMPT",
+            "MYC Complex CCAR2"
+        ]
+    },
+    {
+        "Index": "89",
+        "Sentence": "There is evidence that PARP1 binds to E2F1 stimulating E2F1 dependent transcription of c-MYC [[A41]] [XREF_BIBR].",
+        "Combined_Results": [
+            "PARP1 Complex E2F1"
+        ]
+    },
+    {
+        "Index": "9",
+        "Sentence": "AMPK phosphorylates human SIRT1 at T344 inhibiting its ability to decacetylate p53, a known target of SIRT1 [[A8]] [XREF_BIBR].",
+        "Combined_Results": [
+            "AMPK Phosphorylation SIRT1",
+            "SIRT1 Deacetylation TP53"
+        ]
+    },
+    {
+        "Index": "90",
+        "Sentence": "p53 can repress SIRT1 expression during nutrient abundance via p53 binding sites on the SIRT1 promoter.",
+        "Combined_Results": [
+            "TP53 RegulateAmount SIRT1"
+        ]
+    },
+    {
+        "Index": "91",
+        "Sentence": "Next, the second PARP family member, PARP2, has been shown to inhibit the transcription of SIRT1; the deletion of PARP2 increases overall levels of SIRT1 activity without having to target NAD + levels directly [[A68]] [XREF_BIBR].",
+        "Combined_Results": [
+            "PARP2 Inhibition SIRT1"
+        ]
+    },
+    {
+        "Index": "92",
+        "Sentence": "Next, the second PARP family member, PARP2, has been shown to inhibit the transcription of SIRT1; the deletion of PARP2 increases overall levels of SIRT1 activity without having to target NAD + levels directly [[A68]] [XREF_BIBR].",
+        "Combined_Results": [
+            "PARP2 Inhibition SIRT1"
+        ]
+    },
+    {
+        "Index": "93",
+        "Sentence": "It has been suggested that in repairable DNA damage situations SIRT1 levels are elevated leading to a survival response, but during lethal DNA damage SIRT1 levels can be attenuated by CHK2 through the phosphorylation of HuR that can ultimately result in cell death [XREF_BIBR].",
+        "Combined_Results": [
+            "CHEK2 Phosphorylation ELAVL1"
+        ]
+    },
+    {
+        "Index": "94",
+        "Sentence": "Lastly, shown recently is that PARP1 increases levels of mitochondrial SIRT3 and that SIRT3 can continue to function under stress conditions because mitochondrial NAD + levels are maintained in the conditions produced by either treatment with methylnitronitrosoguanidine (MNNG), a carcinogen, or N-methyl-D-aspartate (NMDA), a neuronal stressor, even as cytosolic levels of NAD + are depleted by PARP1 [XREF_BIBR, XREF_BIBR].",
+        "Combined_Results": [
+            "PARP1 IncreaseAmount SIRT3"
         ]
     }
 ]
