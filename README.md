@@ -53,12 +53,20 @@ To perform the task of extracting interactions from any scientific paper, in thi
    
    c. Wrote code to get PMCIDs of papers that have PMIDs easily available: `python_scripts/get_pmcid.py`
    
-7. Chunking_level Extraction: `python_scripts/chunking_level_extraction.py`
-   Implemented text chunking strategies to prepare large texts for processing through large language models (LLMs), facilitating the extraction of molecular interactions from segmented    text. This was done using Langchain's textsplitter function.
-8. Sentence_level Extraction: `python_scripts/sentence_level_extraction.py`
+5. Chunking_level Extraction: `python_scripts/chunking_level_extraction.py`
+   
+   Implemented text chunking strategies to prepare large texts for processing through large language models (LLMs), facilitating the extraction of molecular interactions from segmented
+
+   text. This was done using Langchain's textsplitter function.
+   
+6. Sentence_level Extraction: `python_scripts/sentence_level_extraction.py`
+   
    a. Applied sentence-level extraction techniques to scientific documents using OpenAI API and INDRA REACH API to obtain precise interaction data. This was done by processing the            statements gotten from indra to get only the sentences.
+   
    b. This ensured that the same set of sentences were passed through the LLM first, then the indra reach api for processing sentence by sentence. Then the sentence, and the results          from each of the API was noted.
-9. Comparison and Evaluations:
+   
+7. Comparison and Evaluations:
+   
    a. Modified the structure of the results gotten from both the indra reach and LLM to prepare it for evaluation as seen in the functions defined in the script,       
       `python_scripts/sentence_level_extraction.py`:
    ```
@@ -67,7 +75,8 @@ To perform the task of extracting interactions from any scientific paper, in thi
    combine_llm_and_indra_results
    ```
    b. Wrote code to compare the extracted interactions from both APIs and used F1_score as the evaluation metric. `python_scripts/evaluation_code.py`
-10. Utilized Gilda grounding service to ground the genes that are involved in the interactions that were gotten using the LLM. `python_scripts/grounding_genes.py`
+   
+8. Utilized Gilda grounding service to ground the genes that are involved in the interactions that were gotten using the LLM. `python_scripts/grounding_genes.py`
 
 
 # Project Current State
