@@ -1,0 +1,972 @@
+[
+  {
+    "CXVersion": "2.0",
+    "hasFragments": false
+  },
+  {
+    "metaData": [
+      {
+        "elementCount": 1,
+        "name": "attributeDeclarations"
+      },
+      {
+        "elementCount": 41,
+        "name": "nodes"
+      },
+      {
+        "elementCount": 84,
+        "name": "edges"
+      }
+    ]
+  },
+  {
+    "attributeDeclarations": [
+      {
+        "nodes": {
+          "name": {
+            "d": "string"
+          }
+        },
+        "edges": {
+          "interaction": {
+            "d": "string"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "nodes": [
+      {
+        "id": 0,
+        "v": {
+          "name": "JNK"
+        }
+      },
+      {
+        "id": 1,
+        "v": {
+          "name": "SIRT1"
+        }
+      },
+      {
+        "id": 2,
+        "v": {
+          "name": "MTOR"
+        }
+      },
+      {
+        "id": 3,
+        "v": {
+          "name": "SETD7"
+        }
+      },
+      {
+        "id": 4,
+        "v": {
+          "name": "PRKDC"
+        }
+      },
+      {
+        "id": 5,
+        "v": {
+          "name": "PARP1"
+        }
+      },
+      {
+        "id": 6,
+        "v": {
+          "name": "AMPK"
+        }
+      },
+      {
+        "id": 7,
+        "v": {
+          "name": "EP300"
+        }
+      },
+      {
+        "id": 8,
+        "v": {
+          "name": "SUMO1"
+        }
+      },
+      {
+        "id": 9,
+        "v": {
+          "name": "SUMO3"
+        }
+      },
+      {
+        "id": 10,
+        "v": {
+          "name": "PKC"
+        }
+      },
+      {
+        "id": 11,
+        "v": {
+          "name": "NMNAT1"
+        }
+      },
+      {
+        "id": 12,
+        "v": {
+          "name": "CSNK2A1"
+        }
+      },
+      {
+        "id": 13,
+        "v": {
+          "name": "H4"
+        }
+      },
+      {
+        "id": 14,
+        "v": {
+          "name": "MOF"
+        }
+      },
+      {
+        "id": 15,
+        "v": {
+          "name": "TIP60"
+        }
+      },
+      {
+        "id": 16,
+        "v": {
+          "name": "H4K16"
+        }
+      },
+      {
+        "id": 17,
+        "v": {
+          "name": "53BP1"
+        }
+      },
+      {
+        "id": 18,
+        "v": {
+          "name": "ATM"
+        }
+      },
+      {
+        "id": 19,
+        "v": {
+          "name": "NBS1"
+        }
+      },
+      {
+        "id": 20,
+        "v": {
+          "name": "CHEK2"
+        }
+      },
+      {
+        "id": 21,
+        "v": {
+          "name": "ELAVL1"
+        }
+      },
+      {
+        "id": 22,
+        "v": {
+          "name": "MYC"
+        }
+      },
+      {
+        "id": 23,
+        "v": {
+          "name": "RELA"
+        }
+      },
+      {
+        "id": 24,
+        "v": {
+          "name": "NF-\u03baB"
+        }
+      },
+      {
+        "id": 25,
+        "v": {
+          "name": "micro-RNAs"
+        }
+      },
+      {
+        "id": 26,
+        "v": {
+          "name": "p53"
+        }
+      },
+      {
+        "id": 27,
+        "v": {
+          "name": "AROS"
+        }
+      },
+      {
+        "id": 28,
+        "v": {
+          "name": "BMAL1"
+        }
+      },
+      {
+        "id": 29,
+        "v": {
+          "name": "PER2"
+        }
+      },
+      {
+        "id": 30,
+        "v": {
+          "name": "CDK1"
+        }
+      },
+      {
+        "id": 31,
+        "v": {
+          "name": "RB1"
+        }
+      },
+      {
+        "id": 32,
+        "v": {
+          "name": "E2F1"
+        }
+      },
+      {
+        "id": 33,
+        "v": {
+          "name": "FOXO3"
+        }
+      },
+      {
+        "id": 34,
+        "v": {
+          "name": "TP53"
+        }
+      },
+      {
+        "id": 35,
+        "v": {
+          "name": "Ku70"
+        }
+      },
+      {
+        "id": 36,
+        "v": {
+          "name": "CRY1"
+        }
+      },
+      {
+        "id": 37,
+        "v": {
+          "name": "CLOCK"
+        }
+      },
+      {
+        "id": 38,
+        "v": {
+          "name": "PER3"
+        }
+      },
+      {
+        "id": 39,
+        "v": {
+          "name": "PER1"
+        }
+      },
+      {
+        "id": 40,
+        "v": {
+          "name": "CRY2"
+        }
+      }
+    ]
+  },
+  {
+    "edges": [
+      {
+        "id": 0,
+        "s": 0,
+        "t": 1,
+        "v": {
+          "interaction": "Phosphorylation"
+        }
+      },
+      {
+        "id": 1,
+        "s": 2,
+        "t": 1,
+        "v": {
+          "interaction": "Phosphorylation"
+        }
+      },
+      {
+        "id": 2,
+        "s": 3,
+        "t": 1,
+        "v": {
+          "interaction": "Methylation"
+        }
+      },
+      {
+        "id": 3,
+        "s": 4,
+        "t": 5,
+        "v": {
+          "interaction": "Phosphorylation"
+        }
+      },
+      {
+        "id": 4,
+        "s": 6,
+        "t": 5,
+        "v": {
+          "interaction": "Phosphorylation"
+        }
+      },
+      {
+        "id": 5,
+        "s": 7,
+        "t": 5,
+        "v": {
+          "interaction": "Acetylation"
+        }
+      },
+      {
+        "id": 6,
+        "s": 7,
+        "t": 5,
+        "v": {
+          "interaction": "Acetylation"
+        }
+      },
+      {
+        "id": 7,
+        "s": 8,
+        "t": 5,
+        "v": {
+          "interaction": "Sumoylation"
+        }
+      },
+      {
+        "id": 8,
+        "s": 9,
+        "t": 5,
+        "v": {
+          "interaction": "Sumoylation"
+        }
+      },
+      {
+        "id": 9,
+        "s": 5,
+        "t": 9,
+        "v": {
+          "interaction": "Sumoylation"
+        }
+      },
+      {
+        "id": 10,
+        "s": 5,
+        "t": 8,
+        "v": {
+          "interaction": "Sumoylation"
+        }
+      },
+      {
+        "id": 11,
+        "s": 1,
+        "t": 5,
+        "v": {
+          "interaction": "Deacetylation"
+        }
+      },
+      {
+        "id": 12,
+        "s": 10,
+        "t": 11,
+        "v": {
+          "interaction": "Phosphorylation"
+        }
+      },
+      {
+        "id": 13,
+        "s": 11,
+        "t": 5,
+        "v": {
+          "interaction": "Complex"
+        }
+      },
+      {
+        "id": 14,
+        "s": 12,
+        "t": 1,
+        "v": {
+          "interaction": "Phosphorylation"
+        }
+      },
+      {
+        "id": 15,
+        "s": 13,
+        "t": 13,
+        "v": {
+          "interaction": "Acetylation"
+        }
+      },
+      {
+        "id": 16,
+        "s": 13,
+        "t": 13,
+        "v": {
+          "interaction": "Ribosylation"
+        }
+      },
+      {
+        "id": 17,
+        "s": 1,
+        "t": 5,
+        "v": {
+          "interaction": "RegulateActivity"
+        }
+      },
+      {
+        "id": 18,
+        "s": 1,
+        "t": 14,
+        "v": {
+          "interaction": "Deacetylation"
+        }
+      },
+      {
+        "id": 19,
+        "s": 1,
+        "t": 15,
+        "v": {
+          "interaction": "Deacetylation"
+        }
+      },
+      {
+        "id": 20,
+        "s": 1,
+        "t": 14,
+        "v": {
+          "interaction": "Deacetylation"
+        }
+      },
+      {
+        "id": 21,
+        "s": 1,
+        "t": 15,
+        "v": {
+          "interaction": "Deacetylation"
+        }
+      },
+      {
+        "id": 22,
+        "s": 1,
+        "t": 14,
+        "v": {
+          "interaction": "Deacetylation"
+        }
+      },
+      {
+        "id": 23,
+        "s": 1,
+        "t": 15,
+        "v": {
+          "interaction": "Deacetylation"
+        }
+      },
+      {
+        "id": 24,
+        "s": 16,
+        "t": 17,
+        "v": {
+          "interaction": "Inhibition"
+        }
+      },
+      {
+        "id": 25,
+        "s": 15,
+        "t": 16,
+        "v": {
+          "interaction": "Acetylation"
+        }
+      },
+      {
+        "id": 26,
+        "s": 18,
+        "t": 19,
+        "v": {
+          "interaction": "Phosphorylation"
+        }
+      },
+      {
+        "id": 27,
+        "s": 1,
+        "t": 19,
+        "v": {
+          "interaction": "Deacetylation"
+        }
+      },
+      {
+        "id": 28,
+        "s": 20,
+        "t": 21,
+        "v": {
+          "interaction": "Phosphorylation"
+        }
+      },
+      {
+        "id": 29,
+        "s": 22,
+        "t": 1,
+        "v": {
+          "interaction": "IncreaseAmount"
+        }
+      },
+      {
+        "id": 30,
+        "s": 1,
+        "t": 22,
+        "v": {
+          "interaction": "Deacetylation"
+        }
+      },
+      {
+        "id": 31,
+        "s": 12,
+        "t": 1,
+        "v": {
+          "interaction": "Phosphorylation"
+        }
+      },
+      {
+        "id": 32,
+        "s": 1,
+        "t": 23,
+        "v": {
+          "interaction": "Deacetylation"
+        }
+      },
+      {
+        "id": 33,
+        "s": 1,
+        "t": 23,
+        "v": {
+          "interaction": "Deacetylation"
+        }
+      },
+      {
+        "id": 34,
+        "s": 7,
+        "t": 5,
+        "v": {
+          "interaction": "Acetylation"
+        }
+      },
+      {
+        "id": 35,
+        "s": 5,
+        "t": 24,
+        "v": {
+          "interaction": "Complex"
+        }
+      },
+      {
+        "id": 36,
+        "s": 7,
+        "t": 5,
+        "v": {
+          "interaction": "Acetylation"
+        }
+      },
+      {
+        "id": 37,
+        "s": 5,
+        "t": 24,
+        "v": {
+          "interaction": "Complex"
+        }
+      },
+      {
+        "id": 38,
+        "s": 25,
+        "t": 1,
+        "v": {
+          "interaction": "RegulateActivity"
+        }
+      },
+      {
+        "id": 39,
+        "s": 1,
+        "t": 26,
+        "v": {
+          "interaction": "Deacetylation"
+        }
+      },
+      {
+        "id": 40,
+        "s": 27,
+        "t": 1,
+        "v": {
+          "interaction": "Complex"
+        }
+      },
+      {
+        "id": 41,
+        "s": 1,
+        "t": 26,
+        "v": {
+          "interaction": "Deacetylation"
+        }
+      },
+      {
+        "id": 42,
+        "s": 27,
+        "t": 1,
+        "v": {
+          "interaction": "Complex"
+        }
+      },
+      {
+        "id": 43,
+        "s": 1,
+        "t": 28,
+        "v": {
+          "interaction": "Deacetylation"
+        }
+      },
+      {
+        "id": 44,
+        "s": 1,
+        "t": 29,
+        "v": {
+          "interaction": "Deacetylation"
+        }
+      },
+      {
+        "id": 45,
+        "s": 29,
+        "t": 29,
+        "v": {
+          "interaction": "Acetylation"
+        }
+      },
+      {
+        "id": 46,
+        "s": 30,
+        "t": 1,
+        "v": {
+          "interaction": "Phosphorylation"
+        }
+      },
+      {
+        "id": 47,
+        "s": 1,
+        "t": 11,
+        "v": {
+          "interaction": "Complex"
+        }
+      },
+      {
+        "id": 48,
+        "s": 1,
+        "t": 11,
+        "v": {
+          "interaction": "Complex"
+        }
+      },
+      {
+        "id": 49,
+        "s": 16,
+        "t": 17,
+        "v": {
+          "interaction": "Inhibition"
+        }
+      },
+      {
+        "id": 50,
+        "s": 15,
+        "t": 16,
+        "v": {
+          "interaction": "Acetylation"
+        }
+      },
+      {
+        "id": 51,
+        "s": 5,
+        "t": 18,
+        "v": {
+          "interaction": "Activation"
+        }
+      },
+      {
+        "id": 52,
+        "s": 5,
+        "t": 18,
+        "v": {
+          "interaction": "Complex"
+        }
+      },
+      {
+        "id": 53,
+        "s": 1,
+        "t": 31,
+        "v": {
+          "interaction": "Deacetylation"
+        }
+      },
+      {
+        "id": 54,
+        "s": 32,
+        "t": 31,
+        "v": {
+          "interaction": "Inhibition"
+        }
+      },
+      {
+        "id": 55,
+        "s": 31,
+        "t": 32,
+        "v": {
+          "interaction": "Acetylation"
+        }
+      },
+      {
+        "id": 56,
+        "s": 5,
+        "t": 32,
+        "v": {
+          "interaction": "Complex"
+        }
+      },
+      {
+        "id": 57,
+        "s": 33,
+        "t": 34,
+        "v": {
+          "interaction": "Inhibition"
+        }
+      },
+      {
+        "id": 58,
+        "s": 1,
+        "t": 19,
+        "v": {
+          "interaction": "Deacetylation"
+        }
+      },
+      {
+        "id": 59,
+        "s": 19,
+        "t": 35,
+        "v": {
+          "interaction": "Acetylation"
+        }
+      },
+      {
+        "id": 60,
+        "s": 30,
+        "t": 1,
+        "v": {
+          "interaction": "Phosphorylation"
+        }
+      },
+      {
+        "id": 61,
+        "s": 36,
+        "t": 37,
+        "v": {
+          "interaction": "Inhibition"
+        }
+      },
+      {
+        "id": 62,
+        "s": 28,
+        "t": 38,
+        "v": {
+          "interaction": "RegulateAmount"
+        }
+      },
+      {
+        "id": 63,
+        "s": 39,
+        "t": 37,
+        "v": {
+          "interaction": "Inhibition"
+        }
+      },
+      {
+        "id": 64,
+        "s": 37,
+        "t": 28,
+        "v": {
+          "interaction": "Complex"
+        }
+      },
+      {
+        "id": 65,
+        "s": 40,
+        "t": 28,
+        "v": {
+          "interaction": "Inhibition"
+        }
+      },
+      {
+        "id": 66,
+        "s": 40,
+        "t": 37,
+        "v": {
+          "interaction": "Inhibition"
+        }
+      },
+      {
+        "id": 67,
+        "s": 28,
+        "t": 40,
+        "v": {
+          "interaction": "RegulateAmount"
+        }
+      },
+      {
+        "id": 68,
+        "s": 28,
+        "t": 36,
+        "v": {
+          "interaction": "RegulateAmount"
+        }
+      },
+      {
+        "id": 69,
+        "s": 36,
+        "t": 28,
+        "v": {
+          "interaction": "Inhibition"
+        }
+      },
+      {
+        "id": 70,
+        "s": 29,
+        "t": 37,
+        "v": {
+          "interaction": "Inhibition"
+        }
+      },
+      {
+        "id": 71,
+        "s": 38,
+        "t": 37,
+        "v": {
+          "interaction": "Inhibition"
+        }
+      },
+      {
+        "id": 72,
+        "s": 37,
+        "t": 40,
+        "v": {
+          "interaction": "RegulateAmount"
+        }
+      },
+      {
+        "id": 73,
+        "s": 37,
+        "t": 38,
+        "v": {
+          "interaction": "RegulateAmount"
+        }
+      },
+      {
+        "id": 74,
+        "s": 29,
+        "t": 28,
+        "v": {
+          "interaction": "Inhibition"
+        }
+      },
+      {
+        "id": 75,
+        "s": 38,
+        "t": 28,
+        "v": {
+          "interaction": "Inhibition"
+        }
+      },
+      {
+        "id": 76,
+        "s": 28,
+        "t": 29,
+        "v": {
+          "interaction": "RegulateAmount"
+        }
+      },
+      {
+        "id": 77,
+        "s": 37,
+        "t": 29,
+        "v": {
+          "interaction": "RegulateAmount"
+        }
+      },
+      {
+        "id": 78,
+        "s": 37,
+        "t": 36,
+        "v": {
+          "interaction": "RegulateAmount"
+        }
+      },
+      {
+        "id": 79,
+        "s": 28,
+        "t": 39,
+        "v": {
+          "interaction": "RegulateAmount"
+        }
+      },
+      {
+        "id": 80,
+        "s": 37,
+        "t": 39,
+        "v": {
+          "interaction": "RegulateAmount"
+        }
+      },
+      {
+        "id": 81,
+        "s": 39,
+        "t": 28,
+        "v": {
+          "interaction": "Inhibition"
+        }
+      },
+      {
+        "id": 82,
+        "s": 1,
+        "t": 28,
+        "v": {
+          "interaction": "Deacetylation"
+        }
+      },
+      {
+        "id": 83,
+        "s": 5,
+        "t": 37,
+        "v": {
+          "interaction": "Ribosylation"
+        }
+      }
+    ]
+  },
+  {
+    "status": [
+      {
+        "error": "",
+        "success": true
+      }
+    ]
+  }
+]
