@@ -1,8 +1,19 @@
 # Large Language Model-based creation of knowledge graph from a publication
-This goal of this project is to develop a Python web application that utilizes Large Language Models (LLMs) for extracting, transforming, and visualizing molecular interaction networks from scientific literature. This project is leveraging LLMs' advanced natural language processing capabilities, the application will interpret complex academic texts to construct interaction graphs. These results would be uploaded to the Network Data Exchange (NDEx) platform, enabling researchers to manage and visualize biological data more effectively. Key deliverables include: 
+This goal of this project is to develop a Python web application that utilizes Large Language Models (LLMs) for extracting, transforming, and visualizing molecular interaction networks from scientific literature. This project is leveraging LLMs' advanced natural language processing capabilities, the application will interpret complex academic texts to construct knowledge graphs. These results would be uploaded to the Network Data Exchange (NDEx) platform, enabling researchers to manage and visualize biological data more effectively. Key deliverables include: 
 1. An interactive Python web app for document processing and extraction of interactions using LLMs.
 2. Benchmarking of results gotten from LLM with results gotten from other sources to evaluate the performance of the LLM.
-3. Seamless integration with the NDEx API for data management and graph visualization using Cytoscape.
+3. Seamless integration with the NDEx API for data management and graph visualization using Cytoscape, an open-source software platform specifically designed for visualizing complex networks and integrating these with any type of attribute data.
+
+### Brief description of Knowledge graphs
+
+A knowledge graph is a structured representation of relationships between entities, like molecular interactions extracted from scientific literature. It enables intuitive querying, reasoning, and visualization of complex biological data, aiding in understanding biological systems and facilitating discoveries. The knowledge graph in this project will focus on representing molecular interactions, specifically focusing on relationships and other biological interactions described in the literature. This graph will include nodes representing biological entities (e.g., proteins, genes) and edges representing the interactions between these entities. 
+
+### Why is a Knowledge Graph Helpful to Scientists? 
+Knowledge graphs are valuable to scientists because they provide a comprehensive and easily navigable representation of complex relationships within biological data. They help in understanding how different molecules interact in a biological pathway, identifying potential targets for drug development, and predicting the effects of molecular interventions.
+
+
+
+
 
 ## Prerequisites
 Python (version 3.6 or higher)
