@@ -1,4 +1,4 @@
-<img width="896" alt="Screenshot 2024-08-25 at 12 31 47" src="https://github.com/user-attachments/assets/0b55e975-a8e0-454b-bea8-997273e4e602"># Large Language Model-based creation of knowledge graph from a publication
+# Large Language Model-based creation of knowledge graph from a publication
 This goal of this project is to develop a Python web application that utilizes Large Language Models (LLMs) for extracting, transforming, and visualizing molecular interaction networks from scientific literature. This project is leveraging LLMs' advanced natural language processing capabilities, the application will interpret complex academic texts to construct knowledge graphs. These results would be uploaded to the Network Data Exchange (NDEx) platform, enabling researchers to manage and visualize biological data more effectively. 
 
 Key deliverables include: 
