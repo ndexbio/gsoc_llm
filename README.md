@@ -60,11 +60,9 @@ To perform the task of extracting interactions from any scientific paper, in thi
    
 2. Perfromed prompt engineering to get the most efficient prompt. There are 3 versions of the prompt as seen under the `papers` folder
    
-3. Developed the get interactions script: `python_scripts/get_interactions.py`.
-   
-   This script is responsible for reading in the prompt and running the extraction chain. The extraction chain was created using Langchain tools.
-   
-   The extraction chain flows this way: prompt ----> extraction_model ----> Json_output_parser
+3. Developed the get interactions script: `python_scripts/get_interactions.py`. This script is responsible for reading in the prompt and running the extraction chain. The extraction chain was created using Langchain tools.
+
+The extraction chain flows this way: prompt ----> extraction_model ----> Json_output_parser
 4. Interacting with Indra Reach:
    
    a. Downloaded and installed Indra Reach API locally
@@ -73,18 +71,17 @@ To perform the task of extracting interactions from any scientific paper, in thi
    
    c. Wrote code to get PMCIDs of papers that have PMIDs easily available: `python_scripts/get_pmcid.py`
    
-5. Chunking_level Extraction: `python_scripts/chunking_level_extraction.py`
-   
+5. Chunking_level Extraction: `python_scripts/chunking_level_extraction.py`.
    Implemented text chunking strategies to prepare large texts for processing through large language models (LLMs), facilitating the extraction of molecular interactions from segmented
    text. This was done using Langchain's textsplitter function.
    
-6. Sentence_level Extraction: `python_scripts/sentence_level_extraction.py`
+7. Sentence_level Extraction: `python_scripts/sentence_level_extraction.py`
    
    a. Applied sentence-level extraction techniques to scientific documents using OpenAI API and INDRA REACH API to obtain precise interaction data. This was done by processing the statements gotten from indra to get only the sentences.
    
    b. This ensured that the same set of sentences were passed through the LLM first, then the indra reach api for processing sentence by sentence. Then the sentence, and the results from each of the API was noted.
    
-7. Comparison and Evaluations:
+8. Comparison and Evaluations:
    
    a. Modified the structure of the results gotten from both the indra reach and LLM to prepare it for evaluation as seen in the functions defined in the script,       
       `python_scripts/sentence_level_extraction.py`:
@@ -95,7 +92,7 @@ To perform the task of extracting interactions from any scientific paper, in thi
    ```
    b. Wrote code to compare the extracted interactions from both APIs and used F1_score as the evaluation metric. `python_scripts/evaluation_code.py`
    
-8. Utilized Gilda grounding service to ground the genes, i.e convert to standard HGNC gene symbols that are involved in the interactions that were missed by the LLM and not grounded in order to get better evaluation results. The function is defined in this script: `python_scripts/grounding_genes.py`. Below are some examples that shows where the LLM succeeded in this and where it failed by comparing `results/pmc3898398/llm_combined_results.json` and `results/pmc3898398/grounded_llm_results.json`. 
+9. Utilized Gilda grounding service to ground the genes, i.e convert to standard HGNC gene symbols that are involved in the interactions that were missed by the LLM and not grounded in order to get better evaluation results. The function is defined in this script: `python_scripts/grounding_genes.py`. Below are some examples that shows where the LLM succeeded in this and where it failed by comparing `results/pmc3898398/llm_combined_results.json` and `results/pmc3898398/grounded_llm_results.json`. 
 
    a. LLM successfully grounded:
       <p float="left">
@@ -166,22 +163,20 @@ To perform the task of extracting interactions from any scientific paper, in thi
  
    - In the example below, both the indra and the llm gave wrong interpretations of the sentence and therefore gave wrong outputs.
 
-6. Converted extracted interactions to CX2 networks, uploaded them to NDEx for visaulisation using the script: `python_scripts/convert_to_cx2.py`. These networks can be viewed on Favour James personal profile on NDEx here:
-The images below show the networks gotten from both the llm and indra for 50 sentences:
+6. Converted extracted interactions to CX2 networks, uploaded them to NDEx for visaulisation using the script: `python_scripts/convert_to_cx2.py`.
 
-<img width="835" alt="Screenshot 2024-08-24 at 19 56 55" src="https://github.com/user-attachments/assets/c77362ae-8941-4a4a-aed9-34a49a45c7b4">
+   These networks can be viewed on Favour James personal profile on NDEx here: https://www.ndexbio.org/viewer/networks/06a35259-6235-11ef-a7fd-005056ae23aa
 
+   The images below show the networks gotten from both the llm and indra for 50 sentences:
 
+<img width="500" alt="Screenshot 2024-08-24 at 19 56 55" src="https://github.com/user-attachments/assets/c77362ae-8941-4a4a-aed9-34a49a45c7b4">
 
-
-     
+  
 # Future Tasks
   
-- Develop a tool to enable a user upload scientific papers, get the interactions, and automatically upload the networks to NDEX and interact with the knowledgre graphs. This extension will allow the creation of knowledge graphs directly from scientific literature, making the tool one of the first "app" extensions for the new Cytoscape Web platform.
-  
-- Testing out the model with other API like Claude 3.5 sonnet
-  
-- Perform prompt engineering techniques to get the most efficient prompt
+- Develop a tool that enables users to upload scientific papers, extract molecular interactions, and automatically generate and upload networks to NDEx. This tool will facilitate seamless interaction with knowledge graphs and will serve as one of the pioneering "app" extensions for the new Cytoscape Web platform, enabling direct knowledge graph creation from scientific literature.
+- Experiment with the model using various APIs, including Claude 3.5 Sonnet, to evaluate its performance and versatility.
+- Apply prompt engineering techniques with Dspy to optimize prompt effectiveness and ensure the most efficient extraction of information.
 
 # Challenges and Lessons Learned
 ## Lessons Learned
