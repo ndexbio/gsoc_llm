@@ -164,9 +164,9 @@ The extraction chain flows this way: prompt ----> extraction_model ----> Json_ou
      leveraging background biological knowledge to generate possible interactions that could be relevant in a broader biological context.
          <p float="left">
            <img src="https://github.com/user-attachments/assets/5fdb562e-ef71-4e28-9669-26f7ef4b5ba1" width="300" />
-           <img src="https://github.com/user-attachments/assets/d81db160-4446-4b12-ada6-b31acd9a33a" width="300" /> 
+           <img src="https://github.com/user-attachments/assets/b1746303-be76-4ea8-aba9-5e2c830d183d" width="300" /> 
          </p>
-      
+
    - In the example below, The LLM correctly identifies both interactions mentioned in the sentence: the regulation by p53 of miRNA-34 and the subsequent decrease in SIRT1 expression       by miRNA-34. INDRA's output does not capture the interactions described in the sentence. Instead, it suggests a self-inhibitory action by SIRT1 on itself, which is not relevant        to the given text.
         <p float="left">
            <img src="https://github.com/user-attachments/assets/7acfb7d4-1a2e-4388-89a5-27cf12f839f0" width="300" />
