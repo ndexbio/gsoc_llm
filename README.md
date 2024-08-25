@@ -177,9 +177,9 @@ The extraction chain flows this way: prompt ----> extraction_model ----> Json_ou
      directly inhibits SIRT1.
         <p float="left">
            <img src="https://github.com/user-attachments/assets/a5a1c04a-b1c6-4955-9961-03f4a54941d1" width="300" />
-           <img src="https://github.com/user-attachments/assets/751234f0-e04a-4891-a597-0e5e826bb49" width="300" /> 
+           <img src="https://github.com/user-attachments/assets/643cb356-c7b2-4827-be32-7f488cde2741" width="300" /> 
          </p>
-
+         
    - In the example below, both the indra and the llm gave wrong interpretations of the sentence and therefore gave wrong outputs.
         <p float="left">
            <img src="https://github.com/user-attachments/assets/e119c5cb-3734-45a4-a147-058ae5af0ebc" width="300" />
