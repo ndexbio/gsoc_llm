@@ -80,9 +80,9 @@ To perform the task of extracting interactions from any scientific paper, in thi
    
 6. Sentence_level Extraction: `python_scripts/sentence_level_extraction.py`
    
-   a. Applied sentence-level extraction techniques to scientific documents using OpenAI API and INDRA REACH API to obtain precise interaction data. This was done by processing the            statements gotten from indra to get only the sentences.
+   a. Applied sentence-level extraction techniques to scientific documents using OpenAI API and INDRA REACH API to obtain precise interaction data. This was done by processing the statements gotten from indra to get only the sentences.
    
-   b. This ensured that the same set of sentences were passed through the LLM first, then the indra reach api for processing sentence by sentence. Then the sentence, and the results          from each of the API was noted.
+   b. This ensured that the same set of sentences were passed through the LLM first, then the indra reach api for processing sentence by sentence. Then the sentence, and the results from each of the API was noted.
    
 7. Comparison and Evaluations:
    
@@ -99,8 +99,8 @@ To perform the task of extracting interactions from any scientific paper, in thi
 
 a. LLM successfully grounded, comparison between `results/pmc3898398/llm_combined_results.json` and `results/pmc3898398/grounded_llm_results.json`:
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/b621ae56-5053-49ca-a9aa-ecb0b1f9b996" width="200" />
-  <img src="[path/to/image2.png](https://github.com/user-attachments/assets/e1d31d8b-a42f-4232-907f-be1b565626eb)" width="200" /> 
+  <img src="https://github.com/user-attachments/assets/b621ae56-5053-49ca-a9aa-ecb0b1f9b996" width="500" />
+  <img src="https://github.com/user-attachments/assets/e1d31d8b-a42f-4232-907f-be1b565626eb" width="500" /> 
 </p>
 
   
