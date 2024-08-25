@@ -1,4 +1,4 @@
-# Large Language Model-based creation of knowledge graph from a publication
+<img width="896" alt="Screenshot 2024-08-25 at 12 31 47" src="https://github.com/user-attachments/assets/0b55e975-a8e0-454b-bea8-997273e4e602"># Large Language Model-based creation of knowledge graph from a publication
 This goal of this project is to develop a Python web application that utilizes Large Language Models (LLMs) for extracting, transforming, and visualizing molecular interaction networks from scientific literature. This project is leveraging LLMs' advanced natural language processing capabilities, the application will interpret complex academic texts to construct knowledge graphs. These results would be uploaded to the Network Data Exchange (NDEx) platform, enabling researchers to manage and visualize biological data more effectively. 
 
 Key deliverables include: 
@@ -153,21 +153,32 @@ The extraction chain flows this way: prompt ----> extraction_model ----> Json_ou
 4. Best Performing prompt at the moment is: `papers/prompt_file_v3.txt`. The LLM is told to extract the interactions and resolve them to standard identifiers(grounding). The LLM is seen to do this perfectly for 
 
 5. Some examples of the interactions gotten are shown below:
-   - Examples that show same interactions gotten for both indra and llm:
-
+   - Example that show same interactions gotten for both indra and llm:
+      <p float="left">
+        <img src="https://github.com/user-attachments/assets/526b1d1d-f28f-4cbd-a7d7-d1ea65373d95" width="300" />
+        <img src="https://github.com/user-attachments/assets/e51410e3-f803-425a-b7ca-32e7734a68a4" width="300" /> 
+      </p>
+      
    - In the example below, the LLM extracted several plausible biological interactions (such as "CLOCK RegulateAmount PER3", "PER1 Inhibition CLOCK", "CRY1 Inhibition BMAL1", etc.) that, while possible within the context of circadian rhythm biology, were not directly mentioned in the provided sentence. These inferred interactions suggest that the LLM is leveraging background biological knowledge to generate possible interactions that could be relevant in a broader biological context.
-
+     <p float="left">
+        <img src="https://github.com/user-attachments/assets/5fdb562e-ef71-4e28-9669-26f7ef4b5ba1" width="300" />
+        <img src="https://github.com/user-attachments/assets/3ac158de-ee01-4361-aabf-89ef3d2564b1" width="300" /> 
+      </p>
+      
    - In the example below, The LLM correctly identifies both interactions mentioned in the sentence: the regulation by p53 of miRNA-34 and the subsequent decrease in SIRT1 expression by miRNA-34. INDRA's output does not capture the interactions described in the sentence. Instead, it suggests a self-inhibitory action by SIRT1 on itself, which is not relevant to the given text.
-     
+     <p float="left">
+        <img src="https://github.com/user-attachments/assets/7d023273-e8cf-4409-b53f-b7ca50842999" width="300" />
+        <img src="https://github.com/user-attachments/assets/9617806b-53cc-4d8e-a9bb-bd2347cd36e1" width="300" /> 
+      </p>
+
    - In the example below, The LLM incorrectly extracted that PARP inhibits SIRT1. The sentence indicates that inhibiting PARP leads to increased SIRT1 activity, not that PARP directly inhibits SIRT1. The INDRA output correctly identifies the inhibition of NAD+ consumption by PARP proteins as described in the sentence.
  
    - In the example below, both the indra and the llm gave wrong interpretations of the sentence and therefore gave wrong outputs.
 
-6. Converted extracted interactions to CX2 networks, uploaded them to NDEx for visaulisation using the script: `python_scripts/convert_to_cx2.py`.
+6. Converted extracted interactions to CX2 networks, uploaded them to NDEx for visaulisation using the script: `python_scripts/convert_to_cx2.py`. These networks can be viewed on         Favour James personal profile on NDEx here: https://www.ndexbio.org/viewer/networks/06a35259-6235-11ef-a7fd-005056ae23aa.
+   The images below show the networks gotten from both the llm and indra for 50 sentences:
 
-   These networks can be viewed on Favour James personal profile on NDEx here: https://www.ndexbio.org/viewer/networks/06a35259-6235-11ef-a7fd-005056ae23aa. The images below show the networks gotten from both the llm and indra for 50 sentences:
-
-<img width="500" alt="Screenshot 2024-08-24 at 19 56 55" src="https://github.com/user-attachments/assets/c77362ae-8941-4a4a-aed9-34a49a45c7b4">
+   <img width="500" alt="Screenshot 2024-08-24 at 19 56 55" src="https://github.com/user-attachments/assets/c77362ae-8941-4a4a-aed9-34a49a45c7b4">
 
   
 # Future Tasks
