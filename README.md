@@ -162,18 +162,26 @@ The extraction chain flows this way: prompt ----> extraction_model ----> Json_ou
    - In the example below, the LLM extracted several plausible biological interactions (such as "CLOCK RegulateAmount PER3", "PER1 Inhibition CLOCK", "CRY1 Inhibition BMAL1", etc.) that, while possible within the context of circadian rhythm biology, were not directly mentioned in the provided sentence. These inferred interactions suggest that the LLM is leveraging background biological knowledge to generate possible interactions that could be relevant in a broader biological context.
      <p float="left">
         <img src="https://github.com/user-attachments/assets/5fdb562e-ef71-4e28-9669-26f7ef4b5ba1" width="300" />
-        <img src="https://github.com/user-attachments/assets/3ac158de-ee01-4361-aabf-89ef3d2564b1" width="300" /> 
+        <img src="https://github.com/user-attachments/assets/d81db160-4446-4b12-ada6-b31acd9a33a" width="300" /> 
       </p>
       
    - In the example below, The LLM correctly identifies both interactions mentioned in the sentence: the regulation by p53 of miRNA-34 and the subsequent decrease in SIRT1 expression by miRNA-34. INDRA's output does not capture the interactions described in the sentence. Instead, it suggests a self-inhibitory action by SIRT1 on itself, which is not relevant to the given text.
      <p float="left">
-        <img src="https://github.com/user-attachments/assets/7d023273-e8cf-4409-b53f-b7ca50842999" width="300" />
-        <img src="https://github.com/user-attachments/assets/9617806b-53cc-4d8e-a9bb-bd2347cd36e1" width="300" /> 
+        <img src="https://github.com/user-attachments/assets/7acfb7d4-1a2e-4388-89a5-27cf12f839f0" width="300" />
+        <img src="https://github.com/user-attachments/assets/ea910d85-5604-49d1-b727-c11ce36bb9d6" width="300" /> 
       </p>
 
-   - In the example below, The LLM incorrectly extracted that PARP inhibits SIRT1. The sentence indicates that inhibiting PARP leads to increased SIRT1 activity, not that PARP directly inhibits SIRT1. The INDRA output correctly identifies the inhibition of NAD+ consumption by PARP proteins as described in the sentence.
- 
+   - In the example below, The LLM incorrectly extracted that PARP2 inhibits SIRT1. The sentence indicates that inhibiting PARP2 leads to increased SIRT1 activity, not that PARP directly inhibits SIRT1.
+   <p float="left">
+        <img src="https://github.com/user-attachments/assets/a5a1c04a-b1c6-4955-9961-03f4a54941d1" width="300" />
+        <img src="https://github.com/user-attachments/assets/751234f0-e04a-4891-a597-0e5e826bb49" width="300" /> 
+   </p>
+
    - In the example below, both the indra and the llm gave wrong interpretations of the sentence and therefore gave wrong outputs.
+     <p float="left">
+        <img src="https://github.com/user-attachments/assets/e119c5cb-3734-45a4-a147-058ae5af0ebc" width="300" />
+        <img src="https://github.com/user-attachments/assets/82263567-40d5-43ae-ae5f-e10ca68734b6" width="300" /> 
+     </p>
 
 6. Converted extracted interactions to CX2 networks, uploaded them to NDEx for visaulisation using the script: `python_scripts/convert_to_cx2.py`. These networks can be viewed on         Favour James personal profile on NDEx here: https://www.ndexbio.org/viewer/networks/06a35259-6235-11ef-a7fd-005056ae23aa.
    The images below show the networks gotten from both the llm and indra for 50 sentences:
@@ -202,6 +210,14 @@ The extraction chain flows this way: prompt ----> extraction_model ----> Json_ou
 6. Biological Interaction Types and Gene Grounding: Acquired knowledge on the various types of molecular interactions that occur between genes, as characterized by INDRA, and the importance of gene grounding. Learned techniques for ensuring accurate grounding of genes to improve data reliability and consistency.
 
 7. Enhanced Understanding of Gene Grounding: Explored the concept of gene grounding in detail, focusing on techniques to ensure correct mapping and standardization of gene names across different databases and ontologies, crucial for accurate biological data interpretation.
+
+## Technologies Learnt
+During my GSoC project, I explored several new technologies and the most interesting ones were:
+1. LangChain: A framework for building applications powered by language models. It was fascinating to see how LangChain enables chaining multiple LLM interactions, creating more sophisticated natural language processing workflows.
+
+2. INDRA (Integrated Network and Dynamical Reasoning Assembler): A system for extracting, standardizing, and modeling scientific knowledge. It was intriguing to see how INDRA automates the conversion of unstructured biological data into structured formats for easier analysis using REACH.
+
+One of the most captivating concepts was **knowledge graphs**, which represent complex biological interactions from various sources. Building these graphs from scientific texts was enlightening, showing how interconnected biological data can be visualized and analyzed for new insights. Additionally, prompt engineering for LLMs was a critical skill learned, highlighting how carefully crafted prompts can improve model outputs and drive better results in NLP tasks.
   
 ## Challenges Faced
 1. Installation of INDRA Reach API Locally:
@@ -226,4 +242,5 @@ The extraction chain flows this way: prompt ----> extraction_model ----> Json_ou
 - https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview
 - https://www.deeplearning.ai/short-courses/functions-tools-agents-langchain/
 - https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/
+- https://ndex2.readthedocs.io/en/latest/index.html
 
