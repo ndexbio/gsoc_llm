@@ -99,18 +99,18 @@ To perform the task of extracting interactions from any scientific paper, in thi
 
    a. LLM successfully grounded:
       <p float="left">
-        <img src="https://github.com/user-attachments/assets/b621ae56-5053-49ca-a9aa-ecb0b1f9b996" width="500" />
-        <img src="https://github.com/user-attachments/assets/e1d31d8b-a42f-4232-907f-be1b565626eb" width="500" /> 
+        <img src="https://github.com/user-attachments/assets/b621ae56-5053-49ca-a9aa-ecb0b1f9b996" width="300" />
+        <img src="https://github.com/user-attachments/assets/e1d31d8b-a42f-4232-907f-be1b565626eb" width="300" /> 
       </p>
    b. LLM unsuccessfully grounded:
       <p float="left">
-        <img src="https://github.com/user-attachments/assets/c470204a-e5a4-474e-a429-779932940a48" width="500" />
-        <img src="https://github.com/user-attachments/assets/5a970b08-9ba0-4e5a-8387-e788a92bcea9" width="500" /> 
+        <img src="https://github.com/user-attachments/assets/c470204a-e5a4-474e-a429-779932940a48" width="300" />
+        <img src="https://github.com/user-attachments/assets/5a970b08-9ba0-4e5a-8387-e788a92bcea9" width="300" /> 
       </p>
    c. Example where the grounding service failed:
       <p float="left">
-        <img src="https://github.com/user-attachments/assets/e79912e1-1fa7-43fe-bfce-724f15b38ec1" width="500" />
-        <img src="https://github.com/user-attachments/assets/88f9e5c8-2b0e-4b54-854e-9b3c332b27e6" width="500" /> 
+        <img src="https://github.com/user-attachments/assets/e79912e1-1fa7-43fe-bfce-724f15b38ec1" width="300" />
+        <img src="https://github.com/user-attachments/assets/88f9e5c8-2b0e-4b54-854e-9b3c332b27e6" width="300" /> 
       </p>
 
 
