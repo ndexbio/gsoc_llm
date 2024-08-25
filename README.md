@@ -159,29 +159,32 @@ The extraction chain flows this way: prompt ----> extraction_model ----> Json_ou
         <img src="https://github.com/user-attachments/assets/e51410e3-f803-425a-b7ca-32e7734a68a4" width="300" /> 
       </p>
       
-   - In the example below, the LLM extracted several plausible biological interactions (such as "CLOCK RegulateAmount PER3", "PER1 Inhibition CLOCK", "CRY1 Inhibition BMAL1", etc.) that, while possible within the context of circadian rhythm biology, were not directly mentioned in the provided sentence. These inferred interactions suggest that the LLM is leveraging background biological knowledge to generate possible interactions that could be relevant in a broader biological context.
-     <p float="left">
-        <img src="https://github.com/user-attachments/assets/5fdb562e-ef71-4e28-9669-26f7ef4b5ba1" width="300" />
-        <img src="https://github.com/user-attachments/assets/d81db160-4446-4b12-ada6-b31acd9a33a" width="300" /> 
-      </p>
+   - In the example below, the LLM extracted several plausible biological interactions (such as "CLOCK RegulateAmount PER3", "PER1 Inhibition CLOCK", "CRY1 Inhibition BMAL1", etc.)    
+     that, while possible within the context of circadian rhythm biology, were not directly mentioned in the provided sentence. These inferred interactions suggest that the LLM is 
+     leveraging background biological knowledge to generate possible interactions that could be relevant in a broader biological context.
+         <p float="left">
+           <img src="https://github.com/user-attachments/assets/5fdb562e-ef71-4e28-9669-26f7ef4b5ba1" width="300" />
+           <img src="https://github.com/user-attachments/assets/d81db160-4446-4b12-ada6-b31acd9a33a" width="300" /> 
+         </p>
       
-   - In the example below, The LLM correctly identifies both interactions mentioned in the sentence: the regulation by p53 of miRNA-34 and the subsequent decrease in SIRT1 expression by miRNA-34. INDRA's output does not capture the interactions described in the sentence. Instead, it suggests a self-inhibitory action by SIRT1 on itself, which is not relevant to the given text.
-     <p float="left">
-        <img src="https://github.com/user-attachments/assets/7acfb7d4-1a2e-4388-89a5-27cf12f839f0" width="300" />
-        <img src="https://github.com/user-attachments/assets/ea910d85-5604-49d1-b727-c11ce36bb9d6" width="300" /> 
-      </p>
+   - In the example below, The LLM correctly identifies both interactions mentioned in the sentence: the regulation by p53 of miRNA-34 and the subsequent decrease in SIRT1 expression       by miRNA-34. INDRA's output does not capture the interactions described in the sentence. Instead, it suggests a self-inhibitory action by SIRT1 on itself, which is not relevant        to the given text.
+        <p float="left">
+           <img src="https://github.com/user-attachments/assets/7acfb7d4-1a2e-4388-89a5-27cf12f839f0" width="300" />
+           <img src="https://github.com/user-attachments/assets/ea910d85-5604-49d1-b727-c11ce36bb9d6" width="300" /> 
+        </p>
 
-   - In the example below, The LLM incorrectly extracted that PARP2 inhibits SIRT1. The sentence indicates that inhibiting PARP2 leads to increased SIRT1 activity, not that PARP directly inhibits SIRT1.
-   <p float="left">
-        <img src="https://github.com/user-attachments/assets/a5a1c04a-b1c6-4955-9961-03f4a54941d1" width="300" />
-        <img src="https://github.com/user-attachments/assets/751234f0-e04a-4891-a597-0e5e826bb49" width="300" /> 
-   </p>
+   - In the example below, The LLM incorrectly extracted that PARP2 inhibits SIRT1. The sentence indicates that inhibiting PARP2 leads to increased SIRT1 activity, not that PARP    
+     directly inhibits SIRT1.
+        <p float="left">
+           <img src="https://github.com/user-attachments/assets/a5a1c04a-b1c6-4955-9961-03f4a54941d1" width="300" />
+           <img src="https://github.com/user-attachments/assets/751234f0-e04a-4891-a597-0e5e826bb49" width="300" /> 
+         </p>
 
    - In the example below, both the indra and the llm gave wrong interpretations of the sentence and therefore gave wrong outputs.
-     <p float="left">
-        <img src="https://github.com/user-attachments/assets/e119c5cb-3734-45a4-a147-058ae5af0ebc" width="300" />
-        <img src="https://github.com/user-attachments/assets/82263567-40d5-43ae-ae5f-e10ca68734b6" width="300" /> 
-     </p>
+        <p float="left">
+           <img src="https://github.com/user-attachments/assets/e119c5cb-3734-45a4-a147-058ae5af0ebc" width="300" />
+           <img src="https://github.com/user-attachments/assets/82263567-40d5-43ae-ae5f-e10ca68734b6" width="300" /> 
+        </p>
 
 6. Converted extracted interactions to CX2 networks, uploaded them to NDEx for visaulisation using the script: `python_scripts/convert_to_cx2.py`. These networks can be viewed on         Favour James personal profile on NDEx here: https://www.ndexbio.org/viewer/networks/06a35259-6235-11ef-a7fd-005056ae23aa.
    The images below show the networks gotten from both the llm and indra for 50 sentences:
