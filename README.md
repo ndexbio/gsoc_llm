@@ -165,9 +165,7 @@ The extraction chain flows this way: prompt ----> extraction_model ----> Json_ou
 
 6. Converted extracted interactions to CX2 networks, uploaded them to NDEx for visaulisation using the script: `python_scripts/convert_to_cx2.py`.
 
-   These networks can be viewed on Favour James personal profile on NDEx here: https://www.ndexbio.org/viewer/networks/06a35259-6235-11ef-a7fd-005056ae23aa
-
-   The images below show the networks gotten from both the llm and indra for 50 sentences:
+   These networks can be viewed on Favour James personal profile on NDEx here: https://www.ndexbio.org/viewer/networks/06a35259-6235-11ef-a7fd-005056ae23aa. The images below show the networks gotten from both the llm and indra for 50 sentences:
 
 <img width="500" alt="Screenshot 2024-08-24 at 19 56 55" src="https://github.com/user-attachments/assets/c77362ae-8941-4a4a-aed9-34a49a45c7b4">
 
