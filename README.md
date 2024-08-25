@@ -95,15 +95,24 @@ To perform the task of extracting interactions from any scientific paper, in thi
    ```
    b. Wrote code to compare the extracted interactions from both APIs and used F1_score as the evaluation metric. `python_scripts/evaluation_code.py`
    
-8. Utilized Gilda grounding service to ground the genes, i.e convert to standard HGNC gene symbols that are involved in the interactions that were missed by the LLM and not grounded in order to get better evaluation results. The function is defined in this script: `python_scripts/grounding_genes.py`. Below are some examples that shows where the LLM succeeded in this and where it failed.
+8. Utilized Gilda grounding service to ground the genes, i.e convert to standard HGNC gene symbols that are involved in the interactions that were missed by the LLM and not grounded in order to get better evaluation results. The function is defined in this script: `python_scripts/grounding_genes.py`. Below are some examples that shows where the LLM succeeded in this and where it failed by comparing `results/pmc3898398/llm_combined_results.json` and `results/pmc3898398/grounded_llm_results.json`. 
 
-a. LLM successfully grounded, comparison between `results/pmc3898398/llm_combined_results.json` and `results/pmc3898398/grounded_llm_results.json`:
-<p float="left">
-  <img src="https://github.com/user-attachments/assets/b621ae56-5053-49ca-a9aa-ecb0b1f9b996" width="500" />
-  <img src="https://github.com/user-attachments/assets/e1d31d8b-a42f-4232-907f-be1b565626eb" width="500" /> 
-</p>
+   a. LLM successfully grounded:
+      <p float="left">
+        <img src="https://github.com/user-attachments/assets/b621ae56-5053-49ca-a9aa-ecb0b1f9b996" width="500" />
+        <img src="https://github.com/user-attachments/assets/e1d31d8b-a42f-4232-907f-be1b565626eb" width="500" /> 
+      </p>
+   b. LLM unsuccessfully grounded:
+      <p float="left">
+        <img src="https://github.com/user-attachments/assets/c470204a-e5a4-474e-a429-779932940a48" width="500" />
+        <img src="https://github.com/user-attachments/assets/5a970b08-9ba0-4e5a-8387-e788a92bcea9" width="500" /> 
+      </p>
+   c. Example where the grounding service failed:
+      <p float="left">
+        <img src="https://github.com/user-attachments/assets/e79912e1-1fa7-43fe-bfce-724f15b38ec1" width="500" />
+        <img src="https://github.com/user-attachments/assets/88f9e5c8-2b0e-4b54-854e-9b3c332b27e6" width="500" /> 
+      </p>
 
-  
 
 # Project Current State
 1. Sentence_level extraction were performed on the paper with PMCID:pmc3898398 using the LLM and it was compared to the Indra Reach result and evaluated. The scores are shown below for the different trials: 
