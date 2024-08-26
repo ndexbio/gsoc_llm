@@ -52,7 +52,7 @@ To perform the task of extracting interactions from any scientific paper, in thi
 # Work Done
 1. Utilizing Pre-trained Models and APIs:
    
-   a. Leveraged OpenAI API to develop LLM model for extracting complex biological interactions from scientific texts.
+   a. Leveraged OpenAI API to develop LLM baased application for extracting complex biological interactions from scientific texts.
    
    b. Made use of LangChain to efficiently perform extraction tasks by integrating with advanced OpenAI models including gpt-3.5-turbo, gpt-4, gpt-4o, and gpt-4-Turbo.
    
@@ -219,8 +219,8 @@ During my GSoC project, I explored several new technologies and the most interes
 1. LangChain: A framework for building applications powered by language models. It was fascinating to see how LangChain enables chaining multiple LLM interactions, creating more sophisticated natural language processing workflows.
 
 2. INDRA (Integrated Network and Dynamical Reasoning Assembler): A system for extracting, standardizing, and modeling scientific knowledge. It was intriguing to see how INDRA automates the conversion of unstructured biological data into structured formats for easier analysis using REACH.
-
-One of the most captivating concepts was **knowledge graphs**, which represent complex biological interactions from various sources. Building these graphs from scientific texts was enlightening, showing how interconnected biological data can be visualized and analyzed for new insights. Additionally, prompt engineering for LLMs was a critical skill learned, highlighting how carefully crafted prompts can improve model outputs and drive better results in NLP tasks.
+   
+It was interesting to learn about **knowledge graphs**, which represent complex biological interactions from various sources. Building these graphs from scientific texts was enlightening, showing how interconnected biological data can be visualized and analyzed for new insights. Additionally, prompt engineering for LLMs was a critical skill learned, highlighting how carefully crafted prompts can improve model outputs and drive better results in NLP tasks.
   
 ## Challenges Faced
 1. Installation of INDRA Reach API Locally:
