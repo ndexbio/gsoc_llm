@@ -1,5 +1,4 @@
 import requests
-from indra_nxml_extraction import id_lookup, filter_pmids
 
 
 def get_pmcid_from_pubmed(pubmed_id):
@@ -19,8 +18,8 @@ def get_pmcid_from_pubmed(pubmed_id):
         raise ValueError(f"No PMCID found for PubMed ID: {pubmed_id}")
 
 
-pmc_id = get_pmcid_from_pubmed(13086)
-print(pmc_id)
+# pmc_id = get_pmcid_from_pubmed(24360018)
+# print(pmc_id)
 
 # # Function to read PMIDs from a file
 # def read_pmids(file_path):
@@ -34,6 +33,3 @@ print(pmc_id)
 # pmids = read_pmids(pmid_file)
 
 # print(pmids)
-
-# # filtered_pmid = filter_pmids(pmids, 'fulltext')
-# # print(filtered_pmid)
