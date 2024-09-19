@@ -1,8 +1,25 @@
 # Large Language Model-based creation of knowledge graph from a publication
-This goal of this project is to develop a Python web application that utilizes Large Language Models (LLMs) for extracting, transforming, and visualizing molecular interaction networks from scientific literature. This project is leveraging LLMs' advanced natural language processing capabilities, the application will interpret complex academic texts to construct interaction graphs. These results would be uploaded to the Network Data Exchange (NDEx) platform, enabling researchers to manage and visualize biological data more effectively. Key deliverables include: 
-1. An interactive Python web app for document processing and extraction of interactions using LLMs.
-2. Benchmarking of results gotten from LLM with results gotten from other sources to evaluate the performance of the LLM.
-3. Seamless integration with the NDEx API for data management and graph visualization using Cytoscape.
+This goal of this project is to develop a Python web application that utilizes Large Language Models (LLMs) for extracting, transforming, and visualizing molecular interaction networks from scientific literature. This project is leveraging LLMs' advanced natural language processing capabilities, the application will interpret complex academic texts to construct knowledge graphs. These results would be uploaded to the Network Data Exchange (NDEx) platform, enabling researchers to manage and visualize biological data more effectively. 
+
+Key deliverables include: 
+1. An Interactive Web Extension for Cytoscape: Develop a web extension for the Cytoscape web application that facilitates document processing and interaction extraction using Large Language Models (LLMs). 
+2. Benchmarking of Extraction Methods: Perform benchmarking to compare results from LLMs with those obtained using Indra Reach API. This comparison aims to evaluate the performance and accuracy of the LLMs in extracting biological interactions from text, providing insights into their effectiveness relative to established extraction tools.
+3. Integration with NDEx for Network Management: Achieve seamless integration with the NDEx API for uploading CX2 networks and visualizing these networks in Cytoscape. NDEx (Network Data Exchange) is a platform that allows for the storage, sharing, and visualization of biological networks, enabling researchers to manage their data more effectively. This integration will ensure that the extracted networks are readily accessible for further analysis and interpretation and visualizations using Cytoscape, an open-source software platform specifically designed for visualizing complex networks and integrating these with any type of attribute data.
+
+- INDRA (Integrated Network and Dynamical Reasoning Assembler) is a tool that automates the assembly of knowledge networks from natural language descriptions of biological processes. It provides a framework for integrating various sources of biological data, allowing for the construction of complex interaction networks.
+
+- REACH (Reading and Assembling Contexts in High-throughput) is an information extraction system within INDRA that specifically focuses on identifying and extracting molecular interactions from scientific texts. 
+
+### Brief description of Knowledge graphs
+A knowledge graph is a structured representation of relationships between entities, like molecular interactions extracted from scientific literature. It enables intuitive querying, reasoning, and visualization of complex biological data, aiding in understanding biological systems and facilitating discoveries. 
+
+The knowledge graph in this project will focus on representing molecular interactions, specifically focusing on relationships and other biological interactions described in the literature. This graph will include nodes representing biological entities (e.g., proteins, genes) and edges representing the interactions between these entities. 
+
+### Why is a Knowledge Graph Helpful to Scientists? 
+Knowledge graphs are valuable to scientists because they provide a comprehensive and easily navigable representation of complex relationships within biological data. They help in understanding how different molecules interact in a biological pathway, identifying potential targets for drug development, and predicting the effects of molecular interventions.
+
+### How This Project Helps Scientists
+This project would help scientists to automate the extraction and visualization of molecular interaction data from vast amounts of scientific literature, significantly reducing manual curation efforts. By integrating LLMs for natural language processing and utilizing platforms like NDEx and Cytoscape, the project aims to provide a powerful tool for exploring complex biological interactions, enhancing research productivity, and facilitating collaboration within the scientific community.
 
 ## Prerequisites
 Python (version 3.6 or higher)
@@ -35,7 +52,7 @@ To perform the task of extracting interactions from any scientific paper, in thi
 # Work Done
 1. Utilizing Pre-trained Models and APIs:
    
-   a. Leveraged OpenAI API to develop LLM model for extracting complex biological interactions from scientific texts.
+   a. Leveraged OpenAI API to develop LLM baased application for extracting complex biological interactions from scientific texts.
    
    b. Made use of LangChain to efficiently perform extraction tasks by integrating with advanced OpenAI models including gpt-3.5-turbo, gpt-4, gpt-4o, and gpt-4-Turbo.
    
@@ -43,11 +60,9 @@ To perform the task of extracting interactions from any scientific paper, in thi
    
 2. Perfromed prompt engineering to get the most efficient prompt. There are 3 versions of the prompt as seen under the `papers` folder
    
-3. Developed the get interactions script: `python_scripts/get_interactions.py`.
-   
-   This script is responsible for reading in the prompt and running the extraction chain. The extraction chain was created using Langchain tools.
-   
-   The extraction chain flows this way: prompt ----> extraction_model ----> Json_output_parser
+3. Developed the get interactions script: `python_scripts/get_interactions.py`. This script is responsible for reading in the prompt and running the extraction chain. The extraction chain was created using Langchain tools.
+
+The extraction chain flows this way: prompt ----> extraction_model ----> Json_output_parser
 4. Interacting with Indra Reach:
    
    a. Downloaded and installed Indra Reach API locally
@@ -56,18 +71,17 @@ To perform the task of extracting interactions from any scientific paper, in thi
    
    c. Wrote code to get PMCIDs of papers that have PMIDs easily available: `python_scripts/get_pmcid.py`
    
-5. Chunking_level Extraction: `python_scripts/chunking_level_extraction.py`
-   
+5. Chunking_level Extraction: `python_scripts/chunking_level_extraction.py`.
    Implemented text chunking strategies to prepare large texts for processing through large language models (LLMs), facilitating the extraction of molecular interactions from segmented
    text. This was done using Langchain's textsplitter function.
    
-6. Sentence_level Extraction: `python_scripts/sentence_level_extraction.py`
+7. Sentence_level Extraction: `python_scripts/sentence_level_extraction.py`
    
-   a. Applied sentence-level extraction techniques to scientific documents using OpenAI API and INDRA REACH API to obtain precise interaction data. This was done by processing the            statements gotten from indra to get only the sentences.
+   a. Applied sentence-level extraction techniques to scientific documents using OpenAI API and INDRA REACH API to obtain precise interaction data. This was done by processing the statements gotten from indra to get only the sentences.
    
-   b. This ensured that the same set of sentences were passed through the LLM first, then the indra reach api for processing sentence by sentence. Then the sentence, and the results          from each of the API was noted.
+   b. This ensured that the same set of sentences were passed through the LLM first, then the indra reach api for processing sentence by sentence. Then the sentence, and the results from each of the API was noted.
    
-7. Comparison and Evaluations:
+8. Comparison and Evaluations:
    
    a. Modified the structure of the results gotten from both the indra reach and LLM to prepare it for evaluation as seen in the functions defined in the script,       
       `python_scripts/sentence_level_extraction.py`:
@@ -78,34 +92,51 @@ To perform the task of extracting interactions from any scientific paper, in thi
    ```
    b. Wrote code to compare the extracted interactions from both APIs and used F1_score as the evaluation metric. `python_scripts/evaluation_code.py`
    
-8. Utilized Gilda grounding service to ground the genes that are involved in the interactions that were gotten using the LLM in order to get better evaluation results.       
-   `python_scripts/grounding_genes.py`
+9. Utilized Gilda grounding service to ground the genes, i.e convert to standard HGNC gene symbols that are involved in the interactions that were missed by the LLM and not grounded in order to get better evaluation results. The function is defined in this script: `python_scripts/grounding_genes.py`. Below are some examples that shows where the LLM succeeded in this and where it failed by comparing `results/pmc3898398/llm_combined_results.json` and `results/pmc3898398/grounded_llm_results.json`. 
+
+   a. LLM successfully grounded:
+      <p float="left">
+        <img src="https://github.com/user-attachments/assets/b621ae56-5053-49ca-a9aa-ecb0b1f9b996" width="300" />
+        <img src="https://github.com/user-attachments/assets/e1d31d8b-a42f-4232-907f-be1b565626eb" width="300" /> 
+      </p>
+   b. LLM unsuccessfully grounded:
+      <p float="left">
+        <img src="https://github.com/user-attachments/assets/c470204a-e5a4-474e-a429-779932940a48" width="300" />
+        <img src="https://github.com/user-attachments/assets/5a970b08-9ba0-4e5a-8387-e788a92bcea9" width="300" /> 
+      </p>
+   c. Example where the grounding service failed:
+      <p float="left">
+        <img src="https://github.com/user-attachments/assets/e79912e1-1fa7-43fe-bfce-724f15b38ec1" width="300" />
+        <img src="https://github.com/user-attachments/assets/88f9e5c8-2b0e-4b54-854e-9b3c332b27e6" width="300" /> 
+      </p>
+
 
 # Project Current State
-1. Sentence_level extraction and comparison tasks were performed on the paper with PMCID:pmc3898398
+1. Sentence_level extraction were performed on the paper with PMCID:pmc3898398 using the LLM and it was compared to the Indra Reach result and evaluated. The scores are shown below for the different trials: 
 
-   a. For 50 sentences from the paper, the scores gotten was:
+   a. For 50 sentences, comparison between `results/pmc3898398/grounded_llm_combined50.json` and `results/pmc3898398/indra_combined50_results.json`:
    ```
    Final Score:
    Precision (micro): 46.94%
       Recall (micro): 48.94%
          F1 (micro): 47.92%
    ```
-   b. For all the sentences in the paper, the scores gotten was:
-   ```
-   Final Score:
-   Precision (micro): 25.41%
-      Recall (micro): 31.08%
-         F1 (micro): 27.96%
-   ```
-   c. For ungrounded llm results(for 50 sentences), the scores gotten was:
+   b. For comparison between `results/pmc3898398/llm_combined50_results.json` and `results/pmc3898398/indra_combined50_results.json`:
    ```
    Final Score:
    Precision (micro): 39.22%
       Recall (micro): 42.55%
          F1 (micro): 40.82%
    ```
-   d. For ungrounded llm results(for the whole paper), the scores gotten was:
+   
+   c. For all the sentences in the paper, comparison between `results/pmc3898398/grounded_llm_results.json` and `results/pmc3898398/indra_combined_results.json`:
+   ```
+   Final Score:
+   Precision (micro): 25.41%
+      Recall (micro): 31.08%
+         F1 (micro): 27.96%
+   ```
+   d. For ungrounded llm results(for the whole paper), comparison between `results/pmc3898398/llm_combined_results.json` and `results/pmc3898398/indra_combined_results.json`:
    ```
    Final Score:
    Precision (micro): 18.52%
@@ -113,39 +144,59 @@ To perform the task of extracting interactions from any scientific paper, in thi
          F1 (micro): 20.77%
    ```
    
-2. Processing time for the whole paper:
+3. Processing time for the whole paper:
 
    a. With the Indra reach api: < 6 minutes
    
    b. With the OpenAI API: < 5 minutes
 
-3. Best Performing prompt at the moment is: `papers/prompt_file_v3.txt`
+4. Best Performing prompt at the moment is: `papers/prompt_file_v3.txt`. The LLM is told to extract the interactions and resolve them to standard identifiers(grounding). The LLM is seen to do this perfectly for 
 
-4. Some examples of the interactions gotten are shown below:
-   - Examples that show same interactions gotten for both indra and llm:
-     <img width="881" alt="Screenshot 2024-08-24 at 00 30 46" src="https://github.com/user-attachments/assets/06115bf8-9047-49cf-8782-1089cd4bc307">
-     <img width="875" alt="Screenshot 2024-08-24 at 00 31 04" src="https://github.com/user-attachments/assets/fb2c1bb0-7a3b-45ab-bc24-5b9082e80a7a">
-   - In the example below, the LLM extracted several plausible biological interactions (such as "CLOCK RegulateAmount PER3", "PER1 Inhibition CLOCK", "CRY1 Inhibition BMAL1", etc.) that, while possible within the context of circadian rhythm biology, were not directly mentioned in the provided sentence. These inferred interactions suggest that the LLM is leveraging background biological knowledge to generate possible interactions that could be relevant in a broader biological context.
-     <img width="879" alt="Screenshot 2024-08-24 at 00 35 10" src="https://github.com/user-attachments/assets/71cb0686-d551-4f7c-8342-19e9c0a9f6c1">
-   - In the example below, The LLM correctly identifies both interactions mentioned in the sentence: the regulation by p53 of miRNA-34 and the subsequent decrease in SIRT1 expression by miRNA-34. INDRA's output does not capture the interactions described in the sentence. Instead, it suggests a self-inhibitory action by SIRT1 on itself, which is not relevant to the given text.
-     <img width="925" alt="Screenshot 2024-08-24 at 00 39 18" src="https://github.com/user-attachments/assets/a30ce00c-014f-4993-b145-2eb4450f3a1c">
-   - In the example below, The LLM incorrectly extracted that PARP inhibits SIRT1. The sentence indicates that inhibiting PARP leads to increased SIRT1 activity, not that PARP directly inhibits SIRT1. The INDRA output correctly identifies the inhibition of NAD+ consumption by PARP proteins as described in the sentence.
-     <img width="900" alt="Screenshot 2024-08-24 at 00 46 20" src="https://github.com/user-attachments/assets/0f9af854-f2c3-4f66-8bb6-c51cbd03dad4">
+5. Some examples of the interactions gotten are shown below:
+   - Example that show same interactions gotten for both indra and llm:
+      <p float="left">
+        <img src="https://github.com/user-attachments/assets/526b1d1d-f28f-4cbd-a7d7-d1ea65373d95" width="300" />
+        <img src="https://github.com/user-attachments/assets/e51410e3-f803-425a-b7ca-32e7734a68a4" width="300" /> 
+      </p>
+      
+   - In the example below, the LLM extracted several plausible biological interactions (such as "CLOCK RegulateAmount PER3", "PER1 Inhibition CLOCK", "CRY1 Inhibition BMAL1", etc.)    
+     that, while possible within the context of circadian rhythm biology, were not directly mentioned in the provided sentence. These inferred interactions suggest that the LLM is 
+     leveraging background biological knowledge to generate possible interactions that could be relevant in a broader biological context.
+         <p float="left">
+           <img src="https://github.com/user-attachments/assets/5fdb562e-ef71-4e28-9669-26f7ef4b5ba1" width="300" />
+           <img src="https://github.com/user-attachments/assets/b1746303-be76-4ea8-aba9-5e2c830d183d" width="300" /> 
+         </p>
+
+   - In the example below, The LLM correctly identifies both interactions mentioned in the sentence: the regulation by p53 of miRNA-34 and the subsequent decrease in SIRT1 expression       by miRNA-34. INDRA's output does not capture the interactions described in the sentence. Instead, it suggests a self-inhibitory action by SIRT1 on itself, which is not relevant        to the given text.
+        <p float="left">
+           <img src="https://github.com/user-attachments/assets/7acfb7d4-1a2e-4388-89a5-27cf12f839f0" width="300" />
+           <img src="https://github.com/user-attachments/assets/ea910d85-5604-49d1-b727-c11ce36bb9d6" width="300" /> 
+        </p>
+
+   - In the example below, The LLM incorrectly extracted that PARP2 inhibits SIRT1. The sentence indicates that inhibiting PARP2 leads to increased SIRT1 activity, not that PARP    
+     directly inhibits SIRT1.
+        <p float="left">
+           <img src="https://github.com/user-attachments/assets/a5a1c04a-b1c6-4955-9961-03f4a54941d1" width="300" />
+           <img src="https://github.com/user-attachments/assets/643cb356-c7b2-4827-be32-7f488cde2741" width="300" /> 
+         </p>
+         
    - In the example below, both the indra and the llm gave wrong interpretations of the sentence and therefore gave wrong outputs.
-     <img width="900" alt="Screenshot 2024-08-24 at 00 46 20" src="https://github.com/user-attachments/assets/b384937b-8352-4fd8-82e3-d400d31dbe9c">
+        <p float="left">
+           <img src="https://github.com/user-attachments/assets/e119c5cb-3734-45a4-a147-058ae5af0ebc" width="300" />
+           <img src="https://github.com/user-attachments/assets/82263567-40d5-43ae-ae5f-e10ca68734b6" width="300" /> 
+        </p>
 
+6. Converted extracted interactions to CX2 networks, uploaded them to NDEx for visaulisation using the script: `python_scripts/convert_to_cx2.py`. These networks can be viewed on         Favour James personal profile on NDEx here: https://www.ndexbio.org/viewer/networks/06a35259-6235-11ef-a7fd-005056ae23aa.
+   The images below show the networks gotten from both the llm and indra for 50 sentences:
 
-     
+   <img width="500" alt="Screenshot 2024-08-24 at 19 56 55" src="https://github.com/user-attachments/assets/c77362ae-8941-4a4a-aed9-34a49a45c7b4">
+
+  
 # Future Tasks
-- Convert extracted interactions to CX2 networks and load the networks to cytoscape for visualisation
   
-- Upload networks to NDEX from cytoscape
-  
-- Develop a tool(e.g web app) to enable a user upload scientific papers, get the interactions, and automatically upload the networks to NDEX and interact with the knowledgre graphs
-  
-- Testing out the model with other API like Claude 3.5 sonnet
-  
-- Perform prompt engineering techniques to get the most efficient prompt
+- Develop a tool that enables users to upload scientific papers, extract molecular interactions, and automatically generate and upload networks to NDEx. This tool will facilitate seamless interaction with knowledge graphs and will serve as one of the pioneering "app" extensions for the new Cytoscape Web platform, enabling direct knowledge graph creation from scientific literature.
+- Experiment with the model using various APIs, including Claude 3.5 Sonnet, to evaluate its performance and versatility.
+- Apply prompt engineering techniques with Dspy to optimize prompt effectiveness and ensure the most efficient extraction of information.
 
 # Challenges and Lessons Learned
 ## Lessons Learned
@@ -162,6 +213,14 @@ To perform the task of extracting interactions from any scientific paper, in thi
 6. Biological Interaction Types and Gene Grounding: Acquired knowledge on the various types of molecular interactions that occur between genes, as characterized by INDRA, and the importance of gene grounding. Learned techniques for ensuring accurate grounding of genes to improve data reliability and consistency.
 
 7. Enhanced Understanding of Gene Grounding: Explored the concept of gene grounding in detail, focusing on techniques to ensure correct mapping and standardization of gene names across different databases and ontologies, crucial for accurate biological data interpretation.
+
+## Technologies Learnt
+During my GSoC project, I explored several new technologies and the most interesting ones were:
+1. LangChain: A framework for building applications powered by language models. It was fascinating to see how LangChain enables chaining multiple LLM interactions, creating more sophisticated natural language processing workflows.
+
+2. INDRA (Integrated Network and Dynamical Reasoning Assembler): A system for extracting, standardizing, and modeling scientific knowledge. It was intriguing to see how INDRA automates the conversion of unstructured biological data into structured formats for easier analysis using REACH.
+   
+It was interesting to learn about **knowledge graphs**, which represent complex biological interactions from various sources. Building these graphs from scientific texts was enlightening, showing how interconnected biological data can be visualized and analyzed for new insights. Additionally, prompt engineering for LLMs was a critical skill learned, highlighting how carefully crafted prompts can improve model outputs and drive better results in NLP tasks.
   
 ## Challenges Faced
 1. Installation of INDRA Reach API Locally:
@@ -186,4 +245,5 @@ To perform the task of extracting interactions from any scientific paper, in thi
 - https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview
 - https://www.deeplearning.ai/short-courses/functions-tools-agents-langchain/
 - https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/
+- https://ndex2.readthedocs.io/en/latest/index.html
 
