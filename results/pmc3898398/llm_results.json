@@ -1,0 +1,2183 @@
+{
+    "LLM_extractions": [
+        {
+            "Index": "0",
+            "Sentence": "Phosphorylation of SIRT1 by JNK occurs at three sites: S27, S47, and T530 in response to oxidative stress that stimulates its deacetylation activity [[A4]]\n[24].",
+            "Results": [
+                {
+                    "subject": "JNK",
+                    "object": "SIRT1",
+                    "interaction_type": "Phosphorylation",
+                    "text": "Phosphorylation of SIRT1 by JNK occurs at three sites: S27, S47, and T530 in response to oxidative stress that stimulates its deacetylation activity.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "1",
+            "Sentence": "In contrast, mTOR also phosphorylates SIRT1 in response to oxidative stress, but only at a single site, S47, resulting in the inhibition of SIRT1 [[A5]] suggesting a multi-site phosphorylation regulatory mechanism is in place; such a mechanism may be involved in the regulation of the timing of SIRT1 activity\n[25,26].",
+            "Results": [
+                {
+                    "subject": "MTOR",
+                    "object": "SIRT1",
+                    "interaction_type": "Phosphorylation",
+                    "text": "In contrast, mTOR also phosphorylates SIRT1 in response to oxidative stress, but only at a single site, S47, resulting in the inhibition of SIRT1 suggesting a multi-site phosphorylation regulatory mechanism is in place; such a mechanism may be involved in the regulation of the timing of SIRT1 activity.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "10",
+            "Sentence": "In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1-mediated deacetylation of p53 in response to DNA damage [[A9]]\n[33].",
+            "Results": [
+                {
+                    "subject": "SETD7",
+                    "object": "SIRT1",
+                    "interaction_type": "Methylation",
+                    "text": "In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1-mediated deacetylation of p53 in response to DNA damage.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "SIRT1",
+                    "object": "TP53",
+                    "interaction_type": "Deacetylation",
+                    "text": "In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1-mediated deacetylation of p53 in response to DNA damage.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "11",
+            "Sentence": "DNA-PK phosphorylates PARP1 though its effect is unknown [[A12]]\n[36].",
+            "Results": [
+                {
+                    "subject": "PRKDC",
+                    "object": "PARP1",
+                    "interaction_type": "Phosphorylation",
+                    "text": "DNA-PK phosphorylates PARP1 though its effect is unknown.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "12",
+            "Sentence": "Phosphorylation of PARP1 by AMPK has been shown to enhance its activity [[A13]]\n[37].",
+            "Results": [
+                {
+                    "subject": "AMPK",
+                    "object": "PARP1",
+                    "interaction_type": "Phosphorylation",
+                    "text": "Phosphorylation of PARP1 by AMPK has been shown to enhance its activity.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "13",
+            "Sentence": "PARP1 is acetylated by p300/CBP; this acetylation is involved in the activation of NF-\u03baB by PARP1 [[A14]]\n[39].",
+            "Results": [
+                {
+                    "subject": "EP300",
+                    "object": "PARP1",
+                    "interaction_type": "Acetylation",
+                    "text": "PARP1 is acetylated by p300/CBP; this acetylation is involved in the activation of NF-\u03baB by PARP1.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "14",
+            "Sentence": "PARP1 is acetylated by p300/CBP; this acetylation is involved in the activation of NF-\u03baB by PARP1 [[A14]]\n[39].",
+            "Results": [
+                {
+                    "subject": "EP300",
+                    "object": "PARP1",
+                    "interaction_type": "Acetylation",
+                    "text": "PARP1 is acetylated by p300/CBP; this acetylation is involved in the activation of NF-\u03baB by PARP1.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "15",
+            "Sentence": "PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1's auto-modification domain.",
+            "Results": [
+                {
+                    "subject": "SUMO1",
+                    "object": "PARP1",
+                    "interaction_type": "Sumoylation",
+                    "text": "PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1's auto-modification domain.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "SUMO3",
+                    "object": "PARP1",
+                    "interaction_type": "Sumoylation",
+                    "text": "PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1's auto-modification domain.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "16",
+            "Sentence": "PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1's auto-modification domain.",
+            "Results": [
+                {
+                    "subject": "SUMO1",
+                    "object": "PARP1",
+                    "interaction_type": "Sumoylation",
+                    "text": "PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1's auto-modification domain.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "SUMO3",
+                    "object": "PARP1",
+                    "interaction_type": "Sumoylation",
+                    "text": "PARP1 is sumoylated by SUMO1 and SUMO3 at K486 of PARP1's auto-modification domain.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "17",
+            "Sentence": "In SIRT1-deficient mouse cardiomyocytes, Rajamohan et al. in 2009 found increased levels of PARP1 acetylation in response to mechanical stress, suggesting that SIRT1 can deacetylate PARP1 [[A16]]\n[44].",
+            "Results": [
+                {
+                    "subject": "SIRT1",
+                    "object": "PARP1",
+                    "interaction_type": "Deacetylation",
+                    "text": "In SIRT1-deficient mouse cardiomyocytes, Rajamohan et al. in 2009 found increased levels of PARP1 acetylation in response to mechanical stress, suggesting that SIRT1 can deacetylate PARP1.",
+                    "direct": true,
+                    "hypothesis": true
+                }
+            ]
+        },
+        {
+            "Index": "18",
+            "Sentence": "Nicotinamide mononucleotide adenylyltransferase 1 (NMNAT1), which catalyzes the conversion of NMN into NAD\u2009+\u2009in the synthesis of NAD\u2009+\u2009via the salvage pathway, can bind to (ADP-ribose) polymers in vitro leading to the stimulation of PARP1 activity; this effect is diminished when NMNAT1 is phosphorylated at S136 by protein kinase C (PKC) [[A18]]\n[52].",
+            "Results": [
+                {
+                    "subject": "NMNAT1",
+                    "object": "PARP1",
+                    "interaction_type": "Activation",
+                    "text": "Nicotinamide mononucleotide adenylyltransferase 1 (NMNAT1), which catalyzes the conversion of NMN into NAD\u2009+\u2009in the synthesis of NAD\u2009+\u2009via the salvage pathway, can bind to (ADP-ribose) polymers in vitro leading to the stimulation of PARP1 activity; this effect is diminished when NMNAT1 is phosphorylated at S136 by protein kinase C (PKC) [[A18]] [52].",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PKC",
+                    "object": "NMNAT1",
+                    "interaction_type": "Phosphorylation",
+                    "text": "Nicotinamide mononucleotide adenylyltransferase 1 (NMNAT1), which catalyzes the conversion of NMN into NAD\u2009+\u2009in the synthesis of NAD\u2009+\u2009via the salvage pathway, can bind to (ADP-ribose) polymers in vitro leading to the stimulation of PARP1 activity; this effect is diminished when NMNAT1 is phosphorylated at S136 by protein kinase C (PKC) [[A18]] [52].",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "19",
+            "Sentence": "Nicotinamide mononucleotide adenylyltransferase 1 (NMNAT1), which catalyzes the conversion of NMN into NAD\u2009+\u2009in the synthesis of NAD\u2009+\u2009via the salvage pathway, can bind to (ADP-ribose) polymers in vitro leading to the stimulation of PARP1 activity; this effect is diminished when NMNAT1 is phosphorylated at S136 by protein kinase C (PKC) [[A18]]\n[52].",
+            "Results": [
+                {
+                    "subject": "NMNAT1",
+                    "object": "PARP1",
+                    "interaction_type": "Complex",
+                    "text": "Nicotinamide mononucleotide adenylyltransferase 1 (NMNAT1), which catalyzes the conversion of NMN into NAD\u2009+\u2009in the synthesis of NAD\u2009+\u2009via the salvage pathway, can bind to (ADP-ribose) polymers in vitro leading to the stimulation of PARP1 activity; this effect is diminished when NMNAT1 is phosphorylated at S136 by protein kinase C (PKC) [[A18]] [52].",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PKC",
+                    "object": "NMNAT1",
+                    "interaction_type": "Phosphorylation",
+                    "text": "Nicotinamide mononucleotide adenylyltransferase 1 (NMNAT1), which catalyzes the conversion of NMN into NAD\u2009+\u2009in the synthesis of NAD\u2009+\u2009via the salvage pathway, can bind to (ADP-ribose) polymers in vitro leading to the stimulation of PARP1 activity; this effect is diminished when NMNAT1 is phosphorylated at S136 by protein kinase C (PKC) [[A18]] [52].",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "2",
+            "Sentence": "CK2 phosphorylates human SIRT1 at S659 and S661, both in vivo and in vitro, stimulating its deacetylation activity [[A4]]\n[27,28].",
+            "Results": [
+                {
+                    "subject": "CSNK2A1",
+                    "object": "SIRT1",
+                    "interaction_type": "Phosphorylation",
+                    "text": "CK2 phosphorylates human SIRT1 at S659 and S661, both in vivo and in vitro, stimulating its deacetylation activity.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "20",
+            "Sentence": "Nicotinamide mononucleotide adenylyltransferase 1 (NMNAT1), which catalyzes the conversion of NMN into NAD\u2009+\u2009in the synthesis of NAD\u2009+\u2009via the salvage pathway, can bind to (ADP-ribose) polymers in vitro leading to the stimulation of PARP1 activity; this effect is diminished when NMNAT1 is phosphorylated at S136 by protein kinase C (PKC) [[A18]]\n[52].",
+            "Results": [
+                {
+                    "subject": "NMNAT1",
+                    "object": "PARP1",
+                    "interaction_type": "Activation",
+                    "text": "Nicotinamide mononucleotide adenylyltransferase 1 (NMNAT1), which catalyzes the conversion of NMN into NAD\u2009+\u2009in the synthesis of NAD\u2009+\u2009via the salvage pathway, can bind to (ADP-ribose) polymers in vitro leading to the stimulation of PARP1 activity; this effect is diminished when NMNAT1 is phosphorylated at S136 by protein kinase C (PKC) [[A18]] [52].",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PKC",
+                    "object": "NMNAT1",
+                    "interaction_type": "Phosphorylation",
+                    "text": "Nicotinamide mononucleotide adenylyltransferase 1 (NMNAT1), which catalyzes the conversion of NMN into NAD\u2009+\u2009in the synthesis of NAD\u2009+\u2009via the salvage pathway, can bind to (ADP-ribose) polymers in vitro leading to the stimulation of PARP1 activity; this effect is diminished when NMNAT1 is phosphorylated at S136 by protein kinase C (PKC) [[A18]] [52].",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "21",
+            "Sentence": "SIRT1 is capable of deacetylating several histone amino acid residues, including H1K26, H3K9, H3K14, and H4K16 [[A20]]\n[56,57], while PARP1 can modify histones H1, H2AK13, H2BK30, H3K27, H3K37, and H4K16 to possibly regulate transcription [[A21]]\n[21,58].",
+            "Results": [
+                {
+                    "subject": "SIRT1",
+                    "object": "H1",
+                    "interaction_type": "Deacetylation",
+                    "text": "SIRT1 is capable of deacetylating several histone amino acid residues, including H1K26, H3K9, H3K14, and H4K16",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "SIRT1",
+                    "object": "H3",
+                    "interaction_type": "Deacetylation",
+                    "text": "SIRT1 is capable of deacetylating several histone amino acid residues, including H1K26, H3K9, H3K14, and H4K16",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "SIRT1",
+                    "object": "H4",
+                    "interaction_type": "Deacetylation",
+                    "text": "SIRT1 is capable of deacetylating several histone amino acid residues, including H1K26, H3K9, H3K14, and H4K16",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PARP1",
+                    "object": "H1",
+                    "interaction_type": "Modification",
+                    "text": "PARP1 can modify histones H1, H2AK13, H2BK30, H3K27, H3K37, and H4K16 to possibly regulate transcription",
+                    "direct": true,
+                    "hypothesis": true
+                },
+                {
+                    "subject": "PARP1",
+                    "object": "H2A",
+                    "interaction_type": "Modification",
+                    "text": "PARP1 can modify histones H1, H2AK13, H2BK30, H3K27, H3K37, and H4K16 to possibly regulate transcription",
+                    "direct": true,
+                    "hypothesis": true
+                },
+                {
+                    "subject": "PARP1",
+                    "object": "H2B",
+                    "interaction_type": "Modification",
+                    "text": "PARP1 can modify histones H1, H2AK13, H2BK30, H3K27, H3K37, and H4K16 to possibly regulate transcription",
+                    "direct": true,
+                    "hypothesis": true
+                },
+                {
+                    "subject": "PARP1",
+                    "object": "H3",
+                    "interaction_type": "Modification",
+                    "text": "PARP1 can modify histones H1, H2AK13, H2BK30, H3K27, H3K37, and H4K16 to possibly regulate transcription",
+                    "direct": true,
+                    "hypothesis": true
+                },
+                {
+                    "subject": "PARP1",
+                    "object": "H4",
+                    "interaction_type": "Modification",
+                    "text": "PARP1 can modify histones H1, H2AK13, H2BK30, H3K27, H3K37, and H4K16 to possibly regulate transcription",
+                    "direct": true,
+                    "hypothesis": true
+                }
+            ]
+        },
+        {
+            "Index": "22",
+            "Sentence": "It has been suggested that ADP-ribosylation of histone H1 promotes transcription by inhibiting the ability of histone H1 to bind to DNA\n[59].",
+            "Results": [
+                {
+                    "subject": "ADP",
+                    "object": "H1-0",
+                    "interaction_type": "Ribosylation",
+                    "text": "It has been suggested that ADP-ribosylation of histone H1 promotes transcription by inhibiting the ability of histone H1 to bind to DNA.",
+                    "direct": true,
+                    "hypothesis": true
+                }
+            ]
+        },
+        {
+            "Index": "23",
+            "Sentence": "Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP-ribosylation of histone H4 [[A22]]\n[21].",
+            "Results": [
+                {
+                    "subject": "acetylation",
+                    "object": "histone H4",
+                    "interaction_type": "Inhibition",
+                    "text": "Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP-ribosylation of histone H4 [[A22]] [21].",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "24",
+            "Sentence": "Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP-ribosylation of histone H4 [[A22]]\n[21].",
+            "Results": [
+                {
+                    "subject": "acetylation",
+                    "object": "histone H4",
+                    "interaction_type": "Inhibition",
+                    "text": "Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP-ribosylation of histone H4.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "25",
+            "Sentence": "Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP-ribosylation of histone H4 [[A22]]\n[21].",
+            "Results": [
+                {
+                    "subject": "acetylation",
+                    "object": "histone H4",
+                    "interaction_type": "Inhibition",
+                    "text": "Additionally, a competitive interaction has been shown between acetylation and PAR where acetylation of H4K16 inhibits the ADP-ribosylation of histone H4.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "26",
+            "Sentence": "Here a potential contradiction in the role of SIRT1 in condensing chromatin arises whereby SIRT1 deacetylation activity could potentially help drive the PARP1 ADP-ribosylation activity on H4K16.",
+            "Results": [
+                {
+                    "subject": "SIRT1",
+                    "object": "PARP1",
+                    "interaction_type": "Deacetylation",
+                    "text": "Here a potential contradiction in the role of SIRT1 in condensing chromatin arises whereby SIRT1 deacetylation activity could potentially help drive the PARP1 ADP-ribosylation activity on H4K16.",
+                    "direct": false,
+                    "hypothesis": true
+                }
+            ]
+        },
+        {
+            "Index": "27",
+            "Sentence": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4 [[A23]].",
+            "Results": [
+                {
+                    "subject": "SIRT1",
+                    "object": "TIP60",
+                    "interaction_type": "Deacetylation",
+                    "text": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "SIRT1",
+                    "object": "MOF",
+                    "interaction_type": "Deacetylation",
+                    "text": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "28",
+            "Sentence": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4 [[A23]].",
+            "Results": [
+                {
+                    "subject": "SIRT1",
+                    "object": "TIP60",
+                    "interaction_type": "Deacetylation",
+                    "text": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "SIRT1",
+                    "object": "MOF",
+                    "interaction_type": "Deacetylation",
+                    "text": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "29",
+            "Sentence": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4 [[A23]].",
+            "Results": [
+                {
+                    "subject": "SIRT1",
+                    "object": "TIP60",
+                    "interaction_type": "Deacetylation",
+                    "text": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "SIRT1",
+                    "object": "MOF",
+                    "interaction_type": "Deacetylation",
+                    "text": "Currently, it is known that SIRT1 plays a role in DNA damage repair via histone deacetylation through the deacetylation of the two histone acetyltransferases, TIP60 and MOF, which are able to acetylate histone H4.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "3",
+            "Sentence": "CK2 phosphorylates human SIRT1 at S659 and S661, both in vivo and in vitro, stimulating its deacetylation activity [[A4]]\n[27,28].",
+            "Results": [
+                {
+                    "subject": "CSNK2A1",
+                    "object": "SIRT1",
+                    "interaction_type": "Phosphorylation",
+                    "text": "CK2 phosphorylates human SIRT1 at S659 and S661, both in vivo and in vitro, stimulating its deacetylation activity.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "30",
+            "Sentence": "TIP60-dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non-homologous end joining [[A24]]\n[62,64].",
+            "Results": [
+                {
+                    "subject": "TIP60",
+                    "object": "H4",
+                    "interaction_type": "Acetylation",
+                    "text": "TIP60-dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non-homologous end joining.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "H4K16ac",
+                    "object": "53BP1",
+                    "interaction_type": "Inhibition",
+                    "text": "TIP60-dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non-homologous end joining.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "31",
+            "Sentence": "In this loop, NBS1 is phosphorylated by ATM in response to genotoxic stress at S343 for the activation of NBS1; to be phosphorylated, it is necessary for NBS1 to be in a hypoacetylated state, which SIRT1 helps to maintain by deacetylating NBS1 [[A32-A33]]\n[71,72].",
+            "Results": [
+                {
+                    "subject": "ATM",
+                    "object": "NBS1",
+                    "interaction_type": "Phosphorylation",
+                    "text": "In this loop, NBS1 is phosphorylated by ATM in response to genotoxic stress at S343 for the activation of NBS1; to be phosphorylated, it is necessary for NBS1 to be in a hypoacetylated state, which SIRT1 helps to maintain by deacetylating NBS1 [[A32-A33]] [71,72].",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "SIRT1",
+                    "object": "NBS1",
+                    "interaction_type": "Deacetylation",
+                    "text": "In this loop, NBS1 is phosphorylated by ATM in response to genotoxic stress at S343 for the activation of NBS1; to be phosphorylated, it is necessary for NBS1 to be in a hypoacetylated state, which SIRT1 helps to maintain by deacetylating NBS1 [[A32-A33]] [71,72].",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "32",
+            "Sentence": "CHK2 can then phosphorylate HuR at several sites causing it to dissociate from SIRT1 mRNA, and thereby reduce the half-life of the SIRT1 mRNA [[A34]]\n[73].",
+            "Results": [
+                {
+                    "subject": "CHEK2",
+                    "object": "ELAVL1",
+                    "interaction_type": "Phosphorylation",
+                    "text": "CHK2 can then phosphorylate HuR at several sites causing it to dissociate from SIRT1 mRNA, and thereby reduce the half-life of the SIRT1 mRNA.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "33",
+            "Sentence": "In one publication, c-MYC over-expression leads to an increase in SIRT1 expression and then deacetylation of c-MYC by SIRT1 leads to the destabilization of c-MYC [[A39]]\n[77].",
+            "Results": [
+                {
+                    "subject": "MYC",
+                    "object": "SIRT1",
+                    "interaction_type": "IncreaseAmount",
+                    "text": "c-MYC over-expression leads to an increase in SIRT1 expression",
+                    "direct": false,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "SIRT1",
+                    "object": "MYC",
+                    "interaction_type": "Deacetylation",
+                    "text": "deacetylation of c-MYC by SIRT1 leads to the destabilization of c-MYC",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "34",
+            "Sentence": "SIRT1 can deacetylate the RelA/p65 subunit of NF-\u03baB at K310 to inhibit NF-\u03baB transactivation activity [[A42]]\n[80].",
+            "Results": [
+                {
+                    "subject": "SIRT1",
+                    "object": "RELA",
+                    "interaction_type": "Deacetylation",
+                    "text": "SIRT1 can deacetylate the RelA/p65 subunit of NF-\u03baB at K310 to inhibit NF-\u03baB transactivation activity.",
+                    "direct": true,
+                    "hypothesis": true
+                }
+            ]
+        },
+        {
+            "Index": "35",
+            "Sentence": "SIRT1 can deacetylate the RelA/p65 subunit of NF-\u03baB at K310 to inhibit NF-\u03baB transactivation activity [[A42]]\n[80].",
+            "Results": [
+                {
+                    "subject": "SIRT1",
+                    "object": "RELA",
+                    "interaction_type": "Deacetylation",
+                    "text": "SIRT1 can deacetylate the RelA/p65 subunit of NF-\u03baB at K310 to inhibit NF-\u03baB transactivation activity.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "36",
+            "Sentence": "PARP1 is an activator of NF-\u03baB through its direct binding to NF-\u03baB; acetylation of PARP1 by p300/CBP is required for the binding of PARP1 to NF-\u03baB [[A43]]\n[39].",
+            "Results": [
+                {
+                    "subject": "PARP1",
+                    "object": "NF-\u03baB",
+                    "interaction_type": "Complex",
+                    "text": "PARP1 is an activator of NF-\u03baB through its direct binding to NF-\u03baB; acetylation of PARP1 by p300/CBP is required for the binding of PARP1 to NF-\u03baB.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "EP300",
+                    "object": "PARP1",
+                    "interaction_type": "Acetylation",
+                    "text": "PARP1 is an activator of NF-\u03baB through its direct binding to NF-\u03baB; acetylation of PARP1 by p300/CBP is required for the binding of PARP1 to NF-\u03baB.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "37",
+            "Sentence": "PARP1 is an activator of NF-\u03baB through its direct binding to NF-\u03baB; acetylation of PARP1 by p300/CBP is required for the binding of PARP1 to NF-\u03baB [[A43]]\n[39].",
+            "Results": [
+                {
+                    "subject": "PARP1",
+                    "object": "NF-\u03baB",
+                    "interaction_type": "Complex",
+                    "text": "PARP1 is an activator of NF-\u03baB through its direct binding to NF-\u03baB; acetylation of PARP1 by p300/CBP is required for the binding of PARP1 to NF-\u03baB.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "EP300",
+                    "object": "PARP1",
+                    "interaction_type": "Acetylation",
+                    "text": "PARP1 is an activator of NF-\u03baB through its direct binding to NF-\u03baB; acetylation of PARP1 by p300/CBP is required for the binding of PARP1 to NF-\u03baB.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "38",
+            "Sentence": "Micro-RNAs have also been shown to downregulate SIRT1-dependent deacetylation of p53.",
+            "Results": [
+                {
+                    "subject": "Micro-RNAs",
+                    "object": "SIRT1",
+                    "interaction_type": "RegulateActivity",
+                    "text": "Micro-RNAs have also been shown to downregulate SIRT1-dependent deacetylation of p53.",
+                    "direct": false,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "39",
+            "Sentence": "Active Regulator of SIRT1 (AROS) has been shown to bind SIRT1 and help enhance the deacetylation of p53 by SIRT1 [[A53]]\n[94].",
+            "Results": [
+                {
+                    "subject": "AROS",
+                    "object": "SIRT1",
+                    "interaction_type": "Complex",
+                    "text": "Active Regulator of SIRT1 (AROS) has been shown to bind SIRT1 and help enhance the deacetylation of p53 by SIRT1.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "SIRT1",
+                    "object": "p53",
+                    "interaction_type": "Deacetylation",
+                    "text": "Active Regulator of SIRT1 (AROS) has been shown to bind SIRT1 and help enhance the deacetylation of p53 by SIRT1.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "4",
+            "Sentence": "Cyclin B/Cdk1, a cell cycle-dependent kinase, can phosphorylate SIRT1 at T530 and S540 [[A6]].",
+            "Results": [
+                {
+                    "subject": "CDK1",
+                    "object": "SIRT1",
+                    "interaction_type": "Phosphorylation",
+                    "text": "Cyclin B/Cdk1, a cell cycle-dependent kinase, can phosphorylate SIRT1 at T530 and S540.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "40",
+            "Sentence": "Active Regulator of SIRT1 (AROS) has been shown to bind SIRT1 and help enhance the deacetylation of p53 by SIRT1 [[A53]]\n[94].",
+            "Results": [
+                {
+                    "subject": "AROS",
+                    "object": "SIRT1",
+                    "interaction_type": "Complex",
+                    "text": "Active Regulator of SIRT1 (AROS) has been shown to bind SIRT1 and help enhance the deacetylation of p53 by SIRT1.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "SIRT1",
+                    "object": "p53",
+                    "interaction_type": "Deacetylation",
+                    "text": "Active Regulator of SIRT1 (AROS) has been shown to bind SIRT1 and help enhance the deacetylation of p53 by SIRT1.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "41",
+            "Sentence": "Active Regulator of SIRT1 (AROS) has been shown to bind SIRT1 and help enhance the deacetylation of p53 by SIRT1 [[A53]]\n[94].",
+            "Results": [
+                {
+                    "subject": "AROS",
+                    "object": "SIRT1",
+                    "interaction_type": "Complex",
+                    "text": "Active Regulator of SIRT1 (AROS) has been shown to bind SIRT1 and help enhance the deacetylation of p53 by SIRT1.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "SIRT1",
+                    "object": "p53",
+                    "interaction_type": "Deacetylation",
+                    "text": "Active Regulator of SIRT1 (AROS) has been shown to bind SIRT1 and help enhance the deacetylation of p53 by SIRT1.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "42",
+            "Sentence": "In addition to the role that SIRT1 plays in the inhibition of p53, SIRT1 is capable of deacetylating Ku70 at K539 and K542; the acetylation of Ku70 leads to the dissociation of the Ku70 and Bax helping to trigger apoptosis; Bax is a pro-apoptotic factor that is sequestered by Ku70 [[A54-A55]]\n[97].",
+            "Results": [
+                {
+                    "subject": "SIRT1",
+                    "object": "Ku70",
+                    "interaction_type": "Deacetylation",
+                    "text": "SIRT1 is capable of deacetylating Ku70 at K539 and K542",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "Ku70",
+                    "object": "Bax",
+                    "interaction_type": "Complex",
+                    "text": "the acetylation of Ku70 leads to the dissociation of the Ku70 and Bax helping to trigger apoptosis",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "43",
+            "Sentence": "In addition to the role that SIRT1 plays in the inhibition of p53, SIRT1 is capable of deacetylating Ku70 at K539 and K542; the acetylation of Ku70 leads to the dissociation of the Ku70 and Bax helping to trigger apoptosis; Bax is a pro-apoptotic factor that is sequestered by Ku70 [[A54-A55]]\n[97].",
+            "Results": [
+                {
+                    "subject": "SIRT1",
+                    "object": "Ku70",
+                    "interaction_type": "Deacetylation",
+                    "text": "SIRT1 is capable of deacetylating Ku70 at K539 and K542",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "Ku70",
+                    "object": "Bax",
+                    "interaction_type": "Complex",
+                    "text": "the acetylation of Ku70 leads to the dissociation of the Ku70 and Bax helping to trigger apoptosis",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "44",
+            "Sentence": "SIRT1 deacetylates BMAL1 at K537 destabilizing the interaction between CRY and BMAL1 [[A63]]\n[104,105].",
+            "Results": [
+                {
+                    "subject": "SIRT1",
+                    "object": "BMAL1",
+                    "interaction_type": "Deacetylation",
+                    "text": "SIRT1 deacetylates BMAL1 at K537 destabilizing the interaction between CRY and BMAL1.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "45",
+            "Sentence": "Figure\u00a0\n2 shows a modular overview of how the SIRT1 and PARP1 interactions are laid out (an arrow indicates that a molecule or process from the source module has an interaction with a molecule or process in the target module) and Figure\u00a0\n3 provides a legend for reading the MIM notation.",
+            "Results": []
+        },
+        {
+            "Index": "46",
+            "Sentence": "A similar interaction has been shown to occur with SIRT1, whereby SIRT1 binds to NMNAT1 helping to recruit NMNAT1 to specific promoters, which may help stimulate SIRT1 activity [[A19]]\n[53].",
+            "Results": [
+                {
+                    "subject": "SIRT1",
+                    "object": "NMNAT1",
+                    "interaction_type": "Complex",
+                    "text": "A similar interaction has been shown to occur with SIRT1, whereby SIRT1 binds to NMNAT1 helping to recruit NMNAT1 to specific promoters, which may help stimulate SIRT1 activity.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "47",
+            "Sentence": "A similar interaction has been shown to occur with SIRT1, whereby SIRT1 binds to NMNAT1 helping to recruit NMNAT1 to specific promoters, which may help stimulate SIRT1 activity [[A19]]\n[53].",
+            "Results": [
+                {
+                    "subject": "SIRT1",
+                    "object": "NMNAT1",
+                    "interaction_type": "Complex",
+                    "text": "A similar interaction has been shown to occur with SIRT1, whereby SIRT1 binds to NMNAT1 helping to recruit NMNAT1 to specific promoters, which may help stimulate SIRT1 activity.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "48",
+            "Sentence": "TIP60-dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non-homologous end joining [[A24]]\n[62,64].",
+            "Results": [
+                {
+                    "subject": "TIP60",
+                    "object": "H4",
+                    "interaction_type": "Acetylation",
+                    "text": "TIP60-dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non-homologous end joining.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "H4",
+                    "object": "53BP1",
+                    "interaction_type": "Inhibition",
+                    "text": "TIP60-dependent acetylation of H4K16 inhibits the binding of 53BP1 to H4K20me2, which promotes non-homologous end joining.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "49",
+            "Sentence": "It has been shown that PARP1 binds to ATM, an interaction that is stimulated by DNA damage, and that the automodification of PARP1 leads to ATM activation [[A31]]\n[67].",
+            "Results": [
+                {
+                    "subject": "PARP1",
+                    "object": "ATM",
+                    "interaction_type": "Complex",
+                    "text": "It has been shown that PARP1 binds to ATM, an interaction that is stimulated by DNA damage, and that the automodification of PARP1 leads to ATM activation.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PARP1",
+                    "object": "ATM",
+                    "interaction_type": "Activation",
+                    "text": "It has been shown that PARP1 binds to ATM, an interaction that is stimulated by DNA damage, and that the automodification of PARP1 leads to ATM activation.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "5",
+            "Sentence": "Cyclin B/Cdk1, a cell cycle-dependent kinase, can phosphorylate SIRT1 at T530 and S540 [[A6]].",
+            "Results": [
+                {
+                    "subject": "CDK1",
+                    "object": "SIRT1",
+                    "interaction_type": "Phosphorylation",
+                    "text": "Cyclin B/Cdk1, a cell cycle-dependent kinase, can phosphorylate SIRT1 at T530 and S540.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "50",
+            "Sentence": "Additionally, the transcriptional activity of E2F1 is inhibited by Retinoblastoma (Rb), which is another substrate of SIRT1 deacetylation; acetylation of Rb has been shown to regulate the binding of Rb to E2F1 [[A38]]\n[75,76].",
+            "Results": [
+                {
+                    "subject": "E2F1",
+                    "object": "RB1",
+                    "interaction_type": "Inhibition",
+                    "text": "Additionally, the transcriptional activity of E2F1 is inhibited by Retinoblastoma (Rb), which is another substrate of SIRT1 deacetylation; acetylation of Rb has been shown to regulate the binding of Rb to E2F1.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "SIRT1",
+                    "object": "RB1",
+                    "interaction_type": "Deacetylation",
+                    "text": "Additionally, the transcriptional activity of E2F1 is inhibited by Retinoblastoma (Rb), which is another substrate of SIRT1 deacetylation; acetylation of Rb has been shown to regulate the binding of Rb to E2F1.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "RB1",
+                    "object": "E2F1",
+                    "interaction_type": "Complex",
+                    "text": "Additionally, the transcriptional activity of E2F1 is inhibited by Retinoblastoma (Rb), which is another substrate of SIRT1 deacetylation; acetylation of Rb has been shown to regulate the binding of Rb to E2F1.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "51",
+            "Sentence": "Two studies have examined the interactions between SIRT1 and c-MYC producing contradictory results.",
+            "Results": []
+        },
+        {
+            "Index": "52",
+            "Sentence": "There is evidence that PARP1 binds to E2F1 stimulating E2F1-dependent transcription of c-MYC [[A41]]\n[79].",
+            "Results": [
+                {
+                    "subject": "PARP1",
+                    "object": "E2F1",
+                    "interaction_type": "Complex",
+                    "text": "There is evidence that PARP1 binds to E2F1 stimulating E2F1-dependent transcription of c-MYC.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "53",
+            "Sentence": "Much less is known about the interaction between PARP1 and p53.",
+            "Results": []
+        },
+        {
+            "Index": "54",
+            "Sentence": "NBS1, which we have discussed here beforehand as being activated via deacetylation by SIRT1, has also been shown to help control the interaction between Ku70 and Bax by stimulating the acetylation of Ku70 [[A56]]\n[98].",
+            "Results": [
+                {
+                    "subject": "SIRT1",
+                    "object": "NBS1",
+                    "interaction_type": "Deacetylation",
+                    "text": "NBS1, which we have discussed here beforehand as being activated via deacetylation by SIRT1, has also been shown to help control the interaction between Ku70 and Bax by stimulating the acetylation of Ku70.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "NBS1",
+                    "object": "Ku70",
+                    "interaction_type": "Acetylation",
+                    "text": "NBS1, which we have discussed here beforehand as being activated via deacetylation by SIRT1, has also been shown to help control the interaction between Ku70 and Bax by stimulating the acetylation of Ku70.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "55",
+            "Sentence": "The exact conditions leading to a differential role of SIRT1 on the Ku70 and Bax complex remains to be uncovered.",
+            "Results": []
+        },
+        {
+            "Index": "56",
+            "Sentence": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription [[A60-A62]].",
+            "Results": [
+                {
+                    "subject": "CLOCK",
+                    "object": "BMAL1",
+                    "interaction_type": "Complex",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CLOCK",
+                    "object": "CRY1",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CLOCK",
+                    "object": "CRY2",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CLOCK",
+                    "object": "PER1",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CLOCK",
+                    "object": "PER2",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CLOCK",
+                    "object": "PER3",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "BMAL1",
+                    "object": "CRY1",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "BMAL1",
+                    "object": "CRY2",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "BMAL1",
+                    "object": "PER1",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "BMAL1",
+                    "object": "PER2",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "BMAL1",
+                    "object": "PER3",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CRY1",
+                    "object": "CLOCK",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CRY2",
+                    "object": "CLOCK",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PER1",
+                    "object": "CLOCK",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PER2",
+                    "object": "CLOCK",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PER3",
+                    "object": "CLOCK",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CRY1",
+                    "object": "BMAL1",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CRY2",
+                    "object": "BMAL1",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PER1",
+                    "object": "BMAL1",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PER2",
+                    "object": "BMAL1",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PER3",
+                    "object": "BMAL1",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "57",
+            "Sentence": "SIRT1 deacetylates BMAL1 at K537 destabilizing the interaction between CRY and BMAL1 [[A63]]\n[104,105].",
+            "Results": [
+                {
+                    "subject": "SIRT1",
+                    "object": "BMAL1",
+                    "interaction_type": "Deacetylation",
+                    "text": "SIRT1 deacetylates BMAL1 at K537 destabilizing the interaction between CRY and BMAL1.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "58",
+            "Sentence": "PARP1 is capable of ADP-ribosylating CLOCK in a circadian manner disrupting the association between the BMAL1/CLOCK heterodimer and its targets [[A66]]\n[109].",
+            "Results": [
+                {
+                    "subject": "PARP1",
+                    "object": "CLOCK",
+                    "interaction_type": "Ribosylation",
+                    "text": "PARP1 is capable of ADP-ribosylating CLOCK in a circadian manner disrupting the association between the BMAL1/CLOCK heterodimer and its targets.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "59",
+            "Sentence": "Phosphorylation at these two sites decreases the activity of SIRT1 and disrupts progress of the cell cycle\n[30].",
+            "Results": [
+                {
+                    "subject": "Phosphorylation",
+                    "object": "SIRT1",
+                    "interaction_type": "Inhibition",
+                    "text": "Phosphorylation at these two sites decreases the activity of SIRT1 and disrupts progress of the cell cycle.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "6",
+            "Sentence": "Kinases DYRK1A and DYRK3 have been shown to phosphorylate human SIRT1 at T522, stimulating the deacetylation of p53 by SIRT1[[A7]]; phosphorylation at this site increases the rate of product release by SIRT1\n[31].",
+            "Results": [
+                {
+                    "subject": "DYRK1A",
+                    "object": "SIRT1",
+                    "interaction_type": "Phosphorylation",
+                    "text": "Kinases DYRK1A and DYRK3 have been shown to phosphorylate human SIRT1 at T522, stimulating the deacetylation of p53 by SIRT1; phosphorylation at this site increases the rate of product release by SIRT1.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "DYRK3",
+                    "object": "SIRT1",
+                    "interaction_type": "Phosphorylation",
+                    "text": "Kinases DYRK1A and DYRK3 have been shown to phosphorylate human SIRT1 at T522, stimulating the deacetylation of p53 by SIRT1; phosphorylation at this site increases the rate of product release by SIRT1.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "60",
+            "Sentence": "In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1-mediated deacetylation of p53 in response to DNA damage [[A9]]\n[33].",
+            "Results": [
+                {
+                    "subject": "SETD7",
+                    "object": "SIRT1",
+                    "interaction_type": "Methylation",
+                    "text": "In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1-mediated deacetylation of p53 in response to DNA damage.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "SIRT1",
+                    "object": "TP53",
+                    "interaction_type": "Deacetylation",
+                    "text": "In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1-mediated deacetylation of p53 in response to DNA damage.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "61",
+            "Sentence": "In this study, genotoxic stress promoted the association of SIRT1 with SENP1, which may help to inhibit the ability of SIRT1 to promote survival.",
+            "Results": [
+                {
+                    "subject": "SIRT1",
+                    "object": "SENP1",
+                    "interaction_type": "Complex",
+                    "text": "In this study, genotoxic stress promoted the association of SIRT1 with SENP1, which may help to inhibit the ability of SIRT1 to promote survival.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "62",
+            "Sentence": "This stimulation of PARP1 by AMPK contrasts with the AMPK-mediated inhibition of SIRT1 and suggests one mechanism by which AMPK, a metabolic sensor able to regulate ATP-consuming pathways, may be capable of controlling cell survival given the roles of PARP1 and SIRT1 in response to DNA damage.",
+            "Results": [
+                {
+                    "subject": "AMPK",
+                    "object": "PARP1",
+                    "interaction_type": "Activation",
+                    "text": "This stimulation of PARP1 by AMPK contrasts with the AMPK-mediated inhibition of SIRT1 and suggests one mechanism by which AMPK, a metabolic sensor able to regulate ATP-consuming pathways, may be capable of controlling cell survival given the roles of PARP1 and SIRT1 in response to DNA damage.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "AMPK",
+                    "object": "SIRT1",
+                    "interaction_type": "Inhibition",
+                    "text": "This stimulation of PARP1 by AMPK contrasts with the AMPK-mediated inhibition of SIRT1 and suggests one mechanism by which AMPK, a metabolic sensor able to regulate ATP-consuming pathways, may be capable of controlling cell survival given the roles of PARP1 and SIRT1 in response to DNA damage.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "63",
+            "Sentence": "This stimulation of PARP1 by AMPK contrasts with the AMPK-mediated inhibition of SIRT1 and suggests one mechanism by which AMPK, a metabolic sensor able to regulate ATP-consuming pathways, may be capable of controlling cell survival given the roles of PARP1 and SIRT1 in response to DNA damage.",
+            "Results": [
+                {
+                    "subject": "AMPK",
+                    "object": "PARP1",
+                    "interaction_type": "Activation",
+                    "text": "This stimulation of PARP1 by AMPK contrasts with the AMPK-mediated inhibition of SIRT1 and suggests one mechanism by which AMPK, a metabolic sensor able to regulate ATP-consuming pathways, may be capable of controlling cell survival given the roles of PARP1 and SIRT1 in response to DNA damage.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "AMPK",
+                    "object": "SIRT1",
+                    "interaction_type": "Inhibition",
+                    "text": "This stimulation of PARP1 by AMPK contrasts with the AMPK-mediated inhibition of SIRT1 and suggests one mechanism by which AMPK, a metabolic sensor able to regulate ATP-consuming pathways, may be capable of controlling cell survival given the roles of PARP1 and SIRT1 in response to DNA damage.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "64",
+            "Sentence": "ERK1/2 has also been shown to phosphorylate PARP1 in neuronal cells and to stimulate the activity of PARP1 in response to DNA damage; inhibition of ERK1/2 results in the inhibition of PARP1-mediated cell death\n[38].",
+            "Results": [
+                {
+                    "subject": "MAPK1",
+                    "object": "PARP1",
+                    "interaction_type": "Phosphorylation",
+                    "text": "ERK1/2 has also been shown to phosphorylate PARP1 in neuronal cells and to stimulate the activity of PARP1 in response to DNA damage; inhibition of ERK1/2 results in the inhibition of PARP1-mediated cell death [38].",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "MAPK1",
+                    "object": "PARP1",
+                    "interaction_type": "Activation",
+                    "text": "ERK1/2 has also been shown to phosphorylate PARP1 in neuronal cells and to stimulate the activity of PARP1 in response to DNA damage; inhibition of ERK1/2 results in the inhibition of PARP1-mediated cell death [38].",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "65",
+            "Sentence": "However, SIRT1 is able to negatively regulate the PARP1 promoter, and the SIRT1 promoter has been shown to be under the influence of PARP2\n[45,46].",
+            "Results": [
+                {
+                    "subject": "SIRT1",
+                    "object": "PARP1",
+                    "interaction_type": "RegulateAmount",
+                    "text": "However, SIRT1 is able to negatively regulate the PARP1 promoter, and the SIRT1 promoter has been shown to be under the influence of PARP2 [45,46].",
+                    "direct": false,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PARP2",
+                    "object": "SIRT1",
+                    "interaction_type": "RegulateAmount",
+                    "text": "However, SIRT1 is able to negatively regulate the PARP1 promoter, and the SIRT1 promoter has been shown to be under the influence of PARP2 [45,46].",
+                    "direct": false,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "66",
+            "Sentence": "It has been suggested by several studies that activation of PARP1 causes a depletion in NAD\u2009+\u2009levels, which inhibits SIRT1 activity\n[42-45].",
+            "Results": [
+                {
+                    "subject": "PARP1",
+                    "object": "SIRT1",
+                    "interaction_type": "Inhibition",
+                    "text": "It has been suggested by several studies that activation of PARP1 causes a depletion in NAD\u2009+\u2009levels, which inhibits SIRT1 activity [42-45].",
+                    "direct": false,
+                    "hypothesis": true
+                }
+            ]
+        },
+        {
+            "Index": "67",
+            "Sentence": "In a related study, the inhibition of NAMPT by FK866 was shown to produce an effect similar to SIRT1 depletion\n[48].",
+            "Results": [
+                {
+                    "subject": "FK866",
+                    "object": "NAMPT",
+                    "interaction_type": "Inhibition",
+                    "text": "In a related study, the inhibition of NAMPT by FK866 was shown to produce an effect similar to SIRT1 depletion [48].",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "68",
+            "Sentence": "Both SIRT1 and PARP1 are known to modify histones; deacetylation of histones triggers chromatin compaction and the inhibition of transcription, whereas poly (ADP-ribose) polymers help to relax chromatin.",
+            "Results": [
+                {
+                    "subject": "SIRT1",
+                    "object": "histones",
+                    "interaction_type": "Deacetylation",
+                    "text": "Both SIRT1 and PARP1 are known to modify histones; deacetylation of histones triggers chromatin compaction and the inhibition of transcription, whereas poly (ADP-ribose) polymers help to relax chromatin.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PARP1",
+                    "object": "histones",
+                    "interaction_type": "Ribosylation",
+                    "text": "Both SIRT1 and PARP1 are known to modify histones; deacetylation of histones triggers chromatin compaction and the inhibition of transcription, whereas poly (ADP-ribose) polymers help to relax chromatin.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "69",
+            "Sentence": "It has been suggested that ADP-ribosylation of histone H1 promotes transcription by inhibiting the ability of histone H1 to bind to DNA\n[59].",
+            "Results": [
+                {
+                    "subject": "ADP",
+                    "object": "histone H1",
+                    "interaction_type": "Ribosylation",
+                    "text": "It has been suggested that ADP-ribosylation of histone H1 promotes transcription by inhibiting the ability of histone H1 to bind to DNA.",
+                    "direct": true,
+                    "hypothesis": true
+                }
+            ]
+        },
+        {
+            "Index": "7",
+            "Sentence": "AMPK phosphorylates human SIRT1 at T344 inhibiting its ability to decacetylate p53, a known target of SIRT1 [[A8]]\n[32].",
+            "Results": [
+                {
+                    "subject": "AMPK",
+                    "object": "SIRT1",
+                    "interaction_type": "Phosphorylation",
+                    "text": "AMPK phosphorylates human SIRT1 at T344 inhibiting its ability to decacetylate p53, a known target of SIRT1.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "SIRT1",
+                    "object": "p53",
+                    "interaction_type": "Deacetylation",
+                    "text": "AMPK phosphorylates human SIRT1 at T344 inhibiting its ability to decacetylate p53, a known target of SIRT1.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "70",
+            "Sentence": "It has been suggested that ADP-ribosylation of histone H1 promotes transcription by inhibiting the ability of histone H1 to bind to DNA\n[59].",
+            "Results": [
+                {
+                    "subject": "ADP",
+                    "object": "H1-0",
+                    "interaction_type": "Ribosylation",
+                    "text": "It has been suggested that ADP-ribosylation of histone H1 promotes transcription by inhibiting the ability of histone H1 to bind to DNA.",
+                    "direct": true,
+                    "hypothesis": true
+                }
+            ]
+        },
+        {
+            "Index": "71",
+            "Sentence": "Conversely, E2F1 has been suggested to be a target for SIRT1 deacetylation, which inhibits E2F1 activity [[A36-A37]]\n[74].",
+            "Results": [
+                {
+                    "subject": "SIRT1",
+                    "object": "E2F1",
+                    "interaction_type": "Deacetylation",
+                    "text": "Conversely, E2F1 has been suggested to be a target for SIRT1 deacetylation, which inhibits E2F1 activity.",
+                    "direct": true,
+                    "hypothesis": true
+                }
+            ]
+        },
+        {
+            "Index": "72",
+            "Sentence": "Also in the second study, Menssen et al. found that c-MYC can induce the transcription of NAMPT and help sequester DBC1, an inhibitor of SIRT1 [[A40]]\n[78].",
+            "Results": [
+                {
+                    "subject": "MYC",
+                    "object": "NAMPT",
+                    "interaction_type": "RegulateAmount",
+                    "text": "Menssen et al. found that c-MYC can induce the transcription of NAMPT",
+                    "direct": false,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "MYC",
+                    "object": "DBC1",
+                    "interaction_type": "Complex",
+                    "text": "Menssen et al. found that c-MYC can help sequester DBC1, an inhibitor of SIRT1",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "73",
+            "Sentence": "p53 acts as a transcription factor that induces apoptosis and is inhibited by SIRT1 deacetylation [[A44]]\n[81,82].",
+            "Results": [
+                {
+                    "subject": "SIRT1",
+                    "object": "p53",
+                    "interaction_type": "Deacetylation",
+                    "text": "p53 acts as a transcription factor that induces apoptosis and is inhibited by SIRT1 deacetylation.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "74",
+            "Sentence": "p53 acts as a transcription factor that induces apoptosis and is inhibited by SIRT1 deacetylation [[A44]]\n[81,82].",
+            "Results": [
+                {
+                    "subject": "SIRT1",
+                    "object": "p53",
+                    "interaction_type": "Deacetylation",
+                    "text": "p53 acts as a transcription factor that induces apoptosis and is inhibited by SIRT1 deacetylation.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "75",
+            "Sentence": "Several proteins help to modify the interactions of SIRT1 with p53, including p53 (itself), DBC1, AROS, and HIC1, suggesting that it is a cellular imperative to control the inhibition of p53 by SIRT1 under certain conditions.",
+            "Results": [
+                {
+                    "subject": "SIRT1",
+                    "object": "p53",
+                    "interaction_type": "Inhibition",
+                    "text": "Several proteins help to modify the interactions of SIRT1 with p53, including p53 (itself), DBC1, AROS, and HIC1, suggesting that it is a cellular imperative to control the inhibition of p53 by SIRT1 under certain conditions.",
+                    "direct": true,
+                    "hypothesis": true
+                }
+            ]
+        },
+        {
+            "Index": "76",
+            "Sentence": "p53 can stimulate the expression of miRNA-34 [[A49]], which subsequently drives down the expression of SIRT1 lowering SIRT1 availability to inhibit p53.",
+            "Results": [
+                {
+                    "subject": "TP53",
+                    "object": "MIR34A",
+                    "interaction_type": "RegulateAmount",
+                    "text": "p53 can stimulate the expression of miRNA-34 [[A49]], which subsequently drives down the expression of SIRT1 lowering SIRT1 availability to inhibit p53.",
+                    "direct": false,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "MIR34A",
+                    "object": "SIRT1",
+                    "interaction_type": "DecreaseAmount",
+                    "text": "p53 can stimulate the expression of miRNA-34 [[A49]], which subsequently drives down the expression of SIRT1 lowering SIRT1 availability to inhibit p53.",
+                    "direct": false,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "77",
+            "Sentence": "In addition to the role that SIRT1 plays in the inhibition of p53, SIRT1 is capable of deacetylating Ku70 at K539 and K542; the acetylation of Ku70 leads to the dissociation of the Ku70 and Bax helping to trigger apoptosis; Bax is a pro-apoptotic factor that is sequestered by Ku70 [[A54-A55]]\n[97].",
+            "Results": [
+                {
+                    "subject": "SIRT1",
+                    "object": "Ku70",
+                    "interaction_type": "Deacetylation",
+                    "text": "SIRT1 is capable of deacetylating Ku70 at K539 and K542",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "Ku70",
+                    "object": "Bax",
+                    "interaction_type": "Complex",
+                    "text": "the acetylation of Ku70 leads to the dissociation of the Ku70 and Bax helping to trigger apoptosis",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "78",
+            "Sentence": "In addition to the role that SIRT1 plays in the inhibition of p53, SIRT1 is capable of deacetylating Ku70 at K539 and K542; the acetylation of Ku70 leads to the dissociation of the Ku70 and Bax helping to trigger apoptosis; Bax is a pro-apoptotic factor that is sequestered by Ku70 [[A54-A55]]\n[97].",
+            "Results": [
+                {
+                    "subject": "SIRT1",
+                    "object": "Ku70",
+                    "interaction_type": "Deacetylation",
+                    "text": "SIRT1 is capable of deacetylating Ku70 at K539 and K542",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "Ku70",
+                    "object": "Bax",
+                    "interaction_type": "Complex",
+                    "text": "the acetylation of Ku70 leads to the dissociation of the Ku70 and Bax helping to trigger apoptosis",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "79",
+            "Sentence": "PARP1 cleavage helps prevent energy depletion (NAD\u2009+\u2009and ATP) in response to severe DNA damage; the extreme loss of NAD\u2009+\u2009triggers necrosis by reducing cellular ability to synthesize ATP [[A58]]\n[100].",
+            "Results": []
+        },
+        {
+            "Index": "8",
+            "Sentence": "In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1-mediated deacetylation of p53 in response to DNA damage [[A9]]\n[33].",
+            "Results": [
+                {
+                    "subject": "SETD7",
+                    "object": "SIRT1",
+                    "interaction_type": "Methylation",
+                    "text": "In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1-mediated deacetylation of p53 in response to DNA damage.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "SIRT1",
+                    "object": "TP53",
+                    "interaction_type": "Deacetylation",
+                    "text": "In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1-mediated deacetylation of p53 in response to DNA damage.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "80",
+            "Sentence": "PARP1 cleavage helps prevent energy depletion (NAD\u2009+\u2009and ATP) in response to severe DNA damage; the extreme loss of NAD\u2009+\u2009triggers necrosis by reducing cellular ability to synthesize ATP [[A58]]\n[100].",
+            "Results": []
+        },
+        {
+            "Index": "81",
+            "Sentence": "PARP1 cleavage helps prevent energy depletion (NAD\u2009+\u2009and ATP) in response to severe DNA damage; the extreme loss of NAD\u2009+\u2009triggers necrosis by reducing cellular ability to synthesize ATP [[A58]]\n[100].",
+            "Results": []
+        },
+        {
+            "Index": "82",
+            "Sentence": "Rapid depletion of NAD\u2009+\u2009levels by PARP1 reduces SIRT1 activity and inhibits the capability of SIRT1 to deacetylate its targets respond to genotoxic stress\n[101].",
+            "Results": [
+                {
+                    "subject": "PARP1",
+                    "object": "SIRT1",
+                    "interaction_type": "RegulateActivity",
+                    "text": "Rapid depletion of NAD\u2009+\u2009levels by PARP1 reduces SIRT1 activity and inhibits the capability of SIRT1 to deacetylate its targets respond to genotoxic stress.",
+                    "direct": false,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "83",
+            "Sentence": "Rapid depletion of NAD\u2009+\u2009levels by PARP1 reduces SIRT1 activity and inhibits the capability of SIRT1 to deacetylate its targets respond to genotoxic stress\n[101].",
+            "Results": [
+                {
+                    "subject": "PARP1",
+                    "object": "SIRT1",
+                    "interaction_type": "RegulateActivity",
+                    "text": "Rapid depletion of NAD\u2009+\u2009levels by PARP1 reduces SIRT1 activity and inhibits the capability of SIRT1 to deacetylate its targets respond to genotoxic stress.",
+                    "direct": false,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "84",
+            "Sentence": "PARP1 has also been implicated in caspase-independent apoptosis, where its activation leads to apoptosis-inducing factor (AIF) release from the mitochondria, which induces nuclear chromatin fragmentation [[A59]]\n[102].",
+            "Results": [
+                {
+                    "subject": "PARP1",
+                    "object": "AIF",
+                    "interaction_type": "Activation",
+                    "text": "PARP1 has also been implicated in caspase-independent apoptosis, where its activation leads to apoptosis-inducing factor (AIF) release from the mitochondria, which induces nuclear chromatin fragmentation.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "85",
+            "Sentence": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription [[A60-A62]].",
+            "Results": [
+                {
+                    "subject": "CLOCK",
+                    "object": "BMAL1",
+                    "interaction_type": "Complex",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CLOCK",
+                    "object": "CRY1",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CLOCK",
+                    "object": "CRY2",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CLOCK",
+                    "object": "PER1",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CLOCK",
+                    "object": "PER2",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CLOCK",
+                    "object": "PER3",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "BMAL1",
+                    "object": "CRY1",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "BMAL1",
+                    "object": "CRY2",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "BMAL1",
+                    "object": "PER1",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "BMAL1",
+                    "object": "PER2",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "BMAL1",
+                    "object": "PER3",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CRY1",
+                    "object": "CLOCK",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CRY2",
+                    "object": "CLOCK",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PER1",
+                    "object": "CLOCK",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PER2",
+                    "object": "CLOCK",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PER3",
+                    "object": "CLOCK",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CRY1",
+                    "object": "BMAL1",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CRY2",
+                    "object": "BMAL1",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PER1",
+                    "object": "BMAL1",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PER2",
+                    "object": "BMAL1",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PER3",
+                    "object": "BMAL1",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "86",
+            "Sentence": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription [[A60-A62]].",
+            "Results": [
+                {
+                    "subject": "CLOCK",
+                    "object": "BMAL1",
+                    "interaction_type": "Complex",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CLOCK",
+                    "object": "CRY1",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CLOCK",
+                    "object": "CRY2",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CLOCK",
+                    "object": "PER1",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CLOCK",
+                    "object": "PER2",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CLOCK",
+                    "object": "PER3",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "BMAL1",
+                    "object": "CRY1",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "BMAL1",
+                    "object": "CRY2",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "BMAL1",
+                    "object": "PER1",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "BMAL1",
+                    "object": "PER2",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "BMAL1",
+                    "object": "PER3",
+                    "interaction_type": "RegulateAmount",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CRY1",
+                    "object": "CLOCK",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CRY2",
+                    "object": "CLOCK",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PER1",
+                    "object": "CLOCK",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PER2",
+                    "object": "CLOCK",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PER3",
+                    "object": "CLOCK",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CRY1",
+                    "object": "BMAL1",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "CRY2",
+                    "object": "BMAL1",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PER1",
+                    "object": "BMAL1",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PER2",
+                    "object": "BMAL1",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PER3",
+                    "object": "BMAL1",
+                    "interaction_type": "Inhibition",
+                    "text": "The core circadian machinery involves a transactivating CLOCK/BMAL1 heterodimer, which induces the transcription of a large number of genes, including the cryptochrome (CRY1 and CRY2) and period (PER1, PER2, PER3) genes that form a complex that leads to a negative feedback loop suppressing CLOCK/BMAL1-mediated transcription.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "87",
+            "Sentence": "This finding indicates that inhibitors of PARP proteins may be capable of increasing SIRT1 activity not only via the inhibition of NAD\u2009+\u2009consumption by PARP family members, but also through the removal of transcriptional inhibition.",
+            "Results": [
+                {
+                    "subject": "PARP",
+                    "object": "SIRT1",
+                    "interaction_type": "Inhibition",
+                    "text": "This finding indicates that inhibitors of PARP proteins may be capable of increasing SIRT1 activity not only via the inhibition of NAD\u2009+\u2009consumption by PARP family members, but also through the removal of transcriptional inhibition.",
+                    "direct": false,
+                    "hypothesis": true
+                }
+            ]
+        },
+        {
+            "Index": "88",
+            "Sentence": "Lastly, shown recently is that PARP1 increases levels of mitochondrial SIRT3 and that SIRT3 can continue to function under stress conditions because mitochondrial NAD\u2009+\u2009levels are maintained in the conditions produced by either treatment with methylnitronitrosoguanidine (MNNG), a carcinogen, or N-methyl-D-aspartate (NMDA), a neuronal stressor, even as cytosolic levels of NAD\u2009+\u2009are depleted by PARP1\n[111,112].",
+            "Results": [
+                {
+                    "subject": "PARP1",
+                    "object": "SIRT3",
+                    "interaction_type": "IncreaseAmount",
+                    "text": "Lastly, shown recently is that PARP1 increases levels of mitochondrial SIRT3 and that SIRT3 can continue to function under stress conditions because mitochondrial NAD\u2009+\u2009levels are maintained in the conditions produced by either treatment with methylnitronitrosoguanidine (MNNG), a carcinogen, or N-methyl-D-aspartate (NMDA), a neuronal stressor, even as cytosolic levels of NAD\u2009+\u2009are depleted by PARP1.",
+                    "direct": false,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "89",
+            "Sentence": "E2F1, a transcription factor, induces the transcription of SIRT1 [[A35]].",
+            "Results": [
+                {
+                    "subject": "E2F1",
+                    "object": "SIRT1",
+                    "interaction_type": "RegulateAmount",
+                    "text": "E2F1, a transcription factor, induces the transcription of SIRT1.",
+                    "direct": false,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "9",
+            "Sentence": "In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1-mediated deacetylation of p53 in response to DNA damage [[A9]]\n[33].",
+            "Results": [
+                {
+                    "subject": "SETD7",
+                    "object": "SIRT1",
+                    "interaction_type": "Methylation",
+                    "text": "In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1-mediated deacetylation of p53 in response to DNA damage.",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "SIRT1",
+                    "object": "TP53",
+                    "interaction_type": "Deacetylation",
+                    "text": "In addition to phosphorylation, methylation of SIRT1 by Set7/9 at K233, K235, K236, and K238 inhibits the SIRT1-mediated deacetylation of p53 in response to DNA damage.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "90",
+            "Sentence": "Also in the second study, Menssen et al. found that c-MYC can induce the transcription of NAMPT and help sequester DBC1, an inhibitor of SIRT1 [[A40]]\n[78].",
+            "Results": [
+                {
+                    "subject": "MYC",
+                    "object": "NAMPT",
+                    "interaction_type": "RegulateAmount",
+                    "text": "Menssen et al. found that c-MYC can induce the transcription of NAMPT and help sequester DBC1, an inhibitor of SIRT1.",
+                    "direct": false,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "MYC",
+                    "object": "DBC1",
+                    "interaction_type": "Complex",
+                    "text": "Menssen et al. found that c-MYC can induce the transcription of NAMPT and help sequester DBC1, an inhibitor of SIRT1.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "91",
+            "Sentence": "There is evidence that PARP1 binds to E2F1 stimulating E2F1-dependent transcription of c-MYC [[A41]]\n[79].",
+            "Results": [
+                {
+                    "subject": "PARP1",
+                    "object": "E2F1",
+                    "interaction_type": "Complex",
+                    "text": "There is evidence that PARP1 binds to E2F1 stimulating E2F1-dependent transcription of c-MYC.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "92",
+            "Sentence": "p53 can repress SIRT1 expression during nutrient abundance via p53-binding sites on the SIRT1 promoter.",
+            "Results": [
+                {
+                    "subject": "TP53",
+                    "object": "SIRT1",
+                    "interaction_type": "RegulateAmount",
+                    "text": "p53 can repress SIRT1 expression during nutrient abundance via p53-binding sites on the SIRT1 promoter.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "93",
+            "Sentence": "Next, the second PARP family member, PARP2, has been shown to inhibit the transcription of SIRT1; the deletion of PARP2 increases overall levels of SIRT1 activity without having to target NAD\u2009+\u2009levels directly [[A68]]\n[46].",
+            "Results": [
+                {
+                    "subject": "PARP2",
+                    "object": "SIRT1",
+                    "interaction_type": "Inhibition",
+                    "text": "Next, the second PARP family member, PARP2, has been shown to inhibit the transcription of SIRT1; the deletion of PARP2 increases overall levels of SIRT1 activity without having to target NAD\u2009+\u2009levels directly.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "94",
+            "Sentence": "Next, the second PARP family member, PARP2, has been shown to inhibit the transcription of SIRT1; the deletion of PARP2 increases overall levels of SIRT1 activity without having to target NAD\u2009+\u2009levels directly [[A68]]\n[46].",
+            "Results": [
+                {
+                    "subject": "PARP2",
+                    "object": "SIRT1",
+                    "interaction_type": "Inhibition",
+                    "text": "Next, the second PARP family member, PARP2, has been shown to inhibit the transcription of SIRT1; the deletion of PARP2 increases overall levels of SIRT1 activity without having to target NAD\u2009+\u2009levels directly.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "95",
+            "Sentence": "It has been suggested that in repairable DNA damage situations SIRT1 levels are elevated leading to a survival response, but during lethal DNA damage SIRT1 levels can be attenuated by CHK2 through the phosphorylation of HuR that can ultimately result in cell death\n[70].",
+            "Results": [
+                {
+                    "subject": "CHK2",
+                    "object": "HuR",
+                    "interaction_type": "Phosphorylation",
+                    "text": "It has been suggested that in repairable DNA damage situations SIRT1 levels are elevated leading to a survival response, but during lethal DNA damage SIRT1 levels can be attenuated by CHK2 through the phosphorylation of HuR that can ultimately result in cell death.",
+                    "direct": true,
+                    "hypothesis": true
+                }
+            ]
+        },
+        {
+            "Index": "96",
+            "Sentence": "Next, the second PARP family member, PARP2, has been shown to inhibit the transcription of SIRT1; the deletion of PARP2 increases overall levels of SIRT1 activity without having to target NAD\u2009+\u2009levels directly [[A68]]\n[46].",
+            "Results": [
+                {
+                    "subject": "PARP2",
+                    "object": "SIRT1",
+                    "interaction_type": "Inhibition",
+                    "text": "Next, the second PARP family member, PARP2, has been shown to inhibit the transcription of SIRT1; the deletion of PARP2 increases overall levels of SIRT1 activity without having to target NAD\u2009+\u2009levels directly.",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "97",
+            "Sentence": "Lastly, shown recently is that PARP1 increases levels of mitochondrial SIRT3 and that SIRT3 can continue to function under stress conditions because mitochondrial NAD\u2009+\u2009levels are maintained in the conditions produced by either treatment with methylnitronitrosoguanidine (MNNG), a carcinogen, or N-methyl-D-aspartate (NMDA), a neuronal stressor, even as cytosolic levels of NAD\u2009+\u2009are depleted by PARP1\n[111,112].",
+            "Results": [
+                {
+                    "subject": "PARP1",
+                    "object": "SIRT3",
+                    "interaction_type": "IncreaseAmount",
+                    "text": "Lastly, shown recently is that PARP1 increases levels of mitochondrial SIRT3 and that SIRT3 can continue to function under stress conditions because mitochondrial NAD\u2009+\u2009levels are maintained in the conditions produced by either treatment with methylnitronitrosoguanidine (MNNG), a carcinogen, or N-methyl-D-aspartate (NMDA), a neuronal stressor, even as cytosolic levels of NAD\u2009+\u2009are depleted by PARP1 [111,112].",
+                    "direct": false,
+                    "hypothesis": false
+                }
+            ]
+        },
+        {
+            "Index": "98",
+            "Sentence": "Nicotinamide mononucleotide adenylyltransferase 1 (NMNAT1), which catalyzes the conversion of NMN into NAD\u2009+\u2009in the synthesis of NAD\u2009+\u2009via the salvage pathway, can bind to (ADP-ribose) polymers in vitro leading to the stimulation of PARP1 activity; this effect is diminished when NMNAT1 is phosphorylated at S136 by protein kinase C (PKC) [[A18]]\n[52].",
+            "Results": [
+                {
+                    "subject": "NMNAT1",
+                    "object": "PARP1",
+                    "interaction_type": "Complex",
+                    "text": "Nicotinamide mononucleotide adenylyltransferase 1 (NMNAT1), which catalyzes the conversion of NMN into NAD\u2009+\u2009in the synthesis of NAD\u2009+\u2009via the salvage pathway, can bind to (ADP-ribose) polymers in vitro leading to the stimulation of PARP1 activity; this effect is diminished when NMNAT1 is phosphorylated at S136 by protein kinase C (PKC) [[A18]] [52].",
+                    "direct": true,
+                    "hypothesis": false
+                },
+                {
+                    "subject": "PKC",
+                    "object": "NMNAT1",
+                    "interaction_type": "Phosphorylation",
+                    "text": "Nicotinamide mononucleotide adenylyltransferase 1 (NMNAT1), which catalyzes the conversion of NMN into NAD\u2009+\u2009in the synthesis of NAD\u2009+\u2009via the salvage pathway, can bind to (ADP-ribose) polymers in vitro leading to the stimulation of PARP1 activity; this effect is diminished when NMNAT1 is phosphorylated at S136 by protein kinase C (PKC) [[A18]] [52].",
+                    "direct": true,
+                    "hypothesis": false
+                }
+            ]
+        }
+    ]
+}
